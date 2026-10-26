@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pinned_artifact_files_verified": 30,
+  "corruption_detection": true,
+  "hardlinks_preserved_by_extraction": true,
+  "distinct_runtime_modes_restored": true,
+  "existing_output_rejected": true,
+  "full_80GB_local_model_download_tested": false,
+  "new_machine_gpu_reproduction_tested": false
+}

@@ -9,6 +9,10 @@ pretty_name: FastRSI selected experiment archive
 大文件、逐例结果和校验清单保存在私有数据仓库：
 https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts
 
+## 换设备复现
+
+从 [恢复与续跑记录](reproduction/START_HERE.md) 开始。记录标签为 `backup-record-20261027-v1`，包含固定提交、文件校验、原路径映射、环境元数据与案例进度索引。请使用该记录里的统一校验工具，避免历史 README 更新导致旧脚本误报。
+
 ## 内容
 
 - `FastRSI/third_party`：已有本地核心依赖源码。
@@ -29,15 +33,7 @@ https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts
 
 ## 恢复
 
-1. 克隆本私有仓库。
-2. 登录 Hugging Face，下载私有 `pumpkin601/FastRSI-artifacts` 数据仓库。
-3. 对照 `UPLOAD_MANIFEST.json` 校验包的 SHA256，再解压到新的工作目录；包内保留项目相对路径。
-4. 六组最终模型已另存于私有 `pumpkin601/FastRSI-final-weights`；见 `RESTORE_FINAL_BACKUP.md` 和 `FINAL_WEIGHT_MANIFEST.json`。
-5. 恢复后需要重新配置机器路径、容器镜像和运行环境。本次验证的是备份完整性，未重新执行GPU评测。
-
-首次源码与结果备份状态见 `UPLOAD_RECEIPT.json`；最终模型和运行依赖增补分别见 `FINAL_WEIGHT_MANIFEST.json` 与 `FINAL_RUNTIME_RECEIPT.json`。
-
-在下载的数据仓库目录运行 `python verify_download.py` 校验首次归档文件，运行 `python verify_runtime.py` 校验新增运行依赖。使用 Python 3.12+ 时，可分别添加 `--extract restored` 与 `--extract restored-runtime` 解压到两个新目录。
+完整下载、校验、保留硬链接解压与续跑步骤见 [START_HERE.md](reproduction/START_HERE.md)。这份记录固定数据版本，不会因未来 main 更新而混用文件。
 
 ## 最终模型与依赖增补
 

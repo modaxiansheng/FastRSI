@@ -1,0 +1,320 @@
+{
+  "format_version": 1,
+  "snapshot_id": "fastrsi-final-20261026",
+  "record_created_beijing": "2026-10-27",
+  "verified_at": "2026-10-27T00:09:15+0800",
+  "scope": "Selected final useful versions and dependencies; no full server image or replay validation",
+  "repositories": {
+    "github": {
+      "url": "https://github.com/pumpkin601/FastRSI",
+      "source_revision": "d221e09ebd816521eddb9730965a61c3d5b9c338",
+      "private": true
+    },
+    "models": {
+      "id": "pumpkin601/FastRSI-final-weights",
+      "revision": "51bce91821b4eddc7e0f5a077c727a5c489e60bc",
+      "private": true
+    },
+    "artifacts": {
+      "id": "pumpkin601/FastRSI-artifacts",
+      "revision": "1bb22c1db2ed3045c93024ebba417b3b45d404f0",
+      "private": true
+    }
+  },
+  "model_manifest_sha256": "b1a0ee36520e74de2dcabf8afe9c67ad8a0990366ad6d9672ed7d6161250695a",
+  "models": [
+    {
+      "directory": "openvla_libero10",
+      "bytes": 15085054948,
+      "files": 17,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_libero10",
+      "restored_relative": "models/openvla_libero10",
+      "provenance_file": "openvla_libero10/BACKUP_PROVENANCE.json"
+    },
+    {
+      "directory": "openvla_object",
+      "bytes": 15085054979,
+      "files": 17,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_object",
+      "restored_relative": "models/openvla_object",
+      "provenance_file": "openvla_object/BACKUP_PROVENANCE.json"
+    },
+    {
+      "directory": "pi05_libero_pytorch_fp32",
+      "bytes": 14467170053,
+      "files": 4,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi05_libero_pytorch_fp32",
+      "restored_relative": "models/pi05_libero_pytorch_fp32",
+      "provenance_file": "pi05_libero_pytorch_fp32/BACKUP_PROVENANCE.json"
+    },
+    {
+      "directory": "pi0_libero_pytorch_fp32",
+      "bytes": 14005625318,
+      "files": 4,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi0_libero_pytorch_fp32",
+      "restored_relative": "models/pi0_libero_pytorch_fp32",
+      "provenance_file": "pi0_libero_pytorch_fp32/BACKUP_PROVENANCE.json"
+    },
+    {
+      "directory": "qwen3vl8b-shared-cache-v1_20261007",
+      "bytes": 17545930320,
+      "files": 16,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/models/qwen3vl8b-shared-cache-v1_20261007",
+      "restored_relative": "models/qwen3vl8b-shared-cache-v1_20261007",
+      "provenance_file": "qwen3vl8b-shared-cache-v1_20261007/BACKUP_PROVENANCE.json"
+    },
+    {
+      "directory": "xvla_libero",
+      "bytes": 3519092380,
+      "files": 7,
+      "original_root": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/xvla_libero",
+      "restored_relative": "models/xvla_libero",
+      "provenance_file": "xvla_libero/BACKUP_PROVENANCE.json"
+    }
+  ],
+  "archives": [
+    {
+      "file": "reports-and-evidence-20261026.tar.gz",
+      "unpack_directory": "reports",
+      "purpose": "Final reports, counts, costs and supporting evidence",
+      "bytes": 939252491,
+      "sha256": "46166ba85e5a3755a5396445dfb579b1476ff0bad81bd5384af0829c32e6d58e",
+      "manifest_file": "reports-and-evidence-20261026.tar.gz.manifest.json",
+      "manifest_sha256": "6e890452e86bfdb947d076fab1569006f09bc822ee652aa75ab788c5f4317bac",
+      "files": 124626,
+      "logical_bytes": 6279854597,
+      "unique_content_bytes": 5954133343,
+      "preserve_hardlinks": true
+    },
+    {
+      "file": "original-libero-completed-evidence-20261026.tar.gz",
+      "unpack_directory": "original-libero",
+      "purpose": "Closed original LIBERO cases and representative traces",
+      "bytes": 660600091,
+      "sha256": "d40aa7694d73c0ddb227408f943f3b9afcfba24122d58b31f4aaed82e1392133",
+      "manifest_file": "original-libero-completed-evidence-20261026.tar.gz.manifest.json",
+      "manifest_sha256": "52f758fe7246decd761f9b2ce19fac97d3bf466c0140e518271ad33f51a0cd8d",
+      "files": 204371,
+      "logical_bytes": 544569661360,
+      "unique_content_bytes": 5691931299,
+      "preserve_hardlinks": true
+    },
+    {
+      "file": "successful-evaluation-source-20261026.tar.gz",
+      "unpack_directory": "evaluation-source",
+      "purpose": "Frozen success_v2 source and configuration",
+      "bytes": 2437901,
+      "sha256": "19708d9fb23cffa8b6d5f518abaf7c31ff74fd0729ba7d402955090579022093",
+      "manifest_file": "successful-evaluation-source-20261026.tar.gz.manifest.json",
+      "manifest_sha256": "41780891508960cd1a400ff907b9fe998ee573dbb9c20a0cffefc94cfd4dd3b2",
+      "files": 3992,
+      "logical_bytes": 26788667,
+      "unique_content_bytes": 9722407,
+      "preserve_hardlinks": true
+    },
+    {
+      "file": "bounded-recovery-success-sources-20261026.tar.gz",
+      "unpack_directory": "bounded-recovery",
+      "purpose": "Selected positive bounded recovery source and receipts",
+      "bytes": 1800610,
+      "sha256": "5934c09a89fbf30c583056d681818dc0a6ae0439bd996b1f95d4e00b7e61c17f",
+      "manifest_file": "bounded-recovery-success-sources-20261026.tar.gz.manifest.json",
+      "manifest_sha256": "f9b318e9176f0d7496f24a35829f86673f5a8e579a7d7b6b459d50c7cc4d4b41",
+      "files": 887,
+      "logical_bytes": 22609116,
+      "unique_content_bytes": 16011545,
+      "preserve_hardlinks": true
+    },
+    {
+      "file": "final-runtime-dependencies-20261026.tar.gz",
+      "unpack_directory": "runtime",
+      "purpose": "Frozen dependencies, scene assets and small visual weights",
+      "bytes": 872854236,
+      "sha256": "795d27fb34d687060e0f0daf335da523fa228ce9211fe85e3397fbcd8cc8c536",
+      "manifest_file": "final-runtime-dependencies-20261026.tar.gz.manifest.json",
+      "manifest_sha256": "6611f034542df7fd63dc78fce5c4b1d7fb40ecfa387bde04c4e9d7d9e6ae1686",
+      "files": 28032,
+      "logical_bytes": 2922642665,
+      "unique_content_bytes": 2220273935,
+      "preserve_hardlinks": true
+    }
+  ],
+  "statistics": {
+    "model_bytes": 79707927998,
+    "artifact_download_bytes": 2620714552,
+    "archive_unique_content_bytes_sum": 13892072529
+  },
+  "excluded_models": [
+    "qwen25vl7b",
+    "openvla_goal",
+    "openvla_spatial"
+  ],
+  "runtime_not_archived": [
+    "Container image layers",
+    "Host HCU/DTK/CUDA drivers and system runtime",
+    "Complete runnable Python virtual environments"
+  ],
+  "status": {
+    "cloud_bytes_verified": true,
+    "fresh_machine_restore_tested": false,
+    "experiment_replay_tested": false
+  },
+  "authority_files": [
+    "FINAL_WEIGHT_MANIFEST.json",
+    "ORIGINAL_LIBERO_SNAPSHOT.json",
+    "BOUNDED_RECOVERY_SOURCE_SCOPE.json"
+  ],
+  "historical_note": "ARCHIVE_SCOPE.json and UPLOAD_MANIFEST.json describe the initial source/results stage; their public-weights exclusion is superseded for the six models listed here. Preserve historical receipts. Use this record for current scope.",
+  "artifact_files": [
+    {
+      "path": "ARCHIVE_SCOPE.json",
+      "bytes": 1534,
+      "sha256": "5439d2bddf52c77b15c649113e297431c64967fc46400e14a69b5991b58cfd3b"
+    },
+    {
+      "path": "BOUNDED_RECOVERY_SOURCE_SCOPE.json",
+      "bytes": 4825,
+      "sha256": "5eec5a21b328871db16097b11dc978f169fea40b623dd5db3c2a0db753bea63a"
+    },
+    {
+      "path": "DEPENDENCY_EXPORT_SCOPE.json",
+      "bytes": 5820,
+      "sha256": "3e27e967fb51e0c016c54d4bc86967b7c0580187a91a85361bf637f9b31b01b6"
+    },
+    {
+      "path": "DEPENDENCY_SANITIZATION.json",
+      "bytes": 8879,
+      "sha256": "5911c58b727b453fd76f2d395db5ca2692e1f7dc608648f0bcc6e91ee6601559"
+    },
+    {
+      "path": "FINAL_RUNTIME_RECEIPT.json",
+      "bytes": 1552,
+      "sha256": "ff339cd43b10360108db5284c7c2a6dfa1d56d127030b8958dabc4bc16fb812e"
+    },
+    {
+      "path": "FINAL_WEIGHT_MANIFEST.json",
+      "bytes": 45926,
+      "sha256": "b1a0ee36520e74de2dcabf8afe9c67ad8a0990366ad6d9672ed7d6161250695a"
+    },
+    {
+      "path": "ORIGINAL_LIBERO_SNAPSHOT.json",
+      "bytes": 1633,
+      "sha256": "a8c2f1429ad72aff97f61a7b22e5b704d71f3231f9ce93e90fdf1929a298f944"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3403,
+      "sha256": "7586bf905a29cec5ffd7b51a3abe95d0de709bd630b30850852d6c2b2cd9b972"
+    },
+    {
+      "path": "REMOTE_EXPORT.json",
+      "bytes": 1525966,
+      "sha256": "c2512a9ee5e6211972e2d88b2d371fb4b4dd6665b79baec7bdad5191ab47e178"
+    },
+    {
+      "path": "RESTORE_FINAL_BACKUP.md",
+      "bytes": 3289,
+      "sha256": "9d1df6fca828d0ed88fb0464955aecf24d861b4117d4dccffd739b51f1275d7b"
+    },
+    {
+      "path": "RUNTIME_ARCHIVE_VALIDATION.json",
+      "bytes": 129,
+      "sha256": "78c9ecc59680c2f68632ed7989a1b081345d21eb95c83fcfec930e15918b60c6"
+    },
+    {
+      "path": "RUNTIME_FILE_MODES.json",
+      "bytes": 3764599,
+      "sha256": "88c494a01cb83d33ecf575801ad638ef51329b7299dd60eefaac9e71492ec0c0"
+    },
+    {
+      "path": "RUNTIME_IMAGE_IDENTITIES.jsonl",
+      "bytes": 692,
+      "sha256": "a6279f903bf5dcb71802a8ae18ae3d77e242e64ed9b0b1e1f21583cce09f265e"
+    },
+    {
+      "path": "RUNTIME_METADATA_RECEIPT.json",
+      "bytes": 345,
+      "sha256": "3824b65775b288e09fa6da78ab3a174f35d04d8822fb000419dead53593b9b59"
+    },
+    {
+      "path": "SANITIZATION.json",
+      "bytes": 251,
+      "sha256": "aaf4e93e72a6b139c3d18cf0a3ef755f673fc241a75d238b25f6bb55c3351fe7"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 1069236,
+      "sha256": "ce11ff8968f7505f1010ba8938a9aa60b9078af86a7a10f107e0ccdc6ea19ba2"
+    },
+    {
+      "path": "UPLOAD_MANIFEST.json",
+      "bytes": 5574,
+      "sha256": "3556ccb14e0faaaaeed0d6fc4f826803b8d662694b381fa976dceedfb515c4cd"
+    },
+    {
+      "path": "UPLOAD_RECEIPT.json",
+      "bytes": 6143,
+      "sha256": "7ebf8cd3d3bd2aa97307fa37bb9998972e521f9c580490d1c1295dc80a49dc05"
+    },
+    {
+      "path": "bounded-recovery-success-sources-20261026.tar.gz",
+      "bytes": 1800610,
+      "sha256": "5934c09a89fbf30c583056d681818dc0a6ae0439bd996b1f95d4e00b7e61c17f"
+    },
+    {
+      "path": "bounded-recovery-success-sources-20261026.tar.gz.manifest.json",
+      "bytes": 271731,
+      "sha256": "f9b318e9176f0d7496f24a35829f86673f5a8e579a7d7b6b459d50c7cc4d4b41"
+    },
+    {
+      "path": "final-runtime-dependencies-20261026.tar.gz",
+      "bytes": 872854236,
+      "sha256": "795d27fb34d687060e0f0daf335da523fa228ce9211fe85e3397fbcd8cc8c536"
+    },
+    {
+      "path": "final-runtime-dependencies-20261026.tar.gz.manifest.json",
+      "bytes": 9457945,
+      "sha256": "6611f034542df7fd63dc78fce5c4b1d7fb40ecfa387bde04c4e9d7d9e6ae1686"
+    },
+    {
+      "path": "original-libero-completed-evidence-20261026.tar.gz",
+      "bytes": 660600091,
+      "sha256": "d40aa7694d73c0ddb227408f943f3b9afcfba24122d58b31f4aaed82e1392133"
+    },
+    {
+      "path": "original-libero-completed-evidence-20261026.tar.gz.manifest.json",
+      "bytes": 80954948,
+      "sha256": "52f758fe7246decd761f9b2ce19fac97d3bf466c0140e518271ad33f51a0cd8d"
+    },
+    {
+      "path": "reports-and-evidence-20261026.tar.gz",
+      "bytes": 939252491,
+      "sha256": "46166ba85e5a3755a5396445dfb579b1476ff0bad81bd5384af0829c32e6d58e"
+    },
+    {
+      "path": "reports-and-evidence-20261026.tar.gz.manifest.json",
+      "bytes": 45429292,
+      "sha256": "6e890452e86bfdb947d076fab1569006f09bc822ee652aa75ab788c5f4317bac"
+    },
+    {
+      "path": "successful-evaluation-source-20261026.tar.gz",
+      "bytes": 2437901,
+      "sha256": "19708d9fb23cffa8b6d5f518abaf7c31ff74fd0729ba7d402955090579022093"
+    },
+    {
+      "path": "successful-evaluation-source-20261026.tar.gz.manifest.json",
+      "bytes": 1202463,
+      "sha256": "41780891508960cd1a400ff907b9fe998ee573dbb9c20a0cffefc94cfd4dd3b2"
+    },
+    {
+      "path": "verify_download.py",
+      "bytes": 1253,
+      "sha256": "066b7048788446aea4492ff51632ba768c0a323a606daeae9cfa059accb60da5"
+    },
+    {
+      "path": "verify_runtime.py",
+      "bytes": 1795,
+      "sha256": "ddffb278d915433a6a08b38e659e0b01cdaa2b032ecce7c9fc772b607ae0ff4d"
+    }
+  ]
+}

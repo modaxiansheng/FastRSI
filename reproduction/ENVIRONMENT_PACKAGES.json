@@ -1,0 +1,1070 @@
+{
+  "source": "Frozen runtime package distribution METADATA; overlays are partial environments, not full lockfiles",
+  "groups": {
+    "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site": [
+      {
+        "name": "google-pasta",
+        "version": "0.2.0",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/google_pasta-0.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "libclang",
+        "version": "18.1.1",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/libclang-18.1.1.dist-info/METADATA"
+      },
+      {
+        "name": "pyasn1",
+        "version": "0.6.4",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/pyasn1-0.6.4.dist-info/METADATA"
+      },
+      {
+        "name": "pyasn1_modules",
+        "version": "0.4.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/pyasn1_modules-0.4.2.dist-info/METADATA"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.0.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools-84.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "six",
+        "version": "1.17.0",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/six-1.17.0.dist-info/METADATA"
+      },
+      {
+        "name": "tensorboard",
+        "version": "2.15.2",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tensorboard-2.15.2.dist-info/METADATA"
+      },
+      {
+        "name": "tensorflow-cpu",
+        "version": "2.15.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tensorflow_cpu-2.15.0.dist-info/METADATA"
+      },
+      {
+        "name": "timm",
+        "version": "0.9.10",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/timm-0.9.10.dist-info/METADATA"
+      },
+      {
+        "name": "wrapt",
+        "version": "1.14.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/wrapt-1.14.2.dist-info/METADATA"
+      },
+      {
+        "name": "absl-py",
+        "version": "2.5.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/absl_py-2.5.0.dist-info/METADATA"
+      },
+      {
+        "name": "cffi",
+        "version": "2.1.1",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/cffi-2.1.1.dist-info/METADATA"
+      },
+      {
+        "name": "flatbuffers",
+        "version": "25.12.19",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/flatbuffers-25.12.19.dist-info/METADATA"
+      },
+      {
+        "name": "google-auth",
+        "version": "2.58.1",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/google_auth-2.58.1.dist-info/METADATA"
+      },
+      {
+        "name": "h5py",
+        "version": "3.16.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/h5py-3.16.0.dist-info/METADATA"
+      },
+      {
+        "name": "keras",
+        "version": "2.15.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/keras-2.15.0.dist-info/METADATA"
+      },
+      {
+        "name": "Markdown",
+        "version": "3.11",
+        "requires_python": ">=3.11",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/markdown-3.11.dist-info/METADATA"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/packaging-26.3.dist-info/METADATA"
+      },
+      {
+        "name": "pycparser",
+        "version": "3.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/pycparser-3.0.dist-info/METADATA"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/typing_extensions-4.16.0.dist-info/METADATA"
+      },
+      {
+        "name": "Werkzeug",
+        "version": "3.1.8",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/werkzeug-3.1.8.dist-info/METADATA"
+      },
+      {
+        "name": "astunparse",
+        "version": "1.6.3",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/astunparse-1.6.3.dist-info/METADATA"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/certifi-2026.7.22.dist-info/METADATA"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.1",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/charset_normalizer-3.5.1.dist-info/METADATA"
+      },
+      {
+        "name": "cryptography",
+        "version": "50.0.1",
+        "requires_python": ">=3.9, !=3.9.0, !=3.9.1",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/cryptography-50.0.1.dist-info/METADATA"
+      },
+      {
+        "name": "gast",
+        "version": "0.7.0",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/gast-0.7.0.dist-info/METADATA"
+      },
+      {
+        "name": "google-auth-oauthlib",
+        "version": "1.4.1",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/google_auth_oauthlib-1.4.1.dist-info/METADATA"
+      },
+      {
+        "name": "grpcio",
+        "version": "1.84.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/grpcio-1.84.0.dist-info/METADATA"
+      },
+      {
+        "name": "idna",
+        "version": "3.20",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/idna-3.20.dist-info/METADATA"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.3",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/markupsafe-3.0.3.dist-info/METADATA"
+      },
+      {
+        "name": "ml-dtypes",
+        "version": "0.2.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/ml_dtypes-0.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "numpy",
+        "version": "1.26.4",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/numpy-1.26.4.dist-info/METADATA"
+      },
+      {
+        "name": "oauthlib",
+        "version": "3.3.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/oauthlib-3.3.1.dist-info/METADATA"
+      },
+      {
+        "name": "opt_einsum",
+        "version": "3.4.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/opt_einsum-3.4.0.dist-info/METADATA"
+      },
+      {
+        "name": "protobuf",
+        "version": "4.25.9",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/protobuf-4.25.9.dist-info/METADATA"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/requests-2.34.2.dist-info/METADATA"
+      },
+      {
+        "name": "requests-oauthlib",
+        "version": "2.0.0",
+        "requires_python": ">=3.4",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/requests_oauthlib-2.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "tensorboard-data-server",
+        "version": "0.7.2",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tensorboard_data_server-0.7.2.dist-info/METADATA"
+      },
+      {
+        "name": "tensorflow-estimator",
+        "version": "2.15.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tensorflow_estimator-2.15.0.dist-info/METADATA"
+      },
+      {
+        "name": "tensorflow-io-gcs-filesystem",
+        "version": "0.37.1",
+        "requires_python": ">=3.7, <3.13",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tensorflow_io_gcs_filesystem-0.37.1.dist-info/METADATA"
+      },
+      {
+        "name": "termcolor",
+        "version": "3.3.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/termcolor-3.3.0.dist-info/METADATA"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.19.1",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/tokenizers-0.19.1.dist-info/METADATA"
+      },
+      {
+        "name": "transformers",
+        "version": "4.40.1",
+        "requires_python": ">=3.8.0",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/transformers-4.40.1.dist-info/METADATA"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/urllib3-2.8.0.dist-info/METADATA"
+      },
+      {
+        "name": "wheel",
+        "version": "0.48.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/wheel-0.48.0.dist-info/METADATA"
+      }
+    ],
+    "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor": [
+      {
+        "name": "backports.tarfile",
+        "version": "1.2.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "importlib_metadata",
+        "version": "8.7.1",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/METADATA"
+      },
+      {
+        "name": "packaging",
+        "version": "26.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/packaging-26.0.dist-info/METADATA"
+      },
+      {
+        "name": "zipp",
+        "version": "3.23.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/zipp-3.23.0.dist-info/METADATA"
+      },
+      {
+        "name": "autocommand",
+        "version": "2.2.2",
+        "requires_python": ">=3.7",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA"
+      },
+      {
+        "name": "jaraco.text",
+        "version": "4.0.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/jaraco.text-4.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "jaraco.context",
+        "version": "6.1.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/jaraco_context-6.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "jaraco.functools",
+        "version": "4.4.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/METADATA"
+      },
+      {
+        "name": "more-itertools",
+        "version": "10.8.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/more_itertools-10.8.0.dist-info/METADATA"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.4.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/platformdirs-4.4.0.dist-info/METADATA"
+      },
+      {
+        "name": "tomli",
+        "version": "2.4.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/tomli-2.4.0.dist-info/METADATA"
+      },
+      {
+        "name": "wheel",
+        "version": "0.46.3",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site/setuptools/_vendor/wheel-0.46.3.dist-info/METADATA"
+      }
+    ],
+    "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site": [
+      {
+        "name": "huggingface-hub",
+        "version": "0.35.3",
+        "requires_python": ">=3.8.0",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/huggingface_hub-0.35.3.dist-info/METADATA"
+      },
+      {
+        "name": "mypy_extensions",
+        "version": "1.1.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/mypy_extensions-1.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "pyserial",
+        "version": "3.5",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/pyserial-3.5.dist-info/METADATA"
+      },
+      {
+        "name": "pyyaml-include",
+        "version": "1.4.1",
+        "requires_python": ">=3.6",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/pyyaml_include-1.4.1.dist-info/METADATA"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.22.1",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/tokenizers-0.22.1.dist-info/METADATA"
+      },
+      {
+        "name": "toml",
+        "version": "0.10.2",
+        "requires_python": ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/toml-0.10.2.dist-info/METADATA"
+      },
+      {
+        "name": "av",
+        "version": "15.1.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/av-15.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "deepdiff",
+        "version": "8.6.1",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/deepdiff-8.6.1.dist-info/METADATA"
+      },
+      {
+        "name": "diffusers",
+        "version": "0.35.2",
+        "requires_python": ">=3.8.0",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/diffusers-0.35.2.dist-info/METADATA"
+      },
+      {
+        "name": "draccus",
+        "version": "0.10.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/draccus-0.10.0.dist-info/METADATA"
+      },
+      {
+        "name": "gymnasium",
+        "version": "1.2.1",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/gymnasium-1.2.1.dist-info/METADATA"
+      },
+      {
+        "name": "jsonlines",
+        "version": "4.0.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/jsonlines-4.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "lerobot",
+        "version": "0.4.4",
+        "requires_python": ">=3.10",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/lerobot-0.4.4.dist-info/METADATA"
+      },
+      {
+        "name": "mergedeep",
+        "version": "1.3.4",
+        "requires_python": ">=3.6",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/mergedeep-1.3.4.dist-info/METADATA"
+      },
+      {
+        "name": "orderly-set",
+        "version": "5.5.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/orderly_set-5.5.0.dist-info/METADATA"
+      },
+      {
+        "name": "peft",
+        "version": "0.17.1",
+        "requires_python": ">=3.9.0",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/peft-0.17.1.dist-info/METADATA"
+      },
+      {
+        "name": "termcolor",
+        "version": "3.1.0",
+        "requires_python": ">=3.9",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/termcolor-3.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "transformers",
+        "version": "4.57.1",
+        "requires_python": ">=3.9.0",
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/transformers-4.57.1.dist-info/METADATA"
+      },
+      {
+        "name": "typing-inspect",
+        "version": "0.9.0",
+        "requires_python": null,
+        "metadata_path": "frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site/typing_inspect-0.9.0.dist-info/METADATA"
+      }
+    ],
+    "FastRSI/planning/liberopro_eval_20261012_v1/runtime_vendor": [
+      {
+        "name": "websocket-client",
+        "version": "1.8.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/liberopro_eval_20261012_v1/runtime_vendor/websocket_client-1.8.0.dist-info/METADATA"
+      }
+    ],
+    "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages": [
+      {
+        "name": "braceexpand",
+        "version": "0.1.7",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/braceexpand-0.1.7.dist-info/METADATA"
+      },
+      {
+        "name": "transforms3d",
+        "version": "0.4.1",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/transforms3d-0.4.1.dist-info/METADATA"
+      },
+      {
+        "name": "omegaconf",
+        "version": "2.3.0",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/omegaconf-2.3.0.dist-info/METADATA"
+      },
+      {
+        "name": "nest-asyncio",
+        "version": "1.6.0",
+        "requires_python": ">=3.5",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/nest_asyncio-1.6.0.dist-info/METADATA"
+      },
+      {
+        "name": "matplotlib-inline",
+        "version": "0.1.7",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/matplotlib_inline-0.1.7.dist-info/METADATA"
+      },
+      {
+        "name": "llvmlite",
+        "version": "0.40.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/llvmlite-0.40.1.dist-info/METADATA"
+      },
+      {
+        "name": "idna",
+        "version": "3.15",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/idna-3.15.dist-info/METADATA"
+      },
+      {
+        "name": "executing",
+        "version": "2.3.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/executing-2.3.0.dist-info/METADATA"
+      },
+      {
+        "name": "trimesh",
+        "version": "3.23.5",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/trimesh-3.23.5.dist-info/METADATA"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.52",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/prompt_toolkit-3.0.52.dist-info/METADATA"
+      },
+      {
+        "name": "plyfile",
+        "version": "0.9",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/plyfile-0.9.dist-info/METADATA"
+      },
+      {
+        "name": "plotly",
+        "version": "7.1.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/plotly-7.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-qhull",
+        "version": "8.0.2.1",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_qhull-8.0.2.1.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-boost",
+        "version": "1.83.0",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_boost-1.83.0.dist-info/METADATA"
+      },
+      {
+        "name": "Flask",
+        "version": "3.0.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/flask-3.0.3.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-urdfdom",
+        "version": "3.1.1.1",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_urdfdom-3.1.1.1.dist-info/METADATA"
+      },
+      {
+        "name": "ipywidgets",
+        "version": "8.1.9",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/ipywidgets-8.1.9.dist-info/METADATA"
+      },
+      {
+        "name": "pytz",
+        "version": "2026.5",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pytz-2026.5.dist-info/METADATA"
+      },
+      {
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/antlr4_python3_runtime-4.9.3.dist-info/METADATA"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.2.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/urllib3-2.2.3.dist-info/METADATA"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.70.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/tqdm-4.70.1.dist-info/METADATA"
+      },
+      {
+        "name": "retrying",
+        "version": "1.4.2",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/retrying-1.4.2.dist-info/METADATA"
+      },
+      {
+        "name": "pexpect",
+        "version": "4.9.0",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pexpect-4.9.0.dist-info/METADATA"
+      },
+      {
+        "name": "parso",
+        "version": "0.8.7",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/parso-0.8.7.dist-info/METADATA"
+      },
+      {
+        "name": "numpy",
+        "version": "1.23.5",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/numpy-1.23.5.dist-info/METADATA"
+      },
+      {
+        "name": "stack-data",
+        "version": "0.6.3",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/stack_data-0.6.3.dist-info/METADATA"
+      },
+      {
+        "name": "panda3d-gltf",
+        "version": "1.2.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/panda3d_gltf-1.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "jsonpatch",
+        "version": "1.33",
+        "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/jsonpatch-1.33.dist-info/METADATA"
+      },
+      {
+        "name": "jedi",
+        "version": "0.19.2",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/jedi-0.19.2.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-tinyxml",
+        "version": "2.6.2.3",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_tinyxml-2.6.2.3.dist-info/METADATA"
+      },
+      {
+        "name": "torchvision",
+        "version": "0.12.0+cpu",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/torchvision-0.12.0+cpu.dist-info/METADATA"
+      },
+      {
+        "name": "eigenpy",
+        "version": "3.5.1",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/eigenpy-3.5.1.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-assimp",
+        "version": "5.4.3.1",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_assimp-5.4.3.1.dist-info/METADATA"
+      },
+      {
+        "name": "torchnet",
+        "version": "0.0.4",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/torchnet-0.0.4.dist-info/METADATA"
+      },
+      {
+        "name": "setuptools",
+        "version": "56.0.0",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/setuptools-56.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "Panda3D",
+        "version": "1.10.14",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/panda3d-1.10.14.dist-info/METADATA"
+      },
+      {
+        "name": "widgetsnbextension",
+        "version": "4.0.16",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/widgetsnbextension-4.0.16.dist-info/METADATA"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.8.5",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/wcwidth-0.8.5.dist-info/METADATA"
+      },
+      {
+        "name": "tornado",
+        "version": "6.4.2",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/tornado-6.4.2.dist-info/METADATA"
+      },
+      {
+        "name": "structlog",
+        "version": "23.1.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/structlog-23.1.0.dist-info/METADATA"
+      },
+      {
+        "name": "simplejson",
+        "version": "3.19.2",
+        "requires_python": ">=2.5, !=3.0.*, !=3.1.*, !=3.2.*",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/simplejson-3.19.2.dist-info/METADATA"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.19.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pygments-2.19.2.dist-info/METADATA"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.27.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pydantic_core-2.27.2.dist-info/METADATA"
+      },
+      {
+        "name": "narwhals",
+        "version": "1.42.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/narwhals-1.42.1.dist-info/METADATA"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "2.1.5",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/MarkupSafe-2.1.5.dist-info/METADATA"
+      },
+      {
+        "name": "ConfigArgParse",
+        "version": "1.8.0",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/configargparse-1.8.0.dist-info/METADATA"
+      },
+      {
+        "name": "click",
+        "version": "8.1.8",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/click-8.1.8.dist-info/METADATA"
+      },
+      {
+        "name": "annotated-types",
+        "version": "0.7.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/annotated_types-0.7.0.dist-info/METADATA"
+      },
+      {
+        "name": "requests",
+        "version": "2.32.4",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/requests-2.32.4.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-octomap",
+        "version": "1.10.0",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_octomap-1.10.0.dist-info/METADATA"
+      },
+      {
+        "name": "visdom",
+        "version": "0.2.4",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/visdom-0.2.4.dist-info/METADATA"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.3.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/scikit_learn-1.3.2.dist-info/METADATA"
+      },
+      {
+        "name": "ipython",
+        "version": "8.12.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/ipython-8.12.3.dist-info/METADATA"
+      },
+      {
+        "name": "nbformat",
+        "version": "5.7.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/nbformat-5.7.0.dist-info/METADATA"
+      },
+      {
+        "name": "open3d",
+        "version": "0.17.0",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/open3d-0.17.0.dist-info/METADATA"
+      },
+      {
+        "name": "pure_eval",
+        "version": "0.2.4",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pure_eval-0.2.4.dist-info/METADATA"
+      },
+      {
+        "name": "ptyprocess",
+        "version": "0.7.0",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/ptyprocess-0.7.0.dist-info/METADATA"
+      },
+      {
+        "name": "pickleshare",
+        "version": "0.7.5",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pickleshare-0.7.5.dist-info/METADATA"
+      },
+      {
+        "name": "backcall",
+        "version": "0.2.0",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/backcall-0.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "addict",
+        "version": "2.4.0",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/addict-2.4.0.dist-info/METADATA"
+      },
+      {
+        "name": "jupyterlab_widgets",
+        "version": "3.0.17",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/jupyterlab_widgets-3.0.17.dist-info/METADATA"
+      },
+      {
+        "name": "janus",
+        "version": "1.0.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/janus-1.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "decorator",
+        "version": "5.3.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/decorator-5.3.1.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel",
+        "version": "0.57.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel-0.57.3.dist-info/METADATA"
+      },
+      {
+        "name": "Werkzeug",
+        "version": "3.0.6",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/werkzeug-3.0.6.dist-info/METADATA"
+      },
+      {
+        "name": "torchgeometry",
+        "version": "0.1.2",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/torchgeometry-0.1.2.dist-info/METADATA"
+      },
+      {
+        "name": "pyarrow",
+        "version": "12.0.1",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pyarrow-12.0.1.dist-info/METADATA"
+      },
+      {
+        "name": "pandas",
+        "version": "1.5.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pandas-1.5.3.dist-info/METADATA"
+      },
+      {
+        "name": "kornia",
+        "version": "0.6.12",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/kornia-0.6.12.dist-info/METADATA"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/jinja2-3.1.6.dist-info/METADATA"
+      },
+      {
+        "name": "hpp-fcl",
+        "version": "2.4.4",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/hpp_fcl-2.4.4.dist-info/METADATA"
+      },
+      {
+        "name": "pin",
+        "version": "2.6.21",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pin-2.6.21.dist-info/METADATA"
+      },
+      {
+        "name": "pip",
+        "version": "23.0.1",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pip-23.0.1.dist-info/METADATA"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.5.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/threadpoolctl-3.5.0.dist-info/METADATA"
+      },
+      {
+        "name": "roma",
+        "version": "1.4.1",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/roma-1.4.1.dist-info/METADATA"
+      },
+      {
+        "name": "panda3d-simplepbr",
+        "version": "0.12.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/panda3d_simplepbr-0.12.0.dist-info/METADATA"
+      },
+      {
+        "name": "jsonpointer",
+        "version": "3.0.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/jsonpointer-3.0.0.dist-info/METADATA"
+      },
+      {
+        "name": "joblib",
+        "version": "1.3.2",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/joblib-1.3.2.dist-info/METADATA"
+      },
+      {
+        "name": "itsdangerous",
+        "version": "2.2.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/itsdangerous-2.2.0.dist-info/METADATA"
+      },
+      {
+        "name": "comm",
+        "version": "0.2.3",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/comm-0.2.3.dist-info/METADATA"
+      },
+      {
+        "name": "blinker",
+        "version": "1.8.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/blinker-1.8.2.dist-info/METADATA"
+      },
+      {
+        "name": "asttokens",
+        "version": "3.0.2",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/asttokens-3.0.2.dist-info/METADATA"
+      },
+      {
+        "name": "webdataset",
+        "version": "0.2.86",
+        "requires_python": ">=3.6",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/webdataset-0.2.86.dist-info/METADATA"
+      },
+      {
+        "name": "pyquaternion",
+        "version": "0.9.9",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pyquaternion-0.9.9.dist-info/METADATA"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.10.6",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/pydantic-2.10.6.dist-info/METADATA"
+      },
+      {
+        "name": "numba",
+        "version": "0.57.1",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/numba-0.57.1.dist-info/METADATA"
+      },
+      {
+        "name": "h5py",
+        "version": "3.8.0",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/h5py-3.8.0.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-zlib",
+        "version": "1.3.1",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_zlib-1.3.1.dist-info/METADATA"
+      },
+      {
+        "name": "cmeel-console-bridge",
+        "version": "1.0.2.3",
+        "requires_python": ">= 3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/cmeel_console_bridge-1.0.2.3.dist-info/METADATA"
+      },
+      {
+        "name": "bokeh",
+        "version": "2.4.3",
+        "requires_python": ">=3.7",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/bokeh-2.4.3.dist-info/METADATA"
+      },
+      {
+        "name": "dash",
+        "version": "4.3.0",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv/lib/python3.8/site-packages/dash-4.3.0.dist-info/METADATA"
+      }
+    ],
+    "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux": [
+      {
+        "name": "pypng",
+        "version": "0.20220715.0",
+        "requires_python": null,
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux/pypng-0.20220715.0.dist-info/METADATA"
+      },
+      {
+        "name": "imageio",
+        "version": "2.31.6",
+        "requires_python": ">=3.8",
+        "metadata_path": "FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux/imageio-2.31.6.dist-info/METADATA"
+      }
+    ]
+  },
+  "container_images": [
+    {
+      "id": "sha256:c98dca2210774e2311a0780146956ef3df3c6f0bb099b6bc671ab31befc42a81",
+      "tags": [
+        "phyagentos-openpi-hcu:pi05-v016-dtk2604-20260901"
+      ],
+      "repo_digests": [],
+      "created": "2026-08-31T17:09:56.224970655Z",
+      "os": "linux",
+      "architecture": "amd64",
+      "bytes": 28579971700
+    },
+    {
+      "id": "sha256:29db70fbeacc1bf80839411a5f7ea1e845758694dbbe33714ca7859a8f7e76b5",
+      "tags": [
+        "pao-qwen-local:v1"
+      ],
+      "repo_digests": [],
+      "created": "2026-09-28T16:36:24.222833153Z",
+      "os": "linux",
+      "architecture": "amd64",
+      "bytes": 28580496260
+    },
+    {
+      "id": "sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95",
+      "tags": [],
+      "repo_digests": [],
+      "created": "2026-08-31T16:56:58.022664776Z",
+      "os": "linux",
+      "architecture": "amd64",
+      "bytes": 2205116690
+    }
+  ]
+}

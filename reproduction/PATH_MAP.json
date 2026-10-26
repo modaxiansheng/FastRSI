@@ -1,0 +1,152 @@
+{
+  "workspace_token": "<NEW_WORKSPACE>",
+  "apply_longest_prefix_first": true,
+  "mappings": [
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_libero10",
+      "new_relative": "models/openvla_libero10",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_object",
+      "new_relative": "models/openvla_object",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi05_libero_pytorch_fp32",
+      "new_relative": "models/pi05_libero_pytorch_fp32",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi0_libero_pytorch_fp32",
+      "new_relative": "models/pi0_libero_pytorch_fp32",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/models/qwen3vl8b-shared-cache-v1_20261007",
+      "new_relative": "models/qwen3vl8b-shared-cache-v1_20261007",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/xvla_libero",
+      "new_relative": "models/xvla_libero",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/PhyAgentOS-core",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/PhyAgentOS-core",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openpi",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openpi",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_hf_cache",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_hf_cache",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_hf_cache",
+      "new_relative": "unpacked/runtime/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_hf_cache",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi05_R/code",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi05_R/code",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi0_R/code",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi0_R/code",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/code",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/code",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/vla_native",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/vla_native",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/code",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/code",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/vla_native",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/vla_native",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets",
+      "new_relative": "unpacked/runtime/FastRSI/planning/liberopro_eval_20261012_v1/assets",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream",
+      "new_relative": "unpacked/runtime/FastRSI/planning/liberopro_eval_20261012_v1/upstream",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/runtime_vendor",
+      "new_relative": "unpacked/runtime/FastRSI/planning/liberopro_eval_20261012_v1/runtime_vendor",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/libero-config",
+      "new_relative": "unpacked/runtime/FastRSI/planning/liberopro_eval_20261012_v1/libero-config",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv",
+      "status": "metadata_only_reinstall_required"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_cpu",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_cpu",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/data/megapose-models",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/data/megapose-models",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_object_frame_recovery_20261017_v1/tokenizer_cache",
+      "new_relative": "unpacked/runtime/FastRSI/planning/fastrsi_object_frame_recovery_20261017_v1/tokenizer_cache",
+      "status": "payload_present"
+    },
+    {
+      "old_prefix": "/mnt/data/task/yuchen/FastPhyagentos/node_preservation_20261008_v1/node187/runtime_patch/ndarray.pyi",
+      "new_relative": "unpacked/runtime/node_preservation_20261008_v1/node187/runtime_patch/ndarray.pyi",
+      "status": "payload_present"
+    }
+  ],
+  "unmapped_host_requirements": [
+    "/opt/hyhal",
+    "/etc/hfm",
+    "/opt/dtk/env.sh"
+  ],
+  "note": "Review bindings in a new launch configuration; do not modify frozen files. Host runtime and metadata-only virtual environments are unresolved until installed."
+}

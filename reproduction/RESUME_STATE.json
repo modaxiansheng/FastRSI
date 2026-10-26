@@ -1,0 +1,74 @@
+{
+  "captured_unix": 1793025102.3113816,
+  "scope": "original LIBERO, success_v2 recovery-enabled native R; no cross-episode learning",
+  "groups": {
+    "openvla/R/libero_goal/original": {
+      "n": 468,
+      "physical_success": 359,
+      "unknown": 0
+    },
+    "openvla/R/libero_object/original": {
+      "n": 500,
+      "physical_success": 439,
+      "unknown": 0
+    },
+    "openvla/R/libero_spatial/original": {
+      "n": 500,
+      "physical_success": 433,
+      "unknown": 0
+    },
+    "pi05/R/libero_goal/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "pi05/R/libero_object/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "pi05/R/libero_spatial/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "pi0/R/libero_goal/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "pi0/R/libero_object/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "pi0/R/libero_spatial/original": {
+      "n": 500,
+      "physical_success": 500,
+      "unknown": 0
+    },
+    "xvla/R/libero_goal/original": {
+      "n": 500,
+      "physical_success": 499,
+      "unknown": 0
+    },
+    "xvla/R/libero_object/original": {
+      "n": 500,
+      "physical_success": 492,
+      "unknown": 0
+    },
+    "xvla/R/libero_spatial/original": {
+      "n": 500,
+      "physical_success": 492,
+      "unknown": 0
+    }
+  },
+  "case_count": 5968,
+  "expected_cases": 6000,
+  "status": "snapshot; incomplete groups remain incomplete",
+  "excluded_files": [],
+  "captured_beijing": "2026-10-26T22:31:42.311382+08:00",
+  "remaining_expected_cases": 32,
+  "fresh_server_status": "Not checked; this records only the uploaded snapshot",
+  "resume_constraint": "OpenVLA Goal is partial, but its exact Goal checkpoint was excluded from the selected model backup. Recover and verify that checkpoint before resuming this group; do not substitute the LIBERO-10 or Object checkpoint."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "OFFLINE_CAMERA_CONTRACT_VERIFIED_NOT_ADOPTED_FOR_CONTROL",
+  "created_utc": "2026-10-18T01:43:37.537693+00:00",
+  "files": {
+    "adapter.py": "3bec331b4d05df82a301f17fd01a8889daecde3eb5d7733040993d010bf22c2d",
+    "test_adapter.py": "bc272c94fb6ec046125d063aac7eb754d7efd1df9508cea3510d9f6104a74d03"
+  },
+  "root_verification": {
+    "command": "bundled Python -B -m unittest discover -s analysis/wrist_camera_adapter_v1 -p test_adapter.py -v",
+    "tests": 16,
+    "passed": 16,
+    "failed": 0,
+    "suite_seconds": 0.721,
+    "scope": "Camera/public-EEF transforms, RGB reflection, source/image SHA and synchronization, extra-GT rejection; actual pinned pure NumPy camera_model source executed in memory. No neural/environment runtime."
+  },
+  "source_bundle_modified": false,
+  "generated_cache_event": {
+    "path": "capability_gated_confirm12_v1/runtime_bundle_v4/candidate_runtime/__pycache__/camera_model.cpython-312.pyc",
+    "cause": "Earlier agent reference SourceFileLoader generated own bytecode cache; frozen source never modified",
+    "generated_file_sha256": null,
+    "sha_missing_reason": "Agent did not capture bytes before own generated cache cleanup; unknown preserved",
+    "agent_reported_mtime": 1792278658.208749,
+    "path_exists_now": false,
+    "subsequent_reference": "compile/exec in memory, root -B verification"
+  },
+  "agent_completion_observation_failure": "Stream disconnected before agent completion receipt; root inspected actual files and ran final bounded tests once. No remote or experiment restart.",
+  "new_neural_calls": 0,
+  "new_environment_calls": 0,
+  "new_scored_successes": 0,
+  "semantic_or_held_detector_proven": false,
+  "multiple_identity_validation_complete": false,
+  "full_evaluation": "PAUSED",
+  "development_assistant_tokens": null,
+  "development_all_in_cost": null
+}

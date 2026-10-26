@@ -1,0 +1,75 @@
+{
+  "schema": "NEXT_TRIAL_ACCOUNTING_PREPARATION_v1",
+  "created_utc": "2026-10-17T23:10:06.673177+00:00",
+  "status": "PREPARED_NOT_ADOPTED_OR_HOST_VALIDATED",
+  "inputs": [
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/ADVANCE_RECEIPT_20261018T070021.json",
+      "sha256": "b70961e5a149dc42e684bbbd4c5f7732fe3ccc333942f6658f667cd562cbfa65",
+      "bytes": 7806
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/full_cost_v2/collect_full_cost.py",
+      "sha256": "5f4d7bba07ef40852850d3c38569d314a2129d4d32f7c629b0cb45ec2c6ed994",
+      "bytes": 36259
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/cost_allocation_v1/SPEC.md",
+      "sha256": "dfdafe241651f8eecfb82c5e7be537a34b151ec49e32eb8a020a61fa5115e968",
+      "bytes": 8377
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/cost_allocation_v1/allocate_cost.py",
+      "sha256": "28c663e066942494c83d06c6f57602c7dde99c1a5a5668d431d9f0f8c6d47d84",
+      "bytes": 12430
+    }
+  ],
+  "new_files": [
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/next_trial_accounting_v1/account_owner_lifecycle.py",
+      "sha256": "cd68a23ae123b62fb1c6d6cb551446e329a2e27f31ae996aead9308ea62abc2d",
+      "bytes": 15477
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/next_trial_accounting_v1/test_account_owner_lifecycle.py",
+      "sha256": "8bf35e397cd476df53a75205f43bb24f70cd2339cef22f3ca5957d7667675f11",
+      "bytes": 9945
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/next_trial_accounting_v1/SPEC.md",
+      "sha256": "609f9d7bd9c07159cbc14bca66954bc522af6f1642ab599ef6695cc90be9a1b6",
+      "bytes": 6748
+    }
+  ],
+  "minimal_next_trial_change": "Retain one exclusive hierarchical cgroup-v2 owner parent across child container exit; capture CPU counters before start and after all descendants terminate, before deleting parent. Collector remains outside. Bind acquire/release to exact GPU lease separately.",
+  "local_stdlib_test_evidence": {
+    "command": "python3 -m unittest discover -s FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/next_trial_accounting_v1 -p 'test_*.py' -v",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "reported_suite_seconds": 0.003,
+    "test_inputs": "Synthetic temporary files and dictionaries only. No real proc/cgroup/device paths read.",
+    "is_remote_runtime_validation": false
+  },
+  "new_remote_calls": 0,
+  "new_model_calls": 0,
+  "new_environment_calls": 0,
+  "new_device_calls": 0,
+  "current_frozen_runtime_changed": false,
+  "existing_files_modified": false,
+  "actual_CPU_complete_only_after_future_host_contract_passes": true,
+  "GPU_lease_residence_is_not_GPU_busy": true,
+  "GPU_busy_or_energy_completeness_proven": false,
+  "historical_missing_or_stopped_cgroups_remain_unknown": true,
+  "actor_vision_wall_uses_union": true,
+  "source_development_ledger_separate": true,
+  "new_development_assistant_tokens": null,
+  "new_development_actual_CPU_seconds": null,
+  "new_development_money": null,
+  "remaining_adoption_gates": [
+    "Verify actual target host cgroup-v2/controller delegation and retained parent hierarchical accounting, including normal/abnormal child exit and lingering descendants, with a bounded CPU-only engineering test.",
+    "Launcher must archive exact parent identity, original counter bytes, start/exit and GPU lease events, membership/terminal receipts and collector overhead.",
+    "Vendor GPU telemetry must be a separate validated adapter with time coverage/error/owner attribution if any actual GPU-busy or energy-saving claim is needed.",
+    "Do not retrofit this collector into the running frozen trial or reconstruct absent historical counters."
+  ]
+}

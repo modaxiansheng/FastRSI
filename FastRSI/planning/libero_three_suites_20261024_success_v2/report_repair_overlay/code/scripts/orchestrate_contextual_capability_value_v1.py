@@ -1,0 +1,133 @@
+"""Four matched full-Agent development arms, one already-used case, two chunks.
+
+N native; F same-data fixed nearest; R frozen seed; S feedback-updated ridge.
+This is operation-value development, not independent success-rate evaluation.
+"""
+import fcntl
+import hashlib
+import json
+from pathlib import Path
+import shutil
+import signal
+import socket
+import subprocess
+import time
+import traceback
+import orchestrate_full_os as life
+
+NAME='contextual_capability_value_v1_20261006'
+SOURCE='runs/native_stage_continuation_probe_v1_20261006'
+FIT='planning/context_conditioned_capability_v1_20261006/fit_v1'
+GOAL='put the white mug on the left plate and put the yellow and white mug on the right plate'
+ARMS=('N','F','R','S')
+
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def tree(p):return {str(f.relative_to(p)):sha(f) for f in p.rglob('*') if f.is_file()}
+def freeze(a,b):shutil.copytree(a,b,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
+def replace(text,old,new):
+    if text.count(old)!=1:raise ValueError('Worker binding changed: '+old[:90])
+    return text.replace(old,new)
+
+
+def main():
+    project=life.PROJECT;run=project/'runs'/NAME
+    lock=(project/'runs/full_os_v1.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+    run.mkdir(exist_ok=False);start=time.time();life.deadline=start+1200
+    workers=[];state=dict(status='PREPARING',started_at=start)
+    def stop(sig,frame):raise RuntimeError('Owned contextual development interrupted '+str(sig))
+    signal.signal(signal.SIGTERM,stop);signal.signal(signal.SIGINT,stop)
+    try:
+        check=json.loads((project/'runs/contextual_policy_real_check_v1_20261006/job/RESULT.json').read_text())
+        assert check['status']=='COMPLETED' and check['unmarked_output_rng_equal']
+        assert len(check['rows'])==6 and all(r['rng_equal'] and r['output_equal_to_expected'] for r in check['rows'])
+        life.gate(run)
+        for offset in (0,100,200,300):
+            for port in (49500,49502,49510,49520):
+                with socket.socket() as sock:
+                    assert sock.connect_ex(('127.0.0.1',port+offset))!=0,'Port occupied'
+        source=project/SOURCE
+        for rel in ('MODEL_CONFIG.json','FLOW.json'):shutil.copyfile(source/rel,run/rel)
+        freeze(source/'N/stream/net_t4_i26/admission/accepted_experience',run/'initial_experience')
+        life.save(run/'EXPERIENCE_BINDING.json',tree(run/'initial_experience'))
+        versions=json.loads((project/FIT/'VERSIONS.json').read_text())['versions']
+        (run/'components').mkdir();components={}
+        for arm,kind in [('F','fixed_nearest'),('R','seed_frozen'),('S','feedback_updated')]:
+            version=versions[kind];p=project/FIT/version['path'];assert sha(p)==version['sha256']
+            shutil.copyfile(p,run/'components'/p.name)
+            components[arm]=dict(authority='CONTEXTUAL_CAPABILITY_DEVELOPMENT_VALUE',kind=kind,
+                artifact='/project/runs/'+NAME+'/components/'+p.name,sha256=version['sha256'])
+        # Every arm's read-only project exposes all three components and identical
+        # source feedback. Only the selected component is executed/updated offline.
+        life.save(run/'COMMON_EXPERIENCE_ACCESS.json',dict(
+            native_text=tree(run/'initial_experience'),versions=versions,
+            feedback_registration=json.loads((project/'runs/contextual_capability_features_v1_20261006/inputs/REGISTRATION.json').read_text()),
+            all_arms_same_read_access=True,task_updates_to_component=False))
+        case=dict(suite='libero_10',task_id=4,init_state_id=36,mode='development',
+            max_steps=520,native_experience_maintenance=True,task_description=GOAL)
+        life.save(run/'PLAN.json',dict(cases=[case]))
+        life.save(run/'PROTOCOL.json',dict(slot=0,absolute_deadline=life.deadline,
+            diagnostic_trace=True,control_kind='feedback_window',
+            arm_modes={a:'fixed10' for a in ARMS},terminal_evidence_view=True,
+            planning_entries={a:'public_session_flow' for a in ARMS},
+            contextual_components=components,operation_cap=2,physical_feedback_window=10,
+            original_goal=True,original_memory_triggers=True,
+            trigger='First fully consumed closed chunk after mixed closing, plus at most the next boundary; reject stops attempts',
+            scope='Already-used task4/init36 mechanism development. Not unseen evaluation. New current RGB/proprioception each attempt; no hidden state input.',
+            resources='Two cards per arm, eight cards independent parallel; same Qwen/pi05 weights, seed and runtime caps',
+            accounting='Separate RPC, prefix encoder, full teacher decoder, local predictor, physical actions, retries, Qwen and full worker; charge rejected double encoding',
+            stopping='One four-arm comparison. No threshold/ridge tuning on its result. Keep defaults; subsequent fixed-version full Agent evaluation required.'))
+        for rel in ('scripts','src/fastrsi'):freeze(project/rel,run/'code'/rel)
+        worker=run/'code/scripts/run_placement_worker.py';text=worker.read_text()
+        text=replace(text,"        case['terminal_prefetch']=False", "        case['terminal_prefetch']=False\n        if arm in protocol['contextual_components']:\n            case['contextual_capability_probe']=dict(protocol['contextual_components'][arm])")
+        text=replace(text,"runner_script='run_native_baseline.py'","runner_script='run_native_contextual_capability_v1.py'")
+        hook="""            if role=='pi05' and arm in protocol['contextual_components']:
+                component=protocol['contextual_components'][arm]
+                service_spec=dict(component,session_id=cases[0]['id'],goal=cases[0]['task_description'],
+                    artifact='/context/models/'+Path(component['artifact']).name)
+                life.save(group/'CONTEXTUAL_SERVICE.json',service_spec)
+                at=next(i for i,v in enumerate(argv) if v.startswith('sha256:'))
+                argv[at:at]=['-v',str(group/'code')+':/context/code:ro',
+                    '-v',str(campaign/'components')+':/context/models:ro',
+                    '-v',str(group/'CONTEXTUAL_SERVICE.json')+':/context/SPEC.json:ro',
+                    '-e','FASTRSI_CONTEXTUAL_SPEC=/context/SPEC.json']
+                argv=[v+':/context/code/src' if v.startswith('PYTHONPATH=') else v for v in argv]
+                argv[-1]=argv[-1].replace('-m PhyAgentOS.runtime.policy.openpi.native_openpi_server',
+                    '/context/code/scripts/serve_contextual_capability_v1.py')
+            argv=relocate(argv,arm);launched=life.launch(role,argv,stream)"""
+        text=replace(text,"            argv=relocate(argv,arm);launched=life.launch(role,argv,stream)",hook)
+        worker.write_text(text);life.save(run/'CODE_MANIFEST.json',tree(run/'code'))
+        for index,arm in enumerate(ARMS):
+            group=run/arm;freeze(run/'code',group/'code')
+            if index:
+                for rel in ('scripts/run_native_baseline.py','scripts/qwen_agent_server.py'):
+                    p=group/'code'/rel;t=p.read_text()
+                    for port in (49500,49502,49510,49520):t=t.replace(str(port),str(port+index*100))
+                    p.write_text(t)
+            life.save(group/'CODE_MANIFEST.json',tree(group/'code'))
+        state.update(status='REGISTERED',registration='PROTOCOL.json');life.save(run/'STATUS.json',state)
+        for arm in ARMS:
+            with (run/arm/'controller.log').open('x') as log:
+                proc=subprocess.Popen(['python3',str(worker),NAME,arm],stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
+            workers.append((arm,proc));life.save(run/arm/'DISPATCH.json',dict(pid=proc.pid,started_at=time.time()))
+        state['status']='RUNNING';life.save(run/'STATUS.json',state)
+        while any(p.poll() is None for _,p in workers):
+            if time.time()>life.deadline:raise TimeoutError('Registered four-arm time bound')
+            if any(p.poll() not in (None,0) for _,p in workers):raise RuntimeError('Worker failure; preserve all arms')
+            time.sleep(2)
+        results={a:json.loads((run/a/'STATUS.json').read_text()) for a,_ in workers}
+        assert all(p.returncode==0 for _,p in workers) and all(v['status']=='COMPLETED' for v in results.values())
+        state.update(status='COMPLETED',arms=results)
+    except BaseException:
+        state.update(status='FAILED',error=traceback.format_exc());raise
+    finally:
+        for _,p in workers:
+            if p.poll() is None:p.send_signal(signal.SIGTERM)
+        for _,p in workers:
+            try:p.wait(timeout=45)
+            except subprocess.TimeoutExpired:state['cleanup_attention']='Check exact owned worker PIDs'
+        state.update(finished_at=time.time(),seconds=time.time()-start);life.save(run/'STATUS.json',state)
+        print(json.dumps(state),flush=True)
+
+
+if __name__=='__main__':main()

@@ -1,0 +1,17 @@
+{
+  "experiment_id": "history_scope_probe_v1_20261001",
+  "source_campaign": "opportunity_screen_v1_20261001",
+  "task_ids": [0, 3, 6, 9],
+  "init_state_id": 8,
+  "attempt": "first actual OS attempt, regardless of outcome",
+  "max_calls": 16,
+  "orders": [["full", "current_episode"], ["current_episode", "full"]],
+  "campaign_timeout_seconds": 900,
+  "controller_timeout_seconds": 660,
+  "max_tokens": 384,
+  "intervention": "Change only history_md session membership: full original history versus current episode and its ancestors. Preserve all lessons, accepted skills, current task, runtime evidence, images, system prompt and output ceiling exactly.",
+  "purpose": "Test whether a real legal input-scope choice changes work and verdict; no learned router, no Laya control, no online environment intervention",
+  "quality_limits": "Original inputs contain native scoring fields in both variants. Verdict agreement and native-label agreement are descriptive only, not an independent visual-quality test. No downstream retry or robot savings claim from this replay.",
+  "accounting": "Record every actual request/response, HTTP latency, prompt/output tokens, projection time, preparation/loading/residency. Counterbalance pair order. All attempts count; incomplete pairs do not become cost reductions.",
+  "stop": "Abort on incomplete source evidence, changed retained fields, invalid response or resource conflict. Do not replace an unfavorable case or expand roster after viewing outcomes."
+}

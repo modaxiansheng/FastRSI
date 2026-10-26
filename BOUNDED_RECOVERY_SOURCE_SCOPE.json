@@ -1,0 +1,75 @@
+{
+  "scope": "Selected bounded recovery source versions with positive outcomes in their recorded development conditions; not a uniform benchmark or universal gain claim.",
+  "final48_authority": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/FINAL48_RECEIPT_20261018T025341Z.json",
+  "object_authority": "FastRSI/planning/libero_object_remaining7_20261021_v1/FINAL_COMPARISON_01.json",
+  "reference_checks": [
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/fixed_trial_audit_snapshots/FIXED_TRIAL_SNAPSHOT_20261018T001112_087685371.json",
+      "expected_sha256": "660d92caf55f09e8eb217725ded7ff1aafc52d2f42c7fc3de6d92859f0ec24a4",
+      "actual_sha256": "660d92caf55f09e8eb217725ded7ff1aafc52d2f42c7fc3de6d92859f0ec24a4",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/full_cost_audit_snapshots/FULL_COST_SNAPSHOT_20261018T010924_300885236.json",
+      "expected_sha256": "9962ef3de727909197409a83c0e8b36b1852e1acd2735deb912aa0294bcc577a",
+      "actual_sha256": "9962ef3de727909197409a83c0e8b36b1852e1acd2735deb912aa0294bcc577a",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/FINAL48_SUMMARY_WORKING.json",
+      "expected_sha256": "cf2c8a501a2f9d7bf16239ca40846ea58f0b259d6182b3d95c1163451d6cd630",
+      "actual_sha256": "cf2c8a501a2f9d7bf16239ca40846ea58f0b259d6182b3d95c1163451d6cd630",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/final48_efficiency_review_v1/INDEPENDENT_REVIEW.json",
+      "expected_sha256": "1f03c0ee3b61c29fec2b991a2ce44808b5de67ec38b16a38069c747d35f3ca09",
+      "actual_sha256": "1f03c0ee3b61c29fec2b991a2ce44808b5de67ec38b16a38069c747d35f3ca09",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/wrist_patch_shadow_v1/SCREEN_CLOSURE.json",
+      "expected_sha256": "f752272aafdcad83742e2a1c591347a5a5483a8f2bad46fa7daef7831559a868",
+      "actual_sha256": "f752272aafdcad83742e2a1c591347a5a5483a8f2bad46fa7daef7831559a868",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/wrist_camera_adapter_v1/ROOT_VERIFICATION_RECEIPT.json",
+      "expected_sha256": "facb6c01dae41c0c01e27302a93f05f3114b1f77866c99e09e261fe8ebfbdb40",
+      "actual_sha256": "facb6c01dae41c0c01e27302a93f05f3114b1f77866c99e09e261fe8ebfbdb40",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/next_trial_accounting_v1/PREPARATION_RECEIPT.json",
+      "expected_sha256": "24ac2fe6ca36a02e06cc3c8762f7f9a1b731c739a5740f42f2da758f6be86963",
+      "actual_sha256": "24ac2fe6ca36a02e06cc3c8762f7f9a1b731c739a5740f42f2da758f6be86963",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/wrist_shadow_preparation_v1/PREPARATION_FREEZE.json",
+      "expected_sha256": "c8089c297a3138325f3197788b9481d3119017e2f1cadf59b31e2357759ca3c3",
+      "actual_sha256": "c8089c297a3138325f3197788b9481d3119017e2f1cadf59b31e2357759ca3c3",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/analysis/observation_gateway_failures_v1/RECEIPT.json",
+      "expected_sha256": "2241305752d45b23070a40ae1c2ec6006c6794aa2b78c480c757f036b4bcc7c5",
+      "actual_sha256": "2241305752d45b23070a40ae1c2ec6006c6794aa2b78c480c757f036b4bcc7c5",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/resource_point_snapshots/OWNED_RESOURCE_POINT_NODE188_1792285737542721852.json",
+      "expected_sha256": "89898ab8e5b9e50954c88bb0a86b9d5f2e2e59aa36fcae1b11510a2040762b46",
+      "actual_sha256": "89898ab8e5b9e50954c88bb0a86b9d5f2e2e59aa36fcae1b11510a2040762b46",
+      "matches": true
+    },
+    {
+      "path": "FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/resource_point_snapshots/OWNED_RESOURCE_POINT_NODE187_1792286978895046273.json",
+      "expected_sha256": "657b0ce0e67fc112b823df5d0d315d37abf829d886549b11df9446a0f8464905",
+      "actual_sha256": "657b0ce0e67fc112b823df5d0d315d37abf829d886549b11df9446a0f8464905",
+      "matches": true
+    }
+  ],
+  "exclusions": "Abandoned development branches and failure media omitted; final comparison denominators and costs retained.",
+  "limitations": "These are bounded development studies. Original scope, source exposure, budget differences and unsupported claims in the final receipts remain binding. Public neural checkpoints and external runtime dependencies are not copied."
+}

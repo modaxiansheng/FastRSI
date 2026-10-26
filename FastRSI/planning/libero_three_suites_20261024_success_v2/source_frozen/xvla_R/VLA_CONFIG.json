@@ -1,0 +1,7 @@
+{
+  "model": "xvla",
+  "checkpoint": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/xvla_libero",
+  "checkpoint_config_sha256": "db9ff1de61760910dcc5d355528346144d6a80687212c8600cf31207f0f5e010",
+  "action_horizon": 1,
+  "R_xvla_wire_chunk": 30
+}

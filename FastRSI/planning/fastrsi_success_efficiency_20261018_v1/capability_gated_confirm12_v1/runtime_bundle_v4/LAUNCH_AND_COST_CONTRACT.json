@@ -1,0 +1,37 @@
+{
+  "policy_image": "sha256:c98dca2210774e2311a0780146956ef3df3c6f0bb099b6bc671ab31befc42a81",
+  "environment_and_cpu_vision_image": "sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95",
+  "policy_service_group_key": [
+    "model",
+    "base_suite"
+  ],
+  "suite_binding": "LIBEROPRO_BASE_SUITE must match each homogeneous service group; backend_server_frozen already binds OpenVLA unnorm_key from this variable.",
+  "openvla_checkpoints": {
+    "libero_spatial": "openvla_spatial",
+    "libero_object": "openvla_object",
+    "libero_goal": "openvla_goal",
+    "libero_10": "openvla_libero10"
+  },
+  "source_code_from": "Byte-copied accepted alpha launch parent plus explicit new launch_specs.py routing; no historical source text edit",
+  "row_factory_required": "Each branch must receive branch_row(...). Never pass the new-candidate skill field into frozen or ordinary.",
+  "unsupported_vision": "Do not launch vision when branch row.skill is null; unchanged actor records SOURCE_SKILL_UNAVAILABLE and directly requests fresh native continuation.",
+  "cpu_vision": "Exact accepted CPU descriptor: no --device/--gpus; keep CPU Megapose weights/refinement/selection parameters.",
+  "rng": "Fresh trial baseline produces its own exact baseline-end checkpoint. Do not import prior cohort RNG. Every fourth attempt begins from that same checkpoint; alias suffix must agree with canonical condition. Do not overlay historical paired_restore_v2 requiring RESTORE_PLAN unless a separately proven interrupted-trial resume is needed.",
+  "input_integrity": "Same reset physical digest and first policy-input digest; intervention handoff fresh RGB/EEF/native session, no environment reset during handoff.",
+  "costs": [
+    "All three extra-arm actor costs separate",
+    "Baseline and source/preparation costs separate",
+    "Cold-load/hold/lifecycle timestamps and CPU/RAM/GPU usage",
+    "Policy RPC requests, generated chunks, neural forwards; visual calls and rows",
+    "Qwen Token=0 only if exact ledgers confirm; all assistant/other Token quantities unknown when unavailable",
+    "Official/settling actions separate; overlapping timers not summed; money unknown not zero"
+  ],
+  "execution_allowed": false,
+  "full_evaluation": "PAUSED",
+  "authorization": "Existing user scope is recorded in AUTHORIZATION_SCOPE.json; no new human confirmation is required.",
+  "coordinator": "isolated_coordinator.py --run for exactly one frozen model/suite group",
+  "cold_load_limit": "Two actual flock tokens/node held from admission through health/device acceptance; failed loads retain token until owned cleanup. Every owned GPU service has real device binding.",
+  "host_dependency_identity": "One root targeted binding/reused sealed manifest; lanes only recheck small receipt/manifests/used source/config pins. Wholevenv/fullarchive never rehashed by lanes. Missing checkpoint identity blocks only its group.",
+  "execution_bindings": "freeze_runtime_scope.py writes actual EXECUTION_BINDINGS.json and all48fixed conditions after exact independent state binding.",
+  "no_new_human_confirmation": true
+}

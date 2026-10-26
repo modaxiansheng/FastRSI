@@ -1,0 +1,69 @@
+{
+  "source_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1",
+  "models": {
+    "pi05": {
+      "FROZEN_CONTROLLER_SOURCE.py": "7a3b597d56218ca2aa2418cd8b9fd173b5348b356f5255b25eaf3e111d597c98",
+      "MODEL_CONFIG.json": "cccd43c82c82fbb76fc6a035bfc2a8d8e3bdca61b05b411b6d93222c9e2e7206",
+      "VLA_CONFIG.json": "63b9594074591d1e0f23e4b7c2b83b9b4403c75d000041880f16efb0992daf42",
+      "FLOW.json": "0ddc70703d83db194acf3eeeaa6278b7e55f83cfa8583f81e619853f338656bb",
+      "CODE_MANIFEST.json": "f61c41e4a5007d6cfeaeb5f4bcffff6f2957ab814cbe192c9b94f7392aefe13a",
+      "CORE_BINDING.json": "03d813d54bc27242965a8057e241fa20ba6ba9b13aa928f0d173d874edf840a1"
+    },
+    "xvla": {
+      "FROZEN_CONTROLLER_SOURCE.py": "d0230867ea74c69c01df5819a321014bf41ed908032bc76d12a2d1781474c3ff",
+      "MODEL_CONFIG.json": "cccd43c82c82fbb76fc6a035bfc2a8d8e3bdca61b05b411b6d93222c9e2e7206",
+      "VLA_CONFIG.json": "1a95a153baff7630b5d7740beacb02aecef604dc0a63dd9cec52a926ea0f44f0",
+      "FLOW.json": "0ddc70703d83db194acf3eeeaa6278b7e55f83cfa8583f81e619853f338656bb",
+      "CODE_MANIFEST.json": "bd9fe212dd18314cd6b282e9b5e3de7d577b88af9de4ce3708e40cbb3c46d8ef",
+      "CORE_BINDING.json": "03d813d54bc27242965a8057e241fa20ba6ba9b13aa928f0d173d874edf840a1"
+    },
+    "pi0": {
+      "FROZEN_CONTROLLER_SOURCE.py": "94dbbd984c108fa7ca6839b0e27da9b9e3eabd89ead29c874fcf64d65fbf1640",
+      "MODEL_CONFIG.json": "cccd43c82c82fbb76fc6a035bfc2a8d8e3bdca61b05b411b6d93222c9e2e7206",
+      "VLA_CONFIG.json": "f6d2ac54a9fc03a46d844ce8566b3b141f081ded7472a2fd661ae87a38fb4b9f",
+      "FLOW.json": "0ddc70703d83db194acf3eeeaa6278b7e55f83cfa8583f81e619853f338656bb",
+      "CODE_MANIFEST.json": "3818208f2771d349ed7ad23d4f7308a954790643e22750ce08d7fbc42adf8620",
+      "CORE_BINDING.json": "03d813d54bc27242965a8057e241fa20ba6ba9b13aa928f0d173d874edf840a1"
+    },
+    "openvla": {
+      "FROZEN_CONTROLLER_SOURCE.py": "d0230867ea74c69c01df5819a321014bf41ed908032bc76d12a2d1781474c3ff",
+      "MODEL_CONFIG.json": "cccd43c82c82fbb76fc6a035bfc2a8d8e3bdca61b05b411b6d93222c9e2e7206",
+      "VLA_CONFIG.json": "9e1b649b79801c9e3d0d01aa66eca3b176bff871fe561a2839cf8567ee1f8104",
+      "FLOW.json": "0ddc70703d83db194acf3eeeaa6278b7e55f83cfa8583f81e619853f338656bb",
+      "CODE_MANIFEST.json": "a4e30c20c625a6d4760e7df72465bd3a9b9391e50952d3a3c48a30477cd57122",
+      "CORE_BINDING.json": "03d813d54bc27242965a8057e241fa20ba6ba9b13aa928f0d173d874edf840a1"
+    }
+  },
+  "original_task_map": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openpi/third_party/libero/libero/libero/benchmark/libero_suite_task_map.py",
+    "sha256": "0c950df0a785aa55de968bb38ccd865d2017f71ddbe6f48cfd05ac0742b6d62d"
+  },
+  "original_lane_sha256": "202fe6a566b42ce52b4b47512522e7728e67f530dd422b2aa930718f8a657ee0",
+  "lane_sha256": "c7fc2dfb5bebe11ea8b13741070d5101d1165376dc4557d12e091f65f27ba48e",
+  "resource05_overlays": {
+    "pi05": {
+      "original": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/source_frozen/pi05_R/code/scripts/run_native_baseline.py",
+      "original_sha256": "e96af3aab7ac27f82e432f2f66f8040a7ceea625dc8053736e6f3ca5c5792051",
+      "overlay": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/resource05_overlay/pi05/run_native_baseline.py",
+      "overlay_sha256": "e317b1199cb5de1b9c4d0271f96e9e08790060f6db174debee98afa7614e40c1"
+    },
+    "pi0": {
+      "original": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/source_frozen/pi0_R/code/scripts/run_native_baseline.py",
+      "original_sha256": "6ddfa4b5b6e17b0d4f020ed0ee9fe8eab561e715eee5945e997952f2d4f98e9b",
+      "overlay": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/resource05_overlay/pi0/run_native_baseline.py",
+      "overlay_sha256": "4fc11fdd6674953c39cac013aab9dccccae769d55a8ae507d66bd8b3ed18f9f0"
+    },
+    "xvla": {
+      "original": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/source_frozen/xvla_R/code/scripts/run_native_baseline.py",
+      "original_sha256": "6ddfa4b5b6e17b0d4f020ed0ee9fe8eab561e715eee5945e997952f2d4f98e9b",
+      "overlay": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/resource05_overlay/xvla/run_native_baseline.py",
+      "overlay_sha256": "4fc11fdd6674953c39cac013aab9dccccae769d55a8ae507d66bd8b3ed18f9f0"
+    },
+    "openvla": {
+      "original": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/source_frozen/openvla_R/code/scripts/run_native_baseline.py",
+      "original_sha256": "6ddfa4b5b6e17b0d4f020ed0ee9fe8eab561e715eee5945e997952f2d4f98e9b",
+      "overlay": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/resource05_overlay/openvla/run_native_baseline.py",
+      "overlay_sha256": "4fc11fdd6674953c39cac013aab9dccccae769d55a8ae507d66bd8b3ed18f9f0"
+    }
+  }
+}

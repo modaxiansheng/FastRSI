@@ -1,0 +1,9 @@
+{
+  "identity": "dev13_step70",
+  "task_id": 5,
+  "variant": "environment",
+  "phase": "held",
+  "subject": "tomato_sauce_1",
+  "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0070_front.png",
+  "image_sha256": "01a6c63943338fdcad6eb6b2bec26dbab9fc5037ad0a03353128276908591efe"
+}

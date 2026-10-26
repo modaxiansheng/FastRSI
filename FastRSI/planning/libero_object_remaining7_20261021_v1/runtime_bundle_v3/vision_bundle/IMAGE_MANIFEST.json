@@ -1,0 +1,606 @@
+{
+  "time": 1792220504.3119698,
+  "max_neural_images": 8,
+  "max_object_pose_predictions": 16,
+  "physical_attempts": 0,
+  "no_target_truth_in_predictor": true,
+  "images": [
+    {
+      "identity": "dev12_step0",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "bbq_sauce_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+      "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19"
+    },
+    {
+      "identity": "dev12_step80",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "held",
+      "subject": "bbq_sauce_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0080_front.png",
+      "image_sha256": "def309ab031274f4ffcd9c1e14f87fbf920cc6095c5cc38b3da4da8885b0503c"
+    },
+    {
+      "identity": "dev13_step0",
+      "task_id": 5,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "tomato_sauce_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0000_front.png",
+      "image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65"
+    },
+    {
+      "identity": "dev13_step70",
+      "task_id": 5,
+      "variant": "environment",
+      "phase": "held",
+      "subject": "tomato_sauce_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0070_front.png",
+      "image_sha256": "01a6c63943338fdcad6eb6b2bec26dbab9fc5037ad0a03353128276908591efe"
+    },
+    {
+      "identity": "dev15_step0",
+      "task_id": 8,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "chocolate_pudding_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev15/frames/0000_front.png",
+      "image_sha256": "80ca2ae06611f3a1093fdd391bb2398df6215a3339e01c4656af09e9e88cd398"
+    },
+    {
+      "identity": "dev15_step110",
+      "task_id": 8,
+      "variant": "environment",
+      "phase": "held",
+      "subject": "chocolate_pudding_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev15/frames/0110_front.png",
+      "image_sha256": "c341e06a5d77bba45f0d10421759045407cfde5eea23b7d62f233fffc33350fb"
+    },
+    {
+      "identity": "initialskill00_cut",
+      "task_id": 3,
+      "variant": "position",
+      "phase": "held",
+      "subject": "bbq_sauce_1",
+      "source_public_image": "/history/fastrsi_placement_recovery_20261017_v1/cases/node187/initialskill00/privileged_place/cut_front.png",
+      "image_sha256": "9cab5b351eb167fd63269f231f48bad6307c0271e1c3018f120839fee36b4643"
+    },
+    {
+      "identity": "initialskill03_cut",
+      "task_id": 3,
+      "variant": "position",
+      "phase": "held",
+      "subject": "bbq_sauce_1",
+      "source_public_image": "/history/fastrsi_placement_recovery_20261017_v1/cases/node188/initialskill03/privileged_place/cut_front.png",
+      "image_sha256": "2896a0b1804d87ac7ecc986263f9c3510d4a40afa73260a937ba3e15fd489d43"
+    },
+    {
+      "identity": "dev12_alphabet_step0",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "alphabet_soup_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+      "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+      "scope": "Background object in permitted development source; not a confirmation identity."
+    },
+    {
+      "identity": "dev13_butter_step0",
+      "task_id": 5,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "butter_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0000_front.png",
+      "image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+      "scope": "Background object in permitted development source; not a confirmation identity."
+    },
+    {
+      "identity": "dev12_cream_cheese_step0",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "cream_cheese_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+      "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+      "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+    },
+    {
+      "identity": "dev12_salad_dressing_step0",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "salad_dressing_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+      "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+      "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+    },
+    {
+      "identity": "dev12_ketchup_step0",
+      "task_id": 3,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "ketchup_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+      "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+      "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+    },
+    {
+      "identity": "dev13_milk_step0",
+      "task_id": 5,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "milk_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0000_front.png",
+      "image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+      "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+    },
+    {
+      "identity": "dev13_orange_juice_step0",
+      "task_id": 5,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "orange_juice_1",
+      "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0000_front.png",
+      "image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+      "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+    },
+    {
+      "identity": "x2_newtask_02_cream_cheese_position_step0",
+      "task_id": 1,
+      "variant": "position",
+      "phase": "initial",
+      "subject": "cream_cheese_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/cream_cheese.png",
+      "image_sha256": "603b1999baec5f50a60d5fcaf9ce27e1c5f1596c6746bb3d57161527948ca9f6",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    },
+    {
+      "identity": "x2_newtask_03_cream_cheese_environment_step0",
+      "task_id": 1,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "cream_cheese_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/cream_cheese/initial_front.png",
+      "image_sha256": "6bc1dbd13e8237f9191f303b20bebb0fe67efdf0e6cd936172461c95d8f92483",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    },
+    {
+      "identity": "x2_newtask_04_salad_dressing_position_step0",
+      "task_id": 2,
+      "variant": "position",
+      "phase": "initial",
+      "subject": "salad_dressing_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/salad_dressing.png",
+      "image_sha256": "0f8ae845896def149315d2190a910dbb6b33efc90a6a6b178c690dac3cc08ea3",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    },
+    {
+      "identity": "x2_newtask_05_salad_dressing_environment_step0",
+      "task_id": 2,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "salad_dressing_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/salad_dressing/initial_front.png",
+      "image_sha256": "fc73c8a8b21308cf9d2eb0da7794fe872b72e9fa629c9662f7f913fc2c203fd0",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    },
+    {
+      "identity": "x2_newtask_10_milk_position_step0",
+      "task_id": 7,
+      "variant": "position",
+      "phase": "initial",
+      "subject": "milk_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/milk.png",
+      "image_sha256": "8dd79363441cfa4ebc471566fcd4906452ee16e5257882fa28df9b9dd86f2707",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    },
+    {
+      "identity": "x2_newtask_11_milk_environment_step0",
+      "task_id": 7,
+      "variant": "environment",
+      "phase": "initial",
+      "subject": "milk_1",
+      "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/milk/initial_front.png",
+      "image_sha256": "d99581e8748c9e63845341231c96372da09303100afed848f4d398baf7bb7f6f",
+      "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+      "new_confirmation_images_used": false
+    }
+  ],
+  "templates": {
+    "bbq_sauce_1": [
+      {
+        "path": "templates/bbq_sauce_1/dev12_step0.png",
+        "sha256": "2216adaacc7eb2b0a0385fb72019ed4b5b55f5930f0e0ffa18b47046c50250db",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_crop": [
+          167,
+          154,
+          193,
+          200
+        ]
+      },
+      {
+        "path": "templates/bbq_sauce_1/dev12_step80.png",
+        "sha256": "92fcf912642780ccbd25f3feb2fbcefff2a00b0cb8a5c6c115232c1690e47501",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "def309ab031274f4ffcd9c1e14f87fbf920cc6095c5cc38b3da4da8885b0503c",
+        "source_crop": [
+          149,
+          100,
+          176,
+          152
+        ]
+      }
+    ],
+    "basket_1": [
+      {
+        "path": "templates/basket_1/dev12_step0.png",
+        "sha256": "a28eedd0b7f222d7661313fadeb529d4e25343bc0fa239a5cc0411ff6124830f",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_crop": [
+          0,
+          113,
+          58,
+          199
+        ]
+      },
+      {
+        "path": "templates/basket_1/dev12_step80.png",
+        "sha256": "a28eedd0b7f222d7661313fadeb529d4e25343bc0fa239a5cc0411ff6124830f",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "def309ab031274f4ffcd9c1e14f87fbf920cc6095c5cc38b3da4da8885b0503c",
+        "source_crop": [
+          0,
+          113,
+          58,
+          199
+        ]
+      },
+      {
+        "path": "templates/basket_1/dev13_step0.png",
+        "sha256": "a1ad13fdc0082f3e2f4cff5b012dae2d155a9ddc57045831386854f19d059d6c",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+        "source_crop": [
+          0,
+          113,
+          61,
+          198
+        ]
+      },
+      {
+        "path": "templates/basket_1/dev13_step70.png",
+        "sha256": "a1ad13fdc0082f3e2f4cff5b012dae2d155a9ddc57045831386854f19d059d6c",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "01a6c63943338fdcad6eb6b2bec26dbab9fc5037ad0a03353128276908591efe",
+        "source_crop": [
+          0,
+          113,
+          61,
+          198
+        ]
+      },
+      {
+        "path": "templates/basket_1/dev15_step0.png",
+        "sha256": "39d1c88fe4e88092b80e6e017fcbe8cce09c5153f2d4f217f049a4e96c69c2ab",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "80ca2ae06611f3a1093fdd391bb2398df6215a3339e01c4656af09e9e88cd398",
+        "source_crop": [
+          0,
+          115,
+          63,
+          201
+        ]
+      },
+      {
+        "path": "templates/basket_1/dev15_step110.png",
+        "sha256": "39d1c88fe4e88092b80e6e017fcbe8cce09c5153f2d4f217f049a4e96c69c2ab",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "c341e06a5d77bba45f0d10421759045407cfde5eea23b7d62f233fffc33350fb",
+        "source_crop": [
+          0,
+          115,
+          63,
+          201
+        ]
+      }
+    ],
+    "tomato_sauce_1": [
+      {
+        "path": "templates/tomato_sauce_1/dev13_step0.png",
+        "sha256": "34d68b406427fed81a34b3baa7e6d9e3a1cbfd5ae3953106b5e4799aa866bbca",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+        "source_crop": [
+          149,
+          159,
+          180,
+          203
+        ]
+      },
+      {
+        "path": "templates/tomato_sauce_1/dev13_step70.png",
+        "sha256": "6bc0ae16d7052ccb0b245424526e7c513502d91922b3ea41496ec094f3c7c6ce",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "01a6c63943338fdcad6eb6b2bec26dbab9fc5037ad0a03353128276908591efe",
+        "source_crop": [
+          146,
+          131,
+          179,
+          178
+        ]
+      }
+    ],
+    "chocolate_pudding_1": [
+      {
+        "path": "templates/chocolate_pudding_1/dev15_step0.png",
+        "sha256": "60a9d968c08249fcf9c8a1e33d50373ecf0072ef6c068e27fdb29f7cca710462",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "80ca2ae06611f3a1093fdd391bb2398df6215a3339e01c4656af09e9e88cd398",
+        "source_crop": [
+          192,
+          130,
+          217,
+          156
+        ]
+      },
+      {
+        "path": "templates/chocolate_pudding_1/dev15_step110.png",
+        "sha256": "3d66ac473d40468d6ce82634add92bc2117cd1bdfc0a84fc85c6b21f0bc30b18",
+        "supervision": "PERMITTED_SUCCESSFUL_DEVELOPMENT_SOURCE_ONLY",
+        "source_image_sha256": "c341e06a5d77bba45f0d10421759045407cfde5eea23b7d62f233fffc33350fb",
+        "source_crop": [
+          190,
+          82,
+          219,
+          110
+        ]
+      }
+    ],
+    "alphabet_soup_1": [
+      {
+        "path": "templates/alphabet_soup_1/dev12_alphabet_step0.png",
+        "sha256": "8b2c8d64af2cc5d376fda908c5365ed1d15b36101ce6b18beb5599ea464a90dd",
+        "supervision": "PERMITTED_DEVELOPMENT_SOURCE_INITIAL_RGB_WITH_OFFLINE_NAMED_OBJECT_POSE_SUPERVISION",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_crop": [
+          94,
+          179,
+          132,
+          233
+        ],
+        "source_identity": "dev12_step0",
+        "new_confirmation_images_used": false
+      }
+    ],
+    "butter_1": [
+      {
+        "path": "templates/butter_1/dev13_butter_step0.png",
+        "sha256": "6c88fad2c054b2f12c65c5850754eec6433af3f198bd1626b356bd5c41ead6c4",
+        "supervision": "PERMITTED_DEVELOPMENT_SOURCE_INITIAL_RGB_WITH_OFFLINE_NAMED_OBJECT_POSE_SUPERVISION",
+        "source_image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+        "source_crop": [
+          100,
+          134,
+          118,
+          156
+        ],
+        "source_identity": "dev13_step0",
+        "new_confirmation_images_used": false
+      }
+    ],
+    "cream_cheese_1": [
+      {
+        "path": "templates/cream_cheese_1/dev12_cream_cheese_step0.png",
+        "sha256": "2f1c2547bcfe13ae02eb02db0aa8f69f2cd7d87102716720a6877a019c4c67d3",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_identity": "dev12_step0",
+        "source_crop": [
+          150,
+          119,
+          169,
+          141
+        ],
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/cream_cheese_1/x2_newtask_02_cream_cheese_position_step0.png",
+        "sha256": "d2ad5b35629270d284590773204f29a06a023b197ee45c65c117ce4f2c638bea",
+        "source_image_sha256": "603b1999baec5f50a60d5fcaf9ce27e1c5f1596c6746bb3d57161527948ca9f6",
+        "source_identity": "newtask_02_step0",
+        "source_crop": [
+          185,
+          118,
+          203,
+          135
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/cream_cheese_1/x2_newtask_03_cream_cheese_environment_step0.png",
+        "sha256": "5e28533d9453dcb9be33f087f5848e863a62ac6b398836ae97b9b1398ba135d0",
+        "source_image_sha256": "6bc1dbd13e8237f9191f303b20bebb0fe67efdf0e6cd936172461c95d8f92483",
+        "source_identity": "newtask_03_step0",
+        "source_crop": [
+          166,
+          170,
+          191,
+          202
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      }
+    ],
+    "salad_dressing_1": [
+      {
+        "path": "templates/salad_dressing_1/dev12_salad_dressing_step0.png",
+        "sha256": "dc707b2b68102efc3d778b306d5c24e5239f97a541dbac8b15cf283e0433dfc1",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_identity": "dev12_step0",
+        "source_crop": [
+          197,
+          154,
+          234,
+          218
+        ],
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/salad_dressing_1/x2_newtask_04_salad_dressing_position_step0.png",
+        "sha256": "ef917bbb50d2a9e1cf2b410f96c92f7b4ac44be11524a76874a3d9a4ecabffd5",
+        "source_image_sha256": "0f8ae845896def149315d2190a910dbb6b33efc90a6a6b178c690dac3cc08ea3",
+        "source_identity": "newtask_04_step0",
+        "source_crop": [
+          143,
+          84,
+          161,
+          123
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/salad_dressing_1/x2_newtask_05_salad_dressing_environment_step0.png",
+        "sha256": "aab7e0ebe8b338c82e83d36001ac50065ecac0066fcd15a4869f940553113df6",
+        "source_image_sha256": "fc73c8a8b21308cf9d2eb0da7794fe872b72e9fa629c9662f7f913fc2c203fd0",
+        "source_identity": "newtask_05_step0",
+        "source_crop": [
+          156,
+          148,
+          187,
+          210
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      }
+    ],
+    "ketchup_1": [
+      {
+        "path": "templates/ketchup_1/dev12_ketchup_step0.png",
+        "sha256": "26a6ca49d8dc36d4c7d993af93a344897b49d10e65136a2419cf4bf703169079",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_identity": "dev12_step0",
+        "source_crop": [
+          99,
+          93,
+          124,
+          146
+        ],
+        "new_confirmation_images_used": false
+      }
+    ],
+    "milk_1": [
+      {
+        "path": "templates/milk_1/dev13_milk_step0.png",
+        "sha256": "6aebbc10f2080fbc35d5175aa57835b85ee0ac65df46c2615b64fbb90268f412",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+        "source_identity": "dev13_step0",
+        "source_crop": [
+          197,
+          100,
+          228,
+          152
+        ],
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/milk_1/x2_newtask_10_milk_position_step0.png",
+        "sha256": "9e85dcae2ec4678dff75f4b423e5bd06a8ebcbf0d320ff642619dfb041fdad9f",
+        "source_image_sha256": "8dd79363441cfa4ebc471566fcd4906452ee16e5257882fa28df9b9dd86f2707",
+        "source_identity": "newtask_10_step0",
+        "source_crop": [
+          151,
+          125,
+          173,
+          168
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      },
+      {
+        "path": "templates/milk_1/x2_newtask_11_milk_environment_step0.png",
+        "sha256": "f6dd9995d27dfe69e40d8903d81a75df7a4883683c46b021f7655ffa26f4ce98",
+        "source_image_sha256": "d99581e8748c9e63845341231c96372da09303100afed848f4d398baf7bb7f6f",
+        "source_identity": "newtask_11_step0",
+        "source_crop": [
+          199,
+          100,
+          229,
+          151
+        ],
+        "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+        "new_confirmation_images_used": false
+      }
+    ],
+    "orange_juice_1": [
+      {
+        "path": "templates/orange_juice_1/dev13_orange_juice_step0.png",
+        "sha256": "d1e5a2f5f1d21335edcb5424ac1b438acf2e0f27616f41a2bf13d60b85525c4c",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+        "source_identity": "dev13_step0",
+        "source_crop": [
+          204,
+          151,
+          245,
+          213
+        ],
+        "new_confirmation_images_used": false
+      }
+    ]
+  },
+  "merge_scope": "Six explicit target object registrations, permitted old source imagery only; no confirmation imagery or current truth",
+  "source_bundles": [
+    {
+      "object": "cream_cheese",
+      "manifest_sha256": "28dc3aeb959c0756a7de1784818918eab3cb37ad05d1020e918cda0e39027890",
+      "visual_registration_sha256": "cf42806efc4290f728939aae1c6b1e85d7c848e414b965b49f369f018804e1e0",
+      "static_acceptance_sha256": "a3c64c9c7fc2160ddf1bb1bca26b0e9091e18e77c88d6ee993baddf382ef2a9a"
+    },
+    {
+      "object": "salad_dressing",
+      "manifest_sha256": "6518f132663d6a255a6dc0cc3de61be3c294535eb2fd8d62c4bfce86e99880cc",
+      "visual_registration_sha256": "faec358680db3398f3fed733f3e9973c92e90285faaa8e1ba48b9ad9310a1f70",
+      "static_acceptance_sha256": "46e1e07956c578899160ca5b2ea5ccbd6ba99de12f57ddc249aec7f835f34762"
+    },
+    {
+      "object": "ketchup",
+      "manifest_sha256": "a7ddaa79b557d82ceca9c13d8d9b8b892fecb1d312c165442239874b0e1b7d2d",
+      "visual_registration_sha256": "e85fa48efbc04ed048b6d6e6073bfdf0455add183c515bef6f80628ad273968f",
+      "static_acceptance_sha256": "0a666f8b30412974f0bca46049672a93376bca15eef51f1009b45e1656e02576"
+    },
+    {
+      "object": "butter",
+      "manifest_sha256": "143250ce87f0e79448ab09d160f4d4a56d634ee8fbb9a082e447a60e5ccc6bc7",
+      "visual_registration_sha256": "621a20188099d064d4f7a2d849367762a6b0b28d3af55735576bb50833d617c6",
+      "static_acceptance_sha256": "dd45e878de478879899fbbdd8517187a1ee593758717cf028f5849765c982ca5"
+    },
+    {
+      "object": "milk",
+      "manifest_sha256": "d007a380cee0f6c4208f3032e3d2e4f992274b3d95e7470e6c46a99e36830ab2",
+      "visual_registration_sha256": "cdba72a7e1dd0c99ab242b47b76273c9a7e8c22a258638dec45cf609a708ccee",
+      "static_acceptance_sha256": "452b0c67c532742d817c80b60bdb26b0f6b52ec3f5d15a2dc597ba277b93c053"
+    },
+    {
+      "object": "orange_juice",
+      "manifest_sha256": "8a25f93d3751db2642cc87ef419a4990c54bea02f74b55541e9c09a68b661942",
+      "visual_registration_sha256": "ef43ef5df2514594f1b9879eca083c40f53b477086e98879f61368c1b0ad0e1c",
+      "static_acceptance_sha256": "786d463957521568208e27501e5aae2778cc942d16fd42ae34ba26a873fb7297"
+    }
+  ]
+}

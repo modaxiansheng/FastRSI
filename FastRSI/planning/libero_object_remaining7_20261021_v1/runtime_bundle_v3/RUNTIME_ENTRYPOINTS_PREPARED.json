@@ -1,0 +1,21 @@
+{
+  "status": "CORE_BUNDLE_SOURCE_PREPARED_NOT_RUNTIME_ACCEPTANCE",
+  "model_environment_physical_calls_here": 0,
+  "full_evaluation": "PAUSED",
+  "builder": "python3 -B bundle_builder.py --host-sources --assemble NEW_ABSOLUTE_BUNDLE",
+  "root_must_write_before_runtime": [
+    "AUTHORIZATION_SCOPE.json from inactive template and actual USER_DIRECT_AUTHORIZATION_01 pin",
+    "RESOURCE_BINDING files from fresh current node/holders/reservations/images and exact used dependencies/checkpoint receipt",
+    "Independent generated14/verified14 state output paths and immutable manifest",
+    "PLACEMENT with all28 model/task groups; explicit pi05 first-stage placement from fresh idle cards"
+  ],
+  "bind_states": "python3 -B bind_states.py --generated-root GENERATED --verification-root VERIFIED --generation-manifest MANIFEST",
+  "freeze_runtime": "python3 -B freeze_runtime_scope.py --placement EXACT_PLACEMENT.json",
+  "single_group_entry": "python3 -B isolated_coordinator.py --run --model pi05 --suite libero_object --task 7 --node 187 --gpu IDLE_GPU --authorization AUTHORIZATION_SCOPE.json --resource-binding RESOURCE_BINDING_NODE187.json",
+  "parallel_scheduler": "pi05_batch_driver.py is a separately source-pinned host launcher; --root points to the assembled core bundle; core package does not include a WIP launcher",
+  "layout": "28two-IDgroups, at most2active pernode via host batch; milk/alphabet priority; no identity selection by outcome",
+  "after_pi05": "python3 -B close_pi05_stage.py verifies all7closedgroups+normal_stop; does not launch another model",
+  "result_audit": "python3 -B audit_results.py --root ACTUAL_BUNDLE --output NEW_RESULT_METADATA.json",
+  "source_capability": "salad new arm SKIPPED_UNSUPPORTED;0actualattempts/noRAW/nulloutcome;old recovery all seven targets nativefallback; no union of branch success",
+  "remaining_runtime_acceptance": "actual image imports/load/current device binding/new action/neural/cost/raw/initial reset+input/RNG/STOP checks must occur in the real bounded run; pure fakes do not establish these"
+}

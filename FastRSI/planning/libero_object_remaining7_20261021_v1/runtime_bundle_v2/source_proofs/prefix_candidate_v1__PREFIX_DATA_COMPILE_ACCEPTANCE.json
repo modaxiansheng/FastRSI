@@ -1,0 +1,152 @@
+{
+  "time": 1792267188.4848719,
+  "status": "DATA_COMPILED_AND_FROZEN_PENDING_SINGLE_SOURCE_SCREEN",
+  "records": [
+    {
+      "object": "ketchup",
+      "subject": "ketchup_1",
+      "skill_id": "newtask_07_prefix_v1",
+      "grasp": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/grasp_skills/newtask_07_prefix_v1.json",
+        "sha256": "3fd233f4f34db6ebb035a7a4bd321d6c20711a359873e551a2cfac5d72f60da2"
+      },
+      "release": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/release_skills/newtask_07_prefix_v1.json",
+        "sha256": "a8242fc12b18142c7d71bed7c0d4040dc982335f39fa22a96a537575453aafa8"
+      },
+      "original_grasp": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/grasp_skills/newtask_07.json",
+        "sha256": "c4c0002867515c2f590b40796a02fc3bc9ad50f9bb4bb28e0e32b9d29d6c5204"
+      },
+      "original_release": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/release_skills/newtask_07.json",
+        "sha256": "a8242fc12b18142c7d71bed7c0d4040dc982335f39fa22a96a537575453aafa8"
+      },
+      "changed_fields": [
+        "source_segment_start_zero_based",
+        "source_segment_rule",
+        "commanded_poses",
+        "gripper_actions",
+        "prefix_candidate_provenance"
+      ],
+      "all_other_original_fields_exactly_equal": true,
+      "release_file_byte_identical": true,
+      "source_prefix_command_pose_count": 112,
+      "source_prefix_gripper_count": 112,
+      "source_old_tail32_exactly_retained": true,
+      "source_contact_and_final_success_are_source_only": true,
+      "existing_actor_unchanged": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/candidate_runtime/multibackend_actor.py",
+        "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+      },
+      "vision_skill_unchanged": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/candidate_runtime/vision_skill.py",
+        "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+      },
+      "budget": {
+        "same_source_RGB_events": {
+          "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/campaigns/pi05/node125/gpu0/pi05-sourceA-ketchup-newtask_07/candidate/EVENTS.jsonl",
+          "sha256": "3b67c643714f713badb09646563d451d87802b3d219f6fdb12390c0c9d042585"
+        },
+        "connection_action_counts": [
+          1,
+          1,
+          1
+        ],
+        "connection_actions": 3,
+        "local_sequence_actions": 115,
+        "release_suffix_actions": 31,
+        "minimum_precheck_total": 146,
+        "strictly_below_official_cap280": true,
+        "remaining_after_local_sequence": 165,
+        "cap": 280
+      },
+      "new_candidate_source_attempts_allowed": 1,
+      "already_executed_for_this_candidate": 0
+    },
+    {
+      "object": "salad_dressing",
+      "subject": "salad_dressing_1",
+      "skill_id": "salad_transfer_prefix_v1",
+      "grasp": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/grasp_skills/salad_transfer_prefix_v1.json",
+        "sha256": "8a5e8b69af73806d4916f0283697ee66a87a5a9ef62004e4cc8f79b13f3157e2"
+      },
+      "release": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/release_skills/salad_transfer_prefix_v1.json",
+        "sha256": "566c5a0ea7cf68ba26d64db9bc03e440a884adfd2faaf8cdd3bf60163630b0b0"
+      },
+      "original_grasp": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/grasp_skills/salad_transfer_v1.json",
+        "sha256": "807c3ec2ce3acb67db87816c5310e07fb072c14bbed2704493258147dcb6e26c"
+      },
+      "original_release": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/release_skills/salad_transfer_v1.json",
+        "sha256": "566c5a0ea7cf68ba26d64db9bc03e440a884adfd2faaf8cdd3bf60163630b0b0"
+      },
+      "changed_fields": [
+        "source_segment_start_zero_based",
+        "source_segment_rule",
+        "commanded_poses",
+        "gripper_actions",
+        "prefix_candidate_provenance"
+      ],
+      "all_other_original_fields_exactly_equal": true,
+      "release_file_byte_identical": true,
+      "source_prefix_command_pose_count": 112,
+      "source_prefix_gripper_count": 112,
+      "source_old_tail32_exactly_retained": true,
+      "source_contact_and_final_success_are_source_only": true,
+      "existing_actor_unchanged": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/candidate_runtime/multibackend_actor.py",
+        "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+      },
+      "vision_skill_unchanged": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/candidate_runtime/vision_skill.py",
+        "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+      },
+      "budget": {
+        "same_source_RGB_events": {
+          "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node187/gpu0/pi05-sourceB-salad_dressing-newtask_04/candidate/EVENTS.jsonl",
+          "sha256": "8c1bb652791d4abee10571c72e266307dd5362a02860ae23ce80425154227b62"
+        },
+        "connection_action_counts": [
+          1,
+          11,
+          1
+        ],
+        "connection_actions": 13,
+        "local_sequence_actions": 125,
+        "release_suffix_actions": 31,
+        "minimum_precheck_total": 156,
+        "strictly_below_official_cap280": true,
+        "remaining_after_local_sequence": 155,
+        "cap": 280
+      },
+      "new_candidate_source_attempts_allowed": 1,
+      "already_executed_for_this_candidate": 0
+    }
+  ],
+  "source": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/ketchup/source_geometry/source_replay_attempt1/REPLAY_RESULT.json",
+    "sha256": "27cdb7950bc5ec68a5b378f785c72d501729697681ccf956bdb455c51567a2a4"
+  },
+  "source_trace": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/ketchup/source_geometry/source_replay_attempt1/DIAGNOSTIC_EVENTS.jsonl",
+    "sha256": "07ddbeffba0643739b1bec38275718390c987a64d49eebf2fe0cab5889e0ca4a"
+  },
+  "source_original206_real_actions": true,
+  "source_was_replayed_once_previously_not_repeated_now": true,
+  "compile_host_seconds": 0.07310009002685547,
+  "environment_constructors": 0,
+  "official_actions": 0,
+  "policy_generations": 0,
+  "neural_forwards": 0,
+  "new_source_successes": 0,
+  "claimed_new_rescues": 0,
+  "unvalidated_geometry_transfer_salad": true,
+  "no_guaranteed_trajectory_reproduction": true,
+  "no_skill_executor_or_model_changes": true,
+  "full_evaluation": "PAUSED",
+  "money": null
+}

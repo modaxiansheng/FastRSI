@@ -1,0 +1,55 @@
+{
+  "time": 1792269676.504808,
+  "status": "BOUNDED_SOURCE_VALIDATION_BLOCKED_AT_FIVE_OF_SIX",
+  "human_objective_complete": false,
+  "frozen_alphabet_unchanged": true,
+  "source_true": [
+    "orange_juice_1",
+    "cream_cheese_1",
+    "milk_1",
+    "ketchup_1",
+    "butter_1"
+  ],
+  "source_false": [
+    "salad_dressing_1"
+  ],
+  "scope": "Four new successful pi05 source flows plus unchanged historical Butter reuse, not five rescues or four-backend generalization",
+  "normal_source_attempts": 20,
+  "native": 13,
+  "candidate": 7,
+  "public_source_replay_separate": {
+    "attempts": 1,
+    "actions": 137,
+    "physical_success": false,
+    "neural_forwards": 0,
+    "skill_D_compiled": false
+  },
+  "new_confirmation_states": 0,
+  "new_confirmation_conditions": 0,
+  "four_model_new_success_rates": null,
+  "new_net_rescues": null,
+  "ordinary_same_budget_control": "Prospectively preserved; not executed or weakened to bypass source gate",
+  "full_evaluation": "PAUSED",
+  "automation": "PAUSED",
+  "training": false,
+  "cross_episode_learning": false,
+  "own_source_resources_released": true,
+  "financial_total": null,
+  "evidence": {
+    "SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+    "SOURCE_CAPABILITY_PROGRESS_1792268081006692764.json": "bca0a3a12676c9c874ebcab2a6dd334bda7ef1d281280f8d89923eff430c2118",
+    "SOURCE_ONLY_HISTORY_COST_AUDIT.json": "4c50798c159e22d0467f36199c22981cf19194b25de6875ebf072e026f693466",
+    "SOURCE_GPU_BINDING_INTERVAL_AUDIT.json": "94fcf3aa01e4a757486ebf27a79087a5f40dcfeada80fcdb04533c5ccbd22715",
+    "FROZEN_ALPHABET_RECHECK_1792268207442316381.json": "3ce9beb41d4eca690ba928487921d7d0fd3f89e7a2a86307cc452e0362f112f6",
+    "SALAD_C_VISUAL_HOLDING_DIAGNOSTIC_AUDIT.json": "9f52bc91cbdf4b8a42cd772ff0570380fb6a71308ef15ee2f9197e5bcc2bc5f5",
+    "SALAD_C_MECHANICAL_DIAGNOSTIC_AUDIT.json": "50951b74eee89a235c8f4db116fcaf212d052f7e0eb3f44bb9aaac7576e9d6f7",
+    "SALAD_PUBLIC_D_NOT_APPLIED_READONLY_CLOSEOUT_1792269461457022999.json": "76ba9c03422ad1e8ff7638fde592db54c77d5c01e0a993f6f831faf260e4bba0",
+    "salad_public_demo_v1/PUBLIC_SOURCE_BRANCH_CLOSEOUT.json": "577e658a5198a35e3098b33879cb6c895af5f9095e03f4e95559295b3462327b",
+    "salad_public_demo_v1/PUBLIC_SOURCE_COST_CLOSEOUT.json": "8b1081b16d85c920092bb04f96e764cb9575737983e9e131adbfa9bdfb457cd7",
+    "salad_public_demo_v1/PUBLIC_SOURCE_MECHANICAL_CLOSEOUT.json": "91892b3536d385a54cb86e7ec90351d173eda079fde4d751911fe446a0973532",
+    "BOUNDED_SOURCE_RESOURCE_RELEASE_NODE125_1792269425028122181.json": "905206fb7e5ca07c581e31faa3eb6e14710bf0708dc18341fc7a489cbe15ea44",
+    "BOUNDED_SOURCE_RESOURCE_RELEASE_NODE135_1792269424805804281.json": "abda281f3dd9a85b9c3a5186f23428da39117f1f611db3b19fb487dd8753221d",
+    "BOUNDED_SOURCE_RESOURCE_RELEASE_NODE187_1792269425806568336.json": "2467c8ea48d06e16cda0c85e98bf0ae710f0b176ce72132d4557311b2963607a",
+    "BOUNDED_SOURCE_RESOURCE_RELEASE_NODE188_1792269425026791718.json": "f2a5489b7963b1e4ff8b779866e765bd79b43582f9251dfbfa90b332c9af245d"
+  }
+}

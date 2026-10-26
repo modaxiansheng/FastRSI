@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "docker",
+    "run",
+    "-d",
+    "--name",
+    "yuchen-fastrsi-baseline-smoke-20261001-v1",
+    "--network",
+    "host",
+    "--cpus",
+    "8",
+    "--memory",
+    "16g",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "-e",
+    "PYTHONPATH=/core:/project/scripts",
+    "-v",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI:/project:rw",
+    "-v",
+    "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/PhyAgentOS-core:/core:ro",
+    "sha256:c98dca2210774e2311a0780146956ef3df3c6f0bb099b6bc671ab31befc42a81",
+    "timeout",
+    "1800",
+    "bash",
+    "-lc",
+    "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /project/scripts/baseline_os_smoke.py"
+  ],
+  "returncode": 0,
+  "stdout": "6835abd8ac1d5e89094804daeb7c8cc975f7d2e113f8d922f9c271805039225a\n",
+  "stderr": ""
+}

@@ -1,0 +1,14 @@
+{
+  "changed": {
+    "scripts/qwen_agent_server.py": {
+      "old": "492261b79f326ccc6fb575e179867b5cbeae74792210d5bbd7f3b8eb814940b2",
+      "new": "408dd28d556555556328c51c365c5161d501e10997513235b7df12dc6c23e1e0"
+    },
+    "src/fastrsi/terminal_results.py": {
+      "old": "15e9e4de35cc4b453935f8f894dc408045c4e7fbd8183063b06595d700288029",
+      "new": "048bb11ba2051f3636f386858eb75acac6cc6d8f0e1829c8f1dc86ee8785bdd2"
+    }
+  },
+  "files": 688,
+  "scope": "Report model generation only; old frozen code untouched"
+}

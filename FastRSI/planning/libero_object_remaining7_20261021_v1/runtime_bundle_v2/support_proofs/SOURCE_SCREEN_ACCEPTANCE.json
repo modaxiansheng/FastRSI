@@ -1,0 +1,18 @@
+{
+  "time": 1792261098.4091384,
+  "status": "SOURCE_TRANSFER_PHYSICAL_SUCCESS_VERIFIED",
+  "physical_success": true,
+  "source_only_excluded_from_confirmation": true,
+  "official_actions": 126,
+  "official_cap": 280,
+  "source_raw": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/source_screen_attempt2/RAW.json",
+  "source_raw_sha256": "73aebfd1e28b65bf9b8b3fa0d91faa0c1b55dc73c744cf296a0e798a9e8b6cba",
+  "diagnostic_audit_sha256": "03dfb7de9125cc83e1c059797e003a25faefc15d763510b36ba7be75532e58ae",
+  "source_stop_sha256": "fd77a829c2ff5b93008efb0c155ea7e533797179ac7feb86709676a1f34b685e",
+  "source_screen_receipt_sha256": "fbdcd7ec9edb673aa9591506d7df53aa2f236b613308037d338e2d845b1314d4",
+  "no_contact_or_pose_truth_passed_to_control": true,
+  "no_offsets_or_threshold_changes": true,
+  "new_independent_rescues": 0,
+  "native_handoff_validated": false,
+  "full_evaluation": "PAUSED"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "NEURAL_REPLAY_PASSED",
+  "identity": "f04cf3a2a5084e07a6dfb2eb12c5a025",
+  "node": "187",
+  "source_sha256": {
+    "code/scripts/qwen_agent_server.py": "408dd28d556555556328c51c365c5161d501e10997513235b7df12dc6c23e1e0",
+    "code/src/fastrsi/terminal_results.py": "048bb11ba2051f3636f386858eb75acac6cc6d8f0e1829c8f1dc86ee8785bdd2"
+  },
+  "original_request_sha256": {
+    "case009_t0_i33": "2c31ea4b2364aeb7162da760fd5ad3cc5aec3b62d6edee7c937ee7804dcdce73",
+    "case002_t0_i35": "d3d006b2ceafdabb2a9784ad485396a4a4ab5afd504d40385ad637ccff372664"
+  },
+  "started_at": 1791749919.0192919,
+  "scope": "Archived terminal-report requests only; no robot execution or result promotion",
+  "locks": [
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/runs/full_os_v1.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/multi_vla_efficiency_20261010_v1/parallel_group_coordinator.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/runs/system_efficiency_node187.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/multi_vla_efficiency_20261010_v1/active_node187.lock"
+  ],
+  "gate_sha256": "e6dbb4303f94117199088bd934f17f86f9ad866c39a3dbc1f61a7c14d712689a",
+  "cid": "1b122df5865c89ffc76c4de56c04866159812ac1d8d43e53bca9e4b45bdb8658",
+  "launch_at": 1791749919.7345974,
+  "health": {
+    "ok": true,
+    "protocol": "fastrsi_qwen_tools_v1",
+    "model": "qwen3vl8b",
+    "native_template": true
+  },
+  "replays": [
+    {
+      "case": "case009_t0_i33",
+      "http_status": 200,
+      "response_sha256": "8565609ff5022d673786ecffdcdd5a54a5d93e299bc8c290f73f1de87b088a97",
+      "seconds": 43.578850746154785,
+      "finish_reason": "tool_calls",
+      "tool_names": [
+        "write_file"
+      ],
+      "usage": {
+        "prompt_tokens": 13643,
+        "completion_tokens": 323,
+        "total_tokens": 13966
+      }
+    },
+    {
+      "case": "case002_t0_i35",
+      "http_status": 200,
+      "response_sha256": "04016c3f9bf03cd36acb9ab1f4e34b9a2d09563dc64c89ef077f5a39928326c7",
+      "seconds": 36.77046823501587,
+      "finish_reason": "tool_calls",
+      "tool_names": [
+        "write_file"
+      ],
+      "usage": {
+        "prompt_tokens": 13608,
+        "completion_tokens": 301,
+        "total_tokens": 13909
+      }
+    }
+  ],
+  "stop": {
+    "returncode": 0,
+    "stdout": "1b122df5865c89ffc76c4de56c04866159812ac1d8d43e53bca9e4b45bdb8658\n",
+    "stderr": ""
+  },
+  "remove": {
+    "returncode": 0,
+    "stdout": "1b122df5865c89ffc76c4de56c04866159812ac1d8d43e53bca9e4b45bdb8658\n",
+    "stderr": ""
+  },
+  "finished_at": 1791750113.25986
+}

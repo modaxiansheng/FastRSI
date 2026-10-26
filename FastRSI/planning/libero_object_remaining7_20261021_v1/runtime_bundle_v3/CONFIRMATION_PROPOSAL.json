@@ -1,0 +1,230 @@
+{
+  "schema": "fastrsi_object7_fixed_runtime_design_v1",
+  "rows": [
+    {
+      "identity_id": "object7_dev_t0_position",
+      "suite": "libero_object",
+      "task_id": 0,
+      "subject": "alphabet_soup_1",
+      "variant": "position",
+      "seed": 2026102200,
+      "language": "Pick the alphabet soup and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "alphabet_transfer_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t0_environment",
+      "suite": "libero_object",
+      "task_id": 0,
+      "subject": "alphabet_soup_1",
+      "variant": "environment",
+      "seed": 2026102201,
+      "language": "Pick the alphabet soup and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "alphabet_transfer_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t1_position",
+      "suite": "libero_object",
+      "task_id": 1,
+      "subject": "cream_cheese_1",
+      "variant": "position",
+      "seed": 2026102202,
+      "language": "Pick the cream cheese and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_02"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t1_environment",
+      "suite": "libero_object",
+      "task_id": 1,
+      "subject": "cream_cheese_1",
+      "variant": "environment",
+      "seed": 2026102203,
+      "language": "Pick the cream cheese and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_02"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t2_position",
+      "suite": "libero_object",
+      "task_id": 2,
+      "subject": "salad_dressing_1",
+      "variant": "position",
+      "seed": 2026102204,
+      "language": "Pick the salad dressing and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      }
+    },
+    {
+      "identity_id": "object7_dev_t2_environment",
+      "suite": "libero_object",
+      "task_id": 2,
+      "subject": "salad_dressing_1",
+      "variant": "environment",
+      "seed": 2026102205,
+      "language": "Pick the salad dressing and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      }
+    },
+    {
+      "identity_id": "object7_dev_t4_position",
+      "suite": "libero_object",
+      "task_id": 4,
+      "subject": "ketchup_1",
+      "variant": "position",
+      "seed": 2026102206,
+      "language": "Pick the ketchup and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_07_prefix_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t4_environment",
+      "suite": "libero_object",
+      "task_id": 4,
+      "subject": "ketchup_1",
+      "variant": "environment",
+      "seed": 2026102207,
+      "language": "Pick the ketchup and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_07_prefix_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t6_position",
+      "suite": "libero_object",
+      "task_id": 6,
+      "subject": "butter_1",
+      "variant": "position",
+      "seed": 2026102208,
+      "language": "Pick the butter and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "dev14"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t6_environment",
+      "suite": "libero_object",
+      "task_id": 6,
+      "subject": "butter_1",
+      "variant": "environment",
+      "seed": 2026102209,
+      "language": "Pick the butter and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "dev14"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t7_position",
+      "suite": "libero_object",
+      "task_id": 7,
+      "subject": "milk_1",
+      "variant": "position",
+      "seed": 2026102210,
+      "language": "Pick the milk and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "milk_transfer_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t7_environment",
+      "suite": "libero_object",
+      "task_id": 7,
+      "subject": "milk_1",
+      "variant": "environment",
+      "seed": 2026102211,
+      "language": "Pick the milk and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "milk_transfer_v1"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t9_position",
+      "suite": "libero_object",
+      "task_id": 9,
+      "subject": "orange_juice_1",
+      "variant": "position",
+      "seed": 2026102212,
+      "language": "Pick the orange juice and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_13"
+      }
+    },
+    {
+      "identity_id": "object7_dev_t9_environment",
+      "suite": "libero_object",
+      "task_id": 9,
+      "subject": "orange_juice_1",
+      "variant": "environment",
+      "seed": 2026102213,
+      "language": "Pick the orange juice and place it in the basket",
+      "max_steps": 280,
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_13"
+      }
+    }
+  ],
+  "model_conditions": 56,
+  "physical_identities": 14,
+  "normal_physical_attempts_max": 336,
+  "pi05_first_stage_normal_attempts_max": 84,
+  "branches": [
+    "ordinary",
+    "frozen",
+    "candidate"
+  ],
+  "source_proposal_sha256": "d117167b43f51db9bfb70d402ee606120e5ba15623bcd051058aa629a7871dad",
+  "source_proposal_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/NEXT_DEVELOPMENT_SCOPE_PROPOSAL_01.json",
+  "same_action_attempt_opportunity": true,
+  "compute_budget_matched": false,
+  "training": false,
+  "full_evaluation": "PAUSED"
+}

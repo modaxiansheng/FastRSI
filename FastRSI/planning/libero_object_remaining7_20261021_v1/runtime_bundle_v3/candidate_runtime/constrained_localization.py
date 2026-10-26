@@ -1,0 +1,1 @@
+from fastrsi.visual_recovery.proposals import legacy_detection as detect_supported

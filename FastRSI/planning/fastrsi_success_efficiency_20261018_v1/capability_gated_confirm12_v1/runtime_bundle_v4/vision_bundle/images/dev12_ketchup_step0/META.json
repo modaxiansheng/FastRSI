@@ -1,0 +1,10 @@
+{
+  "identity": "dev12_ketchup_step0",
+  "task_id": 3,
+  "variant": "environment",
+  "phase": "initial",
+  "subject": "ketchup_1",
+  "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0000_front.png",
+  "image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+  "scope": "Old permitted background-object RGB, source-only supervision, not a new confirmation identity"
+}

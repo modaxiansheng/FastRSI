@@ -1,0 +1,74 @@
+{
+  "status": "CONCRETE_RUNTIME_ENTRYPOINTS_NO_LOCAL_OR_REMOTE_EXECUTION",
+  "runtime_bundle_host_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3",
+  "metadata_and_targeted_binding_steps": [
+    [
+      "python3",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_cross_task_v3/bundle_builder.py",
+      "--assemble",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3"
+    ],
+    [
+      "python3",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/bind_states.py",
+      "--generated-root",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/generation_run2",
+      "--verification-root",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/verification_run1"
+    ],
+    [
+      "python3",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/freeze_runtime_scope.py",
+      "--placement",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/PLACEMENT_TEMPLATE.json"
+    ],
+    [
+      "python3",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/bind_host_runtime.py",
+      "--plan",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/HOST_BINDING_PLAN.json",
+      "--output",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/HOST_RUNTIME_BINDING.json"
+    ],
+    [
+      "python3",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v3/isolated_coordinator.py",
+      "--run",
+      "--model",
+      "pi05",
+      "--suite",
+      "libero_object",
+      "--node",
+      "187",
+      "--gpu",
+      "0",
+      "--resource-binding",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING.json"
+    ]
+  ],
+  "required_root_facts": "Before step5, write RESOURCE_BINDING.json from the template with actual one-time targeted receipt SHA, actual collector source SHA, and current exact infrastructure/claim identities. Existing authorization already recorded.",
+  "initial_group": {
+    "model": "pi05",
+    "suite": "libero_object",
+    "node": "187",
+    "gpu": 0,
+    "conditions": 6,
+    "maximum_normal_attempts": 36
+  },
+  "whole_fixed_cohort": {
+    "model_suite_groups": 16,
+    "conditions": 48,
+    "physical_identities": 12,
+    "maximum_normal_attempts": 288
+  },
+  "execute_other_groups": "Invoke the same coordinator once per frozen group/placement. It refuses an existing group directory and does not rerun a completed/interrupted group.",
+  "blockers": [
+    "Assemble and verify byte-exact new bundle; no historical controller or source changes.",
+    "Bind exact generation_run2 plus independent verification_run1 receipts/states.",
+    "Freeze exact placement/EXECUTION_BINDINGS before any trial outcome.",
+    "One targeted used-checkpoint/source/dependency identity receipt; no whole archive or per-lane weight hash.",
+    "Fresh held-resource/holder/port/image/card audit and actual2cold tokens/node; no extra human confirmation."
+  ],
+  "no_further_schema_or_components_needed": true,
+  "full_evaluation": "PAUSED"
+}

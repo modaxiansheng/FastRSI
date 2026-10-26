@@ -1,0 +1,303 @@
+{
+  "status": "FINAL48_COHORT_CLOSED_GOAL_STILL_ACTIVE",
+  "created_utc": "2026-10-18T02:53:41.709789+00:00",
+  "previous_turn_classification": "PROGRESS_STRICT39_AND_EXACT_ACTION_DIAGNOSTIC",
+  "this_turn_classification": "PROGRESS_FINAL48_RESOURCE_CLOSURE_AND_BOUNDED_IMAGE_SCREEN",
+  "strict_snapshot_utc": "2026-10-18T00:11:12.085157+00:00",
+  "scope": {
+    "physical_identities": 12,
+    "tasks": 9,
+    "suites": 4,
+    "model_conditions": 48,
+    "normal_physical_attempts": 216,
+    "normal_attempts_limit": 288,
+    "formal_benchmark": false
+  },
+  "models": {
+    "pi05": {
+      "closed": 12,
+      "first": 7,
+      "native_up_to3": 7,
+      "ordinary": 8,
+      "frozen": 8,
+      "candidate": 8,
+      "paired": {
+        "wins": 0,
+        "losses": 0,
+        "net": 0,
+        "win_conditions": [],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          0,
+          0
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 951.5205891132355,
+        "ordinary": 313.3766613006592,
+        "frozen": 308.7456703186035,
+        "candidate": 382.5210328102112
+      }
+    },
+    "pi0": {
+      "closed": 12,
+      "first": 2,
+      "native_up_to3": 4,
+      "ordinary": 4,
+      "frozen": 4,
+      "candidate": 6,
+      "paired": {
+        "wins": 2,
+        "losses": 0,
+        "net": 2,
+        "win_conditions": [
+          "pi0-capconfirm12_00",
+          "pi0-capconfirm12_02"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          2,
+          2
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 1283.1400108337402,
+        "ordinary": 463.7609748840332,
+        "frozen": 466.2175130844116,
+        "candidate": 603.4004065990448
+      }
+    },
+    "openvla": {
+      "closed": 12,
+      "first": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "frozen": 1,
+      "candidate": 3,
+      "paired": {
+        "wins": 2,
+        "losses": 0,
+        "net": 2,
+        "win_conditions": [
+          "openvla-capconfirm12_02",
+          "openvla-capconfirm12_03"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          2,
+          2
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 4464.117393493652,
+        "ordinary": 3173.8182559013367,
+        "frozen": 3144.494555234909,
+        "candidate": 2787.6679253578186
+      }
+    },
+    "xvla": {
+      "closed": 12,
+      "first": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "frozen": 1,
+      "candidate": 4,
+      "paired": {
+        "wins": 3,
+        "losses": 0,
+        "net": 3,
+        "win_conditions": [
+          "xvla-capconfirm12_00",
+          "xvla-capconfirm12_02",
+          "xvla-capconfirm12_03"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          3,
+          3
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 2928.366912126541,
+        "ordinary": 2039.0141546726227,
+        "frozen": 2046.7182049751282,
+        "candidate": 1805.6016886234283
+      }
+    }
+  },
+  "net_vs_ordinary": 7,
+  "losses_vs_ordinary": 0,
+  "gain_support": {
+    "physical_identities": 3,
+    "tasks": 3,
+    "suite": "libero_object",
+    "subjects": [
+      "cream_cheese",
+      "butter",
+      "milk"
+    ]
+  },
+  "unsupported": {
+    "conditions": 28,
+    "ordinary_success": 8,
+    "candidate_success": 8,
+    "net": 0,
+    "retained_in_denominator": true
+  },
+  "source_boundary": "Four same-object donors plus an orange-to-milk geometry transfer; do not turn prior orange success into verified milk source success.",
+  "budget": {
+    "action_and_attempt_opportunity_matched": true,
+    "neural_compute_matched": false,
+    "wall_matched": false
+  },
+  "resources": {
+    "policy_services_expected": 16,
+    "policy_services_observed": 16,
+    "whole_runtime_resource_accounting_closed": true,
+    "policy_services_with_closed_residence": 16,
+    "policy_GPU_reservation_seconds": {
+      "known_segments": 16,
+      "observed_segments": 16,
+      "known_segment_sum": 29985.801927537,
+      "sum_complete_for_observed_segments": 29985.801927537,
+      "is_experiment_wall": false
+    },
+    "policy_CPU_limit_core_seconds": {
+      "known_segments": 16,
+      "observed_segments": 16,
+      "known_segment_sum": 239886.415420296,
+      "sum_complete_for_observed_segments": 239886.415420296,
+      "is_experiment_wall": false
+    },
+    "all_observed_container_CPU_limit_core_seconds": {
+      "known_segments": 199,
+      "observed_segments": 199,
+      "known_segment_sum": 481288.802366342,
+      "sum_complete_for_observed_segments": 481288.802366342,
+      "is_experiment_wall": false
+    },
+    "closed_container_count": 199,
+    "observed_container_count": 199,
+    "actual_CPU_consumed_seconds": null,
+    "actual_GPU_busy_seconds": null,
+    "exact_GPU_lock_reservation_seconds": null,
+    "explanation": "Quota core seconds are capacity exposure, not CPU consumption. GPU reservation means individually device-bound policy residence, not GPU busy time or the longer coordinator GPU-lock interval. Exact lock acquire/release timestamps are unavailable. Open residence is unknown, not zero."
+  },
+  "runtime_wall": {
+    "expected_groups": 16,
+    "observed_groups": 16,
+    "closed_group_intervals": 16,
+    "completed_all_groups": true,
+    "first_observed_group_or_launch_start_unix": 1792274906.5382285,
+    "last_group_end_unix": 1792281644.2468643,
+    "total_experiment_wall_seconds": 6737.708635807037,
+    "known_closed_group_active_union_seconds": 6737.708635807037,
+    "scope": "Coordinator/launch envelope across parallel groups. Preparation and past failed runtime are separate. Partial closed union is not total experiment wall; mirror observation time is never used as a stop time."
+  },
+  "pi05_current_candidate_promotion": "REJECTED_ON_THIS_COHORT: net0,RAW time+5.4664%. Preserve pi05 and all failures; do not expand unchanged candidate.",
+  "new_engineering": {
+    "wrist_patch_image_queries": 4,
+    "wrist_patch_source_comparisons": 8,
+    "registered_steps": [
+      60,
+      78
+    ],
+    "unknown_steps": [
+      120,
+      180
+    ],
+    "held_detector_proven": false,
+    "neural_calls": 0,
+    "environment_steps": 0,
+    "new_scored_successes": 0,
+    "technical_startups": 1,
+    "startup_limit": 1,
+    "source_crop_manual": true,
+    "main_process_CPU_seconds": 0.59232,
+    "container_residence_seconds": 0.691702552,
+    "camera_offline_tests_passed": 16,
+    "next_CPU_accounting_fixture_tests_passed": 10,
+    "either_interface_adopted": false
+  },
+  "completion_audit": {
+    "preserved_originals_isolated_states_all_failures": "PROVEN_FOR_THIS_COHORT: frozen source,raw/RNG/checkpoint pairing and216normal attempts",
+    "cross_task_fixed_trial": "PROVEN_FOR_THIS_COHORT_ACTION_OPPORTUNITIES_ONLY;compute not matched",
+    "generalized_four_backend_gain": "INCOMPLETE:pi05net0;7wins limited to3Object tasks;unsupported28net0",
+    "cumulative_cost_per_success": "PARTIAL:RAW+role counters+16policy residence+199container closure;actualCPU/GPUbusy,source/providerToken,all-inunknown",
+    "bounded_stops_and_full_pause": "PROVEN_FOR_THIS_COHORT:all48closed,pi05notpromoted,shadow1/1closed,full evalpaused",
+    "objective_achieved": "NOT_PROVEN"
+  },
+  "next_required": [
+    "Select one remaining-failure route including pi05 andunsupported28;wrist cue cannot create absent task skills.",
+    "pi05 remaining:orange step0 localization/executability rejection plus3null skills;wrist holding repair directly covers0/4 current failures.",
+    "No promotion of2Dtexture registration to held/contact/control from one query identity.",
+    "Freeze a justified change and validate on independent new development identities with ordinary/old controls and explicit compute/resource cost.",
+    "Validate next-trial actual owner-lifecycle accounting before claiming total resource savings;historical missing cost remainsunknown."
+  ],
+  "all_in_cost_complete": false,
+  "financial_profit": null,
+  "Qwen_saving_claim": false,
+  "learning_claim": false,
+  "full_evaluation": "PAUSED",
+  "old_automation": "PAUSED",
+  "frozen_current_runtime_source_changed": false,
+  "goal_complete": false,
+  "references": [
+    {
+      "path_relative_to_project": "capability_gated_confirm12_v1/fixed_trial_audit_snapshots/FIXED_TRIAL_SNAPSHOT_20261018T001112_087685371.json",
+      "sha256": "660d92caf55f09e8eb217725ded7ff1aafc52d2f42c7fc3de6d92859f0ec24a4"
+    },
+    {
+      "path_relative_to_project": "capability_gated_confirm12_v1/full_cost_audit_snapshots/FULL_COST_SNAPSHOT_20261018T010924_300885236.json",
+      "sha256": "9962ef3de727909197409a83c0e8b36b1852e1acd2735deb912aa0294bcc577a"
+    },
+    {
+      "path_relative_to_project": "FINAL48_SUMMARY_WORKING.json",
+      "sha256": "cf2c8a501a2f9d7bf16239ca40846ea58f0b259d6182b3d95c1163451d6cd630"
+    },
+    {
+      "path_relative_to_project": "analysis/final48_efficiency_review_v1/INDEPENDENT_REVIEW.json",
+      "sha256": "1f03c0ee3b61c29fec2b991a2ce44808b5de67ec38b16a38069c747d35f3ca09"
+    },
+    {
+      "path_relative_to_project": "analysis/wrist_patch_shadow_v1/SCREEN_CLOSURE.json",
+      "sha256": "f752272aafdcad83742e2a1c591347a5a5483a8f2bad46fa7daef7831559a868"
+    },
+    {
+      "path_relative_to_project": "analysis/wrist_camera_adapter_v1/ROOT_VERIFICATION_RECEIPT.json",
+      "sha256": "facb6c01dae41c0c01e27302a93f05f3114b1f77866c99e09e261fe8ebfbdb40"
+    },
+    {
+      "path_relative_to_project": "analysis/next_trial_accounting_v1/PREPARATION_RECEIPT.json",
+      "sha256": "24ac2fe6ca36a02e06cc3c8762f7f9a1b731c739a5740f42f2da758f6be86963"
+    },
+    {
+      "path_relative_to_project": "analysis/wrist_shadow_preparation_v1/PREPARATION_FREEZE.json",
+      "sha256": "c8089c297a3138325f3197788b9481d3119017e2f1cadf59b31e2357759ca3c3"
+    },
+    {
+      "path_relative_to_project": "analysis/observation_gateway_failures_v1/RECEIPT.json",
+      "sha256": "2241305752d45b23070a40ae1c2ec6006c6794aa2b78c480c757f036b4bcc7c5"
+    },
+    {
+      "path_relative_to_project": "capability_gated_confirm12_v1/resource_point_snapshots/OWNED_RESOURCE_POINT_NODE188_1792285737542721852.json",
+      "sha256": "89898ab8e5b9e50954c88bb0a86b9d5f2e2e59aa36fcae1b11510a2040762b46"
+    },
+    {
+      "path_relative_to_project": "capability_gated_confirm12_v1/resource_point_snapshots/OWNED_RESOURCE_POINT_NODE187_1792286978895046273.json",
+      "sha256": "657b0ce0e67fc112b823df5d0d315d37abf829d886549b11df9446a0f8464905"
+    }
+  ]
+}

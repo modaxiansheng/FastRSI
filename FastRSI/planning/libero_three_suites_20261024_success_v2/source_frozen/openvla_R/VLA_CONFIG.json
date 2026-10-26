@@ -1,0 +1,7 @@
+{
+  "model": "openvla",
+  "checkpoint": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_libero10",
+  "checkpoint_config_sha256": "f1119b0e0d6c93f10fbd0ad1996c3bff5a7bbb18040d8b2b828c69d302eacd4d",
+  "action_horizon": 1,
+  "R_xvla_wire_chunk": null
+}

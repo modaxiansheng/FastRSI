@@ -1,0 +1,59 @@
+{
+  "time": 1792774705.5410492,
+  "files": {
+    "PID": {
+      "pid_text": "3441611",
+      "mtime": 1788768877.0590873,
+      "proc_exists": false
+    },
+    "node108-g3.json": {
+      "mtime": 1789401786.7040117,
+      "keys": [
+        "status",
+        "node",
+        "card",
+        "at"
+      ],
+      "summary": {
+        "status": "dispatch_window_ended",
+        "node": "108"
+      }
+    },
+    "node108-g5.json": {
+      "mtime": 1789401715.488661,
+      "keys": [
+        "status",
+        "node",
+        "card",
+        "at"
+      ],
+      "summary": {
+        "status": "dispatch_window_ended",
+        "node": "108"
+      }
+    },
+    "node108-g6.json": {
+      "mtime": 1789401853.4754047,
+      "keys": [
+        "status",
+        "node",
+        "card",
+        "at"
+      ],
+      "summary": {
+        "status": "dispatch_window_ended",
+        "node": "108"
+      }
+    },
+    "LIVE_SNAPSHOT.json": {
+      "mtime": 1788768993.5740173,
+      "keys": [
+        "at",
+        "nodes"
+      ],
+      "summary": {}
+    }
+  },
+  "controller_processes": [],
+  "running_fba_services": []
+}

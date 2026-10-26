@@ -1,0 +1,25 @@
+{
+  "scope": "Public-engineering correction; no FastRSI efficacy claim",
+  "roster": [
+    {
+      "id": "dev_terminal_t4_i23",
+      "mode": "development",
+      "task_id": 4,
+      "init_state_id": 23,
+      "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "conversation_key": "cli:development"
+    }
+  ],
+  "decoder_real_calls": 12,
+  "decoder_seconds_limit": 1200,
+  "max_root_episodes": 1,
+  "max_attempts": 3,
+  "max_steps_per_attempt": 220,
+  "max_campaign_seconds": 2100,
+  "memory_trigger": "One native /new at end of development batch after terminal read; original threshold unchanged",
+  "laya": "shadow disabled in this common engineering check",
+  "comparison": "Same saved request per family, balanced reference/optimized order, unchanged temperature/seed/model/tools; compare exact output token IDs",
+  "decoder_deployment": "Reference remains default while optimized candidate is measured",
+  "evaluation": "No new robot evaluation; targeted real-Agent CPU isolation regression covers terminal reporting path",
+  "claimed_cost": "All runs including failures retained; decoder timings are model service, not full-task savings"
+}

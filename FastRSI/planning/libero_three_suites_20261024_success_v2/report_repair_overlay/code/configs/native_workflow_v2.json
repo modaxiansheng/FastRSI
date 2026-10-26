@@ -1,0 +1,57 @@
+{
+  "scope": "Bounded planning-workflow diagnostic and recovery of interrupted native memory probe, not main A/B/C efficacy",
+  "cases": [
+    {
+      "label": "context_0_serial",
+      "accepted_source": null,
+      "workflow": "serial"
+    },
+    {
+      "label": "context_0_batch_reads",
+      "accepted_source": null,
+      "workflow": "batch_reads"
+    },
+    {
+      "label": "context_1_batch_reads",
+      "accepted_source": "/project/runs/native_baseline_v5_20261002/stream/dev1_t4_i20/accepted_experience",
+      "workflow": "batch_reads"
+    },
+    {
+      "label": "context_1_serial",
+      "accepted_source": "/project/runs/native_baseline_v5_20261002/stream/dev1_t4_i20/accepted_experience",
+      "workflow": "serial"
+    },
+    {
+      "label": "context_2_serial",
+      "accepted_source": "/project/runs/native_workflow_v2_20261002/stream/terminal_memory/workspace",
+      "workflow": "serial"
+    },
+    {
+      "label": "context_2_batch_reads",
+      "accepted_source": "/project/runs/native_workflow_v2_20261002/stream/terminal_memory/workspace",
+      "workflow": "batch_reads"
+    }
+  ],
+  "task": {
+    "task_id": 4,
+    "init_state_id": 30,
+    "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate"
+  },
+  "robot_episodes": 0,
+  "max_cases": 6,
+  "max_runner_seconds": 900,
+  "max_campaign_seconds": 1200,
+  "resource": "One resident Qwen on 187 HCU1, same weights, optimized common decoder and CPU quotas for all six contexts",
+  "comparison": "Original native tools, one-at-a-time versus fixed grouping of independent reads. All original discovery files required, identical SessionSpec and experience. No fabricated semantic choices.",
+  "memory": "One completed development episode is archived on an independent clone; verify source unchanged. No additional robot episode or forced per-task reflection.",
+  "experience": "Empty, one real prior development episode, or just-formed terminal-aware native memory; same source per pair; independent fixed-experience workspaces; no persistent updates during planning",
+  "interpretation": "If static grouping is enough, count it as common engineering benefit and strengthen the eventual B, not FastRSI learning",
+  "stop": "Infrastructure errors, changed execution contract, mutation of fixed experience or budget exhaustion; retain failures and costs",
+  "memory_repair": {
+    "generated_only_repetition_penalty": 1.1,
+    "source_prompt_penalized": false,
+    "original_trigger_prompt_max_tokens_temperature_seed": "unchanged",
+    "failure_reference": "runs/native_workflow_v1_20261002/stream/service_calls",
+    "scope": "Common service repair for all future A/B/C, not FastRSI innovation; one saved-source retry before workflow screening"
+  }
+}

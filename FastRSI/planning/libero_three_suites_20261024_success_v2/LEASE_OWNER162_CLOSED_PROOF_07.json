@@ -1,0 +1,33 @@
+{
+  "time": 1792775380.5339046,
+  "files": {
+    "PID": {
+      "proc_exists": false,
+      "pid_text": "3441611"
+    },
+    "node108-g3.json": {
+      "summary": {
+        "status": "dispatch_window_ended",
+        "node": "108",
+        "card": 3,
+        "at": 1789401786.710989
+      }
+    },
+    "node108-g6.json": {
+      "summary": {
+        "status": "dispatch_window_ended",
+        "node": "108",
+        "card": 6,
+        "at": 1789401853.476334
+      }
+    }
+  },
+  "controller_processes": [],
+  "running_fba_services": [],
+  "lease_owner_pids": {
+    "2994399": false,
+    "2994863": false,
+    "3265115": false,
+    "3291906": false
+  }
+}

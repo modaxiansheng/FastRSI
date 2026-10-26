@@ -1,0 +1,206 @@
+{
+  "time": 1792257007.5869894,
+  "status": "ALL_FIXED_12_NEW_STATES_X4_MODELS_AUDITED",
+  "models": {
+    "pi05": {
+      "first_success": 6,
+      "native_up_to3_success": 6,
+      "ordinary_final": 6,
+      "old_recovery_final": 11,
+      "new_recovery_final": 12,
+      "net_vs_ordinary": 6,
+      "net_vs_old": 1,
+      "losses_vs_ordinary": [],
+      "losses_vs_old": [],
+      "new_vs_old_identities": [
+        "confirm12_08"
+      ],
+      "native_physical_attempts": 24,
+      "normal_physical_attempts": 42,
+      "ordinary_extra_actor_seconds": 329.4650845527649,
+      "old_extra_actor_seconds": 648.5258452892303,
+      "new_extra_actor_seconds": 672.5166621208191,
+      "new_rescued_after_baseline": 6,
+      "new_extra_seconds_per_rescued": 112.08611035346985,
+      "old_extra_native_generations": 39,
+      "new_extra_native_generations": 13,
+      "old_extra_vision_forward_calls": 456,
+      "new_extra_vision_forward_calls": 474,
+      "policy_gpu_service_bound_hours": 1.0075939510272223,
+      "all_policy_event_counts": {
+        "policy_rpc_begin": 859,
+        "action_generation_begin": 859,
+        "neural_forward_begin": 12026,
+        "neural_forward_end": 12026,
+        "action_generation_end": 859,
+        "policy_rpc_end": 859
+      },
+      "all_vision_event_counts": {
+        "visual_model_loaded": 12,
+        "visual_forward_begin": 930,
+        "visual_forward_end": 930,
+        "current_rgb_subject_pose": 59,
+        "visual_model_closed": 12,
+        "current_rgb_basket_pose": 30
+      },
+      "all_vision_forward_rows": 5214,
+      "money": null
+    },
+    "pi0": {
+      "first_success": 6,
+      "native_up_to3_success": 6,
+      "ordinary_final": 6,
+      "old_recovery_final": 11,
+      "new_recovery_final": 12,
+      "net_vs_ordinary": 6,
+      "net_vs_old": 1,
+      "losses_vs_ordinary": [],
+      "losses_vs_old": [],
+      "new_vs_old_identities": [
+        "confirm12_08"
+      ],
+      "native_physical_attempts": 24,
+      "normal_physical_attempts": 42,
+      "ordinary_extra_actor_seconds": 319.8454031944275,
+      "old_extra_actor_seconds": 647.6427924633026,
+      "new_extra_actor_seconds": 671.0971539020538,
+      "new_rescued_after_baseline": 6,
+      "new_extra_seconds_per_rescued": 111.8495256503423,
+      "old_extra_native_generations": 40,
+      "new_extra_native_generations": 15,
+      "old_extra_vision_forward_calls": 456,
+      "new_extra_vision_forward_calls": 474,
+      "policy_gpu_service_bound_hours": 1.0666364924394445,
+      "all_policy_event_counts": {
+        "policy_rpc_begin": 915,
+        "action_generation_begin": 915,
+        "neural_forward_begin": 12810,
+        "neural_forward_end": 12810,
+        "action_generation_end": 915,
+        "policy_rpc_end": 915
+      },
+      "all_vision_event_counts": {
+        "visual_model_loaded": 12,
+        "visual_forward_begin": 930,
+        "visual_forward_end": 930,
+        "current_rgb_subject_pose": 59,
+        "current_rgb_basket_pose": 30,
+        "visual_model_closed": 12
+      },
+      "all_vision_forward_rows": 5214,
+      "money": null
+    },
+    "openvla": {
+      "first_success": 0,
+      "native_up_to3_success": 0,
+      "ordinary_final": 0,
+      "old_recovery_final": 10,
+      "new_recovery_final": 12,
+      "net_vs_ordinary": 12,
+      "net_vs_old": 2,
+      "losses_vs_ordinary": [],
+      "losses_vs_old": [],
+      "new_vs_old_identities": [
+        "confirm12_08",
+        "confirm12_11"
+      ],
+      "native_physical_attempts": 24,
+      "normal_physical_attempts": 60,
+      "ordinary_extra_actor_seconds": 3294.0194461345673,
+      "old_extra_actor_seconds": 1698.6594729423523,
+      "new_extra_actor_seconds": 1410.9216163158417,
+      "new_rescued_after_baseline": 12,
+      "new_extra_seconds_per_rescued": 117.57680135965347,
+      "old_extra_native_generations": 583,
+      "new_extra_native_generations": 166,
+      "old_extra_vision_forward_calls": 954,
+      "new_extra_vision_forward_calls": 978,
+      "policy_gpu_service_bound_hours": 3.3833877983325,
+      "all_policy_event_counts": {
+        "action_generation_begin": 10885,
+        "policy_rpc_begin": 10885,
+        "neural_forward_begin": 76195,
+        "neural_forward_end": 76195,
+        "action_generation_end": 10885,
+        "policy_rpc_end": 10885
+      },
+      "all_vision_event_counts": {
+        "visual_model_loaded": 24,
+        "visual_forward_begin": 1932,
+        "visual_forward_end": 1932,
+        "current_rgb_subject_pose": 130,
+        "current_rgb_basket_pose": 76,
+        "visual_model_closed": 24
+      },
+      "all_vision_forward_rows": 10500,
+      "money": null
+    },
+    "xvla": {
+      "first_success": 2,
+      "native_up_to3_success": 2,
+      "ordinary_final": 2,
+      "old_recovery_final": 11,
+      "new_recovery_final": 12,
+      "net_vs_ordinary": 10,
+      "net_vs_old": 1,
+      "losses_vs_ordinary": [],
+      "losses_vs_old": [],
+      "new_vs_old_identities": [
+        "confirm12_08"
+      ],
+      "native_physical_attempts": 32,
+      "normal_physical_attempts": 62,
+      "ordinary_extra_actor_seconds": 1651.543091058731,
+      "old_extra_actor_seconds": 1127.378577709198,
+      "new_extra_actor_seconds": 1072.4064583778381,
+      "new_rescued_after_baseline": 10,
+      "new_extra_seconds_per_rescued": 107.24064583778382,
+      "old_extra_native_generations": 16,
+      "new_extra_native_generations": 6,
+      "old_extra_vision_forward_calls": 738,
+      "new_extra_vision_forward_calls": 762,
+      "policy_gpu_service_bound_hours": 1.8906395667561113,
+      "all_policy_event_counts": {
+        "policy_rpc_begin": 12104,
+        "action_generation_begin": 451,
+        "neural_forward_begin": 4961,
+        "neural_forward_end": 4961,
+        "action_generation_end": 451,
+        "policy_rpc_end": 12104
+      },
+      "all_vision_event_counts": {
+        "visual_model_loaded": 20,
+        "visual_forward_begin": 1500,
+        "visual_forward_end": 1500,
+        "current_rgb_subject_pose": 106,
+        "current_rgb_basket_pose": 60,
+        "visual_model_closed": 20
+      },
+      "all_vision_forward_rows": 7956,
+      "money": null
+    }
+  },
+  "normal_physical_attempts": 206,
+  "unique_physical_identities": 12,
+  "model_conditions": 48,
+  "total_policy_gpu_service_bound_hours": 7.348257808555279,
+  "wall_first_policy_to_last_stop_seconds": 4625.65558562,
+  "new_vs_old_distinct_physical_wins": [
+    "confirm12_08",
+    "confirm12_11"
+  ],
+  "source_audits": {
+    "FINAL_MATCHED_OUTCOME_AUDIT.json": "7ca8585edf537c5d6be25a1f062b7ec0b1d4b8da290c57d744d1a42c2cd78909",
+    "FINAL_COST_AUDIT.json": "0f4a853b7a79f0799df984b21a611e88eac9ed903005b3da4392f16ddb4c60c3",
+    "CANDIDATE_PATH_AUDIT.json": "c72c6083022489dc8bf25dadaee4007d581bbebd979e6dde5abff99269284338",
+    "FINAL_RELEASE_NODE187.json": "8209358951c3be9da5aa1affe3fe74d548f2bedf916a7892d437fe891a963913",
+    "FINAL_RELEASE_NODE188.json": "d6f81a2d26d7f7fe94100d0202dc6e147fa29bb5428ca8439ebc26dc07c84924",
+    "PREPARATION_LIFECYCLES_NODE187.json": "d3073c64627cd57eee545bd6063ba90adcd3b8e4d27c6ee21a81ccfbc0fb5ee2",
+    "PREPARATION_LIFECYCLES_NODE188.json": "45edb88951ad8674b020b6dd776743511466bbe9160d10bcf47288031d227ae9"
+  },
+  "development_scope": "12 new physical states, 3 previously skill-covered libero_object tasks, 2variants x2replicates; source/generation distribution declared, not full LIBERO-Pro benchmark",
+  "method": "Simulator-feedback-assisted fixed visual grasp/place recovery; no training or cross-episode learning; shared native baseline and separate one-extra-attempt controls; no branch pooling",
+  "accounting": "Actor seconds include all branch attempts, exclude shared baseline and service coldload/wait; all lifecycle costs retained separately. GPU service hours include loading/holding and are not pure compute hours. Intervals overlap, do not sum to wall. Startup refusals retained, not physical failures. Prior development costs unamortized; missing financial/loader-forward quantities remain unknown.",
+  "full_evaluation": "PAUSED",
+  "money": null
+}

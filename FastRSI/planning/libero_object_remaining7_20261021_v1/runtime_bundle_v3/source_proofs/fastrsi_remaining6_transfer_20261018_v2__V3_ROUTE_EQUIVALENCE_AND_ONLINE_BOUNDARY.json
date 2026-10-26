@@ -1,0 +1,325 @@
+{
+  "time": 1792266343.2945974,
+  "status": "EXACT_PER_TARGET_ROUTE_AND_CURRENT_FRAME_BOUNDARY_STATIC_PROOF",
+  "routes": [
+    {
+      "subject": "butter_1",
+      "original_runtime": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/candidate_runtime",
+      "original_bundle": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/butter/vision_bundle",
+      "initial_route": "UNCHANGED_FROZEN_VISION_GENERIC_NCC_AND_COARSE_POSE",
+      "tracking_route": "UNCHANGED_FROZEN_VISION_PRIOR_FIVE_REFINER_ITERATIONS",
+      "route_condition": {
+        "world_prior_none_returns_super": true,
+        "world_prior_non_none_returns_super": true,
+        "subject_registered": false
+      },
+      "same_label_templates_canonical_sha256": "2d714a48847d2dcfa3998b0ad22cc47359260aa0ee73a385c9b078f8269dbf05",
+      "exact_used_bundle_files": {
+        "templates/butter_1/dev13_butter_step0.png": "6c88fad2c054b2f12c65c5850754eec6433af3f198bd1626b356bd5c41ead6c4",
+        "bank/BANK.npz": "66f3fed60d3a6a8cb73cd36c8fe5a037567171e9727fbc5d1dd3dff44f9457a7",
+        "calibration/CALIBRATION_position_task6.json": "7183a5eb867afe5c77a300d7eca1a74b368e0c00810096828460fd9d63198267",
+        "calibration/CALIBRATION_environment_task6.json": "3b1e2204e2438be11b740efc65f8422e0beb34df5b19e45d0978cb240f14c426"
+      },
+      "same_model_dataset_weights_initialization_seed": true,
+      "unrelated_label_template_additions_not_read_by_this_label": true,
+      "current_source_status": "Butter V1 153-action physical success retained",
+      "proof_scope": "Same selected executable branch and exact numeric inputs, not a newly executed outcome"
+    },
+    {
+      "subject": "orange_juice_1",
+      "original_runtime": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime/candidate_runtime",
+      "original_bundle": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime/vision_bundle",
+      "initial_route": "UNCHANGED_FROZEN_VISION_GENERIC_NCC_AND_COARSE_POSE",
+      "tracking_route": "UNCHANGED_FROZEN_VISION_PRIOR_FIVE_REFINER_ITERATIONS",
+      "route_condition": {
+        "world_prior_none_returns_super": true,
+        "world_prior_non_none_returns_super": true,
+        "subject_registered": false
+      },
+      "same_label_templates_canonical_sha256": "7eb2a3f72ab2ce9ca446dd678a3e8cabead48e938a43e13fd991417af6ce7307",
+      "exact_used_bundle_files": {
+        "templates/orange_juice_1/dev13_orange_juice_step0.png": "d1e5a2f5f1d21335edcb5424ac1b438acf2e0f27616f41a2bf13d60b85525c4c",
+        "bank/BANK.npz": "66f3fed60d3a6a8cb73cd36c8fe5a037567171e9727fbc5d1dd3dff44f9457a7",
+        "calibration/CALIBRATION_position_task9.json": "2e04e48292c0251ad71769fbd2bdef85f27d5cfc82532a00a4ca8a00be9468ba",
+        "calibration/CALIBRATION_environment_task9.json": "3a1eef5659cd2afb0ad003b9d6f0e1484629ec564a13914a1c165a6209253fb0"
+      },
+      "same_model_dataset_weights_initialization_seed": true,
+      "unrelated_label_template_additions_not_read_by_this_label": true,
+      "current_source_status": "Orange Phase A generic route retained; outcome belongs to its immutable current receipts",
+      "proof_scope": "Same selected executable branch and exact numeric inputs, not a newly executed outcome"
+    },
+    {
+      "subject": "ketchup_1",
+      "original_runtime": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime/candidate_runtime",
+      "initial_route": "UNCHANGED_LOCATOR_V2_SIX_RGB_POSITIONS_FIVE_REFINEMENT_FROZEN_LOGIT_ARGMAX",
+      "source_registration_canonical_sha256": "3f2eb9a538fb24d0b0002487585bea9f225345585b085335cd54605c5abcaacd",
+      "source_plane_derivation_canonical_sha256": "16ad3e1c9f21cba7888dd7dc521bb0bc4c5749de3dbec2e8f7e78ad447aed98a",
+      "source_object_pose_identical": true,
+      "source_camera_identical": true,
+      "target_calibration_and_plane_deltas_identical": true,
+      "template_and_crop_identical": true,
+      "exact_used_bundle_files": {
+        "templates/ketchup_1/dev12_ketchup_step0.png": "26a6ca49d8dc36d4c7d993af93a344897b49d10e65136a2419cf4bf703169079",
+        "calibration/CALIBRATION_environment_task3.json": "d7b68b86a16602d357dd46b3fae710c1cd68fe0b4493cedfa37ac21379130d15",
+        "calibration/CALIBRATION_position_task4.json": "3882bb6ca33fa3cf406c65e764012156002ae87efaf0a8dad010d215603a6629",
+        "calibration/CALIBRATION_environment_task4.json": "587148996bbfb52fc618a71cfe86b0254a1a066bf389f10b996474e3c6f69a1d"
+      },
+      "proposal_policy_and_all_numerics_identical": true,
+      "refinement_and_ranking_identical": true,
+      "original_15_degree_and_action_gates_identical": true,
+      "three_object_variant_branch_skipped": true,
+      "source_perception_sha256": "375e31289db830117780eeb189b00ae4d1819b485558b2732782fbb63df64c16",
+      "final_perception_sha256": "d3e97ae80b888e6861c4a8a960740d22d54714b77d9462ef6b465e439ee4f78e",
+      "proof_scope": "Same target-specific branch/numeric inputs, not a new Ketchup source attempt"
+    }
+  ],
+  "unchanged_runtime_files": {
+    "online_vision_frozen.py": "a4620b4781d5bc8cc14794ba846cf1ad75534f3bd9412d2138749e4fd2a4579f",
+    "pose_subject_batch.py": "246f4510cdbe40bfe08c0eb6c284bff3a5033b0dff2cf506bc1cd643830c3dd4",
+    "vision_client.py": "8e6e1693302357cd1d0f9c667a7380e5f633c7097a30474d0937bf6bdef68ab3",
+    "vision_service_v3.py": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331",
+    "multibackend_actor.py": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405",
+    "visual_kernel.py": "ff02134904e3138b39e37a736b828f938cd8483a54d91d66eecb9f7f498d247c",
+    "visual_kernel_frozen.py": "07879f70a081d96225ef496bcb9b8a943321c8b57b152b477c05f5b6d76b679a",
+    "vision_skill.py": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb",
+    "object_frame_skill.py": "f32f4186e07433700440de660b7040bae0930016837ac9e4cc8f2de047ee8c70",
+    "control_mode_interface.py": "a7360890070163fd541631092141d62183c42322c5207a59805b43efa5728f5f",
+    "control_adapter.py": "950a2e6a27e34e81fa01d835ee5a6870ae0bc2683651cd13c599c8675f5b1785",
+    "fastrsi/visual_recovery/proposals.py": "08af9fbc1e4b652d848b8b1b10ea53782e50aadc7404812836ae34e10052e6d5",
+    "fastrsi/visual_recovery/geometry.py": "e7077430669cd506bd3526f94bd591d1c6e5af24f2e288afb17756b4a9d941dd",
+    "fastrsi/visual_recovery/refinement.py": "d9053bc98682f29931fb88cab98b9c627faff3a0e5c9213539f39cffdd2d8b24",
+    "fastrsi/visual_recovery/gates.py": "a92e6ed395618d43cbec7aa7ef972c22237b122e2b013c508bc24415c2a613c5"
+  },
+  "v3_source_bank_freeze_sha256": "64f526691005ef59c7623771679a3ddbc1f49c3ff6f0fa4507d6d9266bcbbb8b",
+  "v2_main_copy_receipt_sha256": "27a69e4419a45ce43502fa2013cef02fb6297cce754a934a5be077b44f6d9795",
+  "source_phase_A_bindings_sha256": "ce29e67a0e1579a0ff8f6c310deac5e4792658095a7677a1cc83a03b8e874d60",
+  "source_phase_A_header_sha256": "1af5bd4afd0449d2c9d750c330730e2ec0ca6a548419b50471e11c8b1db5dd30",
+  "actor_sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405",
+  "actual_actor_metadata_keys": [
+    "subject",
+    "variant",
+    "task_id",
+    "step",
+    "phase"
+  ],
+  "evidence": [
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/multibackend_actor.py",
+      "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405",
+      "locations": [
+        {
+          "fragment": "initial_obs=clone(rt.observe())",
+          "lines": [
+            57
+          ]
+        },
+        {
+          "fragment": "subject(initial_obs,0,'initial',None)",
+          "lines": [
+            65
+          ]
+        },
+        {
+          "fragment": "vision.request('subject'",
+          "lines": [
+            41
+          ]
+        },
+        {
+          "fragment": "prior=public_eef(obs)",
+          "lines": [
+            44
+          ]
+        },
+        {
+          "fragment": "obs=clone(rt.observe())",
+          "lines": [
+            39,
+            44,
+            57,
+            72,
+            104
+          ]
+        },
+        {
+          "fragment": "m._policy_observation(obs,source['language']",
+          "lines": [
+            104
+          ]
+        },
+        {
+          "fragment": "physical_before=digest",
+          "lines": [
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_client.py",
+      "sha256": "8e6e1693302357cd1d0f9c667a7380e5f633c7097a30474d0937bf6bdef68ab3",
+      "locations": [
+        {
+          "fragment": "rgb=np.asarray(obs['agentview_image'])",
+          "lines": [
+            8
+          ]
+        },
+        {
+          "fragment": "request=dict(index=",
+          "lines": [
+            9
+          ]
+        },
+        {
+          "fragment": "response['request_sha256']",
+          "lines": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_service_v3.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331",
+      "locations": [
+        {
+          "fragment": "not Path('/core').exists()",
+          "lines": [
+            15
+          ]
+        },
+        {
+          "fragment": "Vision('/input'",
+          "lines": [
+            16
+          ]
+        },
+        {
+          "fragment": "q['op']=='subject'",
+          "lines": [
+            24
+          ]
+        },
+        {
+          "fragment": "v.subject(obs,q['meta'],q.get('world_prior'))",
+          "lines": [
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/perception.py",
+      "sha256": "d3e97ae80b888e6861c4a8a960740d22d54714b77d9462ef6b465e439ee4f78e",
+      "locations": [
+        {
+          "fragment": "rgb = np.asarray(observation['agentview_image'])",
+          "lines": [
+            25
+          ]
+        },
+        {
+          "fragment": "registration['variants'][meta['variant']]",
+          "lines": [
+            36
+          ]
+        },
+        {
+          "fragment": "source_pose = registration['source_object_pose']",
+          "lines": [
+            44
+          ]
+        },
+        {
+          "fragment": "distinct_rgb_proposals(",
+          "lines": [
+            57
+          ]
+        },
+        {
+          "fragment": "refine_seeds(",
+          "lines": [
+            60
+          ]
+        },
+        {
+          "fragment": "selection='FROZEN_NEURAL_POSE_LOGIT_ARGMAX'",
+          "lines": [
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/refinement.py",
+      "sha256": "d9053bc98682f29931fb88cab98b9c627faff3a0e5c9213539f39cffdd2d8b24",
+      "locations": [
+        {
+          "fragment": "n_refiner_iterations=5",
+          "lines": [
+            20
+          ]
+        },
+        {
+          "fragment": "extra['coarse']['data'] is None",
+          "lines": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime/diagnostic_actor.py",
+      "sha256": "3bed283727566751ad410c01a7d33ad16c210410c73b2d97df652c8afdb5b5e5",
+      "locations": [
+        {
+          "fragment": "SINK = ROOT / 'diagnostic_only'",
+          "lines": [
+            12
+          ]
+        },
+        {
+          "fragment": "body_xpos[bid]",
+          "lines": [
+            61
+          ]
+        },
+        {
+          "fragment": "return result",
+          "lines": [
+            82,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime/launch_specs_parent.py",
+      "sha256": "0058b2161f3c72969046e32f9ee47c25d0237b89af2451f3357c3456c533818a",
+      "locations": [
+        {
+          "fragment": "(root/'vision_rpc','/rpc:rw')",
+          "lines": [
+            41
+          ]
+        },
+        {
+          "fragment": "(M/'vision_bundle','/input:ro')",
+          "lines": [
+            41
+          ]
+        }
+      ]
+    }
+  ],
+  "online_observations": "Current front RGB and public EEF/gripper proprioception; holding prior derives from previous predicted pose and EEF motion",
+  "source_supervision": "Permitted old development step0 named pose is embedded as static source-template prior, not current target truth",
+  "diagnostic_isolation": "Body pose/contact writes go to sibling diagnostic_only, not vision_rpc; vision process has no simulator/core/eval/history mount",
+  "simulation_feedback_retained": "Official task success remains the shared termination signal; sim state hash only integrity evidence",
+  "no_claim_of_pure_rgb_without_simulator_feedback": true,
+  "future_confirmation_condition": "Final actor/ABI/mount and skills bindings must remain frozen before launch; main V2 confirmation not yet launched",
+  "models_or_environments_started": 0,
+  "current_target_truth_control_input": false,
+  "scope": "Static actual code and exact byte/data route proof, not repeated physical source acceptance"
+}

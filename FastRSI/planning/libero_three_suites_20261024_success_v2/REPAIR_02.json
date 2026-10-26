@@ -1,0 +1,7 @@
+{
+  "time": 1792771522.4162095,
+  "reason": "Docker /eval cannot resolve host-absolute asset symlink; materialized exact same SHA-pinned asset bytes in v2 root",
+  "physical_cases_in_failed_startup": 0,
+  "preserved_control": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/control",
+  "source_protocol_unchanged": true
+}

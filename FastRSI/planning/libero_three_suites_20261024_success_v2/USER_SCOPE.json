@@ -1,0 +1,30 @@
+{
+  "time": 1792771442.117229,
+  "authorization": "2026-10-24 explicit user reply: increase parallelism and allow more recovery opportunities; remaining three original LIBERO suites only; different versions permitted",
+  "selection": "Whole-version observed scores; no episode-level success picking; no independent blind-test claim",
+  "resources": "107 HCU2/3 already assigned to this task, two independent colocated lanes, no unrelated workload stopped",
+  "recovery": "Canonical unsuccessful physical feedback requests fresh native child with unchanged task, original per-attempt step limits, maximum5 children; first and all attempts retained",
+  "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1",
+  "changes": {
+    "pi05": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/pi05_R",
+      "worker_sha256": "2d27e02c4e434dd4dd968a61b6bf817ce4d4468529d2617fa8fa87b89e02985c",
+      "manifest_sha256": "f61c41e4a5007d6cfeaeb5f4bcffff6f2957ab814cbe192c9b94f7392aefe13a"
+    },
+    "xvla": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/xvla_R",
+      "worker_sha256": "4a8e5905561305fdd36bb3661347ff3b6b725320bc91751172f09d1737379739",
+      "manifest_sha256": "bd9fe212dd18314cd6b282e9b5e3de7d577b88af9de4ce3708e40cbb3c46d8ef"
+    },
+    "pi0": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/pi0_R",
+      "worker_sha256": "53cb2f70298faec9cff8464c61ea7f385a29260dc554f32a52e232fba41b5f1e",
+      "manifest_sha256": "3818208f2771d349ed7ad23d4f7308a954790643e22750ce08d7fbc42adf8620"
+    },
+    "openvla": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/openvla_R",
+      "worker_sha256": "0bab2cdb093eb562304dc4359458c11d869a8635e48ad575eaafd25509a94d36",
+      "manifest_sha256": "a4e30c20c625a6d4760e7df72465bd3a9b9391e50952d3a3c48a30477cd57122"
+    }
+  }
+}

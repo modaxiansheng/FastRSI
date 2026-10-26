@@ -1,0 +1,102 @@
+{
+  "status": "FIXED_SCOPE_PLACEMENT_TEMPLATE_VERIFY_IDLE_BEFORE_EACH_LOAD",
+  "groups": [
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "node": "187",
+      "gpu": 0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "node": "188",
+      "gpu": 0
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_goal",
+      "node": "187",
+      "gpu": 1
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "node": "188",
+      "gpu": 1
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "node": "187",
+      "gpu": 2
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_spatial",
+      "node": "188",
+      "gpu": 2
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_goal",
+      "node": "187",
+      "gpu": 3
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_10",
+      "node": "188",
+      "gpu": 3
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "node": "187",
+      "gpu": 4
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_spatial",
+      "node": "188",
+      "gpu": 4
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_goal",
+      "node": "187",
+      "gpu": 5
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_10",
+      "node": "188",
+      "gpu": 5
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "node": "187",
+      "gpu": 6
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_spatial",
+      "node": "188",
+      "gpu": 6
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_goal",
+      "node": "187",
+      "gpu": 7
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_10",
+      "node": "188",
+      "gpu": 7
+    }
+  ],
+  "source": "Existing idle-GPU authorization; choose/change placement metadata before FROZEN_RUNTIME_SCOPE; no outcome-based task selection"
+}

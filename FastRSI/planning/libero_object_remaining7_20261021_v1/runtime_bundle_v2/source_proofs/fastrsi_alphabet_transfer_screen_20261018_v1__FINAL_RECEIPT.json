@@ -1,0 +1,18 @@
+{
+  "time": 1792262853.7667859,
+  "read_only_audit_version": 2,
+  "source_finalizer_v2_sha256": "81d71819cfea0bc05b86dd7a23f173bdfdd9698a01801edfdb073eb1e46ff250",
+  "status": "FOUR_NEW_ALPHABET_STATES_FOUR_MODELS_MATCHED_CONFIRMATION_AUDITED",
+  "physical_identities": 4,
+  "model_conditions": 16,
+  "source_screen_acceptance_sha256": "4dcfa582be87fcff1b3a953c5fe0658513659ca708c5cd5548c5f95b683dd9f9",
+  "protocol_sha256": "2bb50d9d6b9c2c99e5ffc8d345e1709d9906c0688e8e3cb38b3e12c086ba3ba3",
+  "outcome_sha256": "240741ae74459eab86e55d8e7c6bff55fa59d8eae0794f677fc337436b454dce",
+  "costs_sha256": "0e90a61bb68d1dd4ba53245ab33274108eef5cdccf606f636afb49ba19dcca07",
+  "original_full_evaluation": "PAUSED",
+  "success_pooling": false,
+  "compute_budget_matched": false,
+  "source_and_static_and_old_x2_v1_costs_kept_as_separate_history": true,
+  "money": null,
+  "seconds": 1219.4731678962708
+}

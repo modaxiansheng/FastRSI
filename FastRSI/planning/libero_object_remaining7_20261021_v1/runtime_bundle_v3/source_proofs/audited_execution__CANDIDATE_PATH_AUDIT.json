@@ -1,0 +1,823 @@
+{
+  "time": 1792256929.7139993,
+  "status": "ACTUAL_NEW_BRANCH_NEURAL_SELECTION_AND_MATCHED_WIN_PROOFS_AUDITED",
+  "rows": [
+    {
+      "condition": "pi05-confirm12_00",
+      "physical_identity": "confirm12_00",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi05-confirm12_01",
+      "physical_identity": "confirm12_01",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi05-confirm12_04",
+      "physical_identity": "confirm12_04",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi05-confirm12_05",
+      "physical_identity": "confirm12_05",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi05-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi05/node187/gpu0/RECOVERY_V3/pi05-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "612059e7e874d39b0cee292de24d603189559ebb89745e8fd4d3c54f9362920d",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "pi05-confirm12_09",
+      "physical_identity": "confirm12_09",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi05/node187/gpu1/RECOVERY_V3/pi05-confirm12_09/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "36cdd219d9ef20530bfc76bb871f3ff839304b24793eae7faf44b6a4bc08d93a",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 17.978437423706055,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "29eb1eb2655192bb68b77dcc480d0ae80c1e844b4c66b64db65fd81f3f10053e",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "pi0-confirm12_00",
+      "physical_identity": "confirm12_00",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi0-confirm12_01",
+      "physical_identity": "confirm12_01",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi0-confirm12_04",
+      "physical_identity": "confirm12_04",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi0-confirm12_05",
+      "physical_identity": "confirm12_05",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "pi0-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi0/node187/gpu2/RECOVERY_V3/pi0-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "69aed43400745dea7cb2c4b683ab79059452c96d73da1ed761e1f8fa690e5602",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "pi0-confirm12_09",
+      "physical_identity": "confirm12_09",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi0/node187/gpu3/RECOVERY_V3/pi0-confirm12_09/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "c465543eee25e762648e3925cead9686951c03e43cc841d2007f91859d18d763",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 17.978437423706055,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "29eb1eb2655192bb68b77dcc480d0ae80c1e844b4c66b64db65fd81f3f10053e",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_00",
+      "physical_identity": "confirm12_00",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_01",
+      "physical_identity": "confirm12_01",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_02",
+      "physical_identity": "confirm12_02",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_03",
+      "physical_identity": "confirm12_03",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_04",
+      "physical_identity": "confirm12_04",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_05",
+      "physical_identity": "confirm12_05",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_06",
+      "physical_identity": "confirm12_06",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_07",
+      "physical_identity": "confirm12_07",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "openvla-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node187/gpu4/RECOVERY_V3/openvla-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "ee1045ee2c9d0e59fdc6375b00a6a4dea79da727df81ed118571c0f970383766",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_09",
+      "physical_identity": "confirm12_09",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node187/gpu5/RECOVERY_V3/openvla-confirm12_09/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "0da549fc6dcb9924e0e234a945815dc093d2a0c9ef69acdd7fb3aada689f1e6d",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 17.978437423706055,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "29eb1eb2655192bb68b77dcc480d0ae80c1e844b4c66b64db65fd81f3f10053e",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_10",
+      "physical_identity": "confirm12_10",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node188/gpu4/RECOVERY_V3/openvla-confirm12_10/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "83cc0e598705233eea7f2644b5910e15518609ba9ffefccbc07956ea7b691817",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 19.547815322875977,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "8625fd4c3123de1ba91712fe2ca407fdc5fd3238828a2f4d8f0f1a5eaf18d0b4",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_11",
+      "physical_identity": "confirm12_11",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node188/gpu5/RECOVERY_V3/openvla-confirm12_11/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "00df555a2291120fee579517c13c099ff93bbe8eaeb5ff2c7cc9d2bec7e488d6",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 20.859621047973633,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "b2bf7374f35e6649d6fdbcd671d3471edd7a4363c9a0a10517af9e92677a27b9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "xvla-confirm12_00",
+      "physical_identity": "confirm12_00",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_01",
+      "physical_identity": "confirm12_01",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_02",
+      "physical_identity": "confirm12_02",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_03",
+      "physical_identity": "confirm12_03",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_04",
+      "physical_identity": "confirm12_04",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_05",
+      "physical_identity": "confirm12_05",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": []
+    },
+    {
+      "condition": "xvla-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/xvla/node187/gpu6/RECOVERY_V3/xvla-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "279ea3a428bce16949bac2488773369214857eb2e8f2cf4f49595864521a5af6",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "xvla-confirm12_09",
+      "physical_identity": "confirm12_09",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/xvla/node187/gpu7/RECOVERY_V3/xvla-confirm12_09/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "bf954296aa88ecbbfae798f1788fc6b7531aefe86d4f4a71b71301510e5d989f",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 17.978437423706055,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "29eb1eb2655192bb68b77dcc480d0ae80c1e844b4c66b64db65fd81f3f10053e",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "xvla-confirm12_10",
+      "physical_identity": "confirm12_10",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/xvla/node188/gpu6/RECOVERY_V3/xvla-confirm12_10/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "a9c7fdefdaac9a6eed241f83746a052b8cf69c1e3831cc64df70f1b6f1c6cf1a",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 19.547815322875977,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "8625fd4c3123de1ba91712fe2ca407fdc5fd3238828a2f4d8f0f1a5eaf18d0b4",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "xvla-confirm12_11",
+      "physical_identity": "confirm12_11",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": true,
+        "candidate": true
+      },
+      "net_vs_previous": 0,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/xvla/node188/gpu7/RECOVERY_V3/xvla-confirm12_11/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "bc32a656feb04e4a1b4a9bd88ec5d399548e32f3253a8ace859d86e943798ebb",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 20.859621047973633,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "b2bf7374f35e6649d6fdbcd671d3471edd7a4363c9a0a10517af9e92677a27b9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    }
+  ],
+  "new_vs_old_wins": [
+    {
+      "condition": "pi05-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "pi05",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi05/node187/gpu0/RECOVERY_V3/pi05-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "612059e7e874d39b0cee292de24d603189559ebb89745e8fd4d3c54f9362920d",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "pi0-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "pi0",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/pi0/node187/gpu2/RECOVERY_V3/pi0-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "69aed43400745dea7cb2c4b683ab79059452c96d73da1ed761e1f8fa690e5602",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node187/gpu4/RECOVERY_V3/openvla-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "ee1045ee2c9d0e59fdc6375b00a6a4dea79da727df81ed118571c0f970383766",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "openvla-confirm12_11",
+      "physical_identity": "confirm12_11",
+      "model": "openvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/openvla/node188/gpu5/RECOVERY_V3/openvla-confirm12_11/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "00df555a2291120fee579517c13c099ff93bbe8eaeb5ff2c7cc9d2bec7e488d6",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 0,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 0,
+            "pose_logit": 20.859621047973633,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "b2bf7374f35e6649d6fdbcd671d3471edd7a4363c9a0a10517af9e92677a27b9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    },
+    {
+      "condition": "xvla-confirm12_08",
+      "physical_identity": "confirm12_08",
+      "model": "xvla",
+      "final": {
+        "ordinary": false,
+        "frozen": false,
+        "candidate": true
+      },
+      "net_vs_previous": 1,
+      "proposal_proofs": [
+        {
+          "prediction_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/campaigns/xvla/node187/gpu6/RECOVERY_V3/xvla-confirm12_08/candidate/vision_rpc/model_outputs/01/PREDICTION.json",
+          "sha256": "279ea3a428bce16949bac2488773369214857eb2e8f2cf4f49595864521a5af6",
+          "proposal_count": 6,
+          "selected_info": {
+            "label": "chocolate_pudding_1",
+            "batch_im_id": 0,
+            "instance_id": 0,
+            "hypothesis_id": 2,
+            "refiner_batch_idx": 0,
+            "refiner_instance_idx": 2,
+            "pose_logit": 18.78002166748047,
+            "pose_score": 1.0
+          },
+          "neural_forward_calls": 6,
+          "input_rgb_sha256": "a7a7955ccae3e62d735a0445f7fa1b992713ae7bc592396beca5d5acebfc4ba9",
+          "future_success_used": false,
+          "GT_read": false
+        }
+      ]
+    }
+  ],
+  "new_unique_physical_wins": [
+    "confirm12_08",
+    "confirm12_11"
+  ],
+  "all_candidate_runtime_frozen": true,
+  "no_new_environment_or_model_calls": true,
+  "scope": "Posthoc recorded neural-score choice, no object-pose truth or tuning"
+}

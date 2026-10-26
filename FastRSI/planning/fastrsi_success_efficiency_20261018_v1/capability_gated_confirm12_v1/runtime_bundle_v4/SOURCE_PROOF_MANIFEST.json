@@ -1,0 +1,231 @@
+{
+  "status": "EXPLICIT_HISTORICAL_SOURCE_PROOFS_NOT_NEW_RECOVERY_RESULTS",
+  "source6_closed_pass_count": 5,
+  "source6_total": 6,
+  "salad_capability": false,
+  "old_study_frozen": true,
+  "selected_sources": [
+    {
+      "subject": "cream_cheese_1",
+      "source_phase": "source_validation_runtime_B",
+      "skill": "newtask_02",
+      "selected_final_source_route": true,
+      "capability_pass": true,
+      "physical_success": true,
+      "software_ok": true,
+      "episode_completed": true,
+      "native_accounting_complete": true,
+      "local_actions": 80,
+      "native_continuation_actions": 77,
+      "source_capability_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/pi05-sourceB-cream_cheese-newtask_02/SOURCE_CAPABILITY_RESULT.json",
+      "source_capability_sha256": "20daa34a424ad8876140480fb3d3f6d9da04ba425329b6c2dc66ba3ce185fd12",
+      "raw_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/pi05-sourceB-cream_cheese-newtask_02/candidate/RAW.json",
+      "raw_sha256": "daf4a77138ed9f122367d0fb11cc80862fdb5e8e158e9f56cb883fc2c1a9c359",
+      "stop_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/STOP_RECEIPT.json",
+      "stop_sha256": "ba4482b9e3e5d749ab86b814d3b9fc984332ed1a81b50ba7ccb72f303631a803",
+      "diagnostic_truth_is_not_control_input": true
+    },
+    {
+      "subject": "ketchup_1",
+      "source_phase": "source_validation_runtime_C_prefix",
+      "skill": "newtask_07_prefix_v1",
+      "selected_final_source_route": true,
+      "capability_pass": true,
+      "physical_success": true,
+      "software_ok": true,
+      "episode_completed": true,
+      "native_accounting_complete": true,
+      "local_actions": 205,
+      "native_continuation_actions": 1,
+      "source_capability_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_C_prefix/campaigns/pi05/node125/gpu0/pi05-sourceC-ketchup-newtask_07/SOURCE_CAPABILITY_RESULT.json",
+      "source_capability_sha256": "7ed32d204615d08a77dffd12afe3725ab662d29202a8cd4c1636babc6a7b88d9",
+      "raw_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_C_prefix/campaigns/pi05/node125/gpu0/pi05-sourceC-ketchup-newtask_07/candidate/RAW.json",
+      "raw_sha256": "2a796335ca24c83c654172647a9e3b48593c0d1288ae2cc49d5e23680230fe3b",
+      "stop_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_C_prefix/campaigns/pi05/node125/gpu0/STOP_RECEIPT.json",
+      "stop_sha256": "f840082a8a9988f9d98ec63451e714412d8b4890672a1a8416b2af9b6260e3ea",
+      "diagnostic_truth_is_not_control_input": true
+    },
+    {
+      "subject": "milk_1",
+      "source_phase": "source_validation_runtime_B",
+      "skill": "milk_transfer_v1",
+      "selected_final_source_route": true,
+      "capability_pass": true,
+      "physical_success": true,
+      "software_ok": true,
+      "episode_completed": true,
+      "native_accounting_complete": true,
+      "local_actions": 116,
+      "native_continuation_actions": 2,
+      "source_capability_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/pi05-sourceB-milk-newtask_10/SOURCE_CAPABILITY_RESULT.json",
+      "source_capability_sha256": "ea9fcb07049c7bd8d9f2adb4fb4947d01e968cabbee5dfdac5bb61ac2296405a",
+      "raw_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/pi05-sourceB-milk-newtask_10/candidate/RAW.json",
+      "raw_sha256": "bca77a3244a5b38cfcc1617c7ce232331a79bf9adc2a92a9ccac160c7c0204ce",
+      "stop_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_B/campaigns/pi05/node135/gpu0/STOP_RECEIPT.json",
+      "stop_sha256": "ba4482b9e3e5d749ab86b814d3b9fc984332ed1a81b50ba7ccb72f303631a803",
+      "diagnostic_truth_is_not_control_input": true
+    },
+    {
+      "subject": "orange_juice_1",
+      "source_phase": "source_validation_runtime_A_recovery",
+      "skill": "newtask_13",
+      "selected_final_source_route": true,
+      "capability_pass": true,
+      "physical_success": true,
+      "software_ok": true,
+      "episode_completed": true,
+      "native_accounting_complete": true,
+      "local_actions": 106,
+      "native_continuation_actions": 1,
+      "source_capability_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/campaigns/pi05/node188/gpu0/pi05-sourceA-orange_juice-newtask_13/SOURCE_CAPABILITY_RESULT.json",
+      "source_capability_sha256": "1cbc6c85b4b35d779a3c688341f072e20421446fffde607afce17599866ef13d",
+      "raw_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/campaigns/pi05/node188/gpu0/pi05-sourceA-orange_juice-newtask_13/candidate/RAW.json",
+      "raw_sha256": "7e7bcd4d7b7b79ff40083ceacda995ad027207c21f0e0b77e9e9bb19e77983a9",
+      "stop_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/source_validation_runtime_A_recovery/campaigns/pi05/node188/gpu0/STOP_RECEIPT.json",
+      "stop_sha256": "a7639b4fa040cc862ddde16d3a4b51c3d9556a90e962c7e0555580e084af109d",
+      "diagnostic_truth_is_not_control_input": true
+    },
+    {
+      "subject": "butter_1",
+      "source_phase": "STRICT_UNCHANGED_V1_ORIGINAL_REUSE",
+      "raw_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/source_screens/butter/attempt1/RAW.json",
+      "raw_sha256": "97fc882d76cb1830c065673937281299acb3eaf3ab930927b34d4999f08ded99",
+      "mode": "skill_regression",
+      "source_identity": "dev14",
+      "actor_sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405",
+      "baseline_source_attempts": 0,
+      "candidate_source_attempts": 1,
+      "source_total_attempts": 1,
+      "local_actions": 153,
+      "physical_success": true,
+      "policy_counts": {},
+      "source_only_not_confirmation": true,
+      "final_candidate_route_proof": {
+        "route": "UNCHANGED_FROZEN_VISION_GENERIC_NCC_AND_COARSE_POSE",
+        "exact_route_equivalence_sha256": "ecf9f799f0e8c29eb4b65d76b91af8ab0de1539eefbca968e0cd6316464cf7e9"
+      },
+      "historical_source_reused_not_new_execution": true,
+      "stop_sha256": "3d76a4e412331fb859c2ba31b0533987e0d9a0fa2082a21989cf1fd8fabc36be"
+    }
+  ],
+  "old3_alphabet": "Exact existing skill/actor routes retained, not retested here; they are absent from this12physicalidentity proposal.",
+  "proof_files": [
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+      "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/BOUNDED_SOURCE_MILESTONE_20261018.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/BOUNDED_SOURCE_MILESTONE_20261018.json",
+      "sha256": "09aaeac241bea61d26c9348e224bf75e012dcbbc67839c291d0b8e382faf5bc4"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/V3_ROUTE_EQUIVALENCE_AND_ONLINE_BOUNDARY.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/V3_ROUTE_EQUIVALENCE_AND_ONLINE_BOUNDARY.json",
+      "sha256": "ecf9f799f0e8c29eb4b65d76b91af8ab0de1539eefbca968e0cd6316464cf7e9"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/V3_MAIN_INPUT_COPY_RECEIPT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/V3_MAIN_INPUT_COPY_RECEIPT.json",
+      "sha256": "27a69e4419a45ce43502fa2013cef02fb6297cce754a934a5be077b44f6d9795"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/FROZEN_DATA_BINDINGS.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/FROZEN_DATA_BINDINGS.json",
+      "sha256": "8a78e449d58020c8de9cfb9a175e8c8e5adb3bf8038fa6a7bebada564e807026"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/PREFIX_DATA_COMPILE_ACCEPTANCE.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/PREFIX_DATA_COMPILE_ACCEPTANCE.json",
+      "sha256": "5132493bdfa4dea5030542d017b6eeb9faf897203c517bb11c8f10bb15f356d0"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/RESULT_SUMMARY.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/audited_execution/RESULT_SUMMARY.json",
+      "sha256": "2096716e23833049b9eaba98725c8fee9bcdae5a2c700d38c5ef76228d9962c0"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/FINAL_MATCHED_OUTCOME_AUDIT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/audited_execution/FINAL_MATCHED_OUTCOME_AUDIT.json",
+      "sha256": "7ca8585edf537c5d6be25a1f062b7ec0b1d4b8da290c57d744d1a42c2cd78909"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/CANDIDATE_PATH_AUDIT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/audited_execution/CANDIDATE_PATH_AUDIT.json",
+      "sha256": "c72c6083022489dc8bf25dadaee4007d581bbebd979e6dde5abff99269284338"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/FINAL_RECEIPT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/FINAL_RECEIPT.json",
+      "sha256": "295376b424ed047fe3738c3c1d96d56498d7577783622c80c95b445defdb0428"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/FINAL_MATCHED_OUTCOME_AUDIT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/FINAL_MATCHED_OUTCOME_AUDIT.json",
+      "sha256": "240741ae74459eab86e55d8e7c6bff55fa59d8eae0794f677fc337436b454dce"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/ALPHABET_RECOVERY_MECHANISM_AUDIT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/ALPHABET_RECOVERY_MECHANISM_AUDIT.json",
+      "sha256": "c04c55a081b8b7c0a0a10405ea76e3d2b4ae46f0eb87064a8bc7d2909f41a104"
+    }
+  ],
+  "known_exclusion_inputs": [
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/EXCLUDED_PREVIOUS_DEVELOPMENT.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/audited_execution/EXCLUDED_PREVIOUS_DEVELOPMENT.json",
+      "sha256": "280bc3a628a35afbbcf86e719784dfbe8b10c4e41b1ff7c55b52052c3931c881"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/TARGET_COVERAGE_EXCLUSIONS.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/audited_execution/TARGET_COVERAGE_EXCLUSIONS.json",
+      "sha256": "f4e9e8e955b471915e118181ee7766e20e62c229f63df727b56df110f4e786e9"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/DEVELOPMENT_SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/DEVELOPMENT_SOURCE_EXCLUSION.json",
+      "sha256": "04e902f6dfa71c6a3db66326a7c79998fb5f7bcc53ce89a32e4f6c3c6329513a"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/cream_cheese/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/cream_cheese/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "2256a9a5595110a76fda1f16c4e3720b0f33d71a830778564543327c60e271b8"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/salad_dressing/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/salad_dressing/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "e34d7d85e1b1498e8099ff2098a250aa131e538ef6fe36fd528b52a46851741c"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/ketchup/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/ketchup/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "770e7fad5e26f6e422a64686f5420e1c181623b50dd12d9562c05b8e9ab626de"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/butter/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/butter/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "2263cf8ace045acf7c6b43c5d5f1206d206bb10daa35b90c03fbdf32ad3f2c0c"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/milk/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/milk/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "ce10ad118fe893cde16e462899d526f99d45705cdf8b3bcec39c0091ee1dbb0e"
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/orange_juice/source_geometry/SOURCE_EXCLUSION.json",
+      "local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/orange_juice/source_geometry/SOURCE_EXCLUSION.json",
+      "sha256": "5804c958bbdcfad5b73ff11cfe79bff8cb0c42bbab1a30901a4ebdae77581a59"
+    }
+  ],
+  "exclusion_union_still_requires_pre_generation_freeze": true,
+  "no_raw_acceptance_file_read_or_copied": true,
+  "raw_paths_are_summary_references_only": true,
+  "source_success_not_cross_model_generalization": true,
+  "online_boundary": "Actual actor consumes current front RGB, public EEF/gripper and frozen source-derived priors. Official simulator task success is common termination feedback. Source raw pose/contact traces are not mounted into vision.",
+  "proposal_sha256": "69a5a094d1b5115d51709a93127c72c3cd7baca967d5ff193eefb7e1031620db",
+  "scope_generation_or_runtime_started": false,
+  "exact_state_task_design_sha256": "0ac74e465753e31e92ca3e55bc60ebb38a745c6e9797e4ee9984a08e03a60602",
+  "exact_state_before_generation_freeze_sha256": "aba7b7989847f6f79c75a194c3820a02532f4fd56244c2a37c6138f471355755",
+  "runtime_package_version": 3
+}

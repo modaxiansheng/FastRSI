@@ -1,0 +1,31 @@
+{
+  "experiment_id": "full_os_v1_20261001",
+  "scope": "Bounded engineering cross-round pilot; single task, not benchmark score or noninferiority test",
+  "primary_path": "WatchdogSupervisor -> OpenPISkillRuntime -> TargetWS -> OpenPI -> SessionVerifier -> ResultWriter",
+  "evaluation": "same full OS; immutable version clone; lessons readable; persistent writes blocked; evaluation excluded from learning",
+  "model": "pi05_libero_pytorch_fp32",
+  "suite": "libero_spatial",
+  "task_ids": [0],
+  "seed": 7,
+  "smoke": {"development": [0], "evaluation": [1]},
+  "rounds": [
+    {"round": 1, "order": ["A", "B", "C"], "development": [2, 3], "evaluation": [4]},
+    {"round": 2, "order": ["C", "A", "B"], "development": [5, 6], "evaluation": [7]}
+  ],
+  "arms": {
+    "A": "Original OS feedback and recovery; shared strict parser fix; fixed 384 token ceiling",
+    "B": "Fixed legal fast/slow rule and 384 token ceiling. No admissible fast recovery exists yet, so execution falls back to original slow path",
+    "C": "Same legal pool; learn next-version token ceiling from at least two validated development completions: min(384,max(192,ceil((2*max_tokens_seen+32)/32)*32)); one fallback to 384 if output is truncated/invalid"
+  },
+  "laya": "Shadow only; constrain options before calling; bypass if only escalation is legal; validate returned candidate and freshness; no training",
+  "capabilities": "All start at identical pretrained weights and empty lessons/skills. Existing lessons are read; recovery skills remain unavailable until separately validated",
+  "max_steps_per_attempt": 220,
+  "max_replans": 2,
+  "max_planned_episodes": 20,
+  "max_attempts": 60,
+  "campaign_timeout_seconds": 5400,
+  "resource": "187, HCU0 policy, HCU1 Qwen, same image/CPU limits, serial groups with fresh services and warm/cold costs separated",
+  "stop": "Abort on chain infrastructure error, incomplete required evidence, persistent evaluation mutation, duplicate workload or resource conflict; native task failures remain counted",
+  "interpretation": "Budget change is a narrow learning probe; unchanged realized latency is a valid null result. B can coincide with A while Laya is inadmissible; cannot claim a validated fast/slow algorithm or trained recovery skill",
+  "provisional_targets": {"success_tolerance_absolute_pp": 2, "total_cost_reduction_percent": 30, "required_for_smoke": false}
+}

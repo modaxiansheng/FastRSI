@@ -1,0 +1,692 @@
+{
+  "checkpoints": [
+    "pi05_libero_pytorch_fp32",
+    "pi0_libero_pytorch_fp32",
+    "xvla_libero",
+    "openvla_object",
+    "openvla_spatial",
+    "openvla_goal",
+    "openvla_libero10"
+  ],
+  "applicable_groups": [
+    "pi05:libero_object",
+    "pi05:libero_spatial",
+    "pi05:libero_goal",
+    "pi05:libero_10",
+    "pi0:libero_object",
+    "pi0:libero_spatial",
+    "pi0:libero_goal",
+    "pi0:libero_10",
+    "openvla:libero_object",
+    "openvla:libero_spatial",
+    "openvla:libero_goal",
+    "openvla:libero_10",
+    "xvla:libero_object",
+    "xvla:libero_spatial",
+    "xvla:libero_goal",
+    "xvla:libero_10"
+  ],
+  "pinned_manifests": [
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/SHA256SUMS",
+      "sha256": "7039833004926d4d24c8cd4b68bb33c71c82acaee78ac20fa1b555f1ae456df3"
+    }
+  ],
+  "used_source_and_config_files": [
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/absolute_control_contract.py",
+      "sha256": "a1eebad40c635eee9132af6c869243f6b533ff28200e14bb106917c19ac86ad7"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/backend_server.py",
+      "sha256": "5d5ccfb03712d2af568e3ba1b100951b224b3bc63dcbd63da8368df8921f414b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/backend_server_frozen.py",
+      "sha256": "878cc337bb1f46f6b876908c13dfc1504a52a4edfe34c4c9219d9b3cbba4876f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/backend_server_io2.py",
+      "sha256": "fb011cea8e353ec706e01b320bcfa67d2dc589758043a3168469e612c692ebff"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/basket_features.py",
+      "sha256": "cb24453e13af4b5fc538cf9f318acba04e3a7b29d83c0e738cfeec13575e858b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/basket_features_v2.py",
+      "sha256": "b5fa00b7f954f0b3da8c33f0beea4aeb2473e235daf7e4a1c32357e0775b2ec5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/basket_features_v2_r2.py",
+      "sha256": "2ff53214de963f698f1891053a8c58763b83a1ea17523cc1b6e4cd1e8fdc94a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/calibrate.py",
+      "sha256": "bd661b1e174c39345c23325d606373de0ca9d6e29998e8a8d53cf66074b51a9b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/camera_model.py",
+      "sha256": "bfafa976d6beb0ef6a175072916db4388a40dbbe8d4c598eb321509bb3b875df"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/candidate_selector.py",
+      "sha256": "d3f9dc620212ac90d8e0eaed3cee1138936f8dedea8b6c857757cb7a20d54ed9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/candidate_server.py",
+      "sha256": "23242044ebe2682e6607892c6db254cd788ced2f51bcb75376305172891ce266"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/compile_release_skills.py",
+      "sha256": "104eeada531144e7d68f1d95edd71b528333987add5002693740133e908738b4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/control_adapter.py",
+      "sha256": "950a2e6a27e34e81fa01d835ee5a6870ae0bc2683651cd13c599c8675f5b1785"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/control_mode_interface.py",
+      "sha256": "a7360890070163fd541631092141d62183c42322c5207a59805b43efa5728f5f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/development_binding.py",
+      "sha256": "9deb618681a102a2f6fdd1a524f8b579f7bbb6bcddb046ec8d7998c57a99b2b9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/fixed_retry_worker.py",
+      "sha256": "cdab58c49710ec52252aa1ac7fa9d6862e6a9bf577e697f9c01d4c2377a9822e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/guard_contract.py",
+      "sha256": "321a9ecf627e4b64f0a8215a186cc4ac30c5b36ef04e8811a1cf97c3eaaa0d9f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/initial_acquisition.py",
+      "sha256": "f39e8a50e7a8c6b62b5db72c932477a8cec8068d442e8d5428c8628f7a2e165b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/mode_switch_contract.py",
+      "sha256": "1f09e316b11391e428e7b5fda23d1a018750b495f16bb57a48b61b4ea8e3069d"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/multibackend_actor.py",
+      "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/object_frame_skill.py",
+      "sha256": "f32f4186e07433700440de660b7040bae0930016837ac9e4cc8f2de047ee8c70"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/online_vision.py",
+      "sha256": "31beef7b29226e827894ed9eb4b12cd23c4ac50f521b6c79eb80e6dbcec4d0be"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/online_vision_v2.py",
+      "sha256": "e990ef1fa53eb7a804d02d565177296f3d2fcb20f99de1af5f201957808a18a3"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/paired_alias_resident.py",
+      "sha256": "756ff1f7f2070dcc95b4aab491b5b46d57f044142c8391cdf97f5e35af5bc3c2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/paired_resident.py",
+      "sha256": "8b4090486449d8515d59ce6241fc7d4504af674dc927eada867e236c480205a1"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/paired_resident_io2.py",
+      "sha256": "7fff8faef82dcf8ec5a346c1af58723a5702c983d5a1e6e55e64c1488b6b92ea"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/pose_batch.py",
+      "sha256": "798b6540e74f5e4c8c4be39c461f685df4fa135c5771f7e86abc6e7bacd85784"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/pose_subject_batch.py",
+      "sha256": "0fecb02aef1b1d9a906958754879b41477e59080338fa084f1abb38005732e07"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/prepare_images.py",
+      "sha256": "0baa7d3aec1381bfa76a574c8f71461a14f7fbc5efebcf6933190539c8919cd6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/session_namespace.py",
+      "sha256": "b40fca58e9f351f444cfb95b1e42dede54c34786c41607bd1270bd27b35cd99b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/sitecustomize.py",
+      "sha256": "ec90eab7fe67cedf060d85b543390ef5a6b9c779e89cd90c8c2ff18fe98570fe"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/vision_client.py",
+      "sha256": "8e6e1693302357cd1d0f9c667a7380e5f633c7097a30474d0937bf6bdef68ab3"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/vision_service.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/vision_service_v2.py",
+      "sha256": "f1abea428a3b8567de409490d979a88ce6095efd0927e662a71cc463862a1756"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/vision_service_v3.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/vision_skill.py",
+      "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/visual_actor.py",
+      "sha256": "7c46ecf0b3241753c340cb499bb6e8d4b07a4ca5d1a991e7bd97d9707e7231e5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/visual_actor_v2.py",
+      "sha256": "cee855e1fa8cee27788e33f3376d9a284e80225d1f112dabb07d05ee953c22a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/visual_actor_v3.py",
+      "sha256": "4ebea90747e9e54c0bf5cc364c9ac27fdce674be8931491679c28902ebab2789"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/visual_kernel.py",
+      "sha256": "07879f70a081d96225ef496bcb9b8a943321c8b57b152b477c05f5b6d76b679a"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/wire_contract.py",
+      "sha256": "96e24a25be25440fc2bbc0a656ebf13c3c07c2b7a8ebc7609fb8ee26af345bc2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/runtime/wire_contract_three.py",
+      "sha256": "52f1fdc0cc66a7104b91e9fdb1ea5b0787b172f1afa2339180abe50e14d6637e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/sources/multi_vla_server.py",
+      "sha256": "bfe26729684fabb1d294fee8fdbf2a957f353a4076a82d5a5b2eeed222762e50"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/supplemental_runtime_deps/import_check.py",
+      "sha256": "ff1307c8e44f65de1a45e9890c245b1976b6cb296245de2c34a8dd239849baf8"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/supplemental_runtime_deps/retry_protocol/__init__.py",
+      "sha256": "3d04f5b493082d384a2b604dd070c58850d8a53c5864b7e2361033381b276107"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/supplemental_runtime_deps/retry_protocol/fixed_retry.py",
+      "sha256": "fa78af6d89fdb944a399e05b5c2fc19aea70a765583e340cf2f0889f715abadd"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/supplemental_runtime_deps/retry_protocol/records.py",
+      "sha256": "d1ff48c0f8521dcf39a719fedf2ef48909093380181086d055e4753dc16e1a92"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/absolute_control_contract.py",
+      "sha256": "a1eebad40c635eee9132af6c869243f6b533ff28200e14bb106917c19ac86ad7"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/backend_server.py",
+      "sha256": "878cc337bb1f46f6b876908c13dfc1504a52a4edfe34c4c9219d9b3cbba4876f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/backend_server_io2.py",
+      "sha256": "fb011cea8e353ec706e01b320bcfa67d2dc589758043a3168469e612c692ebff"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/basket_features.py",
+      "sha256": "cb24453e13af4b5fc538cf9f318acba04e3a7b29d83c0e738cfeec13575e858b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/basket_features_v2.py",
+      "sha256": "b5fa00b7f954f0b3da8c33f0beea4aeb2473e235daf7e4a1c32357e0775b2ec5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/basket_features_v2_r2.py",
+      "sha256": "2ff53214de963f698f1891053a8c58763b83a1ea17523cc1b6e4cd1e8fdc94a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/calibrate.py",
+      "sha256": "bd661b1e174c39345c23325d606373de0ca9d6e29998e8a8d53cf66074b51a9b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/camera_model.py",
+      "sha256": "bfafa976d6beb0ef6a175072916db4388a40dbbe8d4c598eb321509bb3b875df"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/candidate_selector.py",
+      "sha256": "d3f9dc620212ac90d8e0eaed3cee1138936f8dedea8b6c857757cb7a20d54ed9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/candidate_server.py",
+      "sha256": "23242044ebe2682e6607892c6db254cd788ced2f51bcb75376305172891ce266"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/compile_release_skills.py",
+      "sha256": "104eeada531144e7d68f1d95edd71b528333987add5002693740133e908738b4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/constrained_localization.py",
+      "sha256": "e15cd66f04e8dd648f5cd2192900871f2d2d070040eb4a839950281e7ecc9861"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/control_adapter.py",
+      "sha256": "950a2e6a27e34e81fa01d835ee5a6870ae0bc2683651cd13c599c8675f5b1785"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/control_mode_interface.py",
+      "sha256": "a7360890070163fd541631092141d62183c42322c5207a59805b43efa5728f5f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/development_binding.py",
+      "sha256": "9deb618681a102a2f6fdd1a524f8b579f7bbb6bcddb046ec8d7998c57a99b2b9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/diagnose_constrained.py",
+      "sha256": "44cc0704e9b335413b70db8563bc2bc39dfd9f70cff83642ba8d941189a7aea2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/diagnose_seed.py",
+      "sha256": "d381731a92efd8ed684f4030b1a33b8f4674a8bfec43d690fb673c92ffc580bf"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/__init__.py",
+      "sha256": "4032724b98ed267185b12b8ec78dd9bcb0423ab1c89a6f0dad99397fd51159d9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/__init__.py",
+      "sha256": "99988374cedcd54fb097658436f1c724a99e9ca1386387f692cb059147af5f2b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/gates.py",
+      "sha256": "a92e6ed395618d43cbec7aa7ef972c22237b122e2b013c508bc24415c2a613c5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/geometry.py",
+      "sha256": "e7077430669cd506bd3526f94bd591d1c6e5af24f2e288afb17756b4a9d941dd"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/perception.py",
+      "sha256": "32c977f59f5711a0c9d49932aed59c05c9c1272435b3572a2e540eaf0b61d152"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/proposals.py",
+      "sha256": "08af9fbc1e4b652d848b8b1b10ea53782e50aadc7404812836ae34e10052e6d5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fastrsi/visual_recovery/refinement.py",
+      "sha256": "d9053bc98682f29931fb88cab98b9c627faff3a0e5c9213539f39cffdd2d8b24"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/fixed_retry_worker.py",
+      "sha256": "cdab58c49710ec52252aa1ac7fa9d6862e6a9bf577e697f9c01d4c2377a9822e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/guard_contract.py",
+      "sha256": "321a9ecf627e4b64f0a8215a186cc4ac30c5b36ef04e8811a1cf97c3eaaa0d9f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/initial_acquisition.py",
+      "sha256": "f39e8a50e7a8c6b62b5db72c932477a8cec8068d442e8d5428c8628f7a2e165b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/mode_switch_contract.py",
+      "sha256": "1f09e316b11391e428e7b5fda23d1a018750b495f16bb57a48b61b4ea8e3069d"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/multibackend_actor.py",
+      "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/multibackend_actor_absolute_prototype.py",
+      "sha256": "5c97bd8749a15b8b5eb2aa4524ad87abba6840ce6d6c6dcd89d0d95a56b923e4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/object_frame_skill.py",
+      "sha256": "f32f4186e07433700440de660b7040bae0930016837ac9e4cc8f2de047ee8c70"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/online_vision.py",
+      "sha256": "59c362baa63c4122f7e2d9321f1f89738d51fc239948f047fc7f5a886b946070"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/online_vision_frozen.py",
+      "sha256": "f62909d9eaab89c40629b900c09ddfeaa4731eb23767fb545f07b1469f612157"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/online_vision_v2.py",
+      "sha256": "9c3056f977ae3a33800cab38a9595d1244b9adfc18ce38f5b4bf8bb087fae586"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/paired_resident.py",
+      "sha256": "8b4090486449d8515d59ce6241fc7d4504af674dc927eada867e236c480205a1"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/paired_resident_io2.py",
+      "sha256": "7fff8faef82dcf8ec5a346c1af58723a5702c983d5a1e6e55e64c1488b6b92ea"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/pose_batch.py",
+      "sha256": "798b6540e74f5e4c8c4be39c461f685df4fa135c5771f7e86abc6e7bacd85784"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/pose_subject_batch.py",
+      "sha256": "adaaa68310ecccc28b32a5bc2bdac04d87100792e0f7f56a1628d647e0b3cd80"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/prepare_images.py",
+      "sha256": "0baa7d3aec1381bfa76a574c8f71461a14f7fbc5efebcf6933190539c8919cd6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/session_namespace.py",
+      "sha256": "b40fca58e9f351f444cfb95b1e42dede54c34786c41607bd1270bd27b35cd99b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/sitecustomize.py",
+      "sha256": "ec90eab7fe67cedf060d85b543390ef5a6b9c779e89cd90c8c2ff18fe98570fe"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/source_seed.py",
+      "sha256": "330ae6831c647073628afce1b309045b8c670d752f082d23e797d676d97702a9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/vision_client.py",
+      "sha256": "8e6e1693302357cd1d0f9c667a7380e5f633c7097a30474d0937bf6bdef68ab3"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/vision_service.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/vision_service_v2.py",
+      "sha256": "f1abea428a3b8567de409490d979a88ce6095efd0927e662a71cc463862a1756"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/vision_service_v3.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/vision_skill.py",
+      "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/visual_actor.py",
+      "sha256": "7c46ecf0b3241753c340cb499bb6e8d4b07a4ca5d1a991e7bd97d9707e7231e5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/visual_actor_v2.py",
+      "sha256": "cee855e1fa8cee27788e33f3376d9a284e80225d1f112dabb07d05ee953c22a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/visual_actor_v3.py",
+      "sha256": "4ebea90747e9e54c0bf5cc364c9ac27fdce674be8931491679c28902ebab2789"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/visual_kernel.py",
+      "sha256": "ff02134904e3138b39e37a736b828f938cd8483a54d91d66eecb9f7f498d247c"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/visual_kernel_frozen.py",
+      "sha256": "07879f70a081d96225ef496bcb9b8a943321c8b57b152b477c05f5b6d76b679a"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/candidate_runtime/wire_contract.py",
+      "sha256": "96e24a25be25440fc2bbc0a656ebf13c3c07c2b7a8ebc7609fb8ee26af345bc2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/INITIAL_LOCATOR_REGISTRY.json",
+      "sha256": "f79cc4016b657409598086816d1b13c3f7991600ad5915f2714630d9728cb687"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/STATIC_SOURCE_POSE.json",
+      "sha256": "e76b7ea0d72ec12b294f866ff25525d82250fa4fda25475a4732521be5eb81a9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/absolute_control_contract.py",
+      "sha256": "a1eebad40c635eee9132af6c869243f6b533ff28200e14bb106917c19ac86ad7"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/backend_server.py",
+      "sha256": "878cc337bb1f46f6b876908c13dfc1504a52a4edfe34c4c9219d9b3cbba4876f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/backend_server_io2.py",
+      "sha256": "fb011cea8e353ec706e01b320bcfa67d2dc589758043a3168469e612c692ebff"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/basket_features.py",
+      "sha256": "cb24453e13af4b5fc538cf9f318acba04e3a7b29d83c0e738cfeec13575e858b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/basket_features_v2.py",
+      "sha256": "b5fa00b7f954f0b3da8c33f0beea4aeb2473e235daf7e4a1c32357e0775b2ec5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/basket_features_v2_r2.py",
+      "sha256": "2ff53214de963f698f1891053a8c58763b83a1ea17523cc1b6e4cd1e8fdc94a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/calibrate.py",
+      "sha256": "bd661b1e174c39345c23325d606373de0ca9d6e29998e8a8d53cf66074b51a9b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/camera_model.py",
+      "sha256": "bfafa976d6beb0ef6a175072916db4388a40dbbe8d4c598eb321509bb3b875df"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/candidate_selector.py",
+      "sha256": "d3f9dc620212ac90d8e0eaed3cee1138936f8dedea8b6c857757cb7a20d54ed9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/candidate_server.py",
+      "sha256": "23242044ebe2682e6607892c6db254cd788ced2f51bcb75376305172891ce266"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/compile_release_skills.py",
+      "sha256": "104eeada531144e7d68f1d95edd71b528333987add5002693740133e908738b4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/constrained_localization.py",
+      "sha256": "e15cd66f04e8dd648f5cd2192900871f2d2d070040eb4a839950281e7ecc9861"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/control_adapter.py",
+      "sha256": "950a2e6a27e34e81fa01d835ee5a6870ae0bc2683651cd13c599c8675f5b1785"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/control_mode_interface.py",
+      "sha256": "a7360890070163fd541631092141d62183c42322c5207a59805b43efa5728f5f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/development_binding.py",
+      "sha256": "9deb618681a102a2f6fdd1a524f8b579f7bbb6bcddb046ec8d7998c57a99b2b9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/diagnose_constrained.py",
+      "sha256": "44cc0704e9b335413b70db8563bc2bc39dfd9f70cff83642ba8d941189a7aea2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/diagnose_seed.py",
+      "sha256": "d381731a92efd8ed684f4030b1a33b8f4674a8bfec43d690fb673c92ffc580bf"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/__init__.py",
+      "sha256": "4032724b98ed267185b12b8ec78dd9bcb0423ab1c89a6f0dad99397fd51159d9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/__init__.py",
+      "sha256": "99988374cedcd54fb097658436f1c724a99e9ca1386387f692cb059147af5f2b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/gates.py",
+      "sha256": "a92e6ed395618d43cbec7aa7ef972c22237b122e2b013c508bc24415c2a613c5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/geometry.py",
+      "sha256": "e7077430669cd506bd3526f94bd591d1c6e5af24f2e288afb17756b4a9d941dd"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/perception.py",
+      "sha256": "d3e97ae80b888e6861c4a8a960740d22d54714b77d9462ef6b465e439ee4f78e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/proposals.py",
+      "sha256": "08af9fbc1e4b652d848b8b1b10ea53782e50aadc7404812836ae34e10052e6d5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fastrsi/visual_recovery/refinement.py",
+      "sha256": "d9053bc98682f29931fb88cab98b9c627faff3a0e5c9213539f39cffdd2d8b24"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/fixed_retry_worker.py",
+      "sha256": "cdab58c49710ec52252aa1ac7fa9d6862e6a9bf577e697f9c01d4c2377a9822e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/guard_contract.py",
+      "sha256": "321a9ecf627e4b64f0a8215a186cc4ac30c5b36ef04e8811a1cf97c3eaaa0d9f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/initial_acquisition.py",
+      "sha256": "f39e8a50e7a8c6b62b5db72c932477a8cec8068d442e8d5428c8628f7a2e165b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/mode_switch_contract.py",
+      "sha256": "1f09e316b11391e428e7b5fda23d1a018750b495f16bb57a48b61b4ea8e3069d"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/multibackend_actor.py",
+      "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/multibackend_actor_absolute_prototype.py",
+      "sha256": "5c97bd8749a15b8b5eb2aa4524ad87abba6840ce6d6c6dcd89d0d95a56b923e4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/object_frame_skill.py",
+      "sha256": "f32f4186e07433700440de660b7040bae0930016837ac9e4cc8f2de047ee8c70"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/online_vision.py",
+      "sha256": "845e30bdc5c55ce8ce816a354ee53952ecea15759361bf79647b5851e88b49d1"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/online_vision_frozen.py",
+      "sha256": "a4620b4781d5bc8cc14794ba846cf1ad75534f3bd9412d2138749e4fd2a4579f"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/online_vision_v2.py",
+      "sha256": "e54da2437a0c8acf6dc568042bb3356db32e7f69eda696d6f1434fc8447e156d"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/paired_resident.py",
+      "sha256": "8b4090486449d8515d59ce6241fc7d4504af674dc927eada867e236c480205a1"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/paired_resident_io2.py",
+      "sha256": "7fff8faef82dcf8ec5a346c1af58723a5702c983d5a1e6e55e64c1488b6b92ea"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/pose_batch.py",
+      "sha256": "798b6540e74f5e4c8c4be39c461f685df4fa135c5771f7e86abc6e7bacd85784"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/pose_subject_batch.py",
+      "sha256": "246f4510cdbe40bfe08c0eb6c284bff3a5033b0dff2cf506bc1cd643830c3dd4"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/prepare_images.py",
+      "sha256": "0baa7d3aec1381bfa76a574c8f71461a14f7fbc5efebcf6933190539c8919cd6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/session_namespace.py",
+      "sha256": "b40fca58e9f351f444cfb95b1e42dede54c34786c41607bd1270bd27b35cd99b"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/sitecustomize.py",
+      "sha256": "ec90eab7fe67cedf060d85b543390ef5a6b9c779e89cd90c8c2ff18fe98570fe"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/source_seed.py",
+      "sha256": "330ae6831c647073628afce1b309045b8c670d752f082d23e797d676d97702a9"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_client.py",
+      "sha256": "8e6e1693302357cd1d0f9c667a7380e5f633c7097a30474d0937bf6bdef68ab3"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_service.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_service_v2.py",
+      "sha256": "f1abea428a3b8567de409490d979a88ce6095efd0927e662a71cc463862a1756"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_service_v3.py",
+      "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_skill.py",
+      "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/visual_actor.py",
+      "sha256": "7c46ecf0b3241753c340cb499bb6e8d4b07a4ca5d1a991e7bd97d9707e7231e5"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/visual_actor_v2.py",
+      "sha256": "cee855e1fa8cee27788e33f3376d9a284e80225d1f112dabb07d05ee953c22a6"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/visual_actor_v3.py",
+      "sha256": "4ebea90747e9e54c0bf5cc364c9ac27fdce674be8931491679c28902ebab2789"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/visual_kernel.py",
+      "sha256": "ff02134904e3138b39e37a736b828f938cd8483a54d91d66eecb9f7f498d247c"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/visual_kernel_frozen.py",
+      "sha256": "07879f70a081d96225ef496bcb9b8a943321c8b57b152b477c05f5b6d76b679a"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/wire_contract.py",
+      "sha256": "96e24a25be25440fc2bbc0a656ebf13c3c07c2b7a8ebc7609fb8ee26af345bc2"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_multi_proposal_confirm12_20261017_v1/ASSET_INDEX_FINAL.json",
+      "sha256": "9275ac2aae7c1c58af34edd7b7f7c4d8a49af79bc431456da0f32ddec80f502e"
+    },
+    {
+      "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_alphabet_transfer_screen_20261018_v1/launch_specs_parent.py",
+      "sha256": "73fc0d75bc39b311b77c333f4e3c2cb27d5f9ebc488c152271bd30e103d8a8f6"
+    }
+  ],
+  "dependency_identities": [
+    {
+      "name": "original_sealed_native_dependency_manifest",
+      "scope": "Original SHA256SUMS content identity for sealed native dependencies/overlays; reused manifest, no fresh full dependency-tree claim.",
+      "binding_files": [
+        {
+          "path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/SHA256SUMS",
+          "sha256": "7039833004926d4d24c8cd4b68bb33c71c82acaee78ac20fa1b555f1ae456df3"
+        }
+      ]
+    },
+    {
+      "name": "accepted_cpu_visual_runtime_source_identity",
+      "scope": "Actual accepted CPU visual candidate source files. Root may append interpreter/pose-model legacy manifest identities here before the one host pass.",
+      "binding_files": [
+        {
+          "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/candidate_runtime/vision_service_v3.py",
+          "sha256": "e31419d78739633a93e74cd9fd2ddf8e1466de8171b4aadfe0e17e153b2a0331"
+        }
+      ]
+    }
+  ],
+  "dependency_identity_boundary": "Exact actual policy checkpoint files fresh-hashed once against sealed archive; explicitly pinned source/config/manifests fresh-hashed once. External CPU visual dependency identity can reuse its old frozen receipts; no fullvenv freshness claim.",
+  "unmeasured_scope": [
+    "Whole Megapose venv installed-library tree is not fresh-hashed by this plan; append existing frozen interpreter/model identity manifest or actual used config/binary pins for precise host coverage.",
+    "Qwen and unrelated112GB archive data never read."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "EXISTING_USER_AUTHORIZATION_RECORDED",
+  "authority": "Existing user authorization for bounded cross-task recovery validation on idle187/188 GPUs; root delegated fixed288maximum. This is an internal receipt, not a request for new human approval.",
+  "authorized_gpus": {
+    "187": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "188": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "model_conditions": 48,
+  "normal_physical_attempts_max": 288,
+  "proposal_sha256": "69a5a094d1b5115d51709a93127c72c3cd7baca967d5ff193eefb7e1031620db",
+  "canonical_actors_unchanged": true,
+  "source_gate_not_bypassed": true,
+  "source_and_failed_predecessor_costs_retained": true,
+  "idle_resources_only": true,
+  "max_actual_cold_policy_loads_per_node": 2,
+  "full_evaluation": "PAUSED",
+  "old_controllers": "DO_NOT_IMPORT_RESTART_OR_RESUME"
+}

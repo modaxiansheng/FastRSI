@@ -1,0 +1,72 @@
+{
+  "schema": "fastrsi_object7_v3_host_controller_source_acceptance_v1",
+  "status": "FROZEN_PREPARATION_ONLY_NO_RUNTIME_STARTED",
+  "time": 1792599561.167695,
+  "files": {
+    "node_host_controller_v3.py": {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/node_host_controller_v3.py",
+      "sha256": "7819286b08a5ff1df532a023ac1db68c6aba4192a8c34960119e89e6cfa894f6",
+      "bytes": 21857
+    },
+    "test_node_host_controller_v3.py": {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/test_node_host_controller_v3.py",
+      "sha256": "6f09d050e6e69a1eb9eab0f7a3156fd6fa25c93b3d139b6c55d4dff3f18da40c",
+      "bytes": 10568
+    }
+  },
+  "tests": {
+    "local_pure_fakes_passed": 7,
+    "failed": 0,
+    "independent_reviewer_reproduced_passed": 7,
+    "python38_ast_passed": true,
+    "ssh": 0,
+    "child_processes_started": 0,
+    "model_loads": 0,
+    "env_constructors": 0,
+    "physical_actions": 0
+  },
+  "recovery_bindings_required_fields": [
+    "host_controller_sha256",
+    "resume_coordinator_sha256",
+    "continuation_plan_sha256",
+    "original_coordinator_sha256"
+  ],
+  "plan_group_action_field": "action",
+  "modes": [
+    "REUSE_COMPLETE_GROUP",
+    "RESUME_PARTIAL",
+    "NEW_GROUP"
+  ],
+  "model_order": [
+    "pi05",
+    "pi0",
+    "openvla",
+    "xvla"
+  ],
+  "task_order": [
+    7,
+    0,
+    1,
+    4,
+    6,
+    9,
+    2
+  ],
+  "max_active_per_node": 2,
+  "max_active_two_nodes": 4,
+  "fixed_physical_identities": 14,
+  "fixed_model_conditions": 56,
+  "same_normal_attempt_max": 336,
+  "pi05_max": 84,
+  "mutable_status_inputs": 0,
+  "reused_groups_gpu_dispatches": 0,
+  "publication": "Completed temporary file + fsync + exclusive os.link; no replace/overwrite",
+  "observer_fault": "CPU_ONLY_STOP_NO_GLOBAL_HALT_NO_AUTOMATIC_RESTART",
+  "coordinator_fault": "Verified original GROUP_FAILURE + nonzero exit -> global technical HALT; no inferred physical failure",
+  "resource_wait": "STOP_OWN_NO_RETRY",
+  "cpu_publication_wait_seconds_max": 14400,
+  "observer_wall_seconds_max": 86400,
+  "scientific_and_previous_versions_modified": false,
+  "full_evaluation": "PAUSED",
+  "actual_execution_started": false
+}

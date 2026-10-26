@@ -1,0 +1,63 @@
+{
+  "status": "NEURAL_REPLAY_FAILED",
+  "identity": "56557cc77a244c89a5b5ca4dba93da4a",
+  "node": "187",
+  "source_sha256": {
+    "code/scripts/qwen_agent_server.py": "408dd28d556555556328c51c365c5161d501e10997513235b7df12dc6c23e1e0",
+    "code/src/fastrsi/terminal_results.py": "048bb11ba2051f3636f386858eb75acac6cc6d8f0e1829c8f1dc86ee8785bdd2"
+  },
+  "original_request_sha256": {
+    "case009_t0_i33": "26797017a442b73fb53268a648076547923817c40360e2ce750bbb5341529c02",
+    "case002_t0_i35": "69b5b725fd5c939a1739f20499b1d42cb5f7857971008075bbefe30b0ac4be9f"
+  },
+  "started_at": 1791749769.2988935,
+  "scope": "Archived terminal-report requests only; no robot execution or result promotion",
+  "locks": [
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/runs/full_os_v1.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/multi_vla_efficiency_20261010_v1/parallel_group_coordinator.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/runs/system_efficiency_node187.lock",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/multi_vla_efficiency_20261010_v1/active_node187.lock"
+  ],
+  "gate_sha256": "40e95ae977b4dfb3b35c31ca70efed43cb85aeb082c4dee59f9ff3b0beeef681",
+  "cid": "eea0b79c8db842c93366d0f08d5f55965c77e9b6e873a46f078ae44f0e5aaf07",
+  "launch_at": 1791749769.9875696,
+  "health": {
+    "ok": true,
+    "protocol": "fastrsi_qwen_tools_v1",
+    "model": "qwen3vl8b",
+    "native_template": true
+  },
+  "replays": [
+    {
+      "case": "case009_t0_i33",
+      "http_status": 422,
+      "response_sha256": "16aeb74aa03d4e64b2ec48dc11237bc5470ba3a52ec58a245291c1622cb5a387",
+      "seconds": 0.020352840423583984,
+      "error": {
+        "message": "Unsupported tool_choice",
+        "type": "tool_protocol_error"
+      }
+    },
+    {
+      "case": "case002_t0_i35",
+      "http_status": 422,
+      "response_sha256": "16aeb74aa03d4e64b2ec48dc11237bc5470ba3a52ec58a245291c1622cb5a387",
+      "seconds": 0.01241159439086914,
+      "error": {
+        "message": "Unsupported tool_choice",
+        "type": "tool_protocol_error"
+      }
+    }
+  ],
+  "stop": {
+    "returncode": 0,
+    "stdout": "eea0b79c8db842c93366d0f08d5f55965c77e9b6e873a46f078ae44f0e5aaf07\n",
+    "stderr": ""
+  },
+  "remove": {
+    "returncode": 0,
+    "stdout": "eea0b79c8db842c93366d0f08d5f55965c77e9b6e873a46f078ae44f0e5aaf07\n",
+    "stderr": ""
+  },
+  "finished_at": 1791749887.57281
+}

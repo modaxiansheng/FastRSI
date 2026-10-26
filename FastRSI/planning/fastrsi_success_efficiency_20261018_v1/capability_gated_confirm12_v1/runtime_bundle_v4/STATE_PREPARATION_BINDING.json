@@ -1,0 +1,20 @@
+{
+  "status": "SEPARATE_CPU_PREPARATION_EXPLICITLY_BOUND_BEFORE_GENERATION",
+  "task_design_local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/state_preparation_v3/TASK_DESIGN.json",
+  "task_design_host_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/state_preparation_v3/TASK_DESIGN.json",
+  "task_design_sha256": "0ac74e465753e31e92ca3e55bc60ebb38a745c6e9797e4ee9984a08e03a60602",
+  "before_generation_freeze_host_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/state_preparation_v3/BEFORE_GENERATION_FREEZE.json",
+  "before_generation_freeze_sha256": "aba7b7989847f6f79c75a194c3820a02532f4fd56244c2a37c6138f471355755",
+  "canonical_state_preparation_host_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/state_preparation_v3",
+  "proposed_generated_host_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/generation_run2",
+  "required_output": "Separate verifier writes FROZEN_ROSTER.json; original generated directory retains ROSTER_RAW.json, states/, source receipts and generation cost/journals.",
+  "runtime_mount": "/eval/generated:ro",
+  "bind_after_independent_verification": "Run bind_states.py once with --generated-root and --verification-root. It pins both roots, independent FROZEN_ROSTER, raw manifest, states, source receipts and generation cost/events/reset journals. Only original generated root is mounted as /eval/generated:ro.",
+  "new_model_or_environment_work": 0,
+  "full_evaluation": "PAUSED",
+  "proposed_verification_host_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/verification_run1",
+  "separate_generation_and_verification_output": true,
+  "expected_raw_roster_sha256": "4de8e93d77fb506d89c6d3e511f1220a0a35247fa1da2039bbbf604391dfee6f",
+  "expected_frozen_roster_sha256": "ad7242e913a26ee9c672c87583632f6ac30ef59b66a380853bbccd4709f29e44",
+  "generation_identity": "Actual successful V3 generation12constructors/12officialdraws/120settlingactions/0neural calls; original outputs remain in place"
+}

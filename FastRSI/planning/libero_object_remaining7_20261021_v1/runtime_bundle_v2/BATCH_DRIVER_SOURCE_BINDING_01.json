@@ -1,0 +1,58 @@
+{
+  "schema": "fastrsi_object7_pi05_host_batch_driver_binding_v1",
+  "time": 1792597384.967472,
+  "files": [
+    {
+      "source_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_preparation_v1/pi05_batch_driver.py",
+      "destination_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v1/pi05_batch_driver.py",
+      "sha256": "56bad0bb224daceac1be3f8840db76797790160b000e55106212f2c9f49605bb",
+      "bytes": 14537
+    },
+    {
+      "source_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_preparation_v1/test_pi05_batch_driver.py",
+      "destination_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v1/test_pi05_batch_driver.py",
+      "sha256": "11c76856ce60843e74e6df5ce79f958d507151e35dc4ddc863a786c748522825",
+      "bytes": 9110
+    }
+  ],
+  "sealed_core_manifest_sha256": "570cf215bf92fb53fdd584e9668609b6e85f1621bfd64bfe1c7e21fcb1767c40",
+  "core_manifest_modified": false,
+  "metadata_helper_byte_equality": {
+    "coordinator_contract.py": "e367f573e8c5d8c5591318efb94e61856f77b474c6dc123d0ef5a852fb2ced25",
+    "row_factory.py": "7e3d5a5790aaec8e87e31d628c0a5324c26a647c64792531bef842b52d69788b",
+    "runtime_admission.py": "84f37d95eb032c0db9b4455157973333c03ee5761ba5650f5a1be917a717b668"
+  },
+  "pure_fake_tests": {
+    "passed": 8,
+    "failed": 0,
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "-q",
+      "test_pi05_batch_driver.py"
+    ],
+    "runtime_models_environments_or_children_started": 0
+  },
+  "host_driver_only": true,
+  "node_max_active": 2,
+  "two_node_max_active": 4,
+  "model": "pi05",
+  "task_order": [
+    7,
+    0,
+    1,
+    4,
+    6,
+    9,
+    2
+  ],
+  "global_normal_attempts_max": 84,
+  "default_observer_wall_seconds": 43200,
+  "observer_timeout_keeps_detached_exact_children_and_does_not_restart": true,
+  "later_models_still_require_original_pi05_stage_gate": true,
+  "ssh_or_docker_by_this_driver": false,
+  "execution_started": false,
+  "full_evaluation": "PAUSED"
+}

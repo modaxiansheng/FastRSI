@@ -1,0 +1,598 @@
+{
+  "created_utc": "2026-10-17T21:38:41.866500+00:00",
+  "status": "PREREGISTERED_DESIGN_BEFORE_GENERATION_OR_NEW_OUTCOMES",
+  "physical_identities": 12,
+  "model_conditions": 48,
+  "models": [
+    "pi05",
+    "pi0",
+    "openvla",
+    "xvla"
+  ],
+  "branches": [
+    "ordinary",
+    "frozen",
+    "candidate"
+  ],
+  "normal_physical_attempts_max": 288,
+  "baseline": "Shared official native up-to3, deterministic identical-second OpenVLA stop preserved",
+  "extra": "After baseline failure one official-cap attempt independently in each branch from the exact same saved init, first input and baseline-end model RNG",
+  "official_action_caps": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "maximum_official_actions": 90240,
+  "settling_actions_separate": true,
+  "rows": [
+    {
+      "identity_id": "capconfirm12_00",
+      "suite": "libero_object",
+      "task_id": 1,
+      "variant": "position",
+      "subject": "cream_cheese_1",
+      "predeclared_support": "validated_new_object",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the cream cheese and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_02"
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "position",
+        "official_suite": "libero_object_swap",
+        "task_id": 1,
+        "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+        "language": "Pick the cream cheese and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+        "init_rel": "init_files/libero_object_swap/pick_up_the_cream_cheese_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "f9bb455a4fd1dac83a72d33673509a2f175f7fb63026b9fef78d66515771e022",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "7019f37ee158d67a21338a6df0c441dd8f84979b946b5e20bb49463ef0508ea2",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_01",
+      "suite": "libero_object",
+      "task_id": 4,
+      "variant": "environment",
+      "subject": "ketchup_1",
+      "predeclared_support": "validated_new_object",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the ketchup and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_07_prefix_v1"
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "environment",
+        "official_suite": "libero_object_env",
+        "task_id": 4,
+        "task_name": "pick_up_the_ketchup_and_place_it_in_the_basket",
+        "language": "Pick the ketchup and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_env/pick_up_the_ketchup_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "64afdcc1a030a670c49c5ae744c84e59622f0081365b460c4efece62b24984fe",
+        "init_rel": "init_files/libero_object_env/pick_up_the_ketchup_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "898d8fba3a9dc50debad475b2609739d54960085942c32d78fe90d57d5e71765",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "4a4e545483a3fe30cf0ef3dc05bfe5e6ad5e37c94b4376dfa73fe1b60e75b319",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "4a4e545483a3fe30cf0ef3dc05bfe5e6ad5e37c94b4376dfa73fe1b60e75b319",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_02",
+      "suite": "libero_object",
+      "task_id": 6,
+      "variant": "position",
+      "subject": "butter_1",
+      "predeclared_support": "validated_new_object",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the butter and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "dev14"
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "position",
+        "official_suite": "libero_object_swap",
+        "task_id": 6,
+        "task_name": "pick_up_the_butter_and_place_it_in_the_basket",
+        "language": "Pick the butter and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_butter_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+        "init_rel": "init_files/libero_object_swap/pick_up_the_butter_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "1f193d9cfd85c3c4e33451f125627d8d1ba292d980a0fa2c2930be7cd67655b8",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "5d8053b40ff33246fdbcc38548db84032c6bb647b4b88b6646d9cf6b73a5006c",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_03",
+      "suite": "libero_object",
+      "task_id": 7,
+      "variant": "environment",
+      "subject": "milk_1",
+      "predeclared_support": "validated_new_object",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the milk and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "milk_transfer_v1"
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "environment",
+        "official_suite": "libero_object_env",
+        "task_id": 7,
+        "task_name": "pick_up_the_milk_and_place_it_in_the_basket",
+        "language": "Pick the milk and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_env/pick_up_the_milk_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "604b568050b47b77d7a06a741c5a9b5b54eb24db7338f89478567920d7f6c844",
+        "init_rel": "init_files/libero_object_env/pick_up_the_milk_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "a7cf31da34d437e0753ec770b1df9d29492d6d908ec27a1a288e7983a3e23f04",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "9910aabf6717e8ba3e24a3f8500d9bce9ee075346ea6961e8fd766f1257d2996",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "9910aabf6717e8ba3e24a3f8500d9bce9ee075346ea6961e8fd766f1257d2996",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_04",
+      "suite": "libero_object",
+      "task_id": 9,
+      "variant": "position",
+      "subject": "orange_juice_1",
+      "predeclared_support": "validated_new_object",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the orange juice and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": "newtask_13"
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "position",
+        "official_suite": "libero_object_swap",
+        "task_id": 9,
+        "task_name": "pick_up_the_orange_juice_and_place_it_in_the_basket",
+        "language": "Pick the orange juice and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_orange_juice_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "2ec847b6887474d1c5dd69f2a3b4e57d5f335b5df169e64d88c10125ed419daf",
+        "init_rel": "init_files/libero_object_swap/pick_up_the_orange_juice_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "eeb6050333c46e275caa9897892257e3297d9dedea51c7ef751d0da2e90308c2",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "2ec847b6887474d1c5dd69f2a3b4e57d5f335b5df169e64d88c10125ed419daf"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "6298533e7bcfb83e40779a77fda39216e8cd53f22bf1af6388585dad0abb0b50",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_05",
+      "suite": "libero_object",
+      "task_id": 2,
+      "variant": "environment",
+      "subject": "salad_dressing_1",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 280,
+      "language": "Pick the salad dressing and place it in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_object",
+        "variant": "environment",
+        "official_suite": "libero_object_env",
+        "task_id": 2,
+        "task_name": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+        "language": "Pick the salad dressing and place it in the basket",
+        "bddl_rel": "bddl_files/libero_object_env/pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl",
+        "bddl_sha256": "ed019f20366561ce9a1629e9c0e8196443a53fb1837df53882b48d2e63ce04a7",
+        "init_rel": "init_files/libero_object_env/pick_up_the_salad_dressing_and_place_it_in_the_basket.pruned_init",
+        "init_sha256": "9d2c792338cd98ace1d87575cda4ece26be8e9e6d8a3f8acbbb1a472d6bedc83",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "024978e9e8f43a49b49d0965f4f426d364ce056307f0fcf5733dc4682fac437a",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 280,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          110
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "024978e9e8f43a49b49d0965f4f426d364ce056307f0fcf5733dc4682fac437a",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_06",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_spatial_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 220,
+      "language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_spatial",
+        "variant": "position",
+        "official_suite": "libero_spatial_swap",
+        "task_id": 0,
+        "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+        "language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+        "bddl_rel": "bddl_files/libero_spatial_swap/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+        "bddl_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+        "init_rel": "init_files/libero_spatial_swap/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.pruned_init",
+        "init_sha256": "b03c5dcddce5c6e2cf687861caed0b677faab935ee5a1513a69eb4bb6caf5589",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269"
+        },
+        "max_steps": 220,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          92
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "9b59eb1287802868ad9bc78d58e6d36d4ba31134e679cfdbdf4b0feb660c959b",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_07",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_spatial_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 220,
+      "language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_spatial",
+        "variant": "environment",
+        "official_suite": "libero_spatial_env",
+        "task_id": 0,
+        "task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+        "language": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+        "bddl_rel": "bddl_files/libero_spatial_env/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+        "bddl_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+        "init_rel": "init_files/libero_spatial_env/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.pruned_init",
+        "init_sha256": "f9c8d5bdc636c099c93cfeff486aa2eb4360106b2be49336db22ef1a1fc8a774",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "9b59eb1287802868ad9bc78d58e6d36d4ba31134e679cfdbdf4b0feb660c959b",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 220,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          92
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "9b59eb1287802868ad9bc78d58e6d36d4ba31134e679cfdbdf4b0feb660c959b",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_08",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_goal_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 300,
+      "language": "Open the middle layer of the drawer",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_goal",
+        "variant": "position",
+        "official_suite": "libero_goal_swap",
+        "task_id": 0,
+        "task_name": "open_the_middle_drawer_of_the_cabinet",
+        "language": "Open the middle layer of the drawer",
+        "bddl_rel": "bddl_files/libero_goal_swap/open_the_middle_drawer_of_the_cabinet.bddl",
+        "bddl_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+        "init_rel": "init_files/libero_goal_swap/open_the_middle_drawer_of_the_cabinet.pruned_init",
+        "init_sha256": "003535c27714a4cc51cb1574bdf16723597f2a9d932e800fb478f6c0982c772b",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79"
+        },
+        "max_steps": 300,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          79
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "832ab48ec476807c767e8985666e295700f92d1f8daeae1c34eee1e75293769b",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_09",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_goal_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 300,
+      "language": "Open the middle layer of the drawer",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_goal",
+        "variant": "environment",
+        "official_suite": "libero_goal_env",
+        "task_id": 0,
+        "task_name": "open_the_middle_drawer_of_the_cabinet",
+        "language": "Open the middle layer of the drawer",
+        "bddl_rel": "bddl_files/libero_goal_env/open_the_middle_drawer_of_the_cabinet.bddl",
+        "bddl_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+        "init_rel": "init_files/libero_goal_env/open_the_middle_drawer_of_the_cabinet.pruned_init",
+        "init_sha256": "d61aca4d2c8f5978c15ff9d8fb39a1b3f5bd0af2c86358529997a6a3e9212698",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "832ab48ec476807c767e8985666e295700f92d1f8daeae1c34eee1e75293769b",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 300,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          79
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "832ab48ec476807c767e8985666e295700f92d1f8daeae1c34eee1e75293769b",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_10",
+      "suite": "libero_10",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_10_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 520,
+      "language": "put both the alphabet soup and the tomato sauce in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_10",
+        "variant": "position",
+        "official_suite": "libero_10_swap",
+        "task_id": 0,
+        "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+        "language": "put both the alphabet soup and the tomato sauce in the basket",
+        "bddl_rel": "bddl_files/libero_10_swap/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+        "bddl_sha256": "f2b5896754bf46b02090533835e61f057c64fa8403b8dde0caa380ddfb10e567",
+        "init_rel": "init_files/libero_10_swap/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+        "init_sha256": "c4e202fbfeecf8867f8118a1cc45477e1340364191e7dbcf55746a5fc26202df",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_prepackaged",
+          "source_sha256": "f2b5896754bf46b02090533835e61f057c64fa8403b8dde0caa380ddfb10e567"
+        },
+        "max_steps": 520,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          123
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+        "bddl_changed_from_original": true
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    },
+    {
+      "identity_id": "capconfirm12_11",
+      "suite": "libero_10",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_10_task0",
+      "predeclared_support": "unsupported_negative",
+      "replicate": 0,
+      "max_steps": 520,
+      "language": "put both the alphabet soup and the tomato sauce in the basket",
+      "skill_by_branch": {
+        "ordinary": null,
+        "frozen": null,
+        "candidate": null
+      },
+      "asset": {
+        "suite": "libero_10",
+        "variant": "environment",
+        "official_suite": "libero_10_env",
+        "task_id": 0,
+        "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+        "language": "put both the alphabet soup and the tomato sauce in the basket",
+        "bddl_rel": "bddl_files/libero_10_env/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+        "bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+        "init_rel": "init_files/libero_10_env/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+        "init_sha256": "e2070f384584dab9113447ea2397ae20dbf6f268b4a6ccb115a5e491c7cb43ae",
+        "init_pending": false,
+        "origin": {
+          "kind": "official_environment_operator_seed7",
+          "source_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+          "config_sha256": "58b889a1bedeb8590068e16e972034e54753e3dd7ae7fc06f410a40e06a3dbb2"
+        },
+        "max_steps": 520,
+        "distinct_states": 50,
+        "state_shape": [
+          50,
+          123
+        ],
+        "reset_probe_passed": true,
+        "initial_goal_success_probe": false,
+        "original_bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+        "bddl_changed_from_original": false
+      },
+      "selection": "EXACT_SEPARATELY_FROZEN_TASK_DESIGN_NO_OUTCOME_RESELECTION"
+    }
+  ],
+  "task_selection": "Exact state-agent TASK_DESIGN: all6closed Object targets in declared order and alternating position/environment; task0 position/environment for Spatial, Goal and Long. No new outcome inspection or selection.",
+  "primary_denominator": 48,
+  "per_model_denominator": 12,
+  "supported_candidate_conditions": 20,
+  "unsupported_candidate_conditions": 28,
+  "old_frozen_supported_conditions_on_this_roster": 0,
+  "preserve_unknown_and_unsupported_in_denominator": true,
+  "report_null_controls": "Report supported5Object and unsupported7identity strata alongside all48. Unsupported tasks use original native continuation; do not claim a cross-suite recovery gain.",
+  "source_successes_not_confirmation_rescues": true,
+  "success_pooling": false,
+  "compute_budget_matched": false,
+  "action_opportunity_budget_matched": true,
+  "current_target_truth_as_control_input": false,
+  "shared_official_simulator_success_feedback": true,
+  "training": false,
+  "cross_episode_learning": false,
+  "states_generated": 0,
+  "full_evaluation": "PAUSED",
+  "old_six_source_study": "Unchanged and closed5of6; old six-success gate and controllers are never bypassed or resumed",
+  "candidate_device": "Initial frozen CPU vision. Any optional device-equivalence evidence must be a separate recorded gate completed before candidate freeze; no GPU inference equivalence assumed.",
+  "post_failure": "No outcome-based candidate/threshold/offset/prompt/checkpoint change, roster replacement, retry or extra source trial.",
+  "required_before_generation": [
+    "New immutable all-input bundle byte receipt and candidate freeze",
+    "Permanent union of all prior development/source/confirmation physical and initial-state exclusions, including failed source/public replay identities",
+    "Explicit state-only deterministic generator and exclusion verification bound before any new RGB/outcome",
+    "Fresh host admission and complete exact checkpoint/dependency identities before runtime launch"
+  ],
+  "state_task_design_sha256": "0ac74e465753e31e92ca3e55bc60ebb38a745c6e9797e4ee9984a08e03a60602",
+  "state_before_generation_freeze_sha256": "aba7b7989847f6f79c75a194c3820a02532f4fd56244c2a37c6138f471355755",
+  "supersedes_unexecuted_all_position_draft": true,
+  "exact_state_design_local_path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/state_preparation_v3/TASK_DESIGN.json",
+  "runtime_package_version": 3,
+  "preserved_runtime_package_v1_manifest_sha256": "d78f9326f41f435d606c7f821890b1928c0732f9382319237f86566ccfc7c80d",
+  "preserved_runtime_package_v2_manifest_sha256": "828e03694718d4f8d0a1ac3ed3a64dbaa919db38a07066e32b6596c0fc8a0f87"
+}

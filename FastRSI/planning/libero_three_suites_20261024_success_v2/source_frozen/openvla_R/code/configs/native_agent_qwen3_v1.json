@@ -1,0 +1,43 @@
+{
+  "model_id": "qwen3vl8b",
+  "architecture": "qwen3_vl",
+  "wire_format": "checkpoint_native",
+  "weights": "/mnt/data/task/TriWorld-FastTrack_eval_20260910_v1/weights/qwenvl3",
+  "service_python": "/project/envs/qwen3-v1/bin/python",
+  "roles": [
+    "agent",
+    "verifier"
+  ],
+  "scope": "Accepted controlled native Agent reproduction for bounded development; not frozen-model exact reproduction or FastRSI effectiveness proof. All A/B/C share the common service, tools and generation settings.",
+  "max_parallel_tool_calls": 8,
+  "acceptance_status": "CONTROLLED_NATIVE_BASELINE_BINDING_ACCEPTED",
+  "common_tool_extension": {
+    "name": "append_yaml_item",
+    "authorization": "User explicitly approved",
+    "scope": "Shared infrastructure for A/B/C; controlled reproduction, not frozen tool-set reproduction; native AgentLoop and memory triggers unchanged"
+  },
+  "acceptance_report": "planning/native_binding_acceptance_v5/ACCEPTANCE.json",
+  "common_generation": {
+    "planning": {
+      "max_tokens": 2048,
+      "temperature": 0
+    },
+    "verification": {
+      "max_tokens": 384,
+      "temperature": 0
+    },
+    "memory": {
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "seed": 0
+    }
+  },
+  "common_structured_decoder": {
+    "package": "lm-format-enforcer",
+    "version": "0.11.3",
+    "install_manifest": "planning/structured_decode_v1/INSTALL.json",
+    "scope": "Shared protocol repair, not FastRSI innovation"
+  }
+}

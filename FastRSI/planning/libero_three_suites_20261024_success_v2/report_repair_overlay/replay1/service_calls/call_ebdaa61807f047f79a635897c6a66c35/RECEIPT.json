@@ -1,0 +1,8 @@
+{
+  "started_at": 1791749887.1353056,
+  "stage": "input_validation",
+  "status": "REJECTED",
+  "error": "ProtocolError('Unsupported tool_choice')",
+  "finished_at": 1791749887.1372135,
+  "seconds": 0.0019083023071289062
+}

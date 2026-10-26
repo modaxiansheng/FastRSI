@@ -1,0 +1,110 @@
+{
+  "schema": "fastrsi_object7_v3_immutable_closed_group_v1",
+  "time": 1792601280.4793785,
+  "group": {
+    "model": "pi0",
+    "suite": "libero_object",
+    "task_id": 4,
+    "physical_ids": [
+      "object7_dev_t4_position",
+      "object7_dev_t4_environment"
+    ],
+    "conditions": 2,
+    "wire_horizon": 50,
+    "execution_horizon": 10,
+    "per_attempt_cap": 280,
+    "normal_attempts_max": 12,
+    "node": "188",
+    "gpu": 2,
+    "condition_ids": [
+      "pi0-object7_dev_t4_position",
+      "pi0-object7_dev_t4_environment"
+    ],
+    "action": "NEW_GROUP",
+    "original_lane": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v2/campaigns/libero_object__pi0/task4/node188/gpu2",
+    "reused_group_files": {},
+    "reused_condition_files": {},
+    "used_normal_attempts": 0
+  },
+  "action": "NEW_GROUP",
+  "publisher": {
+    "pid": 3547831,
+    "boot": "b5eab651-1e10-4dc7-8034-7c26165e7456",
+    "start": "891794305",
+    "argv": [
+      "python3",
+      "-B",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/node_host_controller_v3.py",
+      "--run",
+      "--root",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3",
+      "--node",
+      "188",
+      "--authorization",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/AUTHORIZATION_SCOPE.json",
+      "--resource-binding",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/resource_bindings_v1/RESOURCE_BINDING_NODE188_V3_02.json",
+      "--continuation-plan",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/CONTINUATION_PLAN.json"
+    ]
+  },
+  "source": {
+    "child_launch": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/controllers/NODE_HOST_V3_188/CHILD_LAUNCH_pi0_task4.json",
+    "process": {
+      "pid": 3581528,
+      "boot": "b5eab651-1e10-4dc7-8034-7c26165e7456",
+      "start": "891874069",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/isolated_coordinator.py",
+        "--run",
+        "--model",
+        "pi0",
+        "--suite",
+        "libero_object",
+        "--task",
+        "4",
+        "--node",
+        "188",
+        "--gpu",
+        "2",
+        "--authorization",
+        "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/AUTHORIZATION_SCOPE.json",
+        "--resource-binding",
+        "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/resource_bindings_v1/RESOURCE_BINDING_NODE188_V3_02.json"
+      ]
+    },
+    "returncode": 0
+  },
+  "continuation_plan_sha256": "7e048048c8ac5cf6f3d82e90eff3401bfeb26a93ef261c1f142bb02f7103632d",
+  "frozen_scope_sha256": "782292731db482c6ed2b7b8aaa76db99d2c1761a93982486fa6b2def5c79d4a7",
+  "closed_evidence": {
+    "normal_physical_attempts": 12,
+    "files": {
+      "GROUP_RESULT.json": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/campaigns/libero_object__pi0/task4/node188/gpu2/GROUP_RESULT.json",
+        "sha256": "43783e66cdddfd08d19ac230e488cb5ee6ab68877c2ea88ef4bb610e19871da0"
+      },
+      "OWNED_STOP_RECEIPT.json": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/campaigns/libero_object__pi0/task4/node188/gpu2/OWNED_STOP_RECEIPT.json",
+        "sha256": "7b75790ea7c02fb8c0ea24ab49eb9f3110cd109674c45daaaf04a9d9faa780e4"
+      },
+      "LIFECYCLE.json": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/campaigns/libero_object__pi0/task4/node188/gpu2/LIFECYCLE.json",
+        "sha256": "a12a181e610123ca2034c47fdd56e074615142d11b378ed44fb44cbc48d955f7"
+      }
+    },
+    "conditions": {
+      "pi0-object7_dev_t4_position": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/campaigns/libero_object__pi0/task4/node188/gpu2/pi0-object7_dev_t4_position/CONDITION_RESULT.json",
+        "sha256": "a1279b04d38149ff98b100c5a7ae072de7fded12b50fdb1c1753fd359aa40773"
+      },
+      "pi0-object7_dev_t4_environment": {
+        "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v3/campaigns/libero_object__pi0/task4/node188/gpu2/pi0-object7_dev_t4_environment/CONDITION_RESULT.json",
+        "sha256": "e52f68168e73da8660a2fbbc73f83225ed9792214f945733f808b6b8c36831b6"
+      }
+    }
+  },
+  "no_new_trial_inferred_from_reuse": false
+}

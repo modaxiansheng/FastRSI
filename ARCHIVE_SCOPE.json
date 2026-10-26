@@ -1,0 +1,29 @@
+{
+  "date_beijing": "2026-10-26",
+  "included": [
+    "Frozen source/configuration/assets for original LIBERO success_v2 native R evaluation",
+    "Core dependency source",
+    "Selected final reports and their statistical/cost evidence",
+    "Completed-case results including failures needed for denominators",
+    "Representative successful observations and agent traces",
+    "Frozen source and final receipts for selected bounded recovery studies with positive outcomes; scope and comparison caveats retained"
+  ],
+  "excluded": [
+    "Abandoned or unqualified development candidate directories",
+    "Development-wide source snapshot",
+    "Incomplete-case execution data",
+    "Failure media",
+    "Redundant intermediate archives and polling views",
+    "Caches and virtual environments",
+    "Re-downloadable public base model weights"
+  ],
+  "limits": [
+    "This is a selected archive, not a full disk/server backup.",
+    "Public checkpoints and container images must be re-obtained; provenance is retained where present in original asset/configuration records.",
+    "Some historical reports reference external paths outside this selected archive.",
+    "No GPU experiment or simulator was launched to validate restoration.",
+    "The incomplete OpenVLA Goal group is archived as a timestamped snapshot, not 500 completed cases.",
+    "Bounded recovery study outcomes are not general benchmark guarantees. See BOUNDED_RECOVERY_SOURCE_SCOPE.json and the unchanged final study receipts."
+  ],
+  "originals_modified": false
+}

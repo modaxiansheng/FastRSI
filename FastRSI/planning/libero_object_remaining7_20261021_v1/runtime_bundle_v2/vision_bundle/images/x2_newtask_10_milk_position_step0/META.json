@@ -1,0 +1,11 @@
+{
+  "identity": "x2_newtask_10_milk_position_step0",
+  "task_id": 7,
+  "variant": "position",
+  "phase": "initial",
+  "subject": "milk_1",
+  "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/milk.png",
+  "image_sha256": "8dd79363441cfa4ebc471566fcd4906452ee16e5257882fa28df9b9dd86f2707",
+  "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+  "new_confirmation_images_used": false
+}

@@ -1,0 +1,10 @@
+{
+  "identity": "dev13_butter_step0",
+  "task_id": 5,
+  "variant": "environment",
+  "phase": "initial",
+  "subject": "butter_1",
+  "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev13/frames/0000_front.png",
+  "image_sha256": "a06a181d71457ac22abaad7e0f8ac9ea0d54e4dd4fabd6bbc2df087272eddd65",
+  "scope": "Background object in permitted development source; not a confirmation identity."
+}

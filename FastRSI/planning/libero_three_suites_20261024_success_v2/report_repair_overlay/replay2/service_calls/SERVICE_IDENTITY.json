@@ -1,0 +1,12 @@
+{
+  "model_name": "qwen3vl8b",
+  "model_class": "Qwen3VLForConditionalGeneration",
+  "model_type": "qwen3_vl",
+  "transformers": "4.57.6",
+  "torch": "2.7.1",
+  "native_template": true,
+  "config_sha256": "5cd452860dc1e9c29dd71cc3cef7f39b338b7a40793f7a260655c2d3568f3661",
+  "chat_template_sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+  "hip_visible_devices": "1",
+  "loaded_at": 1791750024.774678
+}

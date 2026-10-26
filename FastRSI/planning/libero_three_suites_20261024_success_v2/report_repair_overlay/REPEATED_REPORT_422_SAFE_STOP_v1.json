@@ -1,0 +1,50 @@
+{
+  "version": "v1",
+  "observed_at_unix": 1791749480.9373472,
+  "decision": "SAFE_STOP_FULL_JOINT_RUN_FOR_REPEATED_PI05_P_REPORT_PROTOCOL_ERROR",
+  "reason": "π0.5 native P lane on node187 had the same terminal-report HTTP422 on task0/init33 and task0/init35. Both physical tasks succeeded, but workflow report failed and incurred repeated paid technical retries. Frozen controller has no safe lane-only pause; its technical circuit only covers consecutive terminal errors and was reset by successful exact-case retries.",
+  "source_audits": [
+    "RESUME0007_PI05_P_REPORT_422_AUDIT_v1.json",
+    "RESUME0007_PI05_P_REPEATED_REPORT_422_AUDIT_v1.json"
+  ],
+  "stop_action": {
+    "host": "187",
+    "exact_owned_coordinator_pid": 2869815,
+    "attempt": "resume0007",
+    "plan_sha256": "5aa0b5febcf9e30367995d1f06df793422cf026729846373d5a30a8b2ff57156",
+    "grant_sha256": "302ae5d0fb6ef07a14b431bd8bd924db97e9dcab12e316d264eb069b5b7d63dc",
+    "boot_id_at_signal": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+    "identity_and_global_locks_reverified_before_signal": true,
+    "signal": "SIGTERM",
+    "other_processes_signaled": 0
+  },
+  "cleanup": {
+    "coordinator_status": "FAILED_RETAINED",
+    "coordinator_cleanup_confirmed": true,
+    "cleanup_readback_verified": true,
+    "node187_status": "FAILED",
+    "node188_status": "FAILED",
+    "node187_cleanup_confirmed": true,
+    "node188_cleanup_confirmed": true,
+    "owned_running_containers_after": {
+      "187": 0,
+      "188": 0
+    },
+    "coordinator_and_node_owner_processes_exited": true,
+    "global_locks_released": true
+  },
+  "frozen_running_source_modified": false,
+  "result_preservation": {
+    "new_plan_unique_completed": 704,
+    "new_plan_expected": 3430,
+    "duplicate_completed_identities": 0,
+    "technical_attempts_total": 27,
+    "technical_attempts_before_stop": 19,
+    "safety_stop_inflight_attempts": 8,
+    "known_host_case_seconds_on_technical_attempts": 4025.824021100998,
+    "known_qwen_token_subtotal": 684403,
+    "qwen_usage_complete_attempts": 13,
+    "unknown_usage_not_zero": true
+  },
+  "next": "Diagnose and repair terminal-report protocol in an independent version, CPU targeted replay plus true neural small-sample acceptance, then fresh resource/owner gates and versioned continuation of only pending registered cases. Do not restart old total task or use node164."
+}

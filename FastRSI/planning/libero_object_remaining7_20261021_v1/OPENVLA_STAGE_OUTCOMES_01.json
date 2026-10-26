@@ -1,0 +1,128 @@
+{
+  "time": 1792606869.828298,
+  "status": "OPENVLA_STAGE_COMPLETE_FINAL_RAW_COST_AUDIT_PENDING",
+  "model": "openvla",
+  "evidence": [
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/V3_BOUNDED_WATCH_132_NODE187_EVIDENCE.json",
+      "sha256": "d495dae6cbc8bcee3acbb0c212533d170d6771440b50f480ee750129b17e12da",
+      "time": 1792606831.0833242
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/V3_BOUNDED_WATCH_132_NODE188_EVIDENCE.json",
+      "sha256": "f14af45fd6362e0d2453ab93351d1baca480ed5256af0083cdefbcc39632457a",
+      "time": 1792606831.1417518
+    }
+  ],
+  "rows": [
+    {
+      "task": 0,
+      "language": "Pick the alphabet soup and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 1,
+      "candidate_unknown": 0,
+      "paired_wins": 1,
+      "paired_losses": 0,
+      "paired_net": 1
+    },
+    {
+      "task": 1,
+      "language": "Pick the cream cheese and place it in the basket",
+      "identities": 2,
+      "first_success": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "old": 1,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 1,
+      "paired_losses": 0,
+      "paired_net": 1
+    },
+    {
+      "task": 2,
+      "language": "Pick the salad dressing and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 0,
+      "candidate_unknown": 2,
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_net": null
+    },
+    {
+      "task": 4,
+      "language": "Pick the ketchup and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 0,
+      "candidate_unknown": 0,
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_net": 0
+    },
+    {
+      "task": 6,
+      "language": "Pick the butter and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 2,
+      "paired_losses": 0,
+      "paired_net": 2
+    },
+    {
+      "task": 7,
+      "language": "Pick the milk and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 2,
+      "paired_losses": 0,
+      "paired_net": 2
+    },
+    {
+      "task": 9,
+      "language": "Pick the orange juice and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 1,
+      "candidate_unknown": 0,
+      "paired_wins": 1,
+      "paired_losses": 0,
+      "paired_net": 1
+    }
+  ],
+  "first_success": 1,
+  "native_up_to3": 1,
+  "ordinary_success": 1,
+  "candidate_known_success": 8,
+  "candidate_unknown": 2,
+  "net_known_pairs": 7,
+  "full_candidate_success_rate": null,
+  "physical_identities": 14,
+  "all_four_models_complete": false,
+  "full_evaluation": "PAUSED",
+  "OpenVLA_baseline_may_stop_at_two_only_with_exact_deterministic_proof": true
+}

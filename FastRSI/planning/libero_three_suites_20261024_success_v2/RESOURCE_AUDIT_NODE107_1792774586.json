@@ -1,0 +1,888 @@
+{
+  "node": "107",
+  "time": 1792774586.2890203,
+  "host": "j01r2n07",
+  "boot": "a9998682-7741-4ea7-bac1-51b6f2280f66",
+  "smi": "\n================================= System Management Interface ==================================\n================================================================================================\nHCU[0]\t\t: HCU use (%): 0.0\nHCU[1]\t\t: HCU use (%): 0.0\nHCU[2]\t\t: HCU use (%): 0.0\nHCU[3]\t\t: HCU use (%): 0.0\nHCU[4]\t\t: HCU use (%): 0.0\nHCU[5]\t\t: HCU use (%): 0.0\nHCU[6]\t\t: HCU use (%): 17.5\nHCU[7]\t\t: HCU use (%): 0.0\n================================================================================================\n================================================================================================\nHCU[0]\t\t: HCU memory use (%): 0\nHCU[1]\t\t: HCU memory use (%): 0\nHCU[2]\t\t: HCU memory use (%): 82\nHCU[3]\t\t: HCU memory use (%): 96\nHCU[4]\t\t: HCU memory use (%): 0\nHCU[5]\t\t: HCU memory use (%): 0\nHCU[6]\t\t: HCU memory use (%): 83\nHCU[7]\t\t: HCU memory use (%): 93\n================================================================================================\n================================================================================================\nPIDs for KFD processes:\n\nPID: 690064\n\tPASID: 32778\n\tHCU Node(Include CPU sort): ['10'] \n\tHCU Index: ['2'] \n\tGPUID: ['20902'] \n\tPCI BUS: ['0000:55:00.0'] \n\tVRAM USED(MiB): 8055\n\tVRAM USED(%): 12\n\tSDMA USED: 0\n\nPID: 689234\n\tPASID: 32798\n\tHCU Node(Include CPU sort): ['15'] \n\tHCU Index: ['7'] \n\tGPUID: ['45786'] \n\tPCI BUS: ['0000:f5:00.0'] \n\tVRAM USED(MiB): 4239\n\tVRAM USED(%): 6\n\tSDMA USED: 0\n\nPID: 729183\n\tPASID: 32872\n\tHCU Node(Include CPU sort): ['14'] \n\tHCU Index: ['6'] \n\tGPUID: ['32229'] \n\tPCI BUS: ['0000:d5:00.0'] \n\tVRAM USED(MiB): 19000\n\tVRAM USED(%): 29\n\tSDMA USED: 0\n\nPID: 689683\n\tPASID: 32803\n\tHCU Node(Include CPU sort): ['14'] \n\tHCU Index: ['6'] \n\tGPUID: ['32229'] \n\tPCI BUS: ['0000:d5:00.0'] \n\tVRAM USED(MiB): 19028\n\tVRAM USED(%): 29\n\tSDMA USED: 0\n\nPID: 729057\n\tPASID: 32869\n\tHCU Node(Include CPU sort): ['14'] \n\tHCU Index: ['6'] \n\tGPUID: ['32229'] \n\tPCI BUS: ['0000:d5:00.0'] \n\tVRAM USED(MiB): 7609\n\tVRAM USED(%): 12\n\tSDMA USED: 0\n\nPID: 725129\n\tPASID: 32849\n\tHCU Node(Include CPU sort): ['15'] \n\tHCU Index: ['7'] \n\tGPUID: ['45786'] \n\tPCI BUS: ['0000:f5:00.0'] \n\tVRAM USED(MiB): 22258\n\tVRAM USED(%): 34\n\tSDMA USED: 0\n\nPID: 690292\n\tPASID: 32796\n\tHCU Node(Include CPU sort): ['10'] \n\tHCU Index: ['2'] \n\tGPUID: ['20902'] \n\tPCI BUS: ['0000:55:00.0'] \n\tVRAM USED(MiB): 18598\n\tVRAM USED(%): 28\n\tSDMA USED: 0\n\nPID: 690065\n\tPASID: 32799\n\tHCU Node(Include CPU sort): ['11'] \n\tHCU Index: ['3'] \n\tGPUID: ['20996'] \n\tPCI BUS: ['0000:77:00.0'] \n\tVRAM USED(MiB): 4239\n\tVRAM USED(%): 6\n\tSDMA USED: 0\n\nPID: 729431\n\tPASID: 32870\n\tHCU Node(Include CPU sort): ['10'] \n\tHCU Index: ['2'] \n\tGPUID: ['20902'] \n\tPCI BUS: ['0000:55:00.0'] \n\tVRAM USED(MiB): 7609\n\tVRAM USED(%): 12\n\tSDMA USED: 0\n\nPID: 729582\n\tPASID: 32876\n\tHCU Node(Include CPU sort): ['10'] \n\tHCU Index: ['2'] \n\tGPUID: ['20902'] \n\tPCI BUS: ['0000:55:00.0'] \n\tVRAM USED(MiB): 18698\n\tVRAM USED(%): 29\n\tSDMA USED: 0\n\nPID: 688234\n\tPASID: 32776\n\tHCU Node(Include CPU sort): ['10'] ['11'] ['14'] ['15'] \n\tHCU Index: ['2'] ['3'] ['6'] ['7'] \n\tGPUID: ['45786'] ['32229'] ['20996'] ['20902'] \n\tPCI BUS: ['0000:55:00.0'] ['0000:77:00.0'] ['0000:d5:00.0'] ['0000:f5:00.0'] \n\tVRAM USED(MiB): 2097\n\tVRAM USED(%): 1\n\tSDMA USED: 0\n\nPID: 725324\n\tPASID: 32867\n\tHCU Node(Include CPU sort): ['11'] \n\tHCU Index: ['3'] \n\tGPUID: ['20996'] \n\tPCI BUS: ['0000:77:00.0'] \n\tVRAM USED(MiB): 15524\n\tVRAM USED(%): 24\n\tSDMA USED: 0\n\nPID: 725020\n\tPASID: 32868\n\tHCU Node(Include CPU sort): ['15'] \n\tHCU Index: ['7'] \n\tGPUID: ['45786'] \n\tPCI BUS: ['0000:f5:00.0'] \n\tVRAM USED(MiB): 15532\n\tVRAM USED(%): 24\n\tSDMA USED: 0\n\nPID: 689346\n\tPASID: 32795\n\tHCU Node(Include CPU sort): ['15'] \n\tHCU Index: ['7'] \n\tGPUID: ['45786'] \n\tPCI BUS: ['0000:f5:00.0'] \n\tVRAM USED(MiB): 18458\n\tVRAM USED(%): 28\n\tSDMA USED: 0\n\nPID: 689571\n\tPASID: 32777\n\tHCU Node(Include CPU sort): ['14'] \n\tHCU Index: ['6'] \n\tGPUID: ['32229'] \n\tPCI BUS: ['0000:d5:00.0'] \n\tVRAM USED(MiB): 8055\n\tVRAM USED(%): 12\n\tSDMA USED: 0\n\nPID: 690293\n\tPASID: 32797\n\tHCU Node(Include CPU sort): ['11'] \n\tHCU Index: ['3'] \n\tGPUID: ['20996'] \n\tPCI BUS: ['0000:77:00.0'] \n\tVRAM USED(MiB): 18368\n\tVRAM USED(%): 28\n\tSDMA USED: 0\n\nPID: 725488\n\tPASID: 32850\n\tHCU Node(Include CPU sort): ['11'] \n\tHCU Index: ['3'] \n\tGPUID: ['20996'] \n\tPCI BUS: ['0000:77:00.0'] \n\tVRAM USED(MiB): 24462\n\tVRAM USED(%): 37\n\tSDMA USED: 0\n\n================================================================================================\n======================================== End of SMI Log ========================================\n\n",
+  "containers": [
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_object_original-n107-lane5_full_attempt000-case37",
+      "id": "f5b86dfb6545c187f6d8e06184eb8586a86169116d476e303fd89f90258e99e1",
+      "pid": 896772,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_spatial_original-n107-lane0_full_attempt003-case29",
+      "id": "36fd19e6507e5c81d0e7a99f6f6fa94dd2af9e787025f270545d6cfbb0b9ef55",
+      "pid": 896361,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_object_original-n107-lane4_full_attempt001-case28",
+      "id": "396f8e75a2d3fbcf0cde5af2b12f81a0ae27797c706468ecaac0fa36bbf2009c",
+      "pid": 895718,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_spatial_original-n107-lane1_full_attempt003-case34",
+      "id": "3b89a11ba818275184bdc3018a34cd49e9de0c71308ce4a160c585c84a3640b8",
+      "pid": 894789,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_object_original-n107-lane6_full_attempt000-case22",
+      "id": "c869eb4797e79176c00f9b0bc1cc2ef137f11aac0d66b4cea74c18ad4b0ecf56",
+      "pid": 894580,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_spatial_original-n107-lane2_full_attempt001-case23",
+      "id": "6efd7f2a712bc0d016f1538e931a3d70650a6a093d4b4ef54590dcd8895e81f4",
+      "pid": 894320,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_object_original-n107-lane7_full_attempt000-case7",
+      "id": "847655de75cae7f4a303f4792a899add2397f15a6a2ac20f2133cf3bf38d8ec3",
+      "pid": 882610,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_spatial_original-n107-lane3_full_attempt001-case4",
+      "id": "5f742c0134d895c9fc89084e44ba298f44777fefeacfdf692bb53d9f2f276030",
+      "pid": 828076,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "HIP_VISIBLE_DEVICES": "0",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [],
+      "cmd": [
+        "timeout",
+        "3600",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && exec /project/envs/os-v1/bin/python /eval/runtime/liberopro_case_worker.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_spatial_original-n107-lane2_full_attempt001-qwen",
+      "id": "471ca6ea8353d4768cc63e5c8d24ac9175733fd740b1a343ddd09775ee4e5572",
+      "pid": 729496,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "2",
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_pi0_R_libero_spatial_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_spatial_original-n107-lane2_full_attempt001-pi05",
+      "id": "01c9ff5e20af17bfedf21fd8e007e90cede7c8d6b4d8ad496836b66a696a5e6c",
+      "pid": 729383,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "2",
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model pi0 --checkpoint /model --host 127.0.0.1 --port 21300 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_object_original-n107-lane6_full_attempt000-qwen",
+      "id": "ca5580cb3d340dbb6cb20b8a720c7da023c56a023b1b916aa2144dd221d80d23",
+      "pid": 729134,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "6",
+        "HIP_VISIBLE_DEVICES": "6",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_pi0_R_libero_object_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi0_R_libero_object_original-n107-lane6_full_attempt000-pi05",
+      "id": "c29018105a9475e491ef1589a8526181eda9e7cf2f48c2fb940500dec5a1bed7",
+      "pid": 729016,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "6",
+        "CUDA_VISIBLE_DEVICES": "6",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model pi0 --checkpoint /model --host 127.0.0.1 --port 21700 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_spatial_original-n107-lane3_full_attempt001-qwen",
+      "id": "8787942351b941140ffebf6aa901fedfdc0e3ba8d7591a606b243feab252a2ae",
+      "pid": 725424,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "3",
+        "HIP_VISIBLE_DEVICES": "3",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_openvla_R_libero_spatial_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_spatial_original-n107-lane3_full_attempt001-pi05",
+      "id": "02bbba6e3ce6e2ffcc2c9d8c2c4d28a522091126af32254c5faf4ec77c03cc19",
+      "pid": 725240,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "3",
+        "CUDA_VISIBLE_DEVICES": "3",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model openvla --checkpoint /model --host 127.0.0.1 --port 21400 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_object_original-n107-lane7_full_attempt000-qwen",
+      "id": "d39872cda4788bdd8ebd084180cb9267371a84ff5873418dc87898517d6aa33f",
+      "pid": 725086,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "7",
+        "CUDA_VISIBLE_DEVICES": "7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_openvla_R_libero_object_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_openvla_R_libero_object_original-n107-lane7_full_attempt000-pi05",
+      "id": "3a56d02d9f0fdaff97e28866727c1f6ae178a3a13ca6fa66e7b692f33f1f8d6b",
+      "pid": 724962,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "7",
+        "CUDA_VISIBLE_DEVICES": "7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model openvla --checkpoint /model --host 127.0.0.1 --port 21800 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_spatial_original-n107-lane0_full_attempt003-qwen",
+      "id": "7ada63b25615a924d6c36444a7b92c9086a31b0a4fb1dde9da71505db76b57e0",
+      "pid": 690199,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "2",
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_pi05_R_libero_spatial_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_spatial_original-n107-lane1_full_attempt003-qwen",
+      "id": "304f73751ec8f3ea1b0233ef697d5ec40f40f4d1dccd6ec7f184d9f6b52c5d18",
+      "pid": 690192,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "3",
+        "CUDA_VISIBLE_DEVICES": "3",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_xvla_R_libero_spatial_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_spatial_original-n107-lane0_full_attempt003-pi05",
+      "id": "a030cbcb1eeafe301ae2ddb7fdfdac5dc9842645333943c6f74781dea9f0d42b",
+      "pid": 689968,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HIP_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model pi05 --checkpoint /model --host 127.0.0.1 --port 21100 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_spatial_original-n107-lane1_full_attempt003-pi05",
+      "id": "d35ff3c5bb7ad1afb2849232880a0d98446b7943ea3604140605fb064f401e6c",
+      "pid": 689961,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "3",
+        "CUDA_VISIBLE_DEVICES": "3",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model xvla --checkpoint /model --host 127.0.0.1 --port 21200 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 30"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_object_original-n107-lane4_full_attempt001-qwen",
+      "id": "37e7fdf55ca920bfd6d2b41de4033cc4fa1f1a15dac34735fdb0fac69f5474cf",
+      "pid": 689634,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "6",
+        "CUDA_VISIBLE_DEVICES": "6",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_pi05_R_libero_object_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_pi05_R_libero_object_original-n107-lane4_full_attempt001-pi05",
+      "id": "f884d6dab999c0603c66dc95da5ae84dd207beea7c326249dd647a375f619519",
+      "pid": 689523,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "6",
+        "HIP_VISIBLE_DEVICES": "6",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model pi05 --checkpoint /model --host 127.0.0.1 --port 21500 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 1"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_object_original-n107-lane5_full_attempt000-qwen",
+      "id": "c77c06b91cfbba24e095e328e39a2b49167aec11f7bc00f138dfb7b298cb3658",
+      "pid": 689298,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "7",
+        "CUDA_VISIBLE_DEVICES": "7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /project/runs/libero_original_best_20261024_xvla_R_libero_object_original/code/scripts/qwen_agent_server.py"
+      ]
+    },
+    {
+      "name": "/yuchen-fastrsi-libero_original_best_20261024_xvla_R_libero_object_original-n107-lane5_full_attempt000-pi05",
+      "id": "d69194ab439e12339542ff2fb9a277a747fdc6029cf7cadeb3012b246efdfa8e",
+      "pid": 689190,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "7",
+        "CUDA_VISIBLE_DEVICES": "7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "timeout",
+        "1807200",
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/runtime/liberopro_vla_server.py --model xvla --checkpoint /model --host 127.0.0.1 --port 21600 --receipt-dir /pilot/resident_receipts --xvla-wire-chunk 30"
+      ]
+    },
+    {
+      "name": "/fastrsi-original-three-suites-20261024-resource05-guard",
+      "id": "aa4993d87abb8196652c1a1e1faeb2e5b2d18089b730c0b79d9924ad3778055e",
+      "pid": 688234,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "2,3,6,7",
+        "CUDA_VISIBLE_DEVICES": "2,3,6,7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "bash",
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python /eval/gpu_guard_resource03.py"
+      ]
+    },
+    {
+      "name": "/bevheight-plus-repair-eval-20261022",
+      "id": "ecaf3a595dd60387b3ca025c9ffd944ccd2b2da16ee104bd55dd7f3732c13d70",
+      "pid": 1266413,
+      "paused": false,
+      "masks": {},
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "sleep",
+        "infinity"
+      ]
+    }
+  ],
+  "leases": {
+    "/data/HCU-coordination/leases/gpu-7/OWNER.json": "{\n  \"owner\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"token\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"pid\": 687870,\n  \"host\": \"j01r2n07\",\n  \"boot\": \"a9998682-7741-4ea7-bac1-51b6f2280f66\",\n  \"gpu\": 7,\n  \"root\": \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2\",\n  \"created\": 1792773238.7976046\n}",
+    "/data/HCU-coordination/leases/gpu-3/OWNER.json": "{\n  \"owner\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"token\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"pid\": 687870,\n  \"host\": \"j01r2n07\",\n  \"boot\": \"a9998682-7741-4ea7-bac1-51b6f2280f66\",\n  \"gpu\": 3,\n  \"root\": \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2\",\n  \"created\": 1792773238.7973647\n}",
+    "/data/HCU-coordination/leases/gpu-6/OWNER.json": "{\n  \"owner\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"token\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"pid\": 687870,\n  \"host\": \"j01r2n07\",\n  \"boot\": \"a9998682-7741-4ea7-bac1-51b6f2280f66\",\n  \"gpu\": 6,\n  \"root\": \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2\",\n  \"created\": 1792773238.7974882\n}",
+    "/data/HCU-coordination/leases/gpu-2/OWNER.json": "{\n  \"owner\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"token\": \"fastrsi-original-three-suites-20261024-resource05\",\n  \"pid\": 687870,\n  \"host\": \"j01r2n07\",\n  \"boot\": \"a9998682-7741-4ea7-bac1-51b6f2280f66\",\n  \"gpu\": 2,\n  \"root\": \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2\",\n  \"created\": 1792773238.797148\n}"
+  },
+  "controllers": [
+    {
+      "pid": 652849,
+      "cmd": "/usr/bin/python3 -u /data/FastRSI/revisions/harness-rsi-v1/deployments/libero_goal-cand4-20261009/failure_first_watchdog.py --state /data/FastRSI/revisions/harness-rsi-v1/deployments/libero_goal-cand4-20261009/supervisor-practical-policy-20261010 --controller /data/FastRSI/revisions/harness-rsi-v1/deployments/libero_goal-cand4-20261009/research_iteration_runner.py "
+    },
+    {
+      "pid": 652850,
+      "cmd": "/usr/bin/python3 -u /data/FastRSI/revisions/harness-rsi-v1/deployments/libero_goal-cand4-20261009/research_iteration_runner.py "
+    },
+    {
+      "pid": 687870,
+      "cmd": "/usr/bin/python3 -B -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/owner_resource05.py "
+    },
+    {
+      "pid": 733993,
+      "cmd": "/usr/bin/python3 -B -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2/long_group_backfill_resource06.py "
+    },
+    {
+      "pid": 830207,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-830207 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 833462,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-833462 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 836692,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-836692 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 840065,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-840065 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 842778,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-842778 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 846146,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-846146 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 850011,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-850011 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 878238,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-878238 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 3557872,
+      "cmd": "/usr/bin/python3 -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/technical_history/representative20_20261021/baseline_sample_107_gpu0.py "
+    },
+    {
+      "pid": 3557873,
+      "cmd": "/usr/bin/python3 -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/technical_history/representative20_20261021/baseline_sample_107_gpu4.py "
+    },
+    {
+      "pid": 3611540,
+      "cmd": "/usr/bin/python3 -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/user_harness_rsi_pro_20261012/control/failure_first_watchdog.py --state /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/user_harness_rsi_pro_20261012/supervisor-adaptive-only-v13 --controller /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/user_harness_rsi_pro_20261012/adaptive_only_resume_stale_guard.py "
+    },
+    {
+      "pid": 3611543,
+      "cmd": "/usr/bin/python3 -u /mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/user_harness_rsi_pro_20261012/adaptive_only_resume_stale_guard.py "
+    }
+  ],
+  "vram": {
+    "0": {
+      "used": 7184384,
+      "total": 68702699520
+    },
+    "1": {
+      "used": 7184384,
+      "total": 68702699520
+    },
+    "2": {
+      "used": 56079097856,
+      "total": 68702699520
+    },
+    "3": {
+      "used": 66181529600,
+      "total": 68702699520
+    },
+    "4": {
+      "used": 7184384,
+      "total": 68702699520
+    },
+    "5": {
+      "used": 7184384,
+      "total": 68702699520
+    },
+    "6": {
+      "used": 56846671872,
+      "total": 68702699520
+    },
+    "7": {
+      "used": 63973195776,
+      "total": 68702699520
+    }
+  },
+  "meminfo": [
+    "MemTotal:       528095244 kB",
+    "MemFree:        172759776 kB",
+    "MemAvailable:   327889980 kB"
+  ]
+}

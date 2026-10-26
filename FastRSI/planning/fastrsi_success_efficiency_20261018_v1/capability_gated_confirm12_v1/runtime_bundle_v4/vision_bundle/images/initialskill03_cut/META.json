@@ -1,0 +1,9 @@
+{
+  "identity": "initialskill03_cut",
+  "task_id": 3,
+  "variant": "position",
+  "phase": "held",
+  "subject": "bbq_sauce_1",
+  "source_public_image": "/history/fastrsi_placement_recovery_20261017_v1/cases/node188/initialskill03/privileged_place/cut_front.png",
+  "image_sha256": "2896a0b1804d87ac7ecc986263f9c3510d4a40afa73260a937ba3e15fd489d43"
+}

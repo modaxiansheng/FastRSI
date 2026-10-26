@@ -1,0 +1,9 @@
+{
+  "identity": "dev15_step0",
+  "task_id": 8,
+  "variant": "environment",
+  "phase": "initial",
+  "subject": "chocolate_pudding_1",
+  "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev15/frames/0000_front.png",
+  "image_sha256": "80ca2ae06611f3a1093fdd391bb2398df6215a3339e01c4656af09e9e88cd398"
+}

@@ -1,0 +1,334 @@
+{
+  "status": "BYTE_SOURCES_VERIFIED_EXTERNAL_RUNTIME_ADMISSION_PENDING",
+  "checked_at_unix": 1792274772.977729,
+  "mode": "EXACT_HOST_PATHS",
+  "verified_file_count": 296,
+  "missing_files": [],
+  "mismatched_files": [],
+  "external_prerequisites": [
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi05_libero_pytorch_fp32",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi0_libero_pytorch_fp32",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/xvla_libero",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_object",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_spatial",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_goal",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/openvla_libero10",
+      "role": "Immutable suite-specific policy checkpoint",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/PhyAgentOS-core",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openpi",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_overlay/site",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_overlay/site",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/openvla_hf_cache",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/xvla_hf_cache",
+      "role": "Exact frozen dependency/overlay/cache",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi05_R/code",
+      "role": "Frozen native policy/environment source",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/pi0_R/code",
+      "role": "Frozen native policy/environment source",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/code",
+      "role": "Frozen native policy/environment source",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/openvla_R/vla_native",
+      "role": "Frozen native model adapter",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/code",
+      "role": "Frozen native policy/environment source",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_fixed_retry32_20261016_v1/source_frozen/xvla_R/vla_native",
+      "role": "Frozen native model adapter",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets",
+      "role": "Official PRO simulator assets/config/runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream",
+      "role": "Official PRO simulator assets/config/runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/runtime_vendor",
+      "role": "Official PRO simulator assets/config/runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/libero-config",
+      "role": "Official PRO simulator assets/config/runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/venv",
+      "role": "Frozen CPU neural visual dependency or weights",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/pose_aux",
+      "role": "Frozen CPU neural visual dependency or weights",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_cpu",
+      "role": "Frozen CPU neural visual dependency or weights",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_rgb_pose_recovery_20261017_v1/megapose_stage_v2/data/megapose-models",
+      "role": "Frozen CPU neural visual dependency or weights",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_object_frame_recovery_20261017_v1/tokenizer_cache",
+      "role": "Existing tokenizer cache, use owned copy/frozen binding before launch",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/opt/hyhal",
+      "role": "Host HCU runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/etc/hfm",
+      "role": "Host HCU runtime",
+      "kind": "directory",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/mnt/data/task/yuchen/FastPhyagentos/node_preservation_20261008_v1/node187/runtime_patch/ndarray.pyi",
+      "role": "Frozen compatibility patch",
+      "kind": "file",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    },
+    {
+      "host_source_path": "/opt/dtk/env.sh",
+      "role": "Exact HCU model runtime bootstrap used by canonical policy descriptor",
+      "kind": "file",
+      "required_before_runtime_launch": true,
+      "exact_live_content_identity": "UNVERIFIED_FROM_LOCAL_METADATA_REQUIRES_HOST_READONLY_BINDING",
+      "historical_path_is_not_current_readiness": true,
+      "exists": true,
+      "current_content_identity_verified": false
+    }
+  ],
+  "launch_ready": false,
+  "models_started": 0,
+  "environments_started": 0,
+  "full_evaluation": "PAUSED"
+}

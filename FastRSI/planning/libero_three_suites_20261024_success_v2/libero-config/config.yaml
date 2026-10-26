@@ -1,0 +1,5 @@
+benchmark_root: /eval/upstream/libero/libero
+bddl_files: /eval/assets/bddl_files
+init_states: /eval/assets/init_files
+datasets: /eval/assets/datasets
+assets: /eval/upstream/libero/libero/assets

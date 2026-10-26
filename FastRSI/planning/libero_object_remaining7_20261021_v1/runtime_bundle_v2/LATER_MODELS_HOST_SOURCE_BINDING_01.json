@@ -1,0 +1,64 @@
+{
+  "schema": "fastrsi_object7_later_models_host_driver_release_v1",
+  "time": 1792598237.735751,
+  "status": "FROZEN_LOCAL_HOST_SOURCE_NO_RUNTIME_STARTED",
+  "files": {
+    "later_models_driver_v1.py": {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_preparation_v1/later_models_driver_v1.py",
+      "sha256": "88b1dba69e94561c055ff112f6ed6bee5f03a0ce4ab8975a3f7ca03abde417a5",
+      "bytes": 19474
+    },
+    "test_later_models_driver_v1.py": {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_preparation_v1/test_later_models_driver_v1.py",
+      "sha256": "6eb9e9be3d35e341b8de90533394cb0340d8164c13436ed38bf21ef317f57fb5",
+      "bytes": 12134
+    }
+  },
+  "pure_fake_tests": {
+    "passed": 9,
+    "failed": 0,
+    "python38_ast": true,
+    "actual_child_processes_started": 0,
+    "ssh": 0,
+    "model_loads": 0,
+    "env_constructors": 0,
+    "physical_actions": 0
+  },
+  "review": "owner independent read-only review; atomic producer publication gate added; permanent global closer intent prevents restart after observer loss",
+  "normal_physical_scope": {
+    "precommitted_model_conditions": 56,
+    "physical_identities": 14,
+    "max_attempts_total": 336,
+    "max_pi05": 84,
+    "new_identities": 0
+  },
+  "model_order": [
+    "pi0",
+    "openvla",
+    "xvla"
+  ],
+  "task_order": [
+    7,
+    0,
+    1,
+    4,
+    6,
+    9,
+    2
+  ],
+  "max_active_per_node": 2,
+  "max_active_total_two_nodes": 4,
+  "cpu_wait_seconds_max": 14400,
+  "observer_wall_seconds_max": 86400,
+  "same_original_isolated_coordinator": true,
+  "same_original_close_pi05_stage": true,
+  "stage_close_lock": "controllers/OBJECT7_PI05_STAGE_CLOSE.lock",
+  "stage_close_once_claim": "controllers/OBJECT7_PI05_STAGE_CLOSE_INTENT.json",
+  "missing_marker_after_claim": "NEEDS_DIAGNOSIS_NO_AUTOMATIC_RETRY",
+  "manual_closer_must_share_global_lock": true,
+  "cpu_wait_includes_original_lifecycle_wall_costs": true,
+  "model_and_physical_counts_must_come_from_real_child_receipts": true,
+  "core_and_previously_started_driver_modified": false,
+  "full_evaluation": "PAUSED",
+  "execution_started": false
+}

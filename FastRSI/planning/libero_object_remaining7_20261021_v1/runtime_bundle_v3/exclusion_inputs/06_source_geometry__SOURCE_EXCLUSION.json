@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.443317,
+  "subject": "salad_dressing_1",
+  "source_identity": "newtask_04",
+  "initial_state_sha256": "85919e33a149c4707dfa303d3390415ad7be366b57ab9771436d4372bc9a0911",
+  "physical_state_sha256": "89aea959e129ef19863e263af1c3ce81d2533c2d95e38e0d2ed55bbb746df8ab",
+  "asset_sha256": "87c54b94eb46be003ccf2e2d5fea3496b9da77f12ef1c1ba2c1b76f0b266c1b2",
+  "source_row_path": "objects/salad_dressing/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "6b4de68ce39d03f4a2288fb971ce86b769a3dd835b5c2e699bfaaade201a81bf",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.4468029,
+  "subject": "milk_1",
+  "source_identity": "newtask_10",
+  "initial_state_sha256": "c3452b5286e48dccd6d142bc67b5f181291ae679205e0693fc20380cec83d39c",
+  "physical_state_sha256": "a338be0239e6244a89d82b68079ee40d0e65990874a6f3229621ce2c2cc9025e",
+  "asset_sha256": "43ce8994cd883cbd29550c81f0f7191672172055191acf742d1cc65880484757",
+  "source_row_path": "objects/milk/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "65b46823df062237a01fc1b416f98c6be4eb75cc1fa5dd737ad71d9aeeeef3d7",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

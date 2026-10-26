@@ -1,0 +1,22 @@
+{
+  "status": "FILL_FROM_ONE_CURRENT_ROOT_HOST_AUDIT_NOT_A_NEW_PERMISSION_REQUEST",
+  "external_binding_receipt": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/HOST_RUNTIME_BINDING.json",
+    "sha256": "REPLACE_WITH_TARGETED_BINDER_RECEIPT_SHA256"
+  },
+  "resource_collector": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/technical_history/expand107108_shared_case_v1/audit_node.py",
+    "sha256": "REPLACE_WITH_ACTUAL_COLLECTOR_SOURCE_SHA256"
+  },
+  "exact_infrastructure_holders": {
+    "187": [],
+    "188": []
+  },
+  "reservation_inventory_complete": true,
+  "reservation_bindings": [],
+  "images": [
+    "sha256:c98dca2210774e2311a0780146956ef3df3c6f0bb099b6bc671ab31befc42a81",
+    "sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95"
+  ],
+  "notes": "Insert exact fresh PID/boot/start/argv identities only for known infrastructure holders. Unknown holders/containers/claims block; no task is stopped. Root fills existing-resource facts, not human approval."
+}

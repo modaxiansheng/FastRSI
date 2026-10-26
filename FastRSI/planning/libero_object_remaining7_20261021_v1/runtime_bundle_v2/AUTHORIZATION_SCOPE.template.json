@@ -1,0 +1,16 @@
+{
+  "status": "INACTIVE_TEMPLATE_ROOT_MUST_BIND",
+  "full_evaluation": "PAUSED",
+  "normal_physical_attempts_max": 336,
+  "model_conditions": 56,
+  "proposal_sha256": "057b8ab32673e55b0917653c29821869cb4072ed6a3ecadffae0b69d6f40dada",
+  "authorized_gpus": {},
+  "canonical_actors_unchanged": true,
+  "per_task_source_gates_verified": true,
+  "source_and_failed_predecessor_costs_retained": true,
+  "pi05_first_stage_normal_attempts_max": 84,
+  "direct_user_authorization": {
+    "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/USER_DIRECT_AUTHORIZATION_01.json",
+    "sha256": "a223234e40f90b17e8a3cbff3ca1d60c58002ea17cc44479fdf2123aed146abc"
+  }
+}

@@ -1,0 +1,543 @@
+{
+  "summary": {
+    "now_cst": "2026-10-24T02:10:56.990523+08:00",
+    "snapshot_cst": "2026-10-24T02:10:44.679271+08:00",
+    "age_seconds": 12.3,
+    "completed": 1166,
+    "expected": 6000,
+    "rows": [
+      {
+        "model": "pi05",
+        "spatial": {
+          "success": 161,
+          "closed": 161,
+          "unknown": 0,
+          "end_to_end_success": 161,
+          "rate": 100.0
+        },
+        "object": {
+          "success": 144,
+          "closed": 144,
+          "unknown": 0,
+          "end_to_end_success": 144,
+          "rate": 100.0
+        },
+        "goal": {
+          "success": 88,
+          "closed": 88,
+          "unknown": 0,
+          "end_to_end_success": 88,
+          "rate": 100.0
+        }
+      },
+      {
+        "model": "xvla",
+        "spatial": {
+          "success": 185,
+          "closed": 187,
+          "unknown": 0,
+          "end_to_end_success": 185,
+          "rate": 98.93
+        },
+        "object": {
+          "success": 168,
+          "closed": 170,
+          "unknown": 0,
+          "end_to_end_success": 168,
+          "rate": 98.82
+        },
+        "goal": {
+          "success": 0,
+          "closed": 0,
+          "unknown": 0,
+          "end_to_end_success": 0,
+          "rate": null
+        }
+      },
+      {
+        "model": "pi0",
+        "spatial": {
+          "success": 137,
+          "closed": 137,
+          "unknown": 0,
+          "end_to_end_success": 137,
+          "rate": 100.0
+        },
+        "object": {
+          "success": 138,
+          "closed": 138,
+          "unknown": 0,
+          "end_to_end_success": 138,
+          "rate": 100.0
+        },
+        "goal": {
+          "success": 77,
+          "closed": 77,
+          "unknown": 0,
+          "end_to_end_success": 77,
+          "rate": 100.0
+        }
+      },
+      {
+        "model": "openvla",
+        "spatial": {
+          "success": 23,
+          "closed": 24,
+          "unknown": 0,
+          "end_to_end_success": 23,
+          "rate": 95.83
+        },
+        "object": {
+          "success": 24,
+          "closed": 25,
+          "unknown": 0,
+          "end_to_end_success": 24,
+          "rate": 96.0
+        },
+        "goal": {
+          "success": 14,
+          "closed": 15,
+          "unknown": 0,
+          "end_to_end_success": 14,
+          "rate": 93.33
+        }
+      }
+    ],
+    "by_suite": {
+      "spatial": {
+        "success": 506,
+        "closed": 509,
+        "rate": 99.411
+      },
+      "object": {
+        "success": 474,
+        "closed": 477,
+        "rate": 99.371
+      },
+      "goal": {
+        "success": 179,
+        "closed": 180,
+        "rate": 99.444
+      }
+    },
+    "group_statuses": [
+      {
+        "group": "openvla_R_libero_goal_original",
+        "status": "RUNNING",
+        "node": "108",
+        "pid": 2443592,
+        "gpu_base": 6,
+        "finished_at": null
+      },
+      {
+        "group": "openvla_R_libero_object_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 724901,
+        "gpu_base": 7,
+        "finished_at": null
+      },
+      {
+        "group": "openvla_R_libero_spatial_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 724899,
+        "gpu_base": 3,
+        "finished_at": null
+      },
+      {
+        "group": "pi05_R_libero_goal_original",
+        "status": "RUNNING",
+        "node": "108",
+        "pid": 2443591,
+        "gpu_base": 3,
+        "finished_at": null
+      },
+      {
+        "group": "pi05_R_libero_object_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 689141,
+        "gpu_base": 6,
+        "finished_at": null
+      },
+      {
+        "group": "pi05_R_libero_spatial_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 689142,
+        "gpu_base": 2,
+        "finished_at": null
+      },
+      {
+        "group": "pi0_R_libero_goal_original",
+        "status": "RUNNING",
+        "node": "108",
+        "pid": 2465251,
+        "gpu_base": 3,
+        "finished_at": null
+      },
+      {
+        "group": "pi0_R_libero_object_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 728872,
+        "gpu_base": 6,
+        "finished_at": null
+      },
+      {
+        "group": "pi0_R_libero_spatial_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 728870,
+        "gpu_base": 2,
+        "finished_at": null
+      },
+      {
+        "group": "xvla_R_libero_object_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 689143,
+        "gpu_base": 7,
+        "finished_at": null
+      },
+      {
+        "group": "xvla_R_libero_spatial_original",
+        "status": "RUNNING",
+        "node": "107",
+        "pid": 689140,
+        "gpu_base": 3,
+        "finished_at": null
+      }
+    ],
+    "halt": null,
+    "success": 1159,
+    "rate": 99.4,
+    "control05_OWNER_STATUS.json": {
+      "status": "RUNNING",
+      "pid": 687870,
+      "boot": "a9998682-7741-4ea7-bac1-51b6f2280f66",
+      "updated": 1792773504.3455875,
+      "models_dispatched": null,
+      "models_pending": null,
+      "models_in_existing_queue": null,
+      "error": null,
+      "finished_at": null
+    },
+    "owner107_alive": true,
+    "control07_OWNER_STATUS.json": {
+      "status": "RUNNING",
+      "pid": 2442862,
+      "boot": "c5b72a98-90a4-460b-87e5-75716165b991",
+      "updated": 1792779042.697502,
+      "models_dispatched": [
+        "pi05",
+        "openvla",
+        "pi0"
+      ],
+      "models_pending": [
+        "xvla"
+      ],
+      "models_in_existing_queue": [],
+      "error": null,
+      "finished_at": null
+    },
+    "owner107_start_ticks": "910990350",
+    "owner108_alive": true,
+    "owner108_start_ticks": "911206896",
+    "health_verification": {
+      "checked_at_unix": 1792779075.189136,
+      "node107_active_lanes": 8,
+      "node108_active_lanes": 3,
+      "all_launcher_pids_present": true,
+      "owner_births_match": true,
+      "halt": false,
+      "correction": "Initial probe caught a query exception caused by shell quoting, which incorrectly recorded owner absence. Direct proc reads verified both owners and all 11 launchers alive; outcome counters unchanged."
+    }
+  },
+  "raw_progress": {
+    "time": 1792779044.6792707,
+    "expected": 6000,
+    "completed": 1166,
+    "rows": [
+      {
+        "campaign": "libero_original_best_20261024_xvla_R_libero_spatial_original",
+        "closed": 187,
+        "physical_success": 185,
+        "physical_unknown": 0,
+        "end_to_end_success": 185,
+        "tokens_known": 567501,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi05_R_libero_spatial_original",
+        "closed": 161,
+        "physical_success": 161,
+        "physical_unknown": 0,
+        "end_to_end_success": 161,
+        "tokens_known": 555897,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi0_R_libero_spatial_original",
+        "closed": 137,
+        "physical_success": 137,
+        "physical_unknown": 0,
+        "end_to_end_success": 137,
+        "tokens_known": 499422,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_openvla_R_libero_spatial_original",
+        "closed": 24,
+        "physical_success": 23,
+        "physical_unknown": 0,
+        "end_to_end_success": 23,
+        "tokens_known": 440362,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi05_R_libero_object_original",
+        "closed": 144,
+        "physical_success": 144,
+        "physical_unknown": 0,
+        "end_to_end_success": 144,
+        "tokens_known": 543507,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_xvla_R_libero_object_original",
+        "closed": 170,
+        "physical_success": 168,
+        "physical_unknown": 0,
+        "end_to_end_success": 168,
+        "tokens_known": 530760,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi0_R_libero_object_original",
+        "closed": 138,
+        "physical_success": 138,
+        "physical_unknown": 0,
+        "end_to_end_success": 138,
+        "tokens_known": 520865,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi05_R_libero_goal_original",
+        "closed": 88,
+        "physical_success": 88,
+        "physical_unknown": 0,
+        "end_to_end_success": 88,
+        "tokens_known": 309600,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_openvla_R_libero_goal_original",
+        "closed": 15,
+        "physical_success": 14,
+        "physical_unknown": 0,
+        "end_to_end_success": 14,
+        "tokens_known": 320168,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_pi0_R_libero_goal_original",
+        "closed": 77,
+        "physical_success": 77,
+        "physical_unknown": 0,
+        "end_to_end_success": 77,
+        "tokens_known": 302086,
+        "token_unknown_cases": 0
+      },
+      {
+        "campaign": "libero_original_best_20261024_openvla_R_libero_object_original",
+        "closed": 25,
+        "physical_success": 24,
+        "physical_unknown": 0,
+        "end_to_end_success": 24,
+        "tokens_known": 514593,
+        "token_unknown_cases": 0
+      }
+    ],
+    "groups": [
+      {
+        "group": "openvla_R_libero_goal_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "openvla",
+        "arm": "R",
+        "suite": "libero_goal",
+        "variant": "original",
+        "node": "108",
+        "gpu_base": 6,
+        "pid": 2443592,
+        "lane": "lane12_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792775409.208553
+      },
+      {
+        "group": "openvla_R_libero_object_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "openvla",
+        "arm": "R",
+        "suite": "libero_object",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 7,
+        "pid": 724901,
+        "lane": "lane7_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792773484.7618253
+      },
+      {
+        "group": "openvla_R_libero_spatial_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "openvla",
+        "arm": "R",
+        "suite": "libero_spatial",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 3,
+        "pid": 724899,
+        "lane": "lane3_full_attempt001",
+        "planned": 497,
+        "completed_before": 3,
+        "started_at": 1792773485.1669672
+      },
+      {
+        "group": "pi05_R_libero_goal_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi05",
+        "arm": "R",
+        "suite": "libero_goal",
+        "variant": "original",
+        "node": "108",
+        "gpu_base": 3,
+        "pid": 2443591,
+        "lane": "lane9_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792775409.181005
+      },
+      {
+        "group": "pi05_R_libero_object_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi05",
+        "arm": "R",
+        "suite": "libero_object",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 6,
+        "pid": 689141,
+        "lane": "lane4_full_attempt001",
+        "planned": 497,
+        "completed_before": 3,
+        "started_at": 1792773244.201505
+      },
+      {
+        "group": "pi05_R_libero_spatial_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi05",
+        "arm": "R",
+        "suite": "libero_spatial",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 2,
+        "pid": 689142,
+        "lane": "lane0_full_attempt003",
+        "planned": 478,
+        "completed_before": 22,
+        "started_at": 1792773244.8077984
+      },
+      {
+        "group": "pi0_R_libero_goal_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi0",
+        "arm": "R",
+        "suite": "libero_goal",
+        "variant": "original",
+        "node": "108",
+        "gpu_base": 3,
+        "pid": 2465251,
+        "lane": "lane11_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792775632.473569
+      },
+      {
+        "group": "pi0_R_libero_object_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi0",
+        "arm": "R",
+        "suite": "libero_object",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 6,
+        "pid": 728872,
+        "lane": "lane6_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792773504.8609746
+      },
+      {
+        "group": "pi0_R_libero_spatial_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "pi0",
+        "arm": "R",
+        "suite": "libero_spatial",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 2,
+        "pid": 728870,
+        "lane": "lane2_full_attempt001",
+        "planned": 492,
+        "completed_before": 8,
+        "started_at": 1792773505.3996258
+      },
+      {
+        "group": "xvla_R_libero_object_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "xvla",
+        "arm": "R",
+        "suite": "libero_object",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 7,
+        "pid": 689143,
+        "lane": "lane5_full_attempt000",
+        "planned": 500,
+        "completed_before": 0,
+        "started_at": 1792773243.6588318
+      },
+      {
+        "group": "xvla_R_libero_spatial_original",
+        "status": "RUNNING",
+        "stage": "full",
+        "model": "xvla",
+        "arm": "R",
+        "suite": "libero_spatial",
+        "variant": "original",
+        "node": "107",
+        "gpu_base": 3,
+        "pid": 689140,
+        "lane": "lane1_full_attempt003",
+        "planned": 475,
+        "completed_before": 25,
+        "started_at": 1792773244.8059344
+      }
+    ],
+    "scope": "All closed successes and failures; service/loading/technical costs retained separately"
+  }
+}

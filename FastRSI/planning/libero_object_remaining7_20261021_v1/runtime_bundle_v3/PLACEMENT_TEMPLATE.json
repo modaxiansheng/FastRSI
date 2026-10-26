@@ -1,0 +1,201 @@
+{
+  "status": "INACTIVE_REQUIRES_FRESH_ROOT_RESOURCE_ASSIGNMENTS",
+  "groups": [
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 0,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 1,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 2,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 4,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 6,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 7,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "task_id": 9,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 0,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 1,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 2,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 4,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 6,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 7,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "task_id": 9,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 0,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 1,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 2,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 4,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 6,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 7,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_object",
+      "task_id": 9,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 0,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 1,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 2,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 4,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 6,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 7,
+      "node": null,
+      "gpu": null
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_object",
+      "task_id": 9,
+      "node": null,
+      "gpu": null
+    }
+  ]
+}

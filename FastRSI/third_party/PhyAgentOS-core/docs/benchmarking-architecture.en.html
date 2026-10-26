@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhyAgentOS Benchmarking Architecture</title>
+  <style>body{margin:0;background:#f4f6f7;color:#18222b;font:15px/1.55 system-ui,sans-serif}header{padding:30px 5%;background:#1c2933;color:white;border-bottom:5px solid #31a078}main{max-width:1200px;margin:auto;padding:24px}.lang{color:#bfe8d8}section,.card{background:white;border:1px solid #cbd5dc;padding:16px;margin-bottom:16px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.flow{font-family:monospace;background:#fff3dc;padding:16px;overflow:auto}h2{font-size:18px;color:#344454}.note{color:#61707c}</style>
+</head>
+<body>
+<header><h1>PhyAgentOS Benchmarking Architecture</h1><p>Benchmarking is an Agent workflow skill that discovers tasks, creates standard Runtime Sessions, and aggregates immutable execution evidence.</p><a class="lang" href="benchmarking-architecture.html">中文</a></header>
+<main>
+  <section><h2>1 · Boundary</h2><div class="grid"><div class="card"><b>Benchmarking Agent Skill</b><p>Selects an exact enabled Target, execution mode, and matching SkillRuntime tuple; appends Sessions, aggregates evidence, and writes a report.</p></div><div class="card"><b>Selected SkillRuntime</b><p>A policy runtime owns the standard observation-policy-action loop. A benchmark-specific builtin may own a typed target-native suite loop. Neither orchestrates the experiment report.</p></div></div><p class="note">Benchmarking does not create a new SKILLRUNTIME entry, instantiate SessionRunner, or call raw Target benchmark RPCs directly.</p></section>
+  <section><h2>2 · Availability Gate</h2><div class="flow">runtime enabled → enabled simulation Target → declared benchmark capability → exact execution-mode/SkillRuntime match → skill visible</div><p>SkillsLoader controls skill visibility; capability matching and Runtime Preflight still validate every Session.</p></section>
+  <section><h2>3 · Lifecycle</h2><div class="flow">Load protocol → Select Target/mode/SkillRuntime tuple → Preserve seed, control, cadence, and retry instruction mode → Append pending Sessions → Watchdog execution → Canonical artifacts → Aggregate report</div></section>
+  <section><h2>4 · Evidence</h2><div class="grid"><div class="card"><b>SESSIONS.md</b><p>Root Session state, routing, execution settings, score summaries, artifact references, and errors.</p></div><div class="card"><b>LOG.md</b><p>Session-indexed execution history.</p></div><div class="card"><b>Canonical artifacts</b><p>Policy-loop episode evidence or target-native benchmark manifests with episode, attempt, verifier, and failure records.</p></div></div></section>
+  <section><h2>5 · Report Contract</h2><p>Reports identify setup, suite/task source, seed, control mode, policy refresh cadence, recovery instruction mode, metrics, official first-attempt and assisted-final scores, verifier budget, failures, artifact paths, and comparison scope. Reports reference canonical evidence without rewriting it.</p></section>
+  <section><h2>6 · Source Map</h2><div class="flow">agent/skills.py · agent/context.py · skills/benchmarking/SKILL.md · runtime/watchdog/supervisor.py · runtime/artifacts/episode_writer.py</div></section>
+</main>
+</body>
+</html>

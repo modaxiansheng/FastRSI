@@ -1,0 +1,21 @@
+{
+  "time": 1792599615.1368785,
+  "continuation_plan_sha256": "7e048048c8ac5cf6f3d82e90eff3401bfeb26a93ef261c1f142bb02f7103632d",
+  "files": {
+    "same_cohort_resume.py": "372e4ba58b8a33bb56ab445314e6e5f321a36893a6d2952ade9ab1e7ebb1304f",
+    "paired_samecohort_restore.py": "1927d90839ee3fc8d5961110f7976566d71d0778cefb3f2a85c5f238acfe64b3",
+    "resume_coordinator_v3.py": "5c41a348c035a79c8cb273eabc29cd91cc44933c6f5c536b4f79136710ce716f",
+    "node_host_controller_v3.py": "7819286b08a5ff1df532a023ac1db68c6aba4192a8c34960119e89e6cfa894f6",
+    "HOST_CONTROLLER_SOURCE_ACCEPTANCE_01.json": "c4a89a8789c4e567836b518230a6d347a87adbdce51e47ae3951a6fb1e03d54c",
+    "RESUME_COORDINATOR_DERIVATION_01.json": "ac12d0d67570238b1e8b49a11e883ce7bd6d3d9ef0725ce2179ace5843e3de79",
+    "RESUME_COORDINATOR_EXPLICIT_DIFF_01.patch": "849d8be8f7d3f5431bf4847c27a1fa33cb5fcb32bf5d3a1e876885dc63b95898"
+  },
+  "host_controller_sha256": "7819286b08a5ff1df532a023ac1db68c6aba4192a8c34960119e89e6cfa894f6",
+  "resume_coordinator_sha256": "5c41a348c035a79c8cb273eabc29cd91cc44933c6f5c536b4f79136710ce716f",
+  "original_coordinator_sha256": "48b7eda07eab33801a7fdff92ce32fd96ac1aa4ddf384a01ba491985abb7dd53",
+  "original_scientific_files": 313,
+  "scientific_scope_unchanged": true,
+  "only_unexecuted_work": true,
+  "old_halt_and_results_preserved": true,
+  "full_evaluation": "PAUSED"
+}

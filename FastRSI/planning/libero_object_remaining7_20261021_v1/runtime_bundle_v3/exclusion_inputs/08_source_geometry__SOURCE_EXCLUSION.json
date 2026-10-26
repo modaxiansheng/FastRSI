@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.445763,
+  "subject": "butter_1",
+  "source_identity": "dev14",
+  "initial_state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+  "physical_state_sha256": "5038b5da09c2f5a97675fe23d11de87c6435ca2065e09a40b9c67ddd5ed9b51b",
+  "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+  "source_row_path": "objects/butter/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "6973aff76ed79d56ee6e74d68404af0df129488ea716afe6f242c946ca9a4fca",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

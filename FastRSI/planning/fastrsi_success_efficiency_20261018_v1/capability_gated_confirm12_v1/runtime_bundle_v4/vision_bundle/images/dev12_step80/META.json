@@ -1,0 +1,9 @@
+{
+  "identity": "dev12_step80",
+  "task_id": 3,
+  "variant": "environment",
+  "phase": "held",
+  "subject": "bbq_sauce_1",
+  "source_public_image": "/history/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/frames/0080_front.png",
+  "image_sha256": "def309ab031274f4ffcd9c1e14f87fbf920cc6095c5cc38b3da4da8885b0503c"
+}

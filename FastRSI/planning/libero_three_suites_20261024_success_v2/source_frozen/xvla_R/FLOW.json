@@ -1,0 +1,30 @@
+{
+  "version": "public_session_construction_v1",
+  "status": "PUBLIC_ENGINEERING_PROTOTYPE_NOT_LEARNED",
+  "origin": "Observed admitted development trace; deterministic original benchmarking contract",
+  "source_trace_sha256": "93bcc781b50f9bea358a996cc357d276f70bf4c0658e427a04445abce1e4bcee",
+  "benchmark_skill_sha256": "77b8034fe52faeac1fdfc06d15926acca975a7eb1622d6291466a21a5f63ea24",
+  "steps": [
+    "fresh_native_reads",
+    "unique_capability_tuple",
+    "bind_current_parameters",
+    "append_once"
+  ],
+  "replaces": "High-level Session construction only; native verification, reporting and feedback retained",
+  "reads": [
+    "skills/benchmarking/SKILL.md",
+    "RUNTIME.md",
+    "TARGETS.md",
+    "SKILLRUNTIME.md",
+    "SESSIONS.md",
+    "LOG.md",
+    "REQUEST.json"
+  ],
+  "tools": [
+    "read_file",
+    "append_yaml_item"
+  ],
+  "cached_scene_facts": false,
+  "source_case": "instruction_t0_i8",
+  "source_admission_sha256": "567ec69ae253720b56d304c6de1ca19b939a1e725c4e7da9dcce8da8877ceae1"
+}

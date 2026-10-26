@@ -1,0 +1,53 @@
+{
+  "status": "READ_ONLY_PREPARATION_FROZEN_NO_NEW_QUERY_OR_CONTROL_EXPERIMENT",
+  "frozen_utc": "2026-10-17T23:06:24.371270+00:00",
+  "files": [
+    {
+      "name": "CAMERA_CONTRACT.json",
+      "sha256": "904efab51e4a103b314b2bb080230448dd7472b7f01574ee4ea11a85d466e152",
+      "bytes": 8301
+    },
+    {
+      "name": "CONCLUSION.txt",
+      "sha256": "dedd855929f4c1b7f8cc2bcfe42c4712da9f0a1914c6415adb23c1a8f14da980",
+      "bytes": 2369
+    },
+    {
+      "name": "DIAGNOSTIC_LABELS_ONLY.json",
+      "sha256": "d1dec24e73f27cf704cef6895beb763e8a6758c9e8806ff4d30914dd3937fb4a",
+      "bytes": 1799
+    },
+    {
+      "name": "DONOR_WRIST_MANIFEST.json",
+      "sha256": "1a9dbf59019f9267b8354798e281c0f91a6a8b362c88688be06a45439f5f2597",
+      "bytes": 14938
+    },
+    {
+      "name": "PREPARATION.json",
+      "sha256": "46246849bcfd1eae76b21667a5957d197a8311873081ea81c59040f2976cd69f",
+      "bytes": 1145
+    },
+    {
+      "name": "PUBLIC_QUERY_INPUTS.json",
+      "sha256": "c429b04f4d5ccfee008d1067c584226a0771606bfc1fa11f89ec2352dcf5d171",
+      "bytes": 13518
+    },
+    {
+      "name": "SHADOW_SPEC.json",
+      "sha256": "c2e22f1df17c80f3907fd0ddd6b6fb76414c42d06cad2a3e27b609dc8ede5210",
+      "bytes": 4854
+    }
+  ],
+  "core_server_local_file": "/Users/liuyuchen/PhyAgentOS/FastRSI/third_party/PhyAgentOS-core/PhyAgentOS/runtime/targets/remote/libero/server.py",
+  "core_server_SHA_verified": "c89b483a3d5bf830b98a6470a6fa6c41e70ab12930fee4b7eab99b0d99fbba41",
+  "source_writer_and_core_image_orientation_described_separately": true,
+  "new_neural_queries": 0,
+  "new_environment_runs": 0,
+  "new_remote_calls": 0,
+  "new_control_or_threshold_changes": false,
+  "completed_diagnosis_and_conclusion_hash_unchanged": true,
+  "future_query_roster_max": 4,
+  "current_query_authorization": "NONE_THIS_ROUND_PREPARATION_ONLY",
+  "physical_identities_in_future_roster": 1,
+  "query_readiness": "NOT_READY_DEPENDENCIES_RETAINED"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-10-17T21:47:27.249130+00:00",
+  "files": {
+    "state_inputs.py": "026b88732d6be076e5b2aad75603084c0f7859583f3b1f4a36f934644483c26c",
+    "generate12.py": "6b76ee6800a591014c791d7179471849c3691dc33267e4b6eefebff15bf82081",
+    "verify12.py": "bebae4c23fa42d5d3e2a7f9a0f80d334263060b76dc435041c6383eadcba2c51",
+    "freeze_inputs.py": "180cec65a80a8de0e49d8b6687b7b62b7b105007b1f6508473533e5e42a575b1",
+    "static_acceptance.py": "7ffd6535005b52d0311dad1930ce40ac4cfaf8e8dfe0adbd49a30fcdce111db4",
+    "TASK_DESIGN.json": "0ac74e465753e31e92ca3e55bc60ebb38a745c6e9797e4ee9984a08e03a60602",
+    "STATE_ONLY_ASSET_INDEX.json": "dae9d65f99891d6e4087f972644e524213721dea9e07eb956c567a04d7ab542c",
+    "EXCLUSION_INPUTS.json": "f608d5ffe286df4e4fac340ffea61dd2b4eb8f2ffd7ae85c8e880618c4b8c9e5",
+    "INPUT_DEPENDENCIES.json": "3251464bc33a3e468a82fef6ee69c29926328bb30b5ae28d4a99527e936f0d3e"
+  },
+  "original_asset_index_sha256": "9275ac2aae7c1c58af34edd7b7f7c4d8a49af79bc431456da0f32ddec80f502e",
+  "legacy_generator_sha256": "b1b0b5ab4f68d9403242add1133b6388bce78ade069d5e4ee0f1df4df7e2c77c",
+  "official_env_wrapper_sha256": "a782fb76c9792268d28979474fe72849e1e98ada49c8e997a65359a8d6b6acd0",
+  "generated_states": 0,
+  "environment_constructors": 0,
+  "official_draws": 0,
+  "policy_calls": 0,
+  "normal_trial_scores_read": false,
+  "acceptance_outcomes_or_trajectories_read": false,
+  "revision_of_v2_freeze_sha256": "9b7db513d612556aad8654ef4c30717975776e32455afda79a319872a09a4cad",
+  "revision_reason": "Preserve V2 and zero-constructor failure receipts: torch1.11-compatible original torch.load signature, plus separate --inputs-only CPU source preflight before any environment import; no design or sampler changes",
+  "status": "CODE_AND_INPUT_DESIGN_FROZEN_BEFORE_GENERATION_NO_EXECUTION"
+}

@@ -1,0 +1,238 @@
+{
+  "time": 1792286978.8943276,
+  "node": "187",
+  "source_sha256": "5288c7a8505d90a8bf5ce3e3b7f12a3f9de0672041d74f0c10468fce201e08b9",
+  "scope_sha256": "450cb96cd5d9386c5042421971ea5cf8e3d80e594a3c5c940c47ee0d30a389d7",
+  "lanes": [
+    {
+      "model": "pi05",
+      "suite": "libero_object",
+      "gpu": 0,
+      "process": {
+        "pid": 3733905,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220666770",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "pi05",
+          "--suite",
+          "libero_object",
+          "--node",
+          "187",
+          "--gpu",
+          "0",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_spatial",
+      "gpu": 2,
+      "process": {
+        "pid": 3752298,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680509",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "pi05",
+          "--suite",
+          "libero_spatial",
+          "--node",
+          "187",
+          "--gpu",
+          "2",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "pi05",
+      "suite": "libero_10",
+      "gpu": 3,
+      "process": {
+        "pid": 3752299,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680509",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "pi05",
+          "--suite",
+          "libero_10",
+          "--node",
+          "187",
+          "--gpu",
+          "3",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_object",
+      "gpu": 1,
+      "process": {
+        "pid": 3733906,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220666770",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "pi0",
+          "--suite",
+          "libero_object",
+          "--node",
+          "187",
+          "--gpu",
+          "1",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "pi0",
+      "suite": "libero_goal",
+      "gpu": 4,
+      "process": {
+        "pid": 3752300,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680510",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "pi0",
+          "--suite",
+          "libero_goal",
+          "--node",
+          "187",
+          "--gpu",
+          "4",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_spatial",
+      "gpu": 5,
+      "process": {
+        "pid": 3752301,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680510",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "openvla",
+          "--suite",
+          "libero_spatial",
+          "--node",
+          "187",
+          "--gpu",
+          "5",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "openvla",
+      "suite": "libero_10",
+      "gpu": 6,
+      "process": {
+        "pid": 3752302,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680510",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "openvla",
+          "--suite",
+          "libero_10",
+          "--node",
+          "187",
+          "--gpu",
+          "6",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    },
+    {
+      "model": "xvla",
+      "suite": "libero_goal",
+      "gpu": 7,
+      "process": {
+        "pid": 3752303,
+        "boot": "c85a5cd6-ff40-4404-9d66-6b33aaf9971b",
+        "start": "220680510",
+        "argv": [
+          "/usr/bin/python3",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/runtime_bundle_v4/isolated_coordinator.py",
+          "--run",
+          "--model",
+          "xvla",
+          "--suite",
+          "libero_goal",
+          "--node",
+          "187",
+          "--gpu",
+          "7",
+          "--resource-binding",
+          "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_success_efficiency_20261018_v1/capability_gated_confirm12_v1/RESOURCE_BINDING_V2.json"
+        ]
+      },
+      "exact_process_live": false,
+      "complete": true,
+      "failed": false
+    }
+  ],
+  "live_containers": [],
+  "halt": null,
+  "actual_whole_study_CPU_seconds": null,
+  "actual_whole_study_GPU_busy_seconds": null,
+  "warning": "Only a point for still-live owned containers. Missing earlier/stopped cgroups stay unknown; quota is not consumption. No whole-study utilization or speedup is inferred.",
+  "full_evaluation": "PAUSED"
+}

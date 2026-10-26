@@ -1,0 +1,8 @@
+{
+  "time": 1792598609.9789484,
+  "source": "later_models_driver_v1",
+  "batch": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v2/controllers/LATER_MODELS_V1_NODE187",
+  "reason": "Traceback (most recent call last):\n  File \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v2/later_models_driver_v1.py\", line 224, in run\n    if marker.exists() or pi05_ready(root, all_groups):\n  File \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v2/later_models_driver_v1.py\", line 92, in pi05_ready\n    published = read(producer / 'STATUS.json')\n  File \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_object_remaining7_20261021_v1/runtime_bundle_v2/coordinator_contract.py\", line 12, in read\n    return json.loads(Path(path).read_text())\n  File \"/usr/lib/python3.10/pathlib.py\", line 1133, in read_text\n    return f.read()\nFileNotFoundError: [Errno 2] No such file or directory\n",
+  "no_restart": true,
+  "unknown_results_not_physical_failures": true
+}

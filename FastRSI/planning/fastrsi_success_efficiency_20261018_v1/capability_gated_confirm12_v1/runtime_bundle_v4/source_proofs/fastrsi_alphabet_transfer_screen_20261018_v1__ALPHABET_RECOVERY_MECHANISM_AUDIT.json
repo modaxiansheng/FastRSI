@@ -1,0 +1,2947 @@
+{
+  "time": 1792262859.4185255,
+  "status": "ALPHABET_REGISTERED_RECOVERY_MECHANISMS_READONLY_AUDITED",
+  "registered_physical_identities": 4,
+  "registered_model_conditions": 16,
+  "protocol": {
+    "path": "FROZEN_PROTOCOL.json",
+    "sha256": "2bb50d9d6b9c2c99e5ffc8d345e1709d9906c0688e8e3cb38b3e12c086ba3ba3"
+  },
+  "source_code_proofs": [
+    {
+      "path": "candidate_runtime/multibackend_actor.py",
+      "sha256": "7bd9299c43448af705f470aedcea55f51166baa44ead1989c91eac61e036b405"
+    },
+    {
+      "path": "candidate_runtime/visual_kernel_frozen.py",
+      "sha256": "07879f70a081d96225ef496bcb9b8a943321c8b57b152b477c05f5b6d76b679a"
+    },
+    {
+      "path": "candidate_runtime/vision_skill.py",
+      "sha256": "9d1c436af6adb95d2e5c71cae3697eff58ed59acc6158198bcf9073d54981acb"
+    }
+  ],
+  "interpretation": "Physical final outcomes come from RAW plus official terminal events. stop_reason may retain an earlier local UNKNOWN even after successful fresh VLA continuation; it is never substituted for final success.",
+  "boundary": "Development task0 only. This is a recovery-source audit, not a replacement for original-outcome/rawSHA/full lifecycle cost audit or a full benchmark claim.",
+  "mechanisms": {
+    "SHARED_NATIVE_BASELINE_SUCCESS_NO_RECOVERY_EXECUTED": 2,
+    "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS": 4,
+    "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS": 7,
+    "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE": 3
+  },
+  "models": {
+    "pi05": {
+      "model_conditions": 4,
+      "mechanisms": {
+        "SHARED_NATIVE_BASELINE_SUCCESS_NO_RECOVERY_EXECUTED": 2,
+        "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS": 1,
+        "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS": 1
+      },
+      "final_successes": 4,
+      "net_vs_ordinary": 2,
+      "net_vs_previous": 2,
+      "executed_candidate_attempts": 2,
+      "candidate_actor_wall_seconds": 221.03636050224304,
+      "policy_rpc_count": 10,
+      "policy_generation_count": 10,
+      "visual_neural_forward_count": 198
+    },
+    "pi0": {
+      "model_conditions": 4,
+      "mechanisms": {
+        "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS": 2,
+        "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS": 2
+      },
+      "final_successes": 4,
+      "net_vs_ordinary": 4,
+      "net_vs_previous": 4,
+      "executed_candidate_attempts": 4,
+      "candidate_actor_wall_seconds": 455.8073673248291,
+      "policy_rpc_count": 29,
+      "policy_generation_count": 29,
+      "visual_neural_forward_count": 396
+    },
+    "openvla": {
+      "model_conditions": 4,
+      "mechanisms": {
+        "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE": 2,
+        "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS": 2
+      },
+      "final_successes": 2,
+      "net_vs_ordinary": 2,
+      "net_vs_previous": 2,
+      "executed_candidate_attempts": 4,
+      "candidate_actor_wall_seconds": 808.4366176128387,
+      "policy_rpc_count": 449,
+      "policy_generation_count": 449,
+      "visual_neural_forward_count": 396
+    },
+    "xvla": {
+      "model_conditions": 4,
+      "mechanisms": {
+        "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS": 1,
+        "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE": 1,
+        "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS": 2
+      },
+      "final_successes": 3,
+      "net_vs_ordinary": 3,
+      "net_vs_previous": 3,
+      "executed_candidate_attempts": 4,
+      "candidate_actor_wall_seconds": 575.4284167289734,
+      "policy_rpc_count": 287,
+      "policy_generation_count": 11,
+      "visual_neural_forward_count": 396
+    }
+  },
+  "rows": [
+    {
+      "condition": "pi05-alpha_confirm_00",
+      "physical_identity": "alpha_confirm_00",
+      "model": "pi05",
+      "perturbation": "position",
+      "mechanism": "SHARED_NATIVE_BASELINE_SUCCESS_NO_RECOVERY_EXECUTED",
+      "first_native_success": true,
+      "baseline_attempts": 1,
+      "physical_final_success": true,
+      "ordinary_final_success": true,
+      "previous_final_success": true,
+      "net_vs_ordinary": 0,
+      "net_vs_previous": 0,
+      "local_action_count": 0,
+      "evidence": [
+        {
+          "path": "campaigns/pi05/node187/gpu0/pi05-alpha_confirm_00/CONDITION_RESULT.json",
+          "sha256": "3017aea79f9946a3f3f2c5e3a85a79d2026bca7ac2620527f1b9483e90fa84cb"
+        }
+      ],
+      "counts_not_recovery_success": true
+    },
+    {
+      "condition": "pi05-alpha_confirm_01",
+      "physical_identity": "alpha_confirm_01",
+      "model": "pi05",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+      "official_actions": 153,
+      "official_cap": 280,
+      "local_action_count": 56,
+      "local_action_roles": {
+        "source_clearance_connection": 28,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 97,
+      "native_policy_rpc_count": 10,
+      "true_policy_generation_count": 10,
+      "true_policy_neural_forward_begin": 140,
+      "true_policy_neural_forward_end": 140,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 106.78917098045349,
+      "policy_rpc_wall_seconds": 4.9747555260546505,
+      "policy_generation_wall_seconds": 4.751218935009092,
+      "policy_neural_forward_wall_seconds": 4.397466431,
+      "visual_model_load_seconds": 1.6764564514160156,
+      "visual_rpc_wait_wall_seconds": 63.31220364570618,
+      "visual_subject_inference_wall_seconds": 63.128350496292114,
+      "visual_neural_forward_wall_seconds": 18.46106719970703,
+      "handoff": {
+        "step": 56,
+        "first_native_input_sha256": "bf6c0b4447a371a9fc4169be541eac9f2a8f01bcd815546634783829b2a1e07d",
+        "first_native_evidence": {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "e77014909207f3fbb74b00a9531975c48a5abe5bcdb9d7d02b3ebf8d2ca2cc7b"
+        },
+        "first_native_input_files": {
+          "wrist.png": "1e45d027663520f0911476696fb9d6fabf8f5e4744d6ebd22364eaab97ebcf91",
+          "front.png": "9e74724767d18c49c84fa388a32ca76532213e24d85d02b28e7db3859f981e6d",
+          "state.npy": "c320b9d06a4f518cdd169e68acc98d032fbb1cf92bfc5dad3f67f86afa1db82b",
+          "eef_mat.npy": "3f3df20ff4b5d18858da0a9c1394fe970747836a706348a53dae891083cf3383"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 56,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+            "finger_width_m": 0.06289524771273136,
+            "subject_eef_distance_m": 0.01698567730651952,
+            "relative_eef_object": [
+              [
+                -0.42764210592433227,
+                -0.03225965242598764,
+                0.9033723110302588,
+                -0.0035102631082321034
+              ],
+              [
+                -0.9027545782366607,
+                -0.03609722718308478,
+                -0.42863871967954903,
+                -0.010313339340183414
+              ],
+              [
+                0.04643709377148946,
+                -0.9988274393103173,
+                -0.01368584701884931,
+                0.013031742953418288
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.027109869857429067
+          },
+          "public_gripper_qpos": [
+            0.02535809762775898,
+            -0.03753715008497238
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "fresh_native_continuation",
+          "step": 146
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/RAW.json",
+          "sha256": "5038b27cfad45f365d080db9d23b804a4131019000066b7623b642efc064d971"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/EVENTS.jsonl",
+          "sha256": "89b2d49d425bf1acbad60cafbb8f9becf7b82c15cec9ed29e15ab43022d19daf"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "43fb51290ac03a2fef44cbfcdc56036ae6b6244a6232d107cde55c09611c72e7"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "a5a345805063e7f63c50484bea21957def28b90dd67b8e9f32485d59d9a7e8d7"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/JOB.json",
+          "sha256": "8ecb321fdbad2394d76a4d7622c6f9a837ffb7565f4030308527d6d91ee3651e"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "a7c302db7ca3cb21adecdf9ec7c68496d5b6a6c2bae21461fe763f049723e051"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/HANDOFF.json",
+          "sha256": "6545082b0bc500254c658300df39d87b6df501ab8d77c2281b80679220a9897c"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "e77014909207f3fbb74b00a9531975c48a5abe5bcdb9d7d02b3ebf8d2ca2cc7b"
+        },
+        {
+          "path": "campaigns/pi05/node187/gpu1/pi05-alpha_confirm_01/CONDITION_RESULT.json",
+          "sha256": "edc5210a2b805ecb70b062d745d3af5eb002093861e80f1c02081f8b419c11ca"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "pi05-alpha_confirm_02",
+      "physical_identity": "alpha_confirm_02",
+      "model": "pi05",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 136,
+      "official_cap": 280,
+      "local_action_count": 136,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 14,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 114.24718952178955,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.7247564792633057,
+      "visual_rpc_wait_wall_seconds": 67.76256346702576,
+      "visual_subject_inference_wall_seconds": 66.7483012676239,
+      "visual_neural_forward_wall_seconds": 19.672001838684082,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06368070840835571,
+            "subject_eef_distance_m": 0.009233762984895682,
+            "relative_eef_object": [
+              [
+                -0.4090944774625969,
+                0.0036363996351851885,
+                0.9124848841231151,
+                0.006652773774305787
+              ],
+              [
+                -0.9124474129309155,
+                0.008269479749477074,
+                -0.40911062477812793,
+                0.003741790905885802
+              ],
+              [
+                -0.009033449932150089,
+                -0.999959316676361,
+                -6.495135796252484e-05,
+                0.005196343305348905
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.009076696036380493
+          },
+          "public_gripper_qpos": [
+            0.027599673718214035,
+            -0.03608103469014168
+          ]
+        },
+        {
+          "step": 76,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06324645690619946,
+            "subject_eef_distance_m": 0.009038700430388355,
+            "relative_eef_object": [
+              [
+                -0.4064295149090381,
+                -0.0048438457739450646,
+                0.9136693520340166,
+                0.005599817878489066
+              ],
+              [
+                -0.9136714697429533,
+                -0.0027081636161790596,
+                -0.4064447088515599,
+                0.002883660485789294
+              ],
+              [
+                0.004443140112811203,
+                -0.9999846718447741,
+                -0.0033249914096399476,
+                0.006482642242923609
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0018707401992890445
+          },
+          "public_gripper_qpos": [
+            0.027388708665966988,
+            -0.03585774824023247
+          ]
+        },
+        {
+          "step": 114,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06271708756685257,
+            "subject_eef_distance_m": 0.01370156655387512,
+            "relative_eef_object": [
+              [
+                -0.41119702439042116,
+                0.004002526566752551,
+                0.9115376943194086,
+                0.00668328112714231
+              ],
+              [
+                -0.9112581188150348,
+                0.023349224098408474,
+                -0.4111733734467293,
+                0.011779632250819766
+              ],
+              [
+                -0.02292949404553439,
+                -0.9997193306968891,
+                -0.0059537679784442184,
+                0.0020753176824190867
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.00998682712562043
+          },
+          "public_gripper_qpos": [
+            0.027593351900577545,
+            -0.035123735666275024
+          ]
+        },
+        {
+          "step": 121,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0626973956823349,
+            "subject_eef_distance_m": 0.010354333514656856,
+            "relative_eef_object": [
+              [
+                -0.4148058083760669,
+                0.004741134009835576,
+                0.9098976511283786,
+                0.005370291737304217
+              ],
+              [
+                -0.9096412749456729,
+                0.022140568672552634,
+                -0.41480425708971463,
+                0.007698315536150302
+              ],
+              [
+                -0.02211231884980809,
+                -0.9997436426917248,
+                -0.004871276379151861,
+                0.004371284852953572
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.004863388994460538
+          },
+          "public_gripper_qpos": [
+            0.027567986398935318,
+            -0.03512940928339958
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 136
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/RAW.json",
+          "sha256": "0de8f3c98996c5bcc32426ec5348aaee07f47d300af8af0c6cfa6989942d12a9"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/EVENTS.jsonl",
+          "sha256": "169c4cc1a025a882a0dc322e759cc149eeb50e8e919d0fba7d2666a1fa5db416"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "e5716bd091b701904f1a651304820ca01f2154b9f70565065677c6516fd017b5"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/JOB.json",
+          "sha256": "5ec616d9a9d99fcb0d498e3ade50a7b59fa83b91940b9148e60401907b0ed37d"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "fc564e88c886dba8abb8595e5a5def3d59f5e5e25a235ffe7e2832e1240fb99e"
+        },
+        {
+          "path": "campaigns/pi05/node188/gpu0/pi05-alpha_confirm_02/CONDITION_RESULT.json",
+          "sha256": "7b92ebaa6ed2eb4998d745a1a9ff5aa9930e90db7921915c52df27c22d74361c"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "pi05-alpha_confirm_03",
+      "physical_identity": "alpha_confirm_03",
+      "model": "pi05",
+      "perturbation": "environment",
+      "mechanism": "SHARED_NATIVE_BASELINE_SUCCESS_NO_RECOVERY_EXECUTED",
+      "first_native_success": false,
+      "baseline_attempts": 3,
+      "physical_final_success": true,
+      "ordinary_final_success": true,
+      "previous_final_success": true,
+      "net_vs_ordinary": 0,
+      "net_vs_previous": 0,
+      "local_action_count": 0,
+      "evidence": [
+        {
+          "path": "campaigns/pi05/node188/gpu1/pi05-alpha_confirm_03/CONDITION_RESULT.json",
+          "sha256": "25b410f759dfb382d4a06a514a456c447a97035e4ed031d3d555a3026baedde2"
+        }
+      ],
+      "counts_not_recovery_success": true
+    },
+    {
+      "condition": "pi0-alpha_confirm_00",
+      "physical_identity": "alpha_confirm_00",
+      "model": "pi0",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+      "official_actions": 201,
+      "official_cap": 280,
+      "local_action_count": 55,
+      "local_action_roles": {
+        "source_clearance_connection": 27,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 146,
+      "native_policy_rpc_count": 15,
+      "true_policy_generation_count": 15,
+      "true_policy_neural_forward_begin": 210,
+      "true_policy_neural_forward_end": 210,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 112.5670747756958,
+      "policy_rpc_wall_seconds": 6.49882400687784,
+      "policy_generation_wall_seconds": 6.224748022854328,
+      "policy_neural_forward_wall_seconds": 5.644642508,
+      "visual_model_load_seconds": 1.7949721813201904,
+      "visual_rpc_wait_wall_seconds": 63.75086855888367,
+      "visual_subject_inference_wall_seconds": 63.49273896217346,
+      "visual_neural_forward_wall_seconds": 17.99812650680542,
+      "handoff": {
+        "step": 55,
+        "first_native_input_sha256": "c6b433433cee0b2db98b2478771ca74295a8ac688f3d831842a3798426dbbaab",
+        "first_native_evidence": {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "0b40dce8a9c55e40721ddad2731dbd938ec8849495f4c3cc77d1ec77dce1a697"
+        },
+        "first_native_input_files": {
+          "wrist.png": "cf777b020480e4c87d0be6fa1f73f616a3531bf7228a9d75b7455878b9aafcfc",
+          "eef_mat.npy": "5019e3daa8b30e3dda791bd489b9c49f8932694d90fe615f47508b2c67585609",
+          "front.png": "09f231da5479493eeb86e1a9144aeb16b28c0fc278c3eb17ee5bc6bdaa886435",
+          "state.npy": "ed2f4cf2498e3b1b1d275a467303d17d634923057356642d82168df94ebad382"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 55,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+            "finger_width_m": 0.062492864206433296,
+            "subject_eef_distance_m": 0.04056391754877197,
+            "relative_eef_object": [
+              [
+                -0.3761390521572856,
+                -0.05567191047128327,
+                0.924889267711058,
+                -0.014028223815981011
+              ],
+              [
+                -0.9234873864078919,
+                -0.058743282115000794,
+                -0.37910484065117184,
+                -0.028396027132132518
+              ],
+              [
+                0.07543647461684917,
+                -0.9967197701862914,
+                -0.029316637714167877,
+                0.025343756962819833
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "public_gripper_qpos": [
+            0.025022463873028755,
+            -0.03747040033340454
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "fresh_native_continuation",
+          "step": 195
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/RAW.json",
+          "sha256": "0e457bc403af12937d8ac89bb2565289c32d08cf9d898ab346ed6e11ab1fe131"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/EVENTS.jsonl",
+          "sha256": "7da41f2d6309130856cfd1a8cb5a86b135d1ca7b8538368e13dafea8536282b5"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "29d03dff8f05f416c55c8ec1b9b3aa1cb1f6b31955fb8ff5ee8c3f056e679e66"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "1c30f801031fe9b46ddb6099dab4b950a0f407813c21f7405f217cbdb033b905"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/JOB.json",
+          "sha256": "b0fcf68964d96f07732ba81e2c7878bea9ed78a5f192f0d1e45d513139df2aa0"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "545a64426481a5825a57a020d95530305bcd93dcc9c6fc034709ac3d75a342f5"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/HANDOFF.json",
+          "sha256": "68c082ddb01b018849f46765872e2dba34a2b425e82dc4b116ad410c61c6e23f"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "0b40dce8a9c55e40721ddad2731dbd938ec8849495f4c3cc77d1ec77dce1a697"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu2/pi0-alpha_confirm_00/CONDITION_RESULT.json",
+          "sha256": "576d1b17e1a65b8d0b4c27a0e744ff987c86769871e8245895bbb1ede57928c8"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "pi0-alpha_confirm_01",
+      "physical_identity": "alpha_confirm_01",
+      "model": "pi0",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+      "official_actions": 189,
+      "official_cap": 280,
+      "local_action_count": 56,
+      "local_action_roles": {
+        "source_clearance_connection": 28,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 133,
+      "native_policy_rpc_count": 14,
+      "true_policy_generation_count": 14,
+      "true_policy_neural_forward_begin": 196,
+      "true_policy_neural_forward_end": 196,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 112.88246250152588,
+      "policy_rpc_wall_seconds": 6.176219099201262,
+      "policy_generation_wall_seconds": 5.869959886651486,
+      "policy_neural_forward_wall_seconds": 5.346435564,
+      "visual_model_load_seconds": 1.6281681060791016,
+      "visual_rpc_wait_wall_seconds": 65.77562022209167,
+      "visual_subject_inference_wall_seconds": 65.60353446006775,
+      "visual_neural_forward_wall_seconds": 18.3155574798584,
+      "handoff": {
+        "step": 56,
+        "first_native_input_sha256": "d43082bd0c3728b56c24496b3e8984d92eb25ca3bd6d5df63958dcf512feaacd",
+        "first_native_evidence": {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "06817c2aa070d7e6049b4cd811b467bdd3e4c5c38969d2851d94eb4de2cadd9e"
+        },
+        "first_native_input_files": {
+          "wrist.png": "1e45d027663520f0911476696fb9d6fabf8f5e4744d6ebd22364eaab97ebcf91",
+          "eef_mat.npy": "3f3df20ff4b5d18858da0a9c1394fe970747836a706348a53dae891083cf3383",
+          "front.png": "9e74724767d18c49c84fa388a32ca76532213e24d85d02b28e7db3859f981e6d",
+          "state.npy": "c320b9d06a4f518cdd169e68acc98d032fbb1cf92bfc5dad3f67f86afa1db82b"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 56,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+            "finger_width_m": 0.06289524771273136,
+            "subject_eef_distance_m": 0.01698567730651952,
+            "relative_eef_object": [
+              [
+                -0.42764210592433227,
+                -0.03225965242598764,
+                0.9033723110302588,
+                -0.0035102631082321034
+              ],
+              [
+                -0.9027545782366607,
+                -0.03609722718308478,
+                -0.42863871967954903,
+                -0.010313339340183414
+              ],
+              [
+                0.04643709377148946,
+                -0.9988274393103173,
+                -0.01368584701884931,
+                0.013031742953418288
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.027109869857429067
+          },
+          "public_gripper_qpos": [
+            0.02535809762775898,
+            -0.03753715008497238
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "fresh_native_continuation",
+          "step": 186
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/RAW.json",
+          "sha256": "fc3b7925532194859725086c224c986b18fd87f1e204777e86188e76f8aac7f9"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/EVENTS.jsonl",
+          "sha256": "84930ed2c779279d8d51167c5683b819e005d530b6131d46aac82b1f4071bf8e"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "b4c7c824542953c85b249bf3877c89f5b6a489b652e8e3dd39a7d82a78d4bf64"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "a5a345805063e7f63c50484bea21957def28b90dd67b8e9f32485d59d9a7e8d7"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/JOB.json",
+          "sha256": "bcc78811e9cfe40dd1e3b1419686da759262bbe40e389ec615377a29d4d06305"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "0ad54ca5041e16e94e95a69da8f3bc09d5174c6587a4f0c6058f6985921bafaf"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/HANDOFF.json",
+          "sha256": "3d2130c9427ebb967cb041d760c9731b7f38e9341b7d5842cd5f02f21ed63c3d"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "06817c2aa070d7e6049b4cd811b467bdd3e4c5c38969d2851d94eb4de2cadd9e"
+        },
+        {
+          "path": "campaigns/pi0/node187/gpu3/pi0-alpha_confirm_01/CONDITION_RESULT.json",
+          "sha256": "5dda64f69c5e2b21fe297cbb7857f92085fe1ead54d011da0f503d0ca3a357ea"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "pi0-alpha_confirm_02",
+      "physical_identity": "alpha_confirm_02",
+      "model": "pi0",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 136,
+      "official_cap": 280,
+      "local_action_count": 136,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 14,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 114.4132604598999,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.7153587341308594,
+      "visual_rpc_wait_wall_seconds": 69.02233695983887,
+      "visual_subject_inference_wall_seconds": 67.95088982582092,
+      "visual_neural_forward_wall_seconds": 19.479729413986206,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06368070840835571,
+            "subject_eef_distance_m": 0.009233762984895682,
+            "relative_eef_object": [
+              [
+                -0.4090944774625969,
+                0.0036363996351851885,
+                0.9124848841231151,
+                0.006652773774305787
+              ],
+              [
+                -0.9124474129309155,
+                0.008269479749477074,
+                -0.40911062477812793,
+                0.003741790905885802
+              ],
+              [
+                -0.009033449932150089,
+                -0.999959316676361,
+                -6.495135796252484e-05,
+                0.005196343305348905
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.009076696036380493
+          },
+          "public_gripper_qpos": [
+            0.027599673718214035,
+            -0.03608103469014168
+          ]
+        },
+        {
+          "step": 76,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06324645690619946,
+            "subject_eef_distance_m": 0.009038700430388355,
+            "relative_eef_object": [
+              [
+                -0.4064295149090381,
+                -0.0048438457739450646,
+                0.9136693520340166,
+                0.005599817878489066
+              ],
+              [
+                -0.9136714697429533,
+                -0.0027081636161790596,
+                -0.4064447088515599,
+                0.002883660485789294
+              ],
+              [
+                0.004443140112811203,
+                -0.9999846718447741,
+                -0.0033249914096399476,
+                0.006482642242923609
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0018707401992890445
+          },
+          "public_gripper_qpos": [
+            0.027388708665966988,
+            -0.03585774824023247
+          ]
+        },
+        {
+          "step": 114,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06271708756685257,
+            "subject_eef_distance_m": 0.01370156655387512,
+            "relative_eef_object": [
+              [
+                -0.41119702439042116,
+                0.004002526566752551,
+                0.9115376943194086,
+                0.00668328112714231
+              ],
+              [
+                -0.9112581188150348,
+                0.023349224098408474,
+                -0.4111733734467293,
+                0.011779632250819766
+              ],
+              [
+                -0.02292949404553439,
+                -0.9997193306968891,
+                -0.0059537679784442184,
+                0.0020753176824190867
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.00998682712562043
+          },
+          "public_gripper_qpos": [
+            0.027593351900577545,
+            -0.035123735666275024
+          ]
+        },
+        {
+          "step": 121,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0626973956823349,
+            "subject_eef_distance_m": 0.010354333514656856,
+            "relative_eef_object": [
+              [
+                -0.4148058083760669,
+                0.004741134009835576,
+                0.9098976511283786,
+                0.005370291737304217
+              ],
+              [
+                -0.9096412749456729,
+                0.022140568672552634,
+                -0.41480425708971463,
+                0.007698315536150302
+              ],
+              [
+                -0.02211231884980809,
+                -0.9997436426917248,
+                -0.004871276379151861,
+                0.004371284852953572
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.004863388994460538
+          },
+          "public_gripper_qpos": [
+            0.027567986398935318,
+            -0.03512940928339958
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 136
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/RAW.json",
+          "sha256": "a2e359d58ae8e16a5ecb6fe94cf00783559b9b395355f35ef7efd83ea848d4e1"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/EVENTS.jsonl",
+          "sha256": "59a963de6e094b952e600b78b928fc2964a7cabb5f00d9f6e72beff1d173953a"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "e5716bd091b701904f1a651304820ca01f2154b9f70565065677c6516fd017b5"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/JOB.json",
+          "sha256": "887c6a12a8cac2242e77d4b36fdc9ed66f33a7aab7debc84303abe38ddc9601b"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "957473ccccbbebbb3889cbf455be4fb6982e567a5018c1d2fa545d8f153b3152"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu2/pi0-alpha_confirm_02/CONDITION_RESULT.json",
+          "sha256": "69384af699c11c6e0633dabe1a418c92accbbfde6c674f5c26f2ae2c0678248e"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "pi0-alpha_confirm_03",
+      "physical_identity": "alpha_confirm_03",
+      "model": "pi0",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 135,
+      "official_cap": 280,
+      "local_action_count": 135,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 13,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 115.94456958770752,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.6614933013916016,
+      "visual_rpc_wait_wall_seconds": 67.43445587158203,
+      "visual_subject_inference_wall_seconds": 66.26305079460144,
+      "visual_neural_forward_wall_seconds": 19.23320770263672,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06300505064427853,
+            "subject_eef_distance_m": 0.008646436482417579,
+            "relative_eef_object": [
+              [
+                -0.37422999440746124,
+                0.004297520648458109,
+                0.9273259004892518,
+                0.0061824657586325715
+              ],
+              [
+                -0.9272061231899564,
+                0.015000948211841544,
+                -0.3742510841599565,
+                0.0038002054187759246
+              ],
+              [
+                -0.015519068531462583,
+                -0.9998783038702846,
+                -0.0016291044909425882,
+                0.004700682714776305
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0059247860534698575
+          },
+          "public_gripper_qpos": [
+            0.028552895411849022,
+            -0.034452155232429504
+          ]
+        },
+        {
+          "step": 75,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06284062005579472,
+            "subject_eef_distance_m": 0.008673277717447778,
+            "relative_eef_object": [
+              [
+                -0.37737785900105386,
+                0.002760484037895922,
+                0.926055321866197,
+                0.005512634231374269
+              ],
+              [
+                -0.9260249179239229,
+                0.007503161025469118,
+                -0.3773878638600859,
+                0.003581013675490699
+              ],
+              [
+                -0.007990085819934458,
+                -0.9999681328118559,
+                -0.0002752366816518367,
+                0.005657998982148804
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0011887698393758229
+          },
+          "public_gripper_qpos": [
+            0.02847541682422161,
+            -0.034365203231573105
+          ]
+        },
+        {
+          "step": 113,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0627057496458292,
+            "subject_eef_distance_m": 0.009422646550648964,
+            "relative_eef_object": [
+              [
+                -0.4029860130886053,
+                0.007683358035222205,
+                0.9151739207274104,
+                0.004232470548379608
+              ],
+              [
+                -0.9150290421800236,
+                0.016286847682784943,
+                -0.4030590245401369,
+                0.007009855903450768
+              ],
+              [
+                -0.018002109687619023,
+                -0.9998378455848622,
+                0.00046713078993347015,
+                0.004662014335356179
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0037931205485915226
+          },
+          "public_gripper_qpos": [
+            0.028874503448605537,
+            -0.03383124619722366
+          ]
+        },
+        {
+          "step": 120,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06269688904285431,
+            "subject_eef_distance_m": 0.009085397673023096,
+            "relative_eef_object": [
+              [
+                -0.4025609356164006,
+                0.005137500017318687,
+                0.9153787190928354,
+                0.003982841288811989
+              ],
+              [
+                -0.9153279428638299,
+                0.009673966931794948,
+                -0.40259290460618025,
+                0.006611923962903915
+              ],
+              [
+                -0.010923591749127562,
+                -0.999940038294671,
+                0.00080813814287979,
+                0.004792064877676583
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0004874194703717657
+          },
+          "public_gripper_qpos": [
+            0.028860129415988922,
+            -0.03383675962686539
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 135
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/RAW.json",
+          "sha256": "852822fc3b66cfe84e3dc35fca5432ea698e4f7304e483858c96af9cc5f1d203"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/EVENTS.jsonl",
+          "sha256": "fcc9600ec4ccc479177ad11c0dcd46b42962a206fc7db66115ec4ac495c3a741"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "bec958d6ea8915b81c1f7ae234b356bd48452d9b576ec9755081420576d96a22"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/JOB.json",
+          "sha256": "0b393164ef2ed258edd46056c9d7db50f76aa11b6f1cb13c9922c1bfd2ac7a1b"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "14c95d4a26de7486249b93a3039bed18918ab92bdbac6c9f7cddef31d8d9a805"
+        },
+        {
+          "path": "campaigns/pi0/node188/gpu3/pi0-alpha_confirm_03/CONDITION_RESULT.json",
+          "sha256": "c3f57dd1c8b4ad7724b2c3ccfcbeb1c28a88671ad8573fd07ad2e7bfe7e7e161"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "openvla-alpha_confirm_00",
+      "physical_identity": "alpha_confirm_00",
+      "model": "openvla",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE",
+      "physical_final_success": false,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 0,
+      "net_vs_previous": 0,
+      "local_decision_stop_reason_not_terminal_result": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+      "official_actions": 280,
+      "official_cap": 280,
+      "local_action_count": 55,
+      "local_action_roles": {
+        "source_clearance_connection": 27,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 225,
+      "native_policy_rpc_count": 225,
+      "true_policy_generation_count": 225,
+      "true_policy_neural_forward_begin": 1575,
+      "true_policy_neural_forward_end": 1575,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 291.4804615974426,
+      "policy_rpc_wall_seconds": 88.76843807194382,
+      "policy_generation_wall_seconds": 88.721642147284,
+      "policy_neural_forward_wall_seconds": 81.394361774,
+      "visual_model_load_seconds": 1.7045001983642578,
+      "visual_rpc_wait_wall_seconds": 62.313456296920776,
+      "visual_subject_inference_wall_seconds": 62.080843925476074,
+      "visual_neural_forward_wall_seconds": 18.020432949066162,
+      "handoff": {
+        "step": 55,
+        "first_native_input_sha256": "5c1738606c719ba7aaaa5c9ac5baa174be4318a3cf48402bf52398a5985d17d1",
+        "first_native_evidence": {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "fe2d248164477680cfce1cf8a5f7d229f21e9c43da813925f83f02afb05aef54"
+        },
+        "first_native_input_files": {
+          "wrist.png": "cf777b020480e4c87d0be6fa1f73f616a3531bf7228a9d75b7455878b9aafcfc",
+          "state.npy": "ed2f4cf2498e3b1b1d275a467303d17d634923057356642d82168df94ebad382",
+          "eef_mat.npy": "5019e3daa8b30e3dda791bd489b9c49f8932694d90fe615f47508b2c67585609",
+          "front.png": "09f231da5479493eeb86e1a9144aeb16b28c0fc278c3eb17ee5bc6bdaa886435"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 55,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+            "finger_width_m": 0.062492864206433296,
+            "subject_eef_distance_m": 0.04056391754877197,
+            "relative_eef_object": [
+              [
+                -0.3761390521572856,
+                -0.05567191047128327,
+                0.924889267711058,
+                -0.014028223815981011
+              ],
+              [
+                -0.9234873864078919,
+                -0.058743282115000794,
+                -0.37910484065117184,
+                -0.028396027132132518
+              ],
+              [
+                0.07543647461684917,
+                -0.9967197701862914,
+                -0.029316637714167877,
+                0.025343756962819833
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "public_gripper_qpos": [
+            0.025022463873028755,
+            -0.03747040033340454
+          ]
+        }
+      ],
+      "terminal_success_events": [],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/RAW.json",
+          "sha256": "ccc1275cccff4bd899266bc905ec226fc075d54d5d639cc9c51d02f451f5c33d"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/EVENTS.jsonl",
+          "sha256": "6bfe6f8c04ac6d3e336d20fc5fc8a4f61ef4291cc592e4b17e274058589f8aa9"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "4070091e90a9a250aa73da7cb90d1cd64c05bc756307541244f0c22004fe07ec"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "1c30f801031fe9b46ddb6099dab4b950a0f407813c21f7405f217cbdb033b905"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/JOB.json",
+          "sha256": "c31a4e4c41d944c05411c5d48ae06279cc7e7340e949e24dbd1198a80438ce22"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "00690e2f13ec5c0f61c55abb43b99e638b4929579e9cc35e2a33d151282cab4a"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/HANDOFF.json",
+          "sha256": "056b89ff68e8b7ea38c2876439b74ebc9b6decadc12bdab7cb33f6042c7fefba"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "fe2d248164477680cfce1cf8a5f7d229f21e9c43da813925f83f02afb05aef54"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu4/openvla-alpha_confirm_00/CONDITION_RESULT.json",
+          "sha256": "8a441197fc183cad2168bb90c69c483f5dcbd005269af70f5401b4f9a9731e85"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "openvla-alpha_confirm_01",
+      "physical_identity": "alpha_confirm_01",
+      "model": "openvla",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE",
+      "physical_final_success": false,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 0,
+      "net_vs_previous": 0,
+      "local_decision_stop_reason_not_terminal_result": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+      "official_actions": 280,
+      "official_cap": 280,
+      "local_action_count": 56,
+      "local_action_roles": {
+        "source_clearance_connection": 28,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 224,
+      "native_policy_rpc_count": 224,
+      "true_policy_generation_count": 224,
+      "true_policy_neural_forward_begin": 1568,
+      "true_policy_neural_forward_end": 1568,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 288.3178060054779,
+      "policy_rpc_wall_seconds": 88.49079505400732,
+      "policy_generation_wall_seconds": 88.44280029647052,
+      "policy_neural_forward_wall_seconds": 80.920037447,
+      "visual_model_load_seconds": 1.6936485767364502,
+      "visual_rpc_wait_wall_seconds": 62.40522336959839,
+      "visual_subject_inference_wall_seconds": 62.213382720947266,
+      "visual_neural_forward_wall_seconds": 18.522075414657593,
+      "handoff": {
+        "step": 56,
+        "first_native_input_sha256": "e0426eb7dccbacfecd8ce0b47b02b15f5fdf65fdc00aed462f6f31f885752d22",
+        "first_native_evidence": {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "556287cba969ad883b8c604b0a8be182a451ae44a8a9eab2d7345972255e0449"
+        },
+        "first_native_input_files": {
+          "front.png": "9e74724767d18c49c84fa388a32ca76532213e24d85d02b28e7db3859f981e6d",
+          "wrist.png": "1e45d027663520f0911476696fb9d6fabf8f5e4744d6ebd22364eaab97ebcf91",
+          "eef_mat.npy": "3f3df20ff4b5d18858da0a9c1394fe970747836a706348a53dae891083cf3383",
+          "state.npy": "c320b9d06a4f518cdd169e68acc98d032fbb1cf92bfc5dad3f67f86afa1db82b"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 56,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+            "finger_width_m": 0.06289524771273136,
+            "subject_eef_distance_m": 0.01698567730651952,
+            "relative_eef_object": [
+              [
+                -0.42764210592433227,
+                -0.03225965242598764,
+                0.9033723110302588,
+                -0.0035102631082321034
+              ],
+              [
+                -0.9027545782366607,
+                -0.03609722718308478,
+                -0.42863871967954903,
+                -0.010313339340183414
+              ],
+              [
+                0.04643709377148946,
+                -0.9988274393103173,
+                -0.01368584701884931,
+                0.013031742953418288
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.027109869857429067
+          },
+          "public_gripper_qpos": [
+            0.02535809762775898,
+            -0.03753715008497238
+          ]
+        }
+      ],
+      "terminal_success_events": [],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/RAW.json",
+          "sha256": "290e4036cda5c64180d7847d180803f4547133fbcb5545936ce4895ec6096a49"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/EVENTS.jsonl",
+          "sha256": "21c9966b2a6ff0444854d67a4daa69d2ca7132397858f2aaedd941f94df17b23"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "82d402b6f2ad3ba584e657a4acc64afe90895ae3dd4172d659bb433b54c847a3"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "a5a345805063e7f63c50484bea21957def28b90dd67b8e9f32485d59d9a7e8d7"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/JOB.json",
+          "sha256": "506275ed8471a6bbf617845dd7e49dc7e6aaa7b71e7157cac3fdd29aee957da4"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "e3321a253d3d4ef6006082d91c73e8e97969f6ce491275c03b1212fe2aed5b01"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/HANDOFF.json",
+          "sha256": "55a52e10048987b67c64ec4cdb8f7a8f318778c5327b0bdda0e5eb45ebeb62f5"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "556287cba969ad883b8c604b0a8be182a451ae44a8a9eab2d7345972255e0449"
+        },
+        {
+          "path": "campaigns/openvla/node187/gpu5/openvla-alpha_confirm_01/CONDITION_RESULT.json",
+          "sha256": "a8124eae74c4cc2ea5b651010de599c1a96d54451739ebc438103737847a9ca1"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "openvla-alpha_confirm_02",
+      "physical_identity": "alpha_confirm_02",
+      "model": "openvla",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 136,
+      "official_cap": 280,
+      "local_action_count": 136,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 14,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 114.73706412315369,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.7398154735565186,
+      "visual_rpc_wait_wall_seconds": 66.03502893447876,
+      "visual_subject_inference_wall_seconds": 65.03982424736023,
+      "visual_neural_forward_wall_seconds": 19.03147864341736,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06368070840835571,
+            "subject_eef_distance_m": 0.009233762984895682,
+            "relative_eef_object": [
+              [
+                -0.4090944774625969,
+                0.0036363996351851885,
+                0.9124848841231151,
+                0.006652773774305787
+              ],
+              [
+                -0.9124474129309155,
+                0.008269479749477074,
+                -0.40911062477812793,
+                0.003741790905885802
+              ],
+              [
+                -0.009033449932150089,
+                -0.999959316676361,
+                -6.495135796252484e-05,
+                0.005196343305348905
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.009076696036380493
+          },
+          "public_gripper_qpos": [
+            0.027599673718214035,
+            -0.03608103469014168
+          ]
+        },
+        {
+          "step": 76,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06324645690619946,
+            "subject_eef_distance_m": 0.009038700430388355,
+            "relative_eef_object": [
+              [
+                -0.4064295149090381,
+                -0.0048438457739450646,
+                0.9136693520340166,
+                0.005599817878489066
+              ],
+              [
+                -0.9136714697429533,
+                -0.0027081636161790596,
+                -0.4064447088515599,
+                0.002883660485789294
+              ],
+              [
+                0.004443140112811203,
+                -0.9999846718447741,
+                -0.0033249914096399476,
+                0.006482642242923609
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0018707401992890445
+          },
+          "public_gripper_qpos": [
+            0.027388708665966988,
+            -0.03585774824023247
+          ]
+        },
+        {
+          "step": 114,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06271708756685257,
+            "subject_eef_distance_m": 0.01370156655387512,
+            "relative_eef_object": [
+              [
+                -0.41119702439042116,
+                0.004002526566752551,
+                0.9115376943194086,
+                0.00668328112714231
+              ],
+              [
+                -0.9112581188150348,
+                0.023349224098408474,
+                -0.4111733734467293,
+                0.011779632250819766
+              ],
+              [
+                -0.02292949404553439,
+                -0.9997193306968891,
+                -0.0059537679784442184,
+                0.0020753176824190867
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.00998682712562043
+          },
+          "public_gripper_qpos": [
+            0.027593351900577545,
+            -0.035123735666275024
+          ]
+        },
+        {
+          "step": 121,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0626973956823349,
+            "subject_eef_distance_m": 0.010354333514656856,
+            "relative_eef_object": [
+              [
+                -0.4148058083760669,
+                0.004741134009835576,
+                0.9098976511283786,
+                0.005370291737304217
+              ],
+              [
+                -0.9096412749456729,
+                0.022140568672552634,
+                -0.41480425708971463,
+                0.007698315536150302
+              ],
+              [
+                -0.02211231884980809,
+                -0.9997436426917248,
+                -0.004871276379151861,
+                0.004371284852953572
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.004863388994460538
+          },
+          "public_gripper_qpos": [
+            0.027567986398935318,
+            -0.03512940928339958
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 136
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/RAW.json",
+          "sha256": "6ef3a084ef54927f32fd55c65507d827cd722ec199c0123821a71a58082739ae"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/EVENTS.jsonl",
+          "sha256": "345639f67c40593a19e4e8bd56305446a9dfef5fc244978eb032f7a982d3fa19"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "e5716bd091b701904f1a651304820ca01f2154b9f70565065677c6516fd017b5"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/JOB.json",
+          "sha256": "e98434ea079a90271df2aaee0d45e7778efd10df3b90acc5bdecb7ec7300da97"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "9db101d293fa5f957bf3bd12f391cbb83b6770287388a23f43c5edbc87d0d2a7"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu4/openvla-alpha_confirm_02/CONDITION_RESULT.json",
+          "sha256": "8696f0e974f01f115c3e6b8bdba36b477a13980a17b04a7b9e883e40bb195160"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "openvla-alpha_confirm_03",
+      "physical_identity": "alpha_confirm_03",
+      "model": "openvla",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 135,
+      "official_cap": 280,
+      "local_action_count": 135,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 13,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 113.90128588676453,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.7303905487060547,
+      "visual_rpc_wait_wall_seconds": 66.75695610046387,
+      "visual_subject_inference_wall_seconds": 65.88895153999329,
+      "visual_neural_forward_wall_seconds": 19.349074602127075,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06300505064427853,
+            "subject_eef_distance_m": 0.008646436482417579,
+            "relative_eef_object": [
+              [
+                -0.37422999440746124,
+                0.004297520648458109,
+                0.9273259004892518,
+                0.0061824657586325715
+              ],
+              [
+                -0.9272061231899564,
+                0.015000948211841544,
+                -0.3742510841599565,
+                0.0038002054187759246
+              ],
+              [
+                -0.015519068531462583,
+                -0.9998783038702846,
+                -0.0016291044909425882,
+                0.004700682714776305
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0059247860534698575
+          },
+          "public_gripper_qpos": [
+            0.028552895411849022,
+            -0.034452155232429504
+          ]
+        },
+        {
+          "step": 75,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06284062005579472,
+            "subject_eef_distance_m": 0.008673277717447778,
+            "relative_eef_object": [
+              [
+                -0.37737785900105386,
+                0.002760484037895922,
+                0.926055321866197,
+                0.005512634231374269
+              ],
+              [
+                -0.9260249179239229,
+                0.007503161025469118,
+                -0.3773878638600859,
+                0.003581013675490699
+              ],
+              [
+                -0.007990085819934458,
+                -0.9999681328118559,
+                -0.0002752366816518367,
+                0.005657998982148804
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0011887698393758229
+          },
+          "public_gripper_qpos": [
+            0.02847541682422161,
+            -0.034365203231573105
+          ]
+        },
+        {
+          "step": 113,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0627057496458292,
+            "subject_eef_distance_m": 0.009422646550648964,
+            "relative_eef_object": [
+              [
+                -0.4029860130886053,
+                0.007683358035222205,
+                0.9151739207274104,
+                0.004232470548379608
+              ],
+              [
+                -0.9150290421800236,
+                0.016286847682784943,
+                -0.4030590245401369,
+                0.007009855903450768
+              ],
+              [
+                -0.018002109687619023,
+                -0.9998378455848622,
+                0.00046713078993347015,
+                0.004662014335356179
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0037931205485915226
+          },
+          "public_gripper_qpos": [
+            0.028874503448605537,
+            -0.03383124619722366
+          ]
+        },
+        {
+          "step": 120,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06269688904285431,
+            "subject_eef_distance_m": 0.009085397673023096,
+            "relative_eef_object": [
+              [
+                -0.4025609356164006,
+                0.005137500017318687,
+                0.9153787190928354,
+                0.003982841288811989
+              ],
+              [
+                -0.9153279428638299,
+                0.009673966931794948,
+                -0.40259290460618025,
+                0.006611923962903915
+              ],
+              [
+                -0.010923591749127562,
+                -0.999940038294671,
+                0.00080813814287979,
+                0.004792064877676583
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0004874194703717657
+          },
+          "public_gripper_qpos": [
+            0.028860129415988922,
+            -0.03383675962686539
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 135
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/RAW.json",
+          "sha256": "26fe97b70db68229300582546deca266b6bd76bb34b6a43a47396abe51cc9340"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/EVENTS.jsonl",
+          "sha256": "ed4ba1e169020ca313f1cb3ddd22338451904f40390801bbc677b77791d51557"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "bec958d6ea8915b81c1f7ae234b356bd48452d9b576ec9755081420576d96a22"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/JOB.json",
+          "sha256": "836c46dc18fb2bcec46592eaa2847bed85cf0921296ffce0c938f48e268ff257"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "6bbeba4aaa576f4fa90002e88fe61997e2a95b012a90f49c2eca56e2be40d585"
+        },
+        {
+          "path": "campaigns/openvla/node188/gpu5/openvla-alpha_confirm_03/CONDITION_RESULT.json",
+          "sha256": "ea47eb2bcb1a20101972af2a7586fc31cca7e9b36a6f44a14ee43b52dccb4217"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "xvla-alpha_confirm_00",
+      "physical_identity": "alpha_confirm_00",
+      "model": "xvla",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+      "official_actions": 118,
+      "official_cap": 280,
+      "local_action_count": 55,
+      "local_action_roles": {
+        "source_clearance_connection": 27,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 63,
+      "native_policy_rpc_count": 63,
+      "true_policy_generation_count": 3,
+      "true_policy_neural_forward_begin": 33,
+      "true_policy_neural_forward_end": 33,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 126.49196648597717,
+      "policy_rpc_wall_seconds": 1.5965234395116568,
+      "policy_generation_wall_seconds": 0.933368198107928,
+      "policy_neural_forward_wall_seconds": 0.806805938,
+      "visual_model_load_seconds": 1.641122817993164,
+      "visual_rpc_wait_wall_seconds": 63.615262269973755,
+      "visual_subject_inference_wall_seconds": 63.46137523651123,
+      "visual_neural_forward_wall_seconds": 18.26843571662903,
+      "handoff": {
+        "step": 55,
+        "first_native_input_sha256": "99b6bd929f47090442c2970584e138578e0713c3f30ac5d10b21608e12012e6d",
+        "first_native_evidence": {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "c341ce80cea14f673be83ea52a2dd5a583d07dd63e7fddf1b49d4b8b2cb6e036"
+        },
+        "first_native_input_files": {
+          "eef_mat.npy": "5019e3daa8b30e3dda791bd489b9c49f8932694d90fe615f47508b2c67585609",
+          "front.png": "09f231da5479493eeb86e1a9144aeb16b28c0fc278c3eb17ee5bc6bdaa886435",
+          "wrist.png": "cf777b020480e4c87d0be6fa1f73f616a3531bf7228a9d75b7455878b9aafcfc",
+          "state.npy": "ed2f4cf2498e3b1b1d275a467303d17d634923057356642d82168df94ebad382"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 55,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+            "finger_width_m": 0.062492864206433296,
+            "subject_eef_distance_m": 0.04056391754877197,
+            "relative_eef_object": [
+              [
+                -0.3761390521572856,
+                -0.05567191047128327,
+                0.924889267711058,
+                -0.014028223815981011
+              ],
+              [
+                -0.9234873864078919,
+                -0.058743282115000794,
+                -0.37910484065117184,
+                -0.028396027132132518
+              ],
+              [
+                0.07543647461684917,
+                -0.9967197701862914,
+                -0.029316637714167877,
+                0.025343756962819833
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          },
+          "public_gripper_qpos": [
+            0.025022463873028755,
+            -0.03747040033340454
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "fresh_native_continuation",
+          "step": 117
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/RAW.json",
+          "sha256": "73a2291efa8f400ea569fbdf79996bf4c81d3b7e76a19da7536d8115281eb597"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/EVENTS.jsonl",
+          "sha256": "b5ae3a8917ed415befd90100288c486643a0b36c9ed21c8ba87ed4b3374e2f55"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "626243122e7545a4a7adea656e1040d9c3b14b2379c99aaca22f2cb16a2ab8db"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "1c30f801031fe9b46ddb6099dab4b950a0f407813c21f7405f217cbdb033b905"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/JOB.json",
+          "sha256": "b9ddc48f83bf6ead654f7d370b2476fb879ed38d5b97abda36b8bca3354aabe3"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "2debc6bf89103810ad2d63389afd9621c1c0177c0b4e7499fd6e825e4413af44"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/HANDOFF.json",
+          "sha256": "b9a7b67f2e01fecd43b7a6e2a4b591f33f02679ca6f59431b3010f82d4748507"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/candidate/native_inputs/55/INPUT.json",
+          "sha256": "c341ce80cea14f673be83ea52a2dd5a583d07dd63e7fddf1b49d4b8b2cb6e036"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu6/xvla-alpha_confirm_00/CONDITION_RESULT.json",
+          "sha256": "71e8fad439b7eb5086930abb78cb85e955a439dba30cae4b89a098ac83ead584"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "xvla-alpha_confirm_01",
+      "physical_identity": "alpha_confirm_01",
+      "model": "xvla",
+      "perturbation": "position",
+      "mechanism": "LOCAL_INTERVENTION_THEN_FRESH_NATIVE_FINAL_FAILURE",
+      "physical_final_success": false,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 0,
+      "net_vs_previous": 0,
+      "local_decision_stop_reason_not_terminal_result": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+      "official_actions": 280,
+      "official_cap": 280,
+      "local_action_count": 56,
+      "local_action_roles": {
+        "source_clearance_connection": 28,
+        "source_grasp_segment": 28
+      },
+      "native_action_count": 224,
+      "native_policy_rpc_count": 224,
+      "true_policy_generation_count": 8,
+      "true_policy_neural_forward_begin": 88,
+      "true_policy_neural_forward_end": 88,
+      "visual_rpc_count": 3,
+      "visual_subject_pose_predictions": 3,
+      "visual_neural_forward_begin": 90,
+      "visual_neural_forward_end": 90,
+      "actor_wall_seconds": 217.9709987640381,
+      "policy_rpc_wall_seconds": 4.841695326380432,
+      "policy_generation_wall_seconds": 2.4887366425246,
+      "policy_neural_forward_wall_seconds": 2.107600968,
+      "visual_model_load_seconds": 1.6746540069580078,
+      "visual_rpc_wait_wall_seconds": 62.43908405303955,
+      "visual_subject_inference_wall_seconds": 62.22323131561279,
+      "visual_neural_forward_wall_seconds": 18.239985466003418,
+      "handoff": {
+        "step": 56,
+        "first_native_input_sha256": "2174c6270e9dfa3194780da9d6bfd5aac5ff73b5c9192ef2d520d01b3927e892",
+        "first_native_evidence": {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "a2ddab9a0e659cb54956130dc8eacf3d97e08f8f1d4aaf030ef50dae68477963"
+        },
+        "first_native_input_files": {
+          "front.png": "9e74724767d18c49c84fa388a32ca76532213e24d85d02b28e7db3859f981e6d",
+          "wrist.png": "1e45d027663520f0911476696fb9d6fabf8f5e4744d6ebd22364eaab97ebcf91",
+          "state.npy": "c320b9d06a4f518cdd169e68acc98d032fbb1cf92bfc5dad3f67f86afa1db82b",
+          "eef_mat.npy": "3f3df20ff4b5d18858da0a9c1394fe970747836a706348a53dae891083cf3383"
+        },
+        "no_environment_reset": true,
+        "same_public_rgb_as_latest_same_step_vision": true,
+        "no_previous_policy_inference_or_action_queue": true,
+        "first_policy_rpc_contains_actual_generation_and_neural_forwards": true,
+        "hash_evidence_boundary": "HANDOFF itself records step but has no input-hash field; hash is matched between first native event and saved INPUT.json and image file."
+      },
+      "holding_estimates": [
+        {
+          "step": 56,
+          "decision": {
+            "status": "UNKNOWN",
+            "reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+            "finger_width_m": 0.06289524771273136,
+            "subject_eef_distance_m": 0.01698567730651952,
+            "relative_eef_object": [
+              [
+                -0.42764210592433227,
+                -0.03225965242598764,
+                0.9033723110302588,
+                -0.0035102631082321034
+              ],
+              [
+                -0.9027545782366607,
+                -0.03609722718308478,
+                -0.42863871967954903,
+                -0.010313339340183414
+              ],
+              [
+                0.04643709377148946,
+                -0.9988274393103173,
+                -0.01368584701884931,
+                0.013031742953418288
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.027109869857429067
+          },
+          "public_gripper_qpos": [
+            0.02535809762775898,
+            -0.03753715008497238
+          ]
+        }
+      ],
+      "terminal_success_events": [],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/RAW.json",
+          "sha256": "dae675cf44ef44e3afe26aeecc987ddd47f67a78ae1694ce6d7ed40ba841fd92"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/EVENTS.jsonl",
+          "sha256": "6a80cc808ef672cde0cc1c0fbc173da1a0558e09122818f5b36dfc624ff7a18b"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "87090d14c77efde940d9d21f967cbc53875e471a2e00f0f8003c6e1bbc9d6d2b"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "a5a345805063e7f63c50484bea21957def28b90dd67b8e9f32485d59d9a7e8d7"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/JOB.json",
+          "sha256": "032f385adae5bf639c96a2a0b436d048358664ee5d9c9ab338b57a4cb7fce189"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "ab7c6771df2f8f69aef514425e73c7a1eff61a5d7623adb7bbb3aa9b865b8941"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/HANDOFF.json",
+          "sha256": "9f6102daa1c2a9ed1af253cb0c5be8951e59731ce3609075250985cd2194426f"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/candidate/native_inputs/56/INPUT.json",
+          "sha256": "a2ddab9a0e659cb54956130dc8eacf3d97e08f8f1d4aaf030ef50dae68477963"
+        },
+        {
+          "path": "campaigns/xvla/node187/gpu7/xvla-alpha_confirm_01/CONDITION_RESULT.json",
+          "sha256": "bffdb120d4bcebacb9f32ff86281dd8b0e97e9fad8e4869abb5f13fa6b1ad336"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "xvla-alpha_confirm_02",
+      "physical_identity": "alpha_confirm_02",
+      "model": "xvla",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 136,
+      "official_cap": 280,
+      "local_action_count": 136,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 14,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 116.54420113563538,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.7219703197479248,
+      "visual_rpc_wait_wall_seconds": 68.57531309127808,
+      "visual_subject_inference_wall_seconds": 67.62837553024292,
+      "visual_neural_forward_wall_seconds": 19.289008855819702,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06368070840835571,
+            "subject_eef_distance_m": 0.009233762984895682,
+            "relative_eef_object": [
+              [
+                -0.4090944774625969,
+                0.0036363996351851885,
+                0.9124848841231151,
+                0.006652773774305787
+              ],
+              [
+                -0.9124474129309155,
+                0.008269479749477074,
+                -0.40911062477812793,
+                0.003741790905885802
+              ],
+              [
+                -0.009033449932150089,
+                -0.999959316676361,
+                -6.495135796252484e-05,
+                0.005196343305348905
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.009076696036380493
+          },
+          "public_gripper_qpos": [
+            0.027599673718214035,
+            -0.03608103469014168
+          ]
+        },
+        {
+          "step": 76,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06324645690619946,
+            "subject_eef_distance_m": 0.009038700430388355,
+            "relative_eef_object": [
+              [
+                -0.4064295149090381,
+                -0.0048438457739450646,
+                0.9136693520340166,
+                0.005599817878489066
+              ],
+              [
+                -0.9136714697429533,
+                -0.0027081636161790596,
+                -0.4064447088515599,
+                0.002883660485789294
+              ],
+              [
+                0.004443140112811203,
+                -0.9999846718447741,
+                -0.0033249914096399476,
+                0.006482642242923609
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0018707401992890445
+          },
+          "public_gripper_qpos": [
+            0.027388708665966988,
+            -0.03585774824023247
+          ]
+        },
+        {
+          "step": 114,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06271708756685257,
+            "subject_eef_distance_m": 0.01370156655387512,
+            "relative_eef_object": [
+              [
+                -0.41119702439042116,
+                0.004002526566752551,
+                0.9115376943194086,
+                0.00668328112714231
+              ],
+              [
+                -0.9112581188150348,
+                0.023349224098408474,
+                -0.4111733734467293,
+                0.011779632250819766
+              ],
+              [
+                -0.02292949404553439,
+                -0.9997193306968891,
+                -0.0059537679784442184,
+                0.0020753176824190867
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.00998682712562043
+          },
+          "public_gripper_qpos": [
+            0.027593351900577545,
+            -0.035123735666275024
+          ]
+        },
+        {
+          "step": 121,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0626973956823349,
+            "subject_eef_distance_m": 0.010354333514656856,
+            "relative_eef_object": [
+              [
+                -0.4148058083760669,
+                0.004741134009835576,
+                0.9098976511283786,
+                0.005370291737304217
+              ],
+              [
+                -0.9096412749456729,
+                0.022140568672552634,
+                -0.41480425708971463,
+                0.007698315536150302
+              ],
+              [
+                -0.02211231884980809,
+                -0.9997436426917248,
+                -0.004871276379151861,
+                0.004371284852953572
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.004863388994460538
+          },
+          "public_gripper_qpos": [
+            0.027567986398935318,
+            -0.03512940928339958
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 136
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/RAW.json",
+          "sha256": "1a3146b4974201bf0293a05c5e8bdaf311323fe35dac0d203910ddc137b7f85d"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/EVENTS.jsonl",
+          "sha256": "302971abd842b7173811a7e6201389a6ccf0d3db53a95471ba020ff9f26580dd"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "e5716bd091b701904f1a651304820ca01f2154b9f70565065677c6516fd017b5"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/JOB.json",
+          "sha256": "e10e4e0a755389c048228ab5c96e18fb85595a85ce804e5e7f6a90d20f866759"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "b2a7f06cfb5700c6fc251d9758255b55514f95c7a0eddc8330193df9d36efb32"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu6/xvla-alpha_confirm_02/CONDITION_RESULT.json",
+          "sha256": "d47bfdfcf18ba4eb50de2ae2b09c4d6b3e43f2f67c6d710f4986ae8d70af6361"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    },
+    {
+      "condition": "xvla-alpha_confirm_03",
+      "physical_identity": "alpha_confirm_03",
+      "model": "xvla",
+      "perturbation": "environment",
+      "mechanism": "DIRECT_VISUAL_GRASP_AND_PLACE_OFFICIAL_TASK_SUCCESS",
+      "physical_final_success": true,
+      "software_ok": true,
+      "ordinary_final_success": false,
+      "previous_final_success": false,
+      "net_vs_ordinary": 1,
+      "net_vs_previous": 1,
+      "local_decision_stop_reason_not_terminal_result": "OFFICIAL_TASK_SUCCESS",
+      "official_actions": 135,
+      "official_cap": 280,
+      "local_action_count": 135,
+      "local_action_roles": {
+        "source_clearance_connection": 34,
+        "source_grasp_segment": 28,
+        "lift_held_subject": 13,
+        "align_above_destination": 38,
+        "lower_to_release": 7,
+        "source_release_suffix": 15
+      },
+      "native_action_count": 0,
+      "native_policy_rpc_count": 0,
+      "true_policy_generation_count": 0,
+      "true_policy_neural_forward_begin": 0,
+      "true_policy_neural_forward_end": 0,
+      "visual_rpc_count": 10,
+      "visual_subject_pose_predictions": 6,
+      "visual_neural_forward_begin": 108,
+      "visual_neural_forward_end": 108,
+      "actor_wall_seconds": 114.42125034332275,
+      "policy_rpc_wall_seconds": 0,
+      "policy_generation_wall_seconds": 0,
+      "policy_neural_forward_wall_seconds": 0.0,
+      "visual_model_load_seconds": 1.6708776950836182,
+      "visual_rpc_wait_wall_seconds": 68.39086103439331,
+      "visual_subject_inference_wall_seconds": 67.27541661262512,
+      "visual_neural_forward_wall_seconds": 19.318349838256836,
+      "handoff": null,
+      "holding_estimates": [
+        {
+          "step": 62,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06300505064427853,
+            "subject_eef_distance_m": 0.008646436482417579,
+            "relative_eef_object": [
+              [
+                -0.37422999440746124,
+                0.004297520648458109,
+                0.9273259004892518,
+                0.0061824657586325715
+              ],
+              [
+                -0.9272061231899564,
+                0.015000948211841544,
+                -0.3742510841599565,
+                0.0038002054187759246
+              ],
+              [
+                -0.015519068531462583,
+                -0.9998783038702846,
+                -0.0016291044909425882,
+                0.004700682714776305
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0059247860534698575
+          },
+          "public_gripper_qpos": [
+            0.028552895411849022,
+            -0.034452155232429504
+          ]
+        },
+        {
+          "step": 75,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06284062005579472,
+            "subject_eef_distance_m": 0.008673277717447778,
+            "relative_eef_object": [
+              [
+                -0.37737785900105386,
+                0.002760484037895922,
+                0.926055321866197,
+                0.005512634231374269
+              ],
+              [
+                -0.9260249179239229,
+                0.007503161025469118,
+                -0.3773878638600859,
+                0.003581013675490699
+              ],
+              [
+                -0.007990085819934458,
+                -0.9999681328118559,
+                -0.0002752366816518367,
+                0.005657998982148804
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0011887698393758229
+          },
+          "public_gripper_qpos": [
+            0.02847541682422161,
+            -0.034365203231573105
+          ]
+        },
+        {
+          "step": 113,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.0627057496458292,
+            "subject_eef_distance_m": 0.009422646550648964,
+            "relative_eef_object": [
+              [
+                -0.4029860130886053,
+                0.007683358035222205,
+                0.9151739207274104,
+                0.004232470548379608
+              ],
+              [
+                -0.9150290421800236,
+                0.016286847682784943,
+                -0.4030590245401369,
+                0.007009855903450768
+              ],
+              [
+                -0.018002109687619023,
+                -0.9998378455848622,
+                0.00046713078993347015,
+                0.004662014335356179
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0037931205485915226
+          },
+          "public_gripper_qpos": [
+            0.028874503448605537,
+            -0.03383124619722366
+          ]
+        },
+        {
+          "step": 120,
+          "decision": {
+            "status": "HELD_TARGET_ESTIMATE",
+            "reason": "TWO_RGB_POSES_MOVE_WITH_PUBLIC_EEF_AND_NONEMPTY_FINGER_GAP",
+            "finger_width_m": 0.06269688904285431,
+            "subject_eef_distance_m": 0.009085397673023096,
+            "relative_eef_object": [
+              [
+                -0.4025609356164006,
+                0.005137500017318687,
+                0.9153787190928354,
+                0.003982841288811989
+              ],
+              [
+                -0.9153279428638299,
+                0.009673966931794948,
+                -0.40259290460618025,
+                0.006611923962903915
+              ],
+              [
+                -0.010923591749127562,
+                -0.999940038294671,
+                0.00080813814287979,
+                0.004792064877676583
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "relative_translation_change_m": 0.0004874194703717657
+          },
+          "public_gripper_qpos": [
+            0.028860129415988922,
+            -0.03383675962686539
+          ]
+        }
+      ],
+      "terminal_success_events": [
+        {
+          "event": "executed_control_action",
+          "step": 135
+        }
+      ],
+      "original_task_and_cap_preserved": true,
+      "initial_state_matches_shared_baseline": true,
+      "current_truth_read_for_control": false,
+      "evidence": [
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/RAW.json",
+          "sha256": "903c147bc3ee6a6e2f817cee03c112d83187f5cf5a12dfde6a43c12e59b14458"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/EVENTS.jsonl",
+          "sha256": "7473d62bb80d9839db9e42cb1965dc3d5ae683c203a96794b238380f93965964"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/PHYSICAL_POLICY_EVENTS.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/INITIAL_INPUT_ACCEPTANCE.json",
+          "sha256": "bec958d6ea8915b81c1f7ae234b356bd48452d9b576ec9755081420576d96a22"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/JOB.json",
+          "sha256": "b603c5442173390d801c1596d32f7aeace4e7296bdf92848fc1a0301460a9eb4"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/candidate/vision_rpc/NETWORK_LEDGER.jsonl",
+          "sha256": "e05b590991ddb2a04ecde8b1660c9507328dd21184ae9068db766c89caff8746"
+        },
+        {
+          "path": "campaigns/xvla/node188/gpu7/xvla-alpha_confirm_03/CONDITION_RESULT.json",
+          "sha256": "f80ba7921fd84107bb844b79a58d2ce3704b688912e9dfb3b48831bc5fa6b45b"
+        }
+      ],
+      "costs_not_additive": "Actor/RPC/forward spans are nested wall durations, not independent costs or device compute-hours; full cold-load/service lifecycle and all controls remain in official cost audit.",
+      "money": null
+    }
+  ],
+  "remaining_failures": [
+    {
+      "condition": "openvla-alpha_confirm_00",
+      "official_final_failure_at_cap": true,
+      "local_action_count": 55,
+      "native_action_count": 225,
+      "public_visual_proprioceptive_checks": [
+        {
+          "step": 55,
+          "visual_status": "UNKNOWN",
+          "local_reason": "SUBJECT_NOT_LOCALIZED_IN_SOURCE_HELD_ENVELOPE",
+          "estimated_finger_gap_m": 0.062492864206433296,
+          "estimated_subject_eef_distance_m": 0.04056391754877197,
+          "estimated_relative_translation_change_m": null,
+          "frozen_hold_motion_threshold_m": 0.025643201379147808
+        }
+      ],
+      "no_privileged_current_contact_or_object_truth_evidence_in_this_candidate": true,
+      "diagnosis_boundary": "Visual relative-motion inconsistency is an UNKNOWN gate, not proof of empty grasp, wrong object, real slip, collision or incorrect localization. These causes remain unseparated by existing online evidence."
+    },
+    {
+      "condition": "openvla-alpha_confirm_01",
+      "official_final_failure_at_cap": true,
+      "local_action_count": 56,
+      "native_action_count": 224,
+      "public_visual_proprioceptive_checks": [
+        {
+          "step": 56,
+          "visual_status": "UNKNOWN",
+          "local_reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+          "estimated_finger_gap_m": 0.06289524771273136,
+          "estimated_subject_eef_distance_m": 0.01698567730651952,
+          "estimated_relative_translation_change_m": 0.027109869857429067,
+          "frozen_hold_motion_threshold_m": 0.025643201379147808
+        }
+      ],
+      "no_privileged_current_contact_or_object_truth_evidence_in_this_candidate": true,
+      "diagnosis_boundary": "Visual relative-motion inconsistency is an UNKNOWN gate, not proof of empty grasp, wrong object, real slip, collision or incorrect localization. These causes remain unseparated by existing online evidence."
+    },
+    {
+      "condition": "xvla-alpha_confirm_01",
+      "official_final_failure_at_cap": true,
+      "local_action_count": 56,
+      "native_action_count": 224,
+      "public_visual_proprioceptive_checks": [
+        {
+          "step": 56,
+          "visual_status": "UNKNOWN",
+          "local_reason": "VISUAL_SUBJECT_MOTION_NOT_CONSISTENT_WITH_GRIPPER",
+          "estimated_finger_gap_m": 0.06289524771273136,
+          "estimated_subject_eef_distance_m": 0.01698567730651952,
+          "estimated_relative_translation_change_m": 0.027109869857429067,
+          "frozen_hold_motion_threshold_m": 0.025643201379147808
+        }
+      ],
+      "no_privileged_current_contact_or_object_truth_evidence_in_this_candidate": true,
+      "diagnosis_boundary": "Visual relative-motion inconsistency is an UNKNOWN gate, not proof of empty grasp, wrong object, real slip, collision or incorrect localization. These causes remain unseparated by existing online evidence."
+    }
+  ],
+  "source_candidate_files_modified": false,
+  "simulator_or_model_started_by_audit": false,
+  "full_evaluation": "PAUSED",
+  "training": false,
+  "cross_episode_learning": false,
+  "money": null
+}

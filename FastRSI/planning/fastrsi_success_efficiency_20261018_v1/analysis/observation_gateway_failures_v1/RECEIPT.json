@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-10-18T01:08:54.998346+00:00",
+  "stage": "post-final48 read-only resource and cost observations",
+  "errors": [
+    {
+      "operation": "full_cost188",
+      "session": 23684
+    },
+    {
+      "operation": "resource187",
+      "session": 14474
+    },
+    {
+      "operation": "resource188",
+      "session": 97654
+    }
+  ],
+  "exact_observed_error": "kex_exchange_identification: read: Connection reset by peer; Connection reset by 49.235.24.197 port22; Connection closed by UNKNOWN port65535",
+  "classification": "SSH transport observation failures, not runtime/model/physical failures",
+  "remote_command_started": "No successful SSH handshake or remote output; check exact audit handles before any replacement observation",
+  "response": "Sequential read-only reconnect and no-duplicate scanner check. No evaluation/controller/container restart.",
+  "failed_observation_time_and_assistant_cost_unknown": true,
+  "full_evaluation": "PAUSED"
+}

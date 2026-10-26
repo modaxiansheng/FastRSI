@@ -1,0 +1,11 @@
+{
+  "identity": "x2_newtask_02_cream_cheese_position_step0",
+  "task_id": 1,
+  "variant": "position",
+  "phase": "initial",
+  "subject": "cream_cheese_1",
+  "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/cream_cheese.png",
+  "image_sha256": "603b1999baec5f50a60d5fcaf9ce27e1c5f1596c6746bb3d57161527948ca9f6",
+  "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+  "new_confirmation_images_used": false
+}

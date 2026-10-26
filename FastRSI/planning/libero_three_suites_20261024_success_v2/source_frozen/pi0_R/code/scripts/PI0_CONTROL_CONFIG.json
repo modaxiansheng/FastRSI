@@ -1,0 +1,14 @@
+{
+  "schema": "pi0_control_prefix_v1",
+  "model": "pi0",
+  "generation_horizon": 50,
+  "execution_steps": 10,
+  "arms": [
+    "P",
+    "R"
+  ],
+  "tail_policy": "discard_and_reobserve",
+  "recovery_policy": "unchanged_source_P_max2_R_max0",
+  "seed": 7,
+  "max_steps": 520
+}

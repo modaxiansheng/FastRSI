@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.442197,
+  "subject": "cream_cheese_1",
+  "source_identity": "newtask_02",
+  "initial_state_sha256": "a97a7af841d9eee5387b86fdfd62bd414493d4fb2a5955b87cbb105a0255f8f6",
+  "physical_state_sha256": "1976c38a3fac2d6337011e8044672c8bf39a7b39083d970ad7d89d4e892b38a5",
+  "asset_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+  "source_row_path": "objects/cream_cheese/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "8ea4163f5c984ac14fdfd031c53ae3c26cc1d50f1b89b797a5a068d9401dbd8f",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

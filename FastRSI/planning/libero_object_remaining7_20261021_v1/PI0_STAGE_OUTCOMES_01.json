@@ -1,0 +1,126 @@
+{
+  "time": 1792602136.0674791,
+  "status": "PI0_STAGE_OUTCOMES_COMPLETE_FINAL_RAW_COST_AUDIT_PENDING",
+  "model": "pi0",
+  "evidence": [
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/V3_BOUNDED_WATCH_043_NODE187_EVIDENCE.json",
+      "sha256": "2f4bc5115072be9ba62b107451e94a1d43089fe7be6e1f07a1e9af24b911be73",
+      "time": 1792602087.185545
+    },
+    {
+      "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/libero_object_remaining7_20261021_v1/resume_after_hint_io_20261022_v1/V3_BOUNDED_WATCH_043_NODE188_EVIDENCE.json",
+      "sha256": "6de81c8e632abee26485a3e440f8e93fb59f48615622bc533582449f59ccfed1",
+      "time": 1792602087.1845353
+    }
+  ],
+  "rows": [
+    {
+      "task": 0,
+      "language": "Pick the alphabet soup and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 2,
+      "paired_losses": 0,
+      "paired_net": 2
+    },
+    {
+      "task": 1,
+      "language": "Pick the cream cheese and place it in the basket",
+      "identities": 2,
+      "first_success": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "old": 1,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 1,
+      "paired_losses": 0,
+      "paired_net": 1
+    },
+    {
+      "task": 2,
+      "language": "Pick the salad dressing and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 0,
+      "candidate_unknown": 2,
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_net": null
+    },
+    {
+      "task": 4,
+      "language": "Pick the ketchup and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 0,
+      "candidate_unknown": 0,
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_net": 0
+    },
+    {
+      "task": 6,
+      "language": "Pick the butter and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 0,
+      "ordinary": 0,
+      "old": 0,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 2,
+      "paired_losses": 0,
+      "paired_net": 2
+    },
+    {
+      "task": 7,
+      "language": "Pick the milk and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "old": 1,
+      "candidate_known_success": 2,
+      "candidate_unknown": 0,
+      "paired_wins": 1,
+      "paired_losses": 0,
+      "paired_net": 1
+    },
+    {
+      "task": 9,
+      "language": "Pick the orange juice and place it in the basket",
+      "identities": 2,
+      "first_success": 0,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "old": 1,
+      "candidate_known_success": 1,
+      "candidate_unknown": 0,
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_net": 0
+    }
+  ],
+  "first_success": 1,
+  "native_up_to3": 3,
+  "ordinary_success": 3,
+  "candidate_known_success": 9,
+  "candidate_unknown": 2,
+  "net_known_pairs": 6,
+  "full_candidate_success_rate": null,
+  "full_evaluation": "PAUSED",
+  "all_four_models_complete": false
+}

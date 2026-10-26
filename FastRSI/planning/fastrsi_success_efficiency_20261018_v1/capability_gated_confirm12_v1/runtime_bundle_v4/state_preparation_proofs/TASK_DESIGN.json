@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "study_id": "capability_gated_confirm12_official_initializer_v2",
+  "rows": [
+    {
+      "identity_id": "capconfirm12_00",
+      "suite": "libero_object",
+      "task_id": 1,
+      "variant": "position",
+      "subject": "cream_cheese_1",
+      "predeclared_support": "validated_new_object"
+    },
+    {
+      "identity_id": "capconfirm12_01",
+      "suite": "libero_object",
+      "task_id": 4,
+      "variant": "environment",
+      "subject": "ketchup_1",
+      "predeclared_support": "validated_new_object"
+    },
+    {
+      "identity_id": "capconfirm12_02",
+      "suite": "libero_object",
+      "task_id": 6,
+      "variant": "position",
+      "subject": "butter_1",
+      "predeclared_support": "validated_new_object"
+    },
+    {
+      "identity_id": "capconfirm12_03",
+      "suite": "libero_object",
+      "task_id": 7,
+      "variant": "environment",
+      "subject": "milk_1",
+      "predeclared_support": "validated_new_object"
+    },
+    {
+      "identity_id": "capconfirm12_04",
+      "suite": "libero_object",
+      "task_id": 9,
+      "variant": "position",
+      "subject": "orange_juice_1",
+      "predeclared_support": "validated_new_object"
+    },
+    {
+      "identity_id": "capconfirm12_05",
+      "suite": "libero_object",
+      "task_id": 2,
+      "variant": "environment",
+      "subject": "salad_dressing_1",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_06",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_spatial_task0",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_07",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_spatial_task0",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_08",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_goal_task0",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_09",
+      "suite": "libero_goal",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_goal_task0",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_10",
+      "suite": "libero_10",
+      "task_id": 0,
+      "variant": "position",
+      "subject": "libero_10_task0",
+      "predeclared_support": "unsupported_negative"
+    },
+    {
+      "identity_id": "capconfirm12_11",
+      "suite": "libero_10",
+      "task_id": 0,
+      "variant": "environment",
+      "subject": "libero_10_task0",
+      "predeclared_support": "unsupported_negative"
+    }
+  ],
+  "models": [
+    "pi0",
+    "pi05",
+    "openvla",
+    "xvla"
+  ],
+  "physical_states": 12,
+  "unique_tasks": 9,
+  "suites": 4,
+  "max_draws_per_identity": 5,
+  "max_official_reset_calls": 60,
+  "seed_base": 81018000,
+  "settling_actions_per_eligible_draw": 10,
+  "timeout_seconds": 290,
+  "normal_policy_attempts": 0,
+  "outcome_selection": false,
+  "same_physical_states_for_all_models": true,
+  "no_sampler_physics_asset_modification": true,
+  "selection_rule": "Fixed before new outcomes: five validated new objects + salad unsupported + three suite task0 negative pairs; first valid bounded official draw per slot",
+  "no_substitution": "Missing exact state-only exclusion or exhausted slot fails the entire preparation; no task replacement"
+}

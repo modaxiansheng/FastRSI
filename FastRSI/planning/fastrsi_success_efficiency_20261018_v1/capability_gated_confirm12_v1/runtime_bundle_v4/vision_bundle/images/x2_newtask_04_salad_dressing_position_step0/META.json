@@ -1,0 +1,11 @@
+{
+  "identity": "x2_newtask_04_salad_dressing_position_step0",
+  "task_id": 2,
+  "variant": "position",
+  "phase": "initial",
+  "subject": "salad_dressing_1",
+  "source_public_image": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v2/offline_inputs/salad_dressing.png",
+  "image_sha256": "0f8ae845896def149315d2190a910dbb6b33efc90a6a6b178c690dac3cc08ea3",
+  "scope": "Explicit old X2 development source calibration; permanently excluded from confirmation",
+  "new_confirmation_images_used": false
+}

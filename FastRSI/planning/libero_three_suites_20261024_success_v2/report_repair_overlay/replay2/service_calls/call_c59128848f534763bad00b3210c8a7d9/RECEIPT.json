@@ -1,0 +1,44 @@
+{
+  "started_at": 1791750032.3813286,
+  "stage": "output_validation",
+  "queue_seconds": 0.03596186637878418,
+  "memory_generated_repetition_penalty": 1.0,
+  "report_generated_repetition_penalty": 1.12,
+  "memory_prompt_penalized": false,
+  "decoding": {
+    "do_sample": false,
+    "seed": null,
+    "checkpoint_top_p": 0.8,
+    "checkpoint_top_k": 20,
+    "checkpoint_repetition_penalty": 1.0
+  },
+  "generation_seconds": 43.40976100997068,
+  "prompt_tokens": 13643,
+  "completion_tokens": 323,
+  "structured_decode": {
+    "variant": "optimized",
+    "tool_blocks": 1,
+    "constrained_steps": 321,
+    "filter_wall_seconds": 19.98891986347735,
+    "token_transfer_and_device_wait_seconds": 0.2572374257724732,
+    "decode_seconds": 0.00043223309330642223,
+    "parser_seconds": 16.06613556225784,
+    "mask_enqueue_seconds": 3.5079688453115523,
+    "index_cache_hits": 0
+  },
+  "requested_max_tokens": 3072,
+  "generation_finish_reason": "eos",
+  "ended_with_eos": true,
+  "reached_token_limit": false,
+  "eos_token_ids": [
+    151645,
+    151643
+  ],
+  "last_token_id": 151645,
+  "wire_format": "checkpoint_native",
+  "native_tool_validation_handoff": null,
+  "api_finish_reason": "tool_calls",
+  "status": "OK",
+  "finished_at": 1791750075.92342,
+  "seconds": 43.542091846466064
+}

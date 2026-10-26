@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "docker",
+    "run",
+    "-d",
+    "--name",
+    "yuchen-fastrsi-ossetup-20261001-v2",
+    "--cpus",
+    "4",
+    "--memory",
+    "16g",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "-v",
+    "/mnt/data/task/yuchen/FastPhyagentos/FastRSI:/project:rw",
+    "-v",
+    "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/dependencies/PhyAgentOS-core:/core:ro",
+    "-e",
+    "PYTHONPATH=/core",
+    "sha256:c98dca2210774e2311a0780146956ef3df3c6f0bb099b6bc671ab31befc42a81",
+    "timeout",
+    "900",
+    "bash",
+    "-lc",
+    "python -m venv --system-site-packages /project/envs/os-v1 && /project/envs/os-v1/bin/pip install --index-url https://pypi.org/simple --retries 2 --timeout 45 loguru==0.7.3 litellm==1.82.1 pydantic-settings==2.12.0 json-repair==0.57.0 croniter==6.0.0 && /project/envs/os-v1/bin/python -c \"from PhyAgentOS.runtime.watchdog.supervisor import WatchdogSupervisor; from PhyAgentOS.agent.session_verifier import SessionVerifier; from PhyAgentOS.providers.custom_provider import CustomProvider; print('OS_IMPORT_OK')\" && /project/envs/os-v1/bin/pip freeze > /project/runs/pilot_20261001/OS_REQUIREMENTS.txt"
+  ],
+  "stdout": "09f4c1fcdda3a200a19548a5b81beda45d8e2415eeb40e42eef3a6d946d5407c\n",
+  "stderr": "",
+  "returncode": 0
+}

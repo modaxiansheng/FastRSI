@@ -1,0 +1,7 @@
+{
+  "model": "pi05",
+  "checkpoint": "/mnt/data/task/yuchen/FastPhyagentos/frozen_archive/extra-freeze-20260929T145255Z/frozen/assets-20260929-v1/weights/pi05_libero_pytorch_fp32",
+  "checkpoint_config_sha256": "06bbdc28bc7b7cf8cdae483099ee626054c0f085c71ed5fc398aa1d7da64715f",
+  "action_horizon": 10,
+  "R_xvla_wire_chunk": null
+}

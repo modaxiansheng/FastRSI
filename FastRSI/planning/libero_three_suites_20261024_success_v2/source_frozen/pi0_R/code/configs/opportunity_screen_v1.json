@@ -1,0 +1,23 @@
+{
+  "experiment_id": "opportunity_screen_v1_20261001",
+  "purpose": "Development-only cost-opportunity audit; not a learned-method comparison or benchmark score",
+  "suite": "libero_spatial",
+  "task_ids": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "init_state_ids": [8],
+  "seed": 7,
+  "max_steps_per_attempt": 280,
+  "step_limit_reason": "Unmodified full-OS run_pi05_libero_real_e2e.py default; do not shorten execution to manufacture failures. Previous engineering pilot used 220 and is not a matched cost comparator.",
+  "max_replans": 2,
+  "max_cases": 10,
+  "max_attempts": 30,
+  "campaign_timeout_seconds": 2400,
+  "controller_timeout_seconds": 2100,
+  "token_budget": 384,
+  "path": "Full OS original verifier and experience feedback; common strict JSON parser; sequential shared development experience; all tasks retained",
+  "resources": "187 HCU0 policy and HCU1 Qwen; existing fixed weights and images; resident services for entire stream; CPU limits unchanged",
+  "laya": "Shadow legality only, no control, no training; no model call when only escalation is available",
+  "selection": "Full spatial suite in ascending task order, one previously unused development initialization per task; descriptions read from frozen suite metadata before episodes",
+  "evaluation": "No final-test evaluation; all these instances are permanently designated development. Future held-out initializations must exclude 0 through 8 on task0 and initialization8 on all screened tasks.",
+  "stop": "Stop on infrastructure failure, missing evidence, resource conflict or time limit; retain ordinary task failures and all attempted cases. Do not extend roster based on observed outcomes.",
+  "decision_scope": "Audit repeated analysis, evidence preparation, candidate validation and recovery; do not presume recovery is the winning intervention. Native success/reward and hidden state are evaluator-only for any new router."
+}

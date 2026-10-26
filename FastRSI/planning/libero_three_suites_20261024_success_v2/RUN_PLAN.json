@@ -1,0 +1,121 @@
+{
+  "benchmark": "original LIBERO, no PRO perturbation",
+  "groups": [
+    {
+      "model": "pi05",
+      "arm": "R",
+      "suite": "libero_spatial",
+      "variant": "original"
+    },
+    {
+      "model": "xvla",
+      "arm": "R",
+      "suite": "libero_spatial",
+      "variant": "original"
+    },
+    {
+      "model": "pi0",
+      "arm": "R",
+      "suite": "libero_spatial",
+      "variant": "original"
+    },
+    {
+      "model": "openvla",
+      "arm": "R",
+      "suite": "libero_spatial",
+      "variant": "original"
+    },
+    {
+      "model": "pi05",
+      "arm": "R",
+      "suite": "libero_object",
+      "variant": "original"
+    },
+    {
+      "model": "xvla",
+      "arm": "R",
+      "suite": "libero_object",
+      "variant": "original"
+    },
+    {
+      "model": "pi0",
+      "arm": "R",
+      "suite": "libero_object",
+      "variant": "original"
+    },
+    {
+      "model": "openvla",
+      "arm": "R",
+      "suite": "libero_object",
+      "variant": "original"
+    },
+    {
+      "model": "pi05",
+      "arm": "R",
+      "suite": "libero_goal",
+      "variant": "original"
+    },
+    {
+      "model": "xvla",
+      "arm": "R",
+      "suite": "libero_goal",
+      "variant": "original"
+    },
+    {
+      "model": "pi0",
+      "arm": "R",
+      "suite": "libero_goal",
+      "variant": "original"
+    },
+    {
+      "model": "openvla",
+      "arm": "R",
+      "suite": "libero_goal",
+      "variant": "original"
+    }
+  ],
+  "expected_groups": 12,
+  "tasks_per_group": 10,
+  "initial_states_per_task": 50,
+  "cases_per_group": 500,
+  "expected_cases": 6000,
+  "seed": 7,
+  "models": [
+    "pi05",
+    "xvla",
+    "pi0",
+    "openvla"
+  ],
+  "suites": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300
+  },
+  "registered_nodes": [
+    "107",
+    "108"
+  ],
+  "preferred_placement": {
+    "node": "107",
+    "policy_gpu": 2,
+    "qwen_gpu": 3
+  },
+  "excluded_nodes": [
+    "126"
+  ],
+  "selection": "Previously verified per-model R execution snapshots, selected before this evaluation",
+  "recovery": "Retain frozen model-specific recovery rules; all actions, failures and costs retained",
+  "learning": "Independent workspaces; deterministic public Session construction; no cross-episode learning claim",
+  "native_success": "Environment-native success; semantic and end-to-end outcomes reported separately",
+  "version_note": "Original-suite migration of retained LIBERO10 R snapshots; not the historical simplified chain",
+  "resource_rule": "No preemption. Shared allocator lock, fresh per-card audit, visible claim, own cleanup only",
+  "staged_execution": "Each group first runs one registered case; full execution skips the same completed identity",
+  "technical_retries": "Diagnose before one technical retry at most; no measured-failure quality reruns",
+  "asset_index_sha256": "a2e1a8095e4ad14cfae217b5036fb350bd90c7d5495f6f3ffdefa2385caa3ce9",
+  "version": 2,
+  "parallel_lanes": 2,
+  "maximum_native_replans": 5,
+  "physical_attempts_maximum": 6,
+  "user_priority": "Best observed complete-version physical success; speed secondary; retain every failure and cost",
+  "parent_partial_scope": "v1 retained separately, not merged into v2 denominator"
+}

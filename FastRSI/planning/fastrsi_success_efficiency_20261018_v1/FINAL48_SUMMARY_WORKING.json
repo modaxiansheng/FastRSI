@@ -1,0 +1,951 @@
+{
+  "snapshot_utc": "2026-10-18T00:11:12.085157+00:00",
+  "models": {
+    "pi05": {
+      "first": 7,
+      "native_up_to3": 7,
+      "ordinary": 8,
+      "frozen": 8,
+      "candidate": 8,
+      "closed": 12,
+      "paired": {
+        "wins": 0,
+        "losses": 0,
+        "net": 0,
+        "win_conditions": [],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          0,
+          0
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 951.5205891132355,
+        "ordinary": 313.3766613006592,
+        "frozen": 308.7456703186035,
+        "candidate": 382.5210328102112
+      },
+      "stages": {
+        "shared_native_baseline": {
+          "normal_physical_segments": 22,
+          "RAW_seconds": {
+            "verified_segments": 22,
+            "expected_observed_segments": 22,
+            "known_segment_sum": 951.5205891132355,
+            "sum_complete_for_observed_segments": 951.5205891132355
+          },
+          "official_actions": {
+            "verified_segments": 22,
+            "expected_observed_segments": 22,
+            "known_segment_sum": 6025,
+            "sum_complete_for_observed_segments": 6025
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 22,
+            "expected_observed_segments": 22,
+            "known_segment_sum": 606,
+            "sum_complete_for_observed_segments": 606
+          },
+          "VLA_action_generations": {
+            "verified_segments": 22,
+            "expected_observed_segments": 22,
+            "known_segment_sum": 606,
+            "sum_complete_for_observed_segments": 606
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 22,
+            "expected_observed_segments": 22,
+            "known_segment_sum": 8484,
+            "sum_complete_for_observed_segments": 8484
+          }
+        },
+        "ordinary": {
+          "normal_physical_segments": 5,
+          "RAW_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 313.3766613006592,
+            "sum_complete_for_observed_segments": 313.3766613006592
+          },
+          "official_actions": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 1571,
+            "sum_complete_for_observed_segments": 1571
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_action_generations": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 2212,
+            "sum_complete_for_observed_segments": 2212
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "frozen": {
+          "normal_physical_segments": 5,
+          "RAW_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 308.7456703186035,
+            "sum_complete_for_observed_segments": 308.7456703186035
+          },
+          "official_actions": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 1571,
+            "sum_complete_for_observed_segments": 1571
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_action_generations": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 2212,
+            "sum_complete_for_observed_segments": 2212
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "candidate": {
+          "normal_physical_segments": 5,
+          "RAW_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 382.5210328102112,
+            "sum_complete_for_observed_segments": 382.5210328102112
+          },
+          "official_actions": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 1571,
+            "sum_complete_for_observed_segments": 1571
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_action_generations": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 158,
+            "sum_complete_for_observed_segments": 158
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 2212,
+            "sum_complete_for_observed_segments": 2212
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 1,
+            "sum_complete_for_observed_segments": 1
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 78,
+            "sum_complete_for_observed_segments": 78
+          },
+          "vision_forward_rows": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 606,
+            "sum_complete_for_observed_segments": 606
+          },
+          "vision_service_seconds": {
+            "verified_segments": 5,
+            "expected_observed_segments": 5,
+            "known_segment_sum": 136.5139923095703,
+            "sum_complete_for_observed_segments": 136.5139923095703
+          }
+        }
+      }
+    },
+    "pi0": {
+      "first": 2,
+      "native_up_to3": 4,
+      "ordinary": 4,
+      "frozen": 4,
+      "candidate": 6,
+      "closed": 12,
+      "paired": {
+        "wins": 2,
+        "losses": 0,
+        "net": 2,
+        "win_conditions": [
+          "pi0-capconfirm12_00",
+          "pi0-capconfirm12_02"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          2,
+          2
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 1283.1400108337402,
+        "ordinary": 463.7609748840332,
+        "frozen": 466.2175130844116,
+        "candidate": 603.4004065990448
+      },
+      "stages": {
+        "shared_native_baseline": {
+          "normal_physical_segments": 32,
+          "RAW_seconds": {
+            "verified_segments": 32,
+            "expected_observed_segments": 32,
+            "known_segment_sum": 1283.1400108337402,
+            "sum_complete_for_observed_segments": 1283.1400108337402
+          },
+          "official_actions": {
+            "verified_segments": 32,
+            "expected_observed_segments": 32,
+            "known_segment_sum": 9367,
+            "sum_complete_for_observed_segments": 9367
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 32,
+            "expected_observed_segments": 32,
+            "known_segment_sum": 939,
+            "sum_complete_for_observed_segments": 939
+          },
+          "VLA_action_generations": {
+            "verified_segments": 32,
+            "expected_observed_segments": 32,
+            "known_segment_sum": 939,
+            "sum_complete_for_observed_segments": 939
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 32,
+            "expected_observed_segments": 32,
+            "known_segment_sum": 13146,
+            "sum_complete_for_observed_segments": 13146
+          }
+        },
+        "ordinary": {
+          "normal_physical_segments": 8,
+          "RAW_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 463.7609748840332,
+            "sum_complete_for_observed_segments": 463.7609748840332
+          },
+          "official_actions": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 2460,
+            "sum_complete_for_observed_segments": 2460
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 246,
+            "sum_complete_for_observed_segments": 246
+          },
+          "VLA_action_generations": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 246,
+            "sum_complete_for_observed_segments": 246
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 3444,
+            "sum_complete_for_observed_segments": 3444
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "frozen": {
+          "normal_physical_segments": 8,
+          "RAW_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 466.2175130844116,
+            "sum_complete_for_observed_segments": 466.2175130844116
+          },
+          "official_actions": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 2460,
+            "sum_complete_for_observed_segments": 2460
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 246,
+            "sum_complete_for_observed_segments": 246
+          },
+          "VLA_action_generations": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 246,
+            "sum_complete_for_observed_segments": 246
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 3444,
+            "sum_complete_for_observed_segments": 3444
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "candidate": {
+          "normal_physical_segments": 8,
+          "RAW_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 603.4004065990448,
+            "sum_complete_for_observed_segments": 603.4004065990448
+          },
+          "official_actions": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 2218,
+            "sum_complete_for_observed_segments": 2218
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 201,
+            "sum_complete_for_observed_segments": 201
+          },
+          "VLA_action_generations": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 201,
+            "sum_complete_for_observed_segments": 201
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 2814,
+            "sum_complete_for_observed_segments": 2814
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 13,
+            "sum_complete_for_observed_segments": 13
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 204,
+            "sum_complete_for_observed_segments": 204
+          },
+          "vision_forward_rows": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 1290,
+            "sum_complete_for_observed_segments": 1290
+          },
+          "vision_service_seconds": {
+            "verified_segments": 8,
+            "expected_observed_segments": 8,
+            "known_segment_sum": 349.8910744190216,
+            "sum_complete_for_observed_segments": 349.8910744190216
+          }
+        }
+      }
+    },
+    "openvla": {
+      "first": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "frozen": 1,
+      "candidate": 3,
+      "closed": 12,
+      "paired": {
+        "wins": 2,
+        "losses": 0,
+        "net": 2,
+        "win_conditions": [
+          "openvla-capconfirm12_02",
+          "openvla-capconfirm12_03"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          2,
+          2
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 4464.117393493652,
+        "ordinary": 3173.8182559013367,
+        "frozen": 3144.494555234909,
+        "candidate": 2787.6679253578186
+      },
+      "stages": {
+        "shared_native_baseline": {
+          "normal_physical_segments": 23,
+          "RAW_seconds": {
+            "verified_segments": 23,
+            "expected_observed_segments": 23,
+            "known_segment_sum": 4464.117393493652,
+            "sum_complete_for_observed_segments": 4464.117393493652
+          },
+          "official_actions": {
+            "verified_segments": 23,
+            "expected_observed_segments": 23,
+            "known_segment_sum": 6766,
+            "sum_complete_for_observed_segments": 6766
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 23,
+            "expected_observed_segments": 23,
+            "known_segment_sum": 6766,
+            "sum_complete_for_observed_segments": 6766
+          },
+          "VLA_action_generations": {
+            "verified_segments": 23,
+            "expected_observed_segments": 23,
+            "known_segment_sum": 6766,
+            "sum_complete_for_observed_segments": 6766
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 23,
+            "expected_observed_segments": 23,
+            "known_segment_sum": 47362,
+            "sum_complete_for_observed_segments": 47362
+          }
+        },
+        "ordinary": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3173.8182559013367,
+            "sum_complete_for_observed_segments": 3173.8182559013367
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 22680,
+            "sum_complete_for_observed_segments": 22680
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "frozen": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3144.494555234909,
+            "sum_complete_for_observed_segments": 3144.494555234909
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 22680,
+            "sum_complete_for_observed_segments": 22680
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "candidate": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2787.6679253578186,
+            "sum_complete_for_observed_segments": 2787.6679253578186
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2971,
+            "sum_complete_for_observed_segments": 2971
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2514,
+            "sum_complete_for_observed_segments": 2514
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2514,
+            "sum_complete_for_observed_segments": 2514
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 17598,
+            "sum_complete_for_observed_segments": 17598
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 26,
+            "sum_complete_for_observed_segments": 26
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 258,
+            "sum_complete_for_observed_segments": 258
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1404,
+            "sum_complete_for_observed_segments": 1404
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1024.4347174167633,
+            "sum_complete_for_observed_segments": 1024.4347174167633
+          }
+        }
+      }
+    },
+    "xvla": {
+      "first": 1,
+      "native_up_to3": 1,
+      "ordinary": 1,
+      "frozen": 1,
+      "candidate": 4,
+      "closed": 12,
+      "paired": {
+        "wins": 3,
+        "losses": 0,
+        "net": 3,
+        "win_conditions": [
+          "xvla-capconfirm12_00",
+          "xvla-capconfirm12_02",
+          "xvla-capconfirm12_03"
+        ],
+        "loss_conditions": [],
+        "paired_complete_conditions": 12,
+        "planned_denominator": 12,
+        "unknown_pairs": 0,
+        "possible_final_net_bounds": [
+          3,
+          3
+        ]
+      },
+      "RAW_seconds": {
+        "shared_native_baseline": 2928.366912126541,
+        "ordinary": 2039.0141546726227,
+        "frozen": 2046.7182049751282,
+        "candidate": 1805.6016886234283
+      },
+      "stages": {
+        "shared_native_baseline": {
+          "normal_physical_segments": 34,
+          "RAW_seconds": {
+            "verified_segments": 34,
+            "expected_observed_segments": 34,
+            "known_segment_sum": 2928.366912126541,
+            "sum_complete_for_observed_segments": 2928.366912126541
+          },
+          "official_actions": {
+            "verified_segments": 34,
+            "expected_observed_segments": 34,
+            "known_segment_sum": 9983,
+            "sum_complete_for_observed_segments": 9983
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 34,
+            "expected_observed_segments": 34,
+            "known_segment_sum": 9983,
+            "sum_complete_for_observed_segments": 9983
+          },
+          "VLA_action_generations": {
+            "verified_segments": 34,
+            "expected_observed_segments": 34,
+            "known_segment_sum": 351,
+            "sum_complete_for_observed_segments": 351
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 34,
+            "expected_observed_segments": 34,
+            "known_segment_sum": 3861,
+            "sum_complete_for_observed_segments": 3861
+          }
+        },
+        "ordinary": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2039.0141546726227,
+            "sum_complete_for_observed_segments": 2039.0141546726227
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 114,
+            "sum_complete_for_observed_segments": 114
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1254,
+            "sum_complete_for_observed_segments": 1254
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "frozen": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2046.7182049751282,
+            "sum_complete_for_observed_segments": 2046.7182049751282
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 3240,
+            "sum_complete_for_observed_segments": 3240
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 114,
+            "sum_complete_for_observed_segments": 114
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1254,
+            "sum_complete_for_observed_segments": 1254
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 0,
+            "sum_complete_for_observed_segments": 0
+          }
+        },
+        "candidate": {
+          "normal_physical_segments": 11,
+          "RAW_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1805.6016886234283,
+            "sum_complete_for_observed_segments": 1805.6016886234283
+          },
+          "official_actions": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2831,
+            "sum_complete_for_observed_segments": 2831
+          },
+          "VLA_policy_RPCs": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 2374,
+            "sum_complete_for_observed_segments": 2374
+          },
+          "VLA_action_generations": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 85,
+            "sum_complete_for_observed_segments": 85
+          },
+          "VLA_neural_forward_hook_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 935,
+            "sum_complete_for_observed_segments": 935
+          },
+          "visual_RPC_requests": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 26,
+            "sum_complete_for_observed_segments": 26
+          },
+          "vision_backbone_forward_calls": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 258,
+            "sum_complete_for_observed_segments": 258
+          },
+          "vision_forward_rows": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 1404,
+            "sum_complete_for_observed_segments": 1404
+          },
+          "vision_service_seconds": {
+            "verified_segments": 11,
+            "expected_observed_segments": 11,
+            "known_segment_sum": 720.6199631690979,
+            "sum_complete_for_observed_segments": 720.6199631690979
+          }
+        }
+      }
+    }
+  }
+}

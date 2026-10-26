@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.444396,
+  "subject": "ketchup_1",
+  "source_identity": "newtask_07",
+  "initial_state_sha256": "e92a37f045aeaf61f4e2c91f3a76c167ae23f20f06da3b3f83e3c4351ee650c5",
+  "physical_state_sha256": "4dc417fd64e9e127fb501d04aad784d79a187614e0d3fa7f16cd6a9a476c6b7c",
+  "asset_sha256": "64afdcc1a030a670c49c5ae744c84e59622f0081365b460c4efece62b24984fe",
+  "source_row_path": "objects/ketchup/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "f0e058b04aabeeddaa7f70d9a6dd18e546ec392502b241c27f924e4e5b424f57",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

@@ -1,0 +1,20 @@
+{
+  "time": 1792267188.4884958,
+  "files": {
+    "grasp_skills/newtask_07_prefix_v1.json": "3fd233f4f34db6ebb035a7a4bd321d6c20711a359873e551a2cfac5d72f60da2",
+    "release_skills/newtask_07_prefix_v1.json": "a8242fc12b18142c7d71bed7c0d4040dc982335f39fa22a96a537575453aafa8",
+    "grasp_skills/salad_transfer_prefix_v1.json": "8a5e8b69af73806d4916f0283697ee66a87a5a9ef62004e4cc8f79b13f3157e2",
+    "release_skills/salad_transfer_prefix_v1.json": "566c5a0ea7cf68ba26d64db9bc03e440a884adfd2faaf8cdd3bf60163630b0b0"
+  },
+  "compile_receipt": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/prefix_candidate_v1/PREFIX_DATA_COMPILE_ACCEPTANCE.json",
+    "sha256": "5132493bdfa4dea5030542d017b6eeb9faf897203c517bb11c8f10bb15f356d0"
+  },
+  "compiler": {
+    "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v2/compile_prefix_candidate_v1.py",
+    "sha256": "a6d3cc0bde356dc518a962f735f8c019f2a9563a71c6d1d773e7f6ce363917ee"
+  },
+  "source_and_original_failures_immutable": true,
+  "normal_source_screen_per_target_max1": true,
+  "do_not_auto_expand_or_tune": true
+}

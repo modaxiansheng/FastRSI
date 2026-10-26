@@ -1,0 +1,12 @@
+{
+  "time": 1792263823.4476428,
+  "subject": "orange_juice_1",
+  "source_identity": "newtask_13",
+  "initial_state_sha256": "9b61b772aeae15c77edee5788cec29dd5a2f2e07ffcea0fb49be663a3663969b",
+  "physical_state_sha256": "ce080cc219cae312a5fe54090e07ce6e7def2d9a7b3debcd03fed219e94564c5",
+  "asset_sha256": "ea8efb37e9da269a31da520e999401ab58f59ea3a1cdca07e7bd704a1cda6851",
+  "source_row_path": "objects/orange_juice/source_geometry/SOURCE_VALIDATION_ROW.json",
+  "source_row_sha256": "0393fd45420fd5668988b022a2df51499c479dcf8e95317c473889e35040de2d",
+  "source_only_permanently_excluded": true,
+  "not_confirmation_rescue": true
+}

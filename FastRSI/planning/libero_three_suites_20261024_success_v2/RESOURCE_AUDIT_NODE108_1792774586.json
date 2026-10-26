@@ -1,0 +1,403 @@
+{
+  "node": "108",
+  "time": 1792774586.2847772,
+  "host": "j01r2n08",
+  "boot": "c5b72a98-90a4-460b-87e5-75716165b991",
+  "smi": "\n================================= System Management Interface ==================================\n================================================================================================\nHCU[0]\t\t: HCU use (%): 0.0\nHCU[1]\t\t: HCU use (%): 26.2\nHCU[2]\t\t: HCU use (%): 0.0\nHCU[3]\t\t: HCU use (%): 0.0\nHCU[4]\t\t: HCU use (%): 0.0\nHCU[5]\t\t: HCU use (%): 0.0\nHCU[6]\t\t: HCU use (%): 0.0\nHCU[7]\t\t: HCU use (%): 0.0\n================================================================================================\n================================================================================================\nHCU[0]\t\t: HCU memory use (%): 0\nHCU[1]\t\t: HCU memory use (%): 42\nHCU[2]\t\t: HCU memory use (%): 12\nHCU[3]\t\t: HCU memory use (%): 0\nHCU[4]\t\t: HCU memory use (%): 6\nHCU[5]\t\t: HCU memory use (%): 0\nHCU[6]\t\t: HCU memory use (%): 0\nHCU[7]\t\t: HCU memory use (%): 42\n================================================================================================\n================================================================================================\nPIDs for KFD processes:\n\nPID: 2299919\n\tPASID: 32795\n\tHCU Node(Include CPU sort): ['9'] \n\tHCU Index: ['1'] \n\tGPUID: ['34430'] \n\tPCI BUS: ['0000:36:00.0'] \n\tVRAM USED(MiB): 27584\n\tVRAM USED(%): 42\n\tSDMA USED: 0\n\nPID: 1824845\n\tPASID: 32769\n\tHCU Node(Include CPU sort): ['10'] \n\tHCU Index: ['2'] \n\tGPUID: ['20902'] \n\tPCI BUS: ['0000:55:00.0'] \n\tVRAM USED(MiB): 7619\n\tVRAM USED(%): 12\n\tSDMA USED: 0\n\nPID: 1824831\n\tPASID: 32770\n\tHCU Node(Include CPU sort): ['12'] \n\tHCU Index: ['4'] \n\tGPUID: ['60191'] \n\tPCI BUS: ['0000:85:00.0'] \n\tVRAM USED(MiB): 4225\n\tVRAM USED(%): 6\n\tSDMA USED: 0\n\nPID: 2292499\n\tPASID: 32768\n\tHCU Node(Include CPU sort): ['15'] \n\tHCU Index: ['7'] \n\tGPUID: ['45786'] \n\tPCI BUS: ['0000:f5:00.0'] \n\tVRAM USED(MiB): 27696\n\tVRAM USED(%): 42\n\tSDMA USED: 0\n\n================================================================================================\n======================================== End of SMI Log ========================================\n\n",
+  "containers": [
+    {
+      "name": "/robo-chain-case-71f99b9b900d",
+      "id": "075ff4f353fa513ef9d7a877b6075a1ff3435954305201e013160243b8fe1c4b",
+      "pid": 2414192,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HIP_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/os-v1/bin/python -u /chain/robo_os_worker_v10.py /chain/runs/multivla_20261023_v1/pi0/runs/baseline/CloseFridge-seed0/attempt1/pi0-CloseFridge-seed0-P/job.json"
+      ]
+    },
+    {
+      "name": "/robo-chain-case-71f99b9b900d-target",
+      "id": "0062c52e580579d56404df764b4072920062ae0d95fc63079c9c4e443ff2bd9a",
+      "pid": 2414119,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "2",
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /probe/sim-env-py311/bin/python -u /chain/robo_os_target.py /chain/runs/multivla_20261023_v1/pi0/runs/baseline/CloseFridge-seed0/attempt1/pi0-CloseFridge-seed0-P/job.json"
+      ]
+    },
+    {
+      "name": "/robo-chain-case-10c45591226a",
+      "id": "ef5f7adaadba3d8c52ecdb060b81717a0ced5f61e57381acc6f78a7f7170893c",
+      "pid": 2402399,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "4",
+        "HIP_VISIBLE_DEVICES": "4",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/os-v1/bin/python -u /chain/robo_os_worker_v10.py /chain/runs/multivla_20261023_v1/xvla/runs/baseline/CloseFridge-seed0/attempt1/xvla-CloseFridge-seed0-P/job.json"
+      ]
+    },
+    {
+      "name": "/robo-chain-case-10c45591226a-target",
+      "id": "57fe07432fc0490e89287b67b7977aab24a5f36404844d5674d81a0657bb8e92",
+      "pid": 2402325,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "4",
+        "CUDA_VISIBLE_DEVICES": "4",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /probe/sim-env-py311/bin/python -u /chain/robo_os_target.py /chain/runs/multivla_20261023_v1/xvla/runs/baseline/CloseFridge-seed0/attempt1/xvla-CloseFridge-seed0-P/job.json"
+      ]
+    },
+    {
+      "name": "/fastevo-multi-qwen-pi0",
+      "id": "9537811a82af07a3f966623f2e277d1b2da5268c713857657a2cc4150220c17d",
+      "pid": 2299919,
+      "paused": false,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "1",
+        "CUDA_VISIBLE_DEVICES": "1",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /handoff/transport_v11/qwen_agent_server_v11.py"
+      ]
+    },
+    {
+      "name": "/fastevo-multi-qwen-xvla",
+      "id": "c580d051e65fc8532e4e45289b96d2e1ffd0d8ba1a8ee0e390ee46fa7a436a85",
+      "pid": 2292499,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "7",
+        "HIP_VISIBLE_DEVICES": "7",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec /project/envs/qwen3-v1/bin/python /handoff/transport_v11/qwen_agent_server_v11.py"
+      ]
+    },
+    {
+      "name": "/fastevo-robo-multi-v1-xvla-0",
+      "id": "c41a4b4525949b8bc071df14491f97b7e34c782ac2cbff904eafdce31787c48f",
+      "pid": 1824831,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "4",
+        "HIP_VISIBLE_DEVICES": "4",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python -u /chain/robo_policy_service_full.py --model xvla --device cuda:0"
+      ]
+    },
+    {
+      "name": "/fastevo-robo-multi-v1-pi0-0",
+      "id": "fac0abcefd27661465ea062f7b2e1774dccce9c53f097afa33d1ae90ee726235",
+      "pid": 1824845,
+      "paused": false,
+      "masks": {
+        "CUDA_VISIBLE_DEVICES": "2",
+        "HIP_VISIBLE_DEVICES": "2",
+        "HCU_VISIBLE_DEVICES": "0"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "source /opt/dtk/env.sh && source /opt/hyhal/env.sh && exec python -u /chain/robo_policy_service_full.py --model pi0 --device cuda:0"
+      ]
+    },
+    {
+      "name": "/wiw-solarwm-hcu-20260920",
+      "id": "d44d9e265d326480b2eff4af64606f54ffb5798e1a26311948995658ea27d2e6",
+      "pid": 2484264,
+      "paused": true,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "0,1"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/mkfd",
+          "PathInContainer": "/dev/mkfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "-lc",
+        "sleep infinity"
+      ]
+    },
+    {
+      "name": "/wiw-ace-exo2ego-20260919",
+      "id": "182785b229394832dc7557a901ebed8fa9325deb60b3bfdecb763ce1cd469a05",
+      "pid": 1921219,
+      "paused": true,
+      "masks": {
+        "HIP_VISIBLE_DEVICES": "0,1"
+      },
+      "devices": [
+        {
+          "PathOnHost": "/dev/kfd",
+          "PathInContainer": "/dev/kfd",
+          "CgroupPermissions": "rwm"
+        },
+        {
+          "PathOnHost": "/dev/dri",
+          "PathInContainer": "/dev/dri",
+          "CgroupPermissions": "rwm"
+        }
+      ],
+      "cmd": [
+        "sleep",
+        "infinity"
+      ]
+    }
+  ],
+  "leases": {
+    "/data/HCU-coordination/leases/gpu-7/OWNER.json": "{\n  \"token\": \"3dc2f2cc-105c-480c-9c01-6edd561f4eeb\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769178.4269419,\n  \"pid\": 2994725,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-3/OWNER.json": "{\n  \"token\": \"242703a9-530a-4082-8501-22bc1cce18c7\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769177.552588,\n  \"pid\": 2994399,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-2/OWNER.json": "{\n  \"token\": \"cb7e741c-9251-417f-8ee2-623fc838aadc\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769178.1231837,\n  \"pid\": 2994552,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-4/OWNER.json": "{\n  \"token\": \"062b28e0-39e1-480e-a0ee-c5eef73a16e3\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769179.0333152,\n  \"pid\": 2995324,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-1/OWNER.json": "{\n  \"token\": \"fe5a323b-78cd-48c8-bc53-aef0dd8bd922\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769179.7363284,\n  \"pid\": 2996093,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-6/OWNER.json": "{\n  \"token\": \"43d2fcca-ed58-4b32-b573-bb76d4029ef1\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769178.7110486,\n  \"pid\": 2994863,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-5/OWNER.json": "{\n  \"token\": \"a51853e4-614f-49dc-958f-53df7b2f5888\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769179.3758411,\n  \"pid\": 2995799,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}",
+    "/data/HCU-coordination/leases/gpu-0/OWNER.json": "{\n  \"token\": \"9b70ef45-b091-4674-a0ae-99e18495a044\",\n  \"owner\": \"FBA/closedloop/01a07acc-b46d-7d32-a9f3-58b25582876f\",\n  \"at\": 1788769177.8348622,\n  \"pid\": 2994457,\n  \"controller_host\": \"10.232.1.162\",\n  \"controller\": \"/data/fba-closedloop-pool-v1\"\n}"
+  },
+  "controllers": [
+    {
+      "pid": 2401641,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2401641 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2402446,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2402446 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2403732,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2403732 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2404653,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2404653 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2405345,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2405345 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2406419,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2406419 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2407174,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2407174 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    },
+    {
+      "pid": 2412968,
+      "cmd": "docker run --rm -i --name songziying-paos-physics-2412968 --label paos.owner=songziying-libero-20261023 --network host --cpus 4 --memory 6g --shm-size 2g -v /data/songziying/paos-libero-20261023:/data/songziying/paos-libero-20261023 -v /data/fba-closedloop-week-deps:/data/fba-closedloop-week-deps:ro -e PYTHONPATH=/data/songziying/paos-libero-20261023/physics-vendor:/data/songziying/paos-libero-20261023/study-scope-v3/code/runtime:/data/songziying/paos-libero-20261023/study-scope-v3/source:/data/songziying/paos-libero-20261023/study-scope-v3/paos-core:/data/songziying/paos-libero-20261023/migration/openpi/src:/data/songziying/paos-libero-20261023/migration/openpi/packages/openpi-client/src:/data/songziying/paos-libero-20261023/migration/openpi/third_party/libero -e LIBERO_CONFIG_PATH -e PAOS_LANE_GPU -e PAOS_LIBERO_SOURCE -e PAOS_CORE_ROOT -e PAOS_MIGRATION_ROOT -e MUJOCO_GL -e PYOPENGL_PLATFORM -e MUJOCO_EGL_DEVICE_ID -e LIBGL_ALWAYS_SOFTWARE -e OMP_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e PYTHONUNBUFFERED=1 -e PYTHONDONTWRITEBYTECODE=1 --entrypoint /usr/local/bin/python3 sha256:3171fda2362d773433482f79c4fd53f6f428413efbf41c3fdfb43d8c799d6c95 -u /data/songziying/paos-libero-20261023/study-scope-v3/code/runtime/native_world_entry.py "
+    }
+  ],
+  "vram": {
+    "0": {
+      "used": 3465216,
+      "total": 68702699520
+    },
+    "1": {
+      "used": 28924846080,
+      "total": 68702699520
+    },
+    "2": {
+      "used": 7990022144,
+      "total": 68702699520
+    },
+    "3": {
+      "used": 3465216,
+      "total": 68702699520
+    },
+    "4": {
+      "used": 4431208448,
+      "total": 68702699520
+    },
+    "5": {
+      "used": 3465216,
+      "total": 68702699520
+    },
+    "6": {
+      "used": 3465216,
+      "total": 68702699520
+    },
+    "7": {
+      "used": 29042286592,
+      "total": 68702699520
+    }
+  },
+  "meminfo": [
+    "MemTotal:       528095244 kB",
+    "MemFree:        207607624 kB",
+    "MemAvailable:   406355216 kB"
+  ]
+}

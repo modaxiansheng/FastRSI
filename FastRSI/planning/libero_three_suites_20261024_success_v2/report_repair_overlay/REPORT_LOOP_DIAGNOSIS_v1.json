@@ -1,0 +1,49 @@
+{
+  "status": "CAUSE_CONFIRMED_FROM_RAW_SERVICE_RECEIPTS",
+  "scope": "Two distinct pi05 P terminal-report calls; physical and semantic outcomes separately retained; this is a technical report failure",
+  "mechanism": "Generated write_file tool content repeated success prose until the 3072-token limit; missing closing JSON/tool envelope was correctly rejected with HTTP422",
+  "cases": [
+    {
+      "segment": "lane0_resume0007_segment0",
+      "case": "case009_t0_i33",
+      "request_sha256": "26797017a442b73fb53268a648076547923817c40360e2ce750bbb5341529c02",
+      "response_finish_reason": "error",
+      "service_call": "call_8181377f61a248d6ae8f0cc15eb03f46",
+      "service_receipt_sha256": "d422a5a031eae784b3a47a8726e767771a0a1ac5971ac3de6bfe5fcdf38b60e1",
+      "service_status": "REJECTED",
+      "requested_max_tokens": 3072,
+      "completion_tokens": 3072,
+      "generation_finish_reason": "length",
+      "reached_token_limit": true,
+      "ended_with_eos": false,
+      "raw_chars": 16618,
+      "repeated_success_phrase": 102,
+      "tool_open": 1,
+      "tool_close": 0,
+      "service_error": "ProtocolError('Native checkpoint call requires a closed envelope')",
+      "generation_seconds": 250.91642717411742
+    },
+    {
+      "segment": "lane0_resume0007_segment1",
+      "case": "case002_t0_i35",
+      "request_sha256": "69b5b725fd5c939a1739f20499b1d42cb5f7857971008075bbefe30b0ac4be9f",
+      "response_finish_reason": "error",
+      "service_call": "call_881784e75c0147968a16d10b4db17c4c",
+      "service_receipt_sha256": "ab486b3bf721e990a35fb98193b7a76efb9681d3cda4929046ae6c01288298f1",
+      "service_status": "REJECTED",
+      "requested_max_tokens": 3072,
+      "completion_tokens": 3072,
+      "generation_finish_reason": "length",
+      "reached_token_limit": true,
+      "ended_with_eos": false,
+      "raw_chars": 16805,
+      "repeated_success_phrase": 130,
+      "tool_open": 1,
+      "tool_close": 0,
+      "service_error": "ProtocolError('Native checkpoint call requires a closed envelope')",
+      "generation_seconds": 256.34770936495624
+    }
+  ],
+  "candidate": "Report-only generated-token repetition penalty 1.12 and shorter evidence-bound report prompt",
+  "validation": "CPU selector/contract tests passed; neural replay pending; no full-case acceptance yet"
+}

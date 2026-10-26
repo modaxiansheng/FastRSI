@@ -1,0 +1,1068 @@
+{
+  "version": 2,
+  "subjects": {
+    "cream_cheese_1": {
+      "variants": {
+        "position": {
+          "source_identity": "newtask_02",
+          "source_step": 0,
+          "source_variant": "position",
+          "template": {
+            "path": "templates/cream_cheese_1/x2_newtask_02_cream_cheese_position_step0.png",
+            "sha256": "d2ad5b35629270d284590773204f29a06a023b197ee45c65c117ce4f2c638bea",
+            "source_image_sha256": "603b1999baec5f50a60d5fcaf9ce27e1c5f1596c6746bb3d57161527948ca9f6",
+            "source_identity": "newtask_02_step0",
+            "source_crop": [
+              185,
+              118,
+              203,
+              135
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              -1.0,
+              -1.6082483712492356e-34,
+              1.5066991376101955e-18,
+              -0.14491381851803709
+            ],
+            [
+              2.1371433805817604e-34,
+              -1.0,
+              3.510289454146865e-17,
+              -0.26356573226406055
+            ],
+            [
+              1.5066991376101955e-18,
+              3.510289454146865e-17,
+              1.0,
+              0.008921477418607878
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.8965773716836134,
+              5.216182733499864e-07,
+              0.65
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.8965773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                5.216182733499864e-07
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.65
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_position_task1.json",
+          "source_calibration_sha256": "1262408c0ef6f81e4492788da1c9184e78e53dfed16084c66dfdc61aceafd2d8",
+          "source_support_top_m": 0.0,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/source_screens/cream_cheese/attempt1/diagnostic_only/STATE_EVENTS.jsonl",
+            "sha256": "5c8377b5f58d25d0db00c9804658c753fb3ad456c57083e6408f542793079d2c",
+            "scope": "Previously excluded X2 source screen step0, newly authorized development calibration"
+          },
+          "current_static_registration": {
+            "position:1": {
+              "support_top_m": 0.0,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_position_task1.json",
+              "calibration_sha256": "1262408c0ef6f81e4492788da1c9184e78e53dfed16084c66dfdc61aceafd2d8",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_swap/pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+              "problem": "LIBERO_Floor_Manipulation"
+            }
+          }
+        },
+        "environment": {
+          "source_identity": "newtask_03",
+          "source_step": 0,
+          "source_variant": "environment",
+          "template": {
+            "path": "templates/cream_cheese_1/x2_newtask_03_cream_cheese_environment_step0.png",
+            "sha256": "5e28533d9453dcb9be33f087f5848e863a62ac6b398836ae97b9b1398ba135d0",
+            "source_image_sha256": "6bc1dbd13e8237f9191f303b20bebb0fe67efdf0e6cd936172461c95d8f92483",
+            "source_identity": "newtask_03_step0",
+            "source_crop": [
+              166,
+              170,
+              191,
+              202
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              -1.0,
+              2.4293490882641e-34,
+              -1.4788397616315338e-20,
+              0.04395747976484503
+            ],
+            [
+              -2.4348473892006552e-34,
+              -1.0,
+              3.717982893893403e-17,
+              -0.1231977975452467
+            ],
+            [
+              -1.4788397616315338e-20,
+              3.717982893893403e-17,
+              1.0,
+              0.44569592152000004
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.6065773716836134,
+              0.0,
+              0.96
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.6065773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                0.0
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.96
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_environment_task1.json",
+          "source_calibration_sha256": "836a81c956457f80e23d491c1bb85c14f42dffdf97983c2a06a778415abd79ef",
+          "source_support_top_m": 0.43676000000000015,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/cream_cheese/SOURCE_OBSERVATION.json",
+            "sha256": "722d7e5cb52f541f94feab658e3e071075652c83c4efd9471486dd02cd7fd98b",
+            "result_sha256": "52d795ed313b7d44bcb3b196053068a60c153725abe906f368f3a0728215303c",
+            "scope": "Exact old X2 savedinit reset + original 10 settling steps, no policy/actions"
+          },
+          "current_static_registration": {
+            "environment:1": {
+              "support_top_m": 0.43676000000000015,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_environment_task1.json",
+              "calibration_sha256": "836a81c956457f80e23d491c1bb85c14f42dffdf97983c2a06a778415abd79ef",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_env/pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "71ef707b8713141d7d8fda1661a949ecb743bd249dc213d626b8f614c9772bbd",
+              "problem": "LIBERO_Living_Room_Tabletop_Manipulation"
+            }
+          }
+        }
+      }
+    },
+    "salad_dressing_1": {
+      "variants": {
+        "position": {
+          "source_identity": "newtask_04",
+          "source_step": 0,
+          "source_variant": "position",
+          "template": {
+            "path": "templates/salad_dressing_1/x2_newtask_04_salad_dressing_position_step0.png",
+            "sha256": "ef917bbb50d2a9e1cf2b410f96c92f7b4ac44be11524a76874a3d9a4ecabffd5",
+            "source_image_sha256": "0f8ae845896def149315d2190a910dbb6b33efc90a6a6b178c690dac3cc08ea3",
+            "source_identity": "newtask_04_step0",
+            "source_crop": [
+              143,
+              84,
+              161,
+              123
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              -2.1329600974340224e-08,
+              -8.635378774823899e-07,
+              0.999999999999627,
+              -0.21729252503858343
+            ],
+            [
+              0.9999999997002009,
+              2.448668609011939e-05,
+              2.135074606002263e-08,
+              -0.10214798565910305
+            ],
+            [
+              -2.4486686108549094e-05,
+              0.9999999996998283,
+              8.635373549559233e-07,
+              0.0727054492797662
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.8965773716836134,
+              5.216182733499864e-07,
+              0.65
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.8965773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                5.216182733499864e-07
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.65
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_position_task2.json",
+          "source_calibration_sha256": "9a69001d1612eff868249f495f6435162e31b13ea4e0c761018f589e4e87eb6d",
+          "source_support_top_m": 0.0,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/source_screens/salad_dressing/attempt1/diagnostic_only/STATE_EVENTS.jsonl",
+            "sha256": "bfbcab951c49061ba29e6c8f69bf215b6834a236594b4d26cd4353d8077dc959",
+            "scope": "Previously excluded X2 source screen step0, newly authorized development calibration"
+          },
+          "current_static_registration": {
+            "position:2": {
+              "support_top_m": 0.0,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_position_task2.json",
+              "calibration_sha256": "9a69001d1612eff868249f495f6435162e31b13ea4e0c761018f589e4e87eb6d",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_swap/pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "87c54b94eb46be003ccf2e2d5fea3496b9da77f12ef1c1ba2c1b76f0b266c1b2",
+              "problem": "LIBERO_Floor_Manipulation"
+            }
+          }
+        },
+        "environment": {
+          "source_identity": "newtask_05",
+          "source_step": 0,
+          "source_variant": "environment",
+          "template": {
+            "path": "templates/salad_dressing_1/x2_newtask_05_salad_dressing_environment_step0.png",
+            "sha256": "aab7e0ebe8b338c82e83d36001ac50065ecac0066fcd15a4869f940553113df6",
+            "source_image_sha256": "fc73c8a8b21308cf9d2eb0da7794fe872b72e9fa629c9662f7f913fc2c203fd0",
+            "source_identity": "newtask_05_step0",
+            "source_crop": [
+              156,
+              148,
+              187,
+              210
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              3.552713678800501e-15,
+              -2.5824177241062785e-09,
+              1.0000000000000002,
+              0.061288024758686055
+            ],
+            [
+              0.999999999999999,
+              4.754859772582165e-08,
+              -3.6637359812630166e-15,
+              -0.10481625407182764
+            ],
+            [
+              -4.754859800337741e-08,
+              0.999999999999999,
+              2.582417613083976e-09,
+              0.4797074607137593
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.6065773716836134,
+              0.0,
+              0.96
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.6065773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                0.0
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.96
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_environment_task2.json",
+          "source_calibration_sha256": "051098e6bbdc53c78dc6d32521f52e2e2b607f6144c4608273a9c32adab001a2",
+          "source_support_top_m": 0.43676000000000015,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/salad_dressing/SOURCE_OBSERVATION.json",
+            "sha256": "facd80ecf9be14b5fb10ab16cc3755db9c6ed855d99cbfd57a1c4d147f2b2c01",
+            "result_sha256": "41fabed6119c4b803983ef3efa418cfdaceddd10c3147750bf1253b80e918a37",
+            "scope": "Exact old X2 savedinit reset + original 10 settling steps, no policy/actions"
+          },
+          "current_static_registration": {
+            "environment:2": {
+              "support_top_m": 0.43676000000000015,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_environment_task2.json",
+              "calibration_sha256": "051098e6bbdc53c78dc6d32521f52e2e2b607f6144c4608273a9c32adab001a2",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_env/pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "ed019f20366561ce9a1629e9c0e8196443a53fb1837df53882b48d2e63ce04a7",
+              "problem": "LIBERO_Living_Room_Tabletop_Manipulation"
+            }
+          }
+        }
+      }
+    },
+    "ketchup_1": {
+      "source_identity": "dev12",
+      "source_step": 0,
+      "template": {
+        "path": "templates/ketchup_1/dev12_ketchup_step0.png",
+        "sha256": "26a6ca49d8dc36d4c7d993af93a344897b49d10e65136a2419cf4bf703169079",
+        "supervision": "PERMITTED_OLD_DEVELOPMENT_SOURCE_BACKGROUND_OBJECT_WITH_OFFLINE_NAMED_POSE_CROP",
+        "source_image_sha256": "7b72e73bc996d9773a5843dc0ac247bf97855bd5cb606b8d84b0640bdb0c0f19",
+        "source_identity": "dev12_step0",
+        "source_crop": [
+          99,
+          93,
+          124,
+          146
+        ],
+        "new_confirmation_images_used": false
+      },
+      "source_object_pose": [
+        [
+          4.790222041251013e-08,
+          -1.1249007614289042e-08,
+          0.9999999999999987,
+          -0.16168475118070985
+        ],
+        [
+          0.9999999999999988,
+          -9.524734556620729e-09,
+          -4.7902220523532435e-08,
+          0.04434682746119111
+        ],
+        [
+          9.524735167243392e-09,
+          0.9999999999999999,
+          1.1249007281222134e-08,
+          0.5091798006851025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_camera": {
+        "body_id": 0,
+        "body_name": "world",
+        "cam_local_pos": [
+          0.6065773716836134,
+          0.0,
+          0.96
+        ],
+        "cam_local_quat_wxyz": [
+          0.6182166363517068,
+          0.3432307224633757,
+          0.3432314079167274,
+          0.6182176496305745
+        ],
+        "fovy": 45.0,
+        "K": [
+          [
+            309.01933598375615,
+            0,
+            128
+          ],
+          [
+            0,
+            309.01933598375615,
+            128
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "eef_site": "gripper0_grip_site",
+        "relative_path_joint_counts": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "model_body_path": [],
+        "T_world_camera_cv": [
+          [
+            -1.7285346984863281e-06,
+            0.5287697315216064,
+            -0.8487653136253357,
+            0.6065773716836134
+          ],
+          [
+            1.0,
+            7.748603820800781e-07,
+            -1.5497207641601562e-06,
+            0.0
+          ],
+          [
+            -1.7881393432617188e-07,
+            -0.8487653136253357,
+            -0.5287697315216064,
+            0.96
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "static_world_frame_error": 2.6873479053168836e-08
+      },
+      "source_calibration_path": "calibration/CALIBRATION_environment_task3.json",
+      "source_calibration_sha256": "d7b68b86a16602d357dd46b3fae710c1cd68fe0b4493cedfa37ac21379130d15",
+      "source_support_top_m": 0.43676000000000015,
+      "source_diagnostic_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_object_frame_recovery_20261017_v1/cases/node187/dev12/DIAGNOSTIC_EVENTS.jsonl",
+      "source_diagnostic_sha256": "abab9dd474f1fd6132f45ca7d453a38cf58c096a0f5732f35b1e82b25548feb7",
+      "source_step0_line_sha256": "faa5560b1f3299ab1a2864592f34fd0b772e2d0b715a95f5d6fcd41ba776a918",
+      "source_named_body": "ketchup_1_main",
+      "source_pose_supervision": "PERMITTED_OLD_DEVELOPMENT_STEP0_ONLY",
+      "current_static_registration": {
+        "position:4": {
+          "support_top_m": 0.0,
+          "plane_delta_m": -0.43676000000000015,
+          "calibration_path": "calibration/CALIBRATION_position_task4.json",
+          "calibration_sha256": "3882bb6ca33fa3cf406c65e764012156002ae87efaf0a8dad010d215603a6629",
+          "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_swap/pick_up_the_ketchup_and_place_it_in_the_basket.bddl",
+          "bddl_sha256": "69646943311b00a299154293046b528b60af713f64731a6d70f154f525f2c917",
+          "problem": "LIBERO_Floor_Manipulation"
+        },
+        "environment:4": {
+          "support_top_m": 0.43676000000000015,
+          "plane_delta_m": 0.0,
+          "calibration_path": "calibration/CALIBRATION_environment_task4.json",
+          "calibration_sha256": "587148996bbfb52fc618a71cfe86b0254a1a066bf389f10b996474e3c6f69a1d",
+          "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_env/pick_up_the_ketchup_and_place_it_in_the_basket.bddl",
+          "bddl_sha256": "64afdcc1a030a670c49c5ae744c84e59622f0081365b460c4efece62b24984fe",
+          "problem": "LIBERO_Living_Room_Tabletop_Manipulation"
+        }
+      }
+    },
+    "milk_1": {
+      "variants": {
+        "position": {
+          "source_identity": "newtask_10",
+          "source_step": 0,
+          "source_variant": "position",
+          "template": {
+            "path": "templates/milk_1/x2_newtask_10_milk_position_step0.png",
+            "sha256": "9e85dcae2ec4678dff75f4b423e5bd06a8ebcbf0d320ff642619dfb041fdad9f",
+            "source_image_sha256": "8dd79363441cfa4ebc471566fcd4906452ee16e5257882fa28df9b9dd86f2707",
+            "source_identity": "newtask_10_step0",
+            "source_crop": [
+              151,
+              125,
+              173,
+              168
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              3.753273247752986e-10,
+              4.101345668638956e-08,
+              0.9999999999999992,
+              0.06822710401837148
+            ],
+            [
+              0.99999999999995,
+              -3.165117248293825e-07,
+              -3.753142796547593e-10,
+              -0.11282367776506748
+            ],
+            [
+              3.165117247183602e-07,
+              0.9999999999999492,
+              -4.1013456852923014e-08,
+              0.06973547626138674
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.8965773716836134,
+              5.216182733499864e-07,
+              0.65
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.8965773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                5.216182733499864e-07
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.65
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_position_task7.json",
+          "source_calibration_sha256": "c55bc6eed7c16e23ebfe24225590fe7992f4b366e1e04cacb081e5ac7fb3ae94",
+          "source_support_top_m": 0.0,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/source_screens/milk/attempt1/diagnostic_only/STATE_EVENTS.jsonl",
+            "sha256": "6c64d84a0f8e61318af0d0d8012d10e1312f23503c1dc82807291a9e7ff43719",
+            "scope": "Previously excluded X2 source screen step0, newly authorized development calibration"
+          },
+          "current_static_registration": {
+            "position:7": {
+              "support_top_m": 0.0,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_position_task7.json",
+              "calibration_sha256": "c55bc6eed7c16e23ebfe24225590fe7992f4b366e1e04cacb081e5ac7fb3ae94",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_swap/pick_up_the_milk_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "43ce8994cd883cbd29550c81f0f7191672172055191acf742d1cc65880484757",
+              "problem": "LIBERO_Floor_Manipulation"
+            }
+          }
+        },
+        "environment": {
+          "source_identity": "newtask_11",
+          "source_step": 0,
+          "source_variant": "environment",
+          "template": {
+            "path": "templates/milk_1/x2_newtask_11_milk_environment_step0.png",
+            "sha256": "f6dd9995d27dfe69e40d8903d81a75df7a4883683c46b021f7655ffa26f4ce98",
+            "source_image_sha256": "d99581e8748c9e63845341231c96372da09303100afed848f4d398baf7bb7f6f",
+            "source_identity": "newtask_11_step0",
+            "source_crop": [
+              199,
+              100,
+              229,
+              151
+            ],
+            "supervision": "EXPLICIT_OLD_X2_DEVELOPMENT_SOURCE_POSE_AND_RGB_CALIBRATION_ONLY",
+            "new_confirmation_images_used": false
+          },
+          "source_object_pose": [
+            [
+              1.1386919185341071e-09,
+              4.4322207015667914e-10,
+              1.0,
+              -0.14428009278171516
+            ],
+            [
+              1.0,
+              -3.6647049839189094e-09,
+              -1.1386919740452583e-09,
+              -0.2462312938112737
+            ],
+            [
+              3.664704872896607e-09,
+              1.0,
+              -4.432223477124353e-10,
+              0.5065098417573906
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source_camera": {
+            "body_id": 0,
+            "body_name": "world",
+            "cam_local_pos": [
+              0.6065773716836134,
+              0.0,
+              0.96
+            ],
+            "cam_local_quat_wxyz": [
+              0.6182166363517068,
+              0.3432307224633757,
+              0.3432314079167274,
+              0.6182176496305745
+            ],
+            "fovy": 45.0,
+            "K": [
+              [
+                309.01933598375615,
+                0,
+                128
+              ],
+              [
+                0,
+                309.01933598375615,
+                128
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "eef_site": "gripper0_grip_site",
+            "relative_path_joint_counts": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "model_body_path": [],
+            "T_world_camera_cv": [
+              [
+                -1.7285346984863281e-06,
+                0.5287697315216064,
+                -0.8487653136253357,
+                0.6065773716836134
+              ],
+              [
+                1.0,
+                7.748603820800781e-07,
+                -1.5497207641601562e-06,
+                0.0
+              ],
+              [
+                -1.7881393432617188e-07,
+                -0.8487653136253357,
+                -0.5287697315216064,
+                0.96
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "static_world_frame_error": 2.6873479053168836e-08
+          },
+          "source_calibration_path": "calibration/CALIBRATION_environment_task7.json",
+          "source_calibration_sha256": "180278e4d5d4f1a3a95e5962edba1d740d515e600766f2a7414d331769707aa9",
+          "source_support_top_m": 0.43676000000000015,
+          "source_pose_supervision": "EXPLICIT_OLD_X2_SOURCE_STEP0_CALIBRATION_NOT_FUTURE_CONFIRMATION",
+          "source_supervision": {
+            "path": "/Users/liuyuchen/PhyAgentOS/FastRSI/planning/fastrsi_remaining6_transfer_20261018_v1/objects/locator_transfer_v3/source_capture_attempt1/milk/SOURCE_OBSERVATION.json",
+            "sha256": "8f05091c903006ce60d4514a0cb47fb61ac3e176c9da5b96fa6bca25a98dc81b",
+            "result_sha256": "bab5e8b291626c399c5aa5e14a8a53a6f5dd0004f3486b910a930ce51ac35d1e",
+            "scope": "Exact old X2 savedinit reset + original 10 settling steps, no policy/actions"
+          },
+          "current_static_registration": {
+            "environment:7": {
+              "support_top_m": 0.43676000000000015,
+              "plane_delta_m": 0.0,
+              "calibration_path": "calibration/CALIBRATION_environment_task7.json",
+              "calibration_sha256": "180278e4d5d4f1a3a95e5962edba1d740d515e600766f2a7414d331769707aa9",
+              "bddl_path": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/assets/bddl_files/libero_object_env/pick_up_the_milk_and_place_it_in_the_basket.bddl",
+              "bddl_sha256": "604b568050b47b77d7a06a741c5a9b5b54eb24db7338f89478567920d7f6c844",
+              "problem": "LIBERO_Living_Room_Tabletop_Manipulation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "plane_derivation": {
+    "method": "STATIC_SCENE_COLLISION_GEOMETRY_NOT_OBSERVED_ERROR_FIT",
+    "environment_support_top_m": 0.43676000000000015,
+    "position_support_top_m": 0.0,
+    "horizontal_tabletop_geom_attributes": {
+      "solimp": "0.998 0.998 0.001",
+      "solref": "0.001 1",
+      "density": "100",
+      "friction": "0.95 0.3 0.1",
+      "type": "box",
+      "pos": "-0.19761 0.00000 0.42492",
+      "quat": "0.70711 0.00000 0.70711 0.00000",
+      "size": "0.01184 0.44432 0.67171",
+      "group": "0",
+      "rgba": "0.8 0.8 0.8 0.3"
+    },
+    "ancestor_body_attributes": [
+      {
+        "name": "living_room_table",
+        "pos": "0 0 0",
+        "quat": "1 0.0 0.0 0.0"
+      },
+      {
+        "name": "living_room_table_col",
+        "pos": "-0.25 0.25 0",
+        "quat": "0.707 0.0 0.0 0.707"
+      }
+    ],
+    "formula": "world_center_z + sum(abs(world_rotation[2,j])*box_half_size[j])",
+    "arena_origin": [
+      0,
+      0,
+      0
+    ],
+    "no_constructor": true,
+    "files": {
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream/libero/libero/assets/scenes/libero_living_room_tabletop_base_style.xml": "e22de70abac444dc7602546c46931580a3f06753ce941d0921f4f145e8eec70c",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream/libero/libero/assets/scenes/libero_floor_base_style.xml": "df092a7d8ac7a5c4d1ce48e9a6dacf2f7ebaa362580e20de46d9644f3d5d1039",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream/libero/libero/envs/arenas/living_room_arena.py": "8267ca85d85a4b83815543f1f5405002da81b0462259c1ca45a146b612277581",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream/libero/libero/envs/arenas/empty_arena.py": "1032b22ff518a37dd94609a525291082e1ac7151abc2d509e76b588625437260",
+      "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/liberopro_eval_20261012_v1/upstream/libero/libero/envs/bddl_base_domain.py": "055836670ac5fcac7e033fc86404718fd53854996e5776b1ff68b646f7bbcc9d"
+    }
+  },
+  "inference_inputs": "Current RGB + permitted static template/source pose/calibration/CAD; never current target truth",
+  "unchanged_subjects": [
+    "butter_1",
+    "orange_juice_1",
+    "alphabet_soup_1",
+    "bbq_sauce_1",
+    "tomato_sauce_1",
+    "chocolate_pudding_1"
+  ],
+  "no_new_physics": true,
+  "no_new_neural_calls": true
+}

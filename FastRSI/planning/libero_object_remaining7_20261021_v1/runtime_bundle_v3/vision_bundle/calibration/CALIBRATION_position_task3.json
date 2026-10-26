@@ -1,0 +1,166 @@
+{
+  "task_id": 3,
+  "variant": "position",
+  "bddl_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+  "cameras": {
+    "agentview": {
+      "body_id": 0,
+      "body_name": "world",
+      "cam_local_pos": [
+        0.8965773716836134,
+        5.216182733499864e-07,
+        0.65
+      ],
+      "cam_local_quat_wxyz": [
+        0.6182166363517068,
+        0.3432307224633757,
+        0.3432314079167274,
+        0.6182176496305745
+      ],
+      "fovy": 45.0,
+      "K": [
+        [
+          309.01933598375615,
+          0,
+          128
+        ],
+        [
+          0,
+          309.01933598375615,
+          128
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "eef_site": "gripper0_grip_site",
+      "relative_path_joint_counts": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "model_body_path": [],
+      "T_world_camera_cv": [
+        [
+          -1.7285346984863281e-06,
+          0.5287697315216064,
+          -0.8487653136253357,
+          0.8965773716836134
+        ],
+        [
+          1.0,
+          7.748603820800781e-07,
+          -1.5497207641601562e-06,
+          5.216182733499864e-07
+        ],
+        [
+          -1.7881393432617188e-07,
+          -0.8487653136253357,
+          -0.5287697315216064,
+          0.65
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "static_world_frame_error": 2.6873479053168836e-08
+    },
+    "robot0_eye_in_hand": {
+      "body_id": 11,
+      "body_name": "robot0_right_hand",
+      "cam_local_pos": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "cam_local_quat_wxyz": [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "fovy": 75.0,
+      "K": [
+        [
+          166.81284772367434,
+          0,
+          128
+        ],
+        [
+          0,
+          166.81284772367434,
+          128
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "eef_site": "gripper0_grip_site",
+      "relative_path_joint_counts": [
+        0,
+        0
+      ],
+      "model_body_path": [
+        "robot0_base",
+        "robot0_link0",
+        "robot0_link1",
+        "robot0_link2",
+        "robot0_link3",
+        "robot0_link4",
+        "robot0_link5",
+        "robot0_link6",
+        "robot0_link7",
+        "robot0_right_hand"
+      ],
+      "T_eef_camera_cv": [
+        [
+          -0.9999999999999999,
+          1.21142056546269e-16,
+          0.0,
+          0.0
+        ],
+        [
+          2.797094697735812e-17,
+          -1.0,
+          0.0,
+          0.04999999999999999
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.09699999999999998
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "relative_frame_error": 2.220446049250313e-16
+    }
+  },
+  "seconds": 6.895906209945679,
+  "constructor_calls": 1,
+  "explicit_env_steps": 0,
+  "policy_calls": 0,
+  "initial_state_files_read": 0,
+  "dynamic_object_poses_read": false
+}

@@ -1,0 +1,47 @@
+{
+  "status": "CLOSED_ENGINEERING_2D_SCREEN_NOT_CONTROL_OR_HELD_DETECTOR",
+  "created_utc": "2026-10-17T23:53:30.765609+00:00",
+  "predictor_output_sha256": "ccbfbd0acca5e34c203dd55db66ece3b2f6fbdd7bee11d03517c311f8a111ffd",
+  "query_results": [
+    {
+      "step": 60,
+      "status": "SOURCE_PATCH_REGISTERED_2D_ONLY",
+      "held_label": null,
+      "inliers": 21
+    },
+    {
+      "step": 78,
+      "status": "SOURCE_PATCH_REGISTERED_2D_ONLY",
+      "held_label": null,
+      "inliers": 23
+    },
+    {
+      "step": 120,
+      "status": "UNKNOWN",
+      "held_label": null,
+      "inliers": null
+    },
+    {
+      "step": 180,
+      "status": "UNKNOWN",
+      "held_label": null,
+      "inliers": null
+    }
+  ],
+  "technical_startups": 1,
+  "startup_limit": 1,
+  "new_neural_calls": 0,
+  "new_environment_steps": 0,
+  "new_normal_physical_attempts": 0,
+  "new_scored_successes": 0,
+  "one_query_physical_identity": true,
+  "source_only_manual_crop_annotation": true,
+  "source_annotation_and_assistant_cost_unknown": true,
+  "actual_main_process_CPU_seconds": 0.59232,
+  "actual_whole_container_CPU_seconds": null,
+  "money": null,
+  "conclusion": "2D texture registration at60/78 is useful engineering evidence for an input cue.120/180 UNKNOWN is not a dropped classification. One old donor and one query identity do not validate semantic specificity, contact, grasp stability, 3D pose or task generalization. No control promotion or more queries/threshold changes from this screen.",
+  "current_frozen_main_trial_changed": false,
+  "old_front_SIFT_candidate_still_stopped": true,
+  "full_evaluation": "PAUSED"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "FOURTEEN_INDEPENDENT_VERIFIED_STATES_DECLARED",
+  "task_design_sha256": "d117167b43f51db9bfb70d402ee606120e5ba15623bcd051058aa629a7871dad",
+  "before_generation_freeze_sha256": "2bd19ab67f160e5444a5b6797264574b795f849b1d82014e8f39fa889f917d86",
+  "expected_frozen_roster_sha256": "41e6613596c6d4283d5b89ee5c4894bb86a269930b61b317d63cdee911c0d4fc",
+  "expected_raw_roster_sha256": "66a39a83edf5802b13e5e4a2001c43c1f510f378b7b895255f675c93d3b29ac1",
+  "generation_manifest_path": "/data/fastrsi_object7_states_20261021_v1/bundle/MANIFEST.json",
+  "generation_manifest_sha256": "2bd19ab67f160e5444a5b6797264574b795f849b1d82014e8f39fa889f917d86"
+}

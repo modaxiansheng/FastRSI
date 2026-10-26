@@ -1,0 +1,3838 @@
+{
+  "states": [
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0000.npy",
+      "state_sha256": "93472d37853659caaa511fa6d4623d5e4683c144a4b4bc0946409eebc56ff929",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0001.npy",
+      "state_sha256": "7ab73d5ee5558bc15e3e5537b9854231c219b1e02cf9daaa0754f1db9a009e54",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0002.npy",
+      "state_sha256": "96f84d123bf598eba2d9a7b6538036928a03ffa4ce8aefe5968358109d8d4f8e",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0003.npy",
+      "state_sha256": "427dd308036aa07fdd38a77c9e6122ca049bb3fd61687969bba9df5bac57a892",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0004.npy",
+      "state_sha256": "17e628da387ca771f8708df080bed90c15b1f4ce9d529e5c5adcf05dfb8d92d6",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0005.npy",
+      "state_sha256": "0ef3bf83ffdf86fe1966d96ba34acd779d0e14f3bc1c48428b18a189e1a5ec56",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev15.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0006.npy",
+      "state_sha256": "897fb847a546f07ee379fe6576fda7272fe75af4034075a09ccc831e36aef153",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0007.npy",
+      "state_sha256": "03c530c96c6446ad74f36546fd0f2ef908d5493e450345ca3269869952903edc",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0008.npy",
+      "state_sha256": "9ca2fc086a7948a62784a2acde856094dc6eaba9a65e465feae086b073f9dd17",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0009.npy",
+      "state_sha256": "8e4fe3ac6ca2b8428e0468a884f32f761fffc94edb65371f8ccb1891bfe7ee28",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0010.npy",
+      "state_sha256": "631ccb00b519c70b1ae2a748050fa3adc15f77bc08859daf03286bab74c378ab",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0011.npy",
+      "state_sha256": "b9299615714d85f1e698513129442ce43425f199701ef0120280c9a4cb72c6c3",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill05.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0012.npy",
+      "state_sha256": "0b0879b1534990ffd8c849a0d442e59d40e2d54c0a58549b6280b176e3087712",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill06.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0013.npy",
+      "state_sha256": "fa9eab4930b041577427b7dad209ac40033796f51b07a49e7398a53c0a7c20e3",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_20261017_v1/generated/states/initialskill07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0014.npy",
+      "state_sha256": "d6eeabd642019633e2f981b54e727c215cfe3cfac5c09474b3380528865b7ccd",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0015.npy",
+      "state_sha256": "49e8ce46864a39b85b8a9bd2575e4a5fc1315cb0123536e0de76739e96224800",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0016.npy",
+      "state_sha256": "df8f0212978b258ead19ba1dc3b94f3873ded401ce7a00566ae392b1081fc070",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0017.npy",
+      "state_sha256": "36b4599abc8a9d487d047f0d7c882a2a2757c63f25788941a70fc896ccdf722e",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0018.npy",
+      "state_sha256": "b16994f75738570b9ee9da94cd7252bc5b2deff1d58411c25e6cdfe4f9fde083",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0019.npy",
+      "state_sha256": "d863833077934d521b2b362e97c0e58497178a14325a7f05ec31c6597ebddedf",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti05.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0020.npy",
+      "state_sha256": "6833ef3cd6a3f2ccfc5435558419c674db737722dc290adec2ee86119cdbae24",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti06.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0021.npy",
+      "state_sha256": "63d942fa91459063b923bdbb6e6ea01f654a4d778f1aeac0ce720d2dd1525e4a",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0022.npy",
+      "state_sha256": "9e772395d86933cc86fdcc14dc324525460ed91e9a20dead4ec3204be3a1dad9",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0023.npy",
+      "state_sha256": "96aa65b1b58950e819343ecf05422ee31b0cec0d0b5c6751d1cdfb93d70d8752",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0024.npy",
+      "state_sha256": "8198f67007c96311f956cbec8a8f90ff5274b22f9fee0cfbfd2f187a7d5d054c",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0025.npy",
+      "state_sha256": "3548820bbe176ed7635d59b57a19bc9af02f160e4550da65451e7ec0aefb1ec0",
+      "original_state_path": "fastrsi_visual_grasp_place_20261017_v1/generated/states/visualmulti11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0026.npy",
+      "state_sha256": "cb2f695e6f13ee1c0f5cb7dfa26c7ecaade0c46b7966f0357832e2d9aa93f928",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0027.npy",
+      "state_sha256": "41042430f29e58c60649f69e88cedc7db1e2b2a4221220e786ce4d52afae0294",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0028.npy",
+      "state_sha256": "889f3b27c16f1175158bb6bc8bb26294b6703fb902c3de86f615283b6e4d6469",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0029.npy",
+      "state_sha256": "d00cd4260ffc2d72356b1389872b79ad7b283daf91647458e1c2454a10cec0f6",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0030.npy",
+      "state_sha256": "13256a8cd8e7079e2c127428ac53eef492df964a2a284a56d4aa38b681805186",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0031.npy",
+      "state_sha256": "9180104fe043c7c9a4150b39517178503208f9ca7f401f61c0939b14e1b0c4fb",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0032.npy",
+      "state_sha256": "f58d5f38df0dce26b6c8869a11136340fb38be58fccb0bd25cca8851ee0a4410",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0033.npy",
+      "state_sha256": "a61bb5c29ada857a3c1de1f93d7b1a86b6c75e5fd51e8097167f6ba4c912221d",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel15.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0034.npy",
+      "state_sha256": "e4bfccd3be3bf69a41bd188d209a5e1da3425a1ed9d87f079a99e3b8fbde8e9e",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel20.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0035.npy",
+      "state_sha256": "dd3e0bbcf71dc1d97be6707fcb6780bb9706be5b87d2b683ddaba193c95a4cc5",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel21.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0036.npy",
+      "state_sha256": "8dff9e737131eef4ba793933d019023d3e9dd9770172ee2023680723aaedafe5",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel22.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0037.npy",
+      "state_sha256": "48b2da7c9c5fe20fc13c2cab6874b487ae05e6f0a027b0f693c06525a99e26ab",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel23.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0038.npy",
+      "state_sha256": "c1096078216f79f900e6c21f6d40845da9048924b217630646598921248d9b01",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0039.npy",
+      "state_sha256": "f5709fd56eeb31483c0b2c31b799b682d39f3dba25f1c481b2e264c948750630",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0040.npy",
+      "state_sha256": "562c6f60ac12f2aaf6a83a19a923e798c05f6d59bce071dd19da85104ca8c799",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0041.npy",
+      "state_sha256": "01b52f34f46f5e786f42d2d12aae99d31452c83fc3badfe366a2af7d8a234840",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0042.npy",
+      "state_sha256": "4543dc6d2a3a064a10677a1c8b9f948a748c3d79772301737f79afb7fc098068",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0043.npy",
+      "state_sha256": "bf636615de498ae2eefa98c1641446563a29200928b414950e8ad3777231033c",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0044.npy",
+      "state_sha256": "d6276768a4d15b4f4bb9694e408fc3c7d8d87f2bf7e5f9614b4dc40c8bc797cc",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0045.npy",
+      "state_sha256": "755fae963d9dae1096853a6695e6ae13982353fd212ab036cb3969d3f570ea21",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0046.npy",
+      "state_sha256": "67679a0a7dac0d17012f7d2f55810c7853e57ee2aa4c66bc211c3fcc464f5fc7",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0047.npy",
+      "state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev14.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0048.npy",
+      "state_sha256": "48c11de67f431704e0a6466dee5b4778df137b7275ec0224ca1fa4ac2fb6f385",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0049.npy",
+      "state_sha256": "82b6356a471e7b96d8c983c3a5124b4ad2956dd9840adeabf5eb58872f78f819",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0050.npy",
+      "state_sha256": "2266aba11939786d88f12d41614212ef951900bb5d66b60c5e6932f059c06311",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0051.npy",
+      "state_sha256": "27d355208d60d4dd27d2cc0a54409e01a6e232ca27169f50e7041e70f9fdf21e",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0052.npy",
+      "state_sha256": "2895c04dd4777e9eea9516efc14e7f8a126d542ab2679ae452b7c95bb758f8bb",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0053.npy",
+      "state_sha256": "dbb2cb2fbd91ca6485ffc1ce26d8c62b76e5add07371bd91bba7a7722aa51d83",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0054.npy",
+      "state_sha256": "94ada8bae3cb0ea54376191d56a8a1d3aea9c32547d81697ae37ba1e21f1ae72",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0055.npy",
+      "state_sha256": "641e4a4d8d4ca148f22c76c9d99c37a5e77ddda80a9e9e2770c287fe34cfd61b",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0056.npy",
+      "state_sha256": "94e519ca5e4263e459dc78487b61fe5acacaead09b2f92441fa071f40b72e6dc",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0057.npy",
+      "state_sha256": "ffbee55de3ea07c42f813f930db62329910a9d35919c41fbe4cfb27b4b0b2569",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0058.npy",
+      "state_sha256": "f2f8955b96708b60edb140116f2b7656522ef104668a4098a4b9ff97b19a8e26",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0059.npy",
+      "state_sha256": "f3d55d696561ef30ecdb4421eda87cbe0cf23b53d18008c059af5d9127a30cb7",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0060.npy",
+      "state_sha256": "c6f1efbb9eb5889cf6c2db0544eb0dc49208294c797a470ffb5b086440c68d9f",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0061.npy",
+      "state_sha256": "f8a09a0753a81e2e366894ac24f4e71128fe042d7e533f422ff32c7d2d44b66d",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0062.npy",
+      "state_sha256": "f7dec5f22e27be18b7e8c9186fd061a082f496d9e445dd2acf66c6ff306b041d",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0063.npy",
+      "state_sha256": "01e7957add212704e29652c214b28f05c28f77f3da6b97011c3e416e98c8ff3d",
+      "original_state_path": "fastrsi_fixed_retry32_20261016_v1/generated/states/dev31.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0064.npy",
+      "state_sha256": "5c92ea3f643bcc403ef31c952d81807328b3bf5030327862b263ef4e94b8ea97",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm00.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0065.npy",
+      "state_sha256": "79834e0bde3c4f194890f6abfc349a953d4b4a6e6c02a231e6585aa7576e88f0",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm01.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0066.npy",
+      "state_sha256": "559d8b549caecf3fac1416079e22bb26d5f569900bb370c57b82e46b3575951c",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm02.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0067.npy",
+      "state_sha256": "4c97df918d6a6cb74ff05bf67cce2e81174da7036938dcefe1bb262c7d067031",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm03.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0068.npy",
+      "state_sha256": "44e3e0df6ea0aed8c2e06d0f3ea1979f2a11a73c17f3befd1c7ad594626c715d",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm04.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0069.npy",
+      "state_sha256": "0ab4c654040d4f4f90ee255816198f2f9445af7287fdbeae47fb40c27828807c",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm05.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0070.npy",
+      "state_sha256": "55425ff6972951e288601d2d14eb6f1238262d337189166cb46aeb83195e3222",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm06.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0071.npy",
+      "state_sha256": "df07be07105a633cdaf5c7393c7067e3e95da5e1c6892c5394a08bfcf8855587",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_20261017_v1/generated/states/subconfirm07.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0072.npy",
+      "state_sha256": "5c92ea3f643bcc403ef31c952d81807328b3bf5030327862b263ef4e94b8ea97",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm00.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0073.npy",
+      "state_sha256": "79834e0bde3c4f194890f6abfc349a953d4b4a6e6c02a231e6585aa7576e88f0",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm01.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0074.npy",
+      "state_sha256": "559d8b549caecf3fac1416079e22bb26d5f569900bb370c57b82e46b3575951c",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm02.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0075.npy",
+      "state_sha256": "4c97df918d6a6cb74ff05bf67cce2e81174da7036938dcefe1bb262c7d067031",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm03.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0076.npy",
+      "state_sha256": "44e3e0df6ea0aed8c2e06d0f3ea1979f2a11a73c17f3befd1c7ad594626c715d",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm04.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0077.npy",
+      "state_sha256": "0ab4c654040d4f4f90ee255816198f2f9445af7287fdbeae47fb40c27828807c",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm05.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0078.npy",
+      "state_sha256": "55425ff6972951e288601d2d14eb6f1238262d337189166cb46aeb83195e3222",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm06.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0079.npy",
+      "state_sha256": "df07be07105a633cdaf5c7393c7067e3e95da5e1c6892c5394a08bfcf8855587",
+      "original_state_path": "fastrsi_fixed_subgoal_confirm8_branches_20261017_v1/generated/states/subconfirm07.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0080.npy",
+      "state_sha256": "c1096078216f79f900e6c21f6d40845da9048924b217630646598921248d9b01",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0081.npy",
+      "state_sha256": "f5709fd56eeb31483c0b2c31b799b682d39f3dba25f1c481b2e264c948750630",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0082.npy",
+      "state_sha256": "562c6f60ac12f2aaf6a83a19a923e798c05f6d59bce071dd19da85104ca8c799",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0083.npy",
+      "state_sha256": "01b52f34f46f5e786f42d2d12aae99d31452c83fc3badfe366a2af7d8a234840",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0084.npy",
+      "state_sha256": "4543dc6d2a3a064a10677a1c8b9f948a748c3d79772301737f79afb7fc098068",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0085.npy",
+      "state_sha256": "bf636615de498ae2eefa98c1641446563a29200928b414950e8ad3777231033c",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0086.npy",
+      "state_sha256": "d6276768a4d15b4f4bb9694e408fc3c7d8d87f2bf7e5f9614b4dc40c8bc797cc",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0087.npy",
+      "state_sha256": "755fae963d9dae1096853a6695e6ae13982353fd212ab036cb3969d3f570ea21",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0088.npy",
+      "state_sha256": "93472d37853659caaa511fa6d4623d5e4683c144a4b4bc0946409eebc56ff929",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0089.npy",
+      "state_sha256": "7ab73d5ee5558bc15e3e5537b9854231c219b1e02cf9daaa0754f1db9a009e54",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0090.npy",
+      "state_sha256": "67679a0a7dac0d17012f7d2f55810c7853e57ee2aa4c66bc211c3fcc464f5fc7",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0091.npy",
+      "state_sha256": "96f84d123bf598eba2d9a7b6538036928a03ffa4ce8aefe5968358109d8d4f8e",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0092.npy",
+      "state_sha256": "427dd308036aa07fdd38a77c9e6122ca049bb3fd61687969bba9df5bac57a892",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0093.npy",
+      "state_sha256": "17e628da387ca771f8708df080bed90c15b1f4ce9d529e5c5adcf05dfb8d92d6",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0094.npy",
+      "state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0095.npy",
+      "state_sha256": "0ef3bf83ffdf86fe1966d96ba34acd779d0e14f3bc1c48428b18a189e1a5ec56",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0096.npy",
+      "state_sha256": "48c11de67f431704e0a6466dee5b4778df137b7275ec0224ca1fa4ac2fb6f385",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0097.npy",
+      "state_sha256": "82b6356a471e7b96d8c983c3a5124b4ad2956dd9840adeabf5eb58872f78f819",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0098.npy",
+      "state_sha256": "2266aba11939786d88f12d41614212ef951900bb5d66b60c5e6932f059c06311",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0099.npy",
+      "state_sha256": "27d355208d60d4dd27d2cc0a54409e01a6e232ca27169f50e7041e70f9fdf21e",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0100.npy",
+      "state_sha256": "2895c04dd4777e9eea9516efc14e7f8a126d542ab2679ae452b7c95bb758f8bb",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0101.npy",
+      "state_sha256": "dbb2cb2fbd91ca6485ffc1ce26d8c62b76e5add07371bd91bba7a7722aa51d83",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0102.npy",
+      "state_sha256": "94ada8bae3cb0ea54376191d56a8a1d3aea9c32547d81697ae37ba1e21f1ae72",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0103.npy",
+      "state_sha256": "641e4a4d8d4ca148f22c76c9d99c37a5e77ddda80a9e9e2770c287fe34cfd61b",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0104.npy",
+      "state_sha256": "94e519ca5e4263e459dc78487b61fe5acacaead09b2f92441fa071f40b72e6dc",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0105.npy",
+      "state_sha256": "ffbee55de3ea07c42f813f930db62329910a9d35919c41fbe4cfb27b4b0b2569",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0106.npy",
+      "state_sha256": "f2f8955b96708b60edb140116f2b7656522ef104668a4098a4b9ff97b19a8e26",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0107.npy",
+      "state_sha256": "f3d55d696561ef30ecdb4421eda87cbe0cf23b53d18008c059af5d9127a30cb7",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0108.npy",
+      "state_sha256": "c6f1efbb9eb5889cf6c2db0544eb0dc49208294c797a470ffb5b086440c68d9f",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0109.npy",
+      "state_sha256": "f8a09a0753a81e2e366894ac24f4e71128fe042d7e533f422ff32c7d2d44b66d",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0110.npy",
+      "state_sha256": "f7dec5f22e27be18b7e8c9186fd061a082f496d9e445dd2acf66c6ff306b041d",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0111.npy",
+      "state_sha256": "01e7957add212704e29652c214b28f05c28f77f3da6b97011c3e416e98c8ff3d",
+      "original_state_path": "fastrsi_fixed_subgoal_recovery_20261017_v1/generated/states/dev31.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0112.npy",
+      "state_sha256": "9120220004b579be66971e68be35e08cb543b6a258c9f69328c8bba1b6109cb7",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0113.npy",
+      "state_sha256": "c6e2cd1cdf81b8c2fbae9b9c1370e1153ee663d818ced4f6817832e2f839a952",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0114.npy",
+      "state_sha256": "0aefdb92047549e193dbbeda60a1a76f4a5c4897b54bbc9ab71ae361c8e3d73b",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0115.npy",
+      "state_sha256": "4135f0d01de6b4c540799fc7f0d51ad53092454a2ff2a000cae85d69adfa8da4",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0116.npy",
+      "state_sha256": "5dc5d58402b1c50ca9d3c6be1c968a9d55b5c7f528f88cba49e4a6f6d049db68",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0117.npy",
+      "state_sha256": "c233d3c2da331021308c145aa01954e2b9770f8bb5cb9f452958e2492114bfe2",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift05.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0118.npy",
+      "state_sha256": "fb6a384a5fda2a63e3b72178ebc915aee0d77c12bebe603c4510e8734560a186",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift06.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0119.npy",
+      "state_sha256": "937ed4bad0911b0cedce436f54deed1df1e8258a0f66615179948facf3fb1b0c",
+      "original_state_path": "fastrsi_localization_targetshift_confirm_20261017_v1/generated_target_positions_v2/states/targetshift07.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0120.npy",
+      "state_sha256": "c1096078216f79f900e6c21f6d40845da9048924b217630646598921248d9b01",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0121.npy",
+      "state_sha256": "f5709fd56eeb31483c0b2c31b799b682d39f3dba25f1c481b2e264c948750630",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0122.npy",
+      "state_sha256": "562c6f60ac12f2aaf6a83a19a923e798c05f6d59bce071dd19da85104ca8c799",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0123.npy",
+      "state_sha256": "01b52f34f46f5e786f42d2d12aae99d31452c83fc3badfe366a2af7d8a234840",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0124.npy",
+      "state_sha256": "4543dc6d2a3a064a10677a1c8b9f948a748c3d79772301737f79afb7fc098068",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0125.npy",
+      "state_sha256": "bf636615de498ae2eefa98c1641446563a29200928b414950e8ad3777231033c",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0126.npy",
+      "state_sha256": "d6276768a4d15b4f4bb9694e408fc3c7d8d87f2bf7e5f9614b4dc40c8bc797cc",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0127.npy",
+      "state_sha256": "755fae963d9dae1096853a6695e6ae13982353fd212ab036cb3969d3f570ea21",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0128.npy",
+      "state_sha256": "93472d37853659caaa511fa6d4623d5e4683c144a4b4bc0946409eebc56ff929",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0129.npy",
+      "state_sha256": "7ab73d5ee5558bc15e3e5537b9854231c219b1e02cf9daaa0754f1db9a009e54",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0130.npy",
+      "state_sha256": "67679a0a7dac0d17012f7d2f55810c7853e57ee2aa4c66bc211c3fcc464f5fc7",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0131.npy",
+      "state_sha256": "96f84d123bf598eba2d9a7b6538036928a03ffa4ce8aefe5968358109d8d4f8e",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0132.npy",
+      "state_sha256": "427dd308036aa07fdd38a77c9e6122ca049bb3fd61687969bba9df5bac57a892",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0133.npy",
+      "state_sha256": "17e628da387ca771f8708df080bed90c15b1f4ce9d529e5c5adcf05dfb8d92d6",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0134.npy",
+      "state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0135.npy",
+      "state_sha256": "0ef3bf83ffdf86fe1966d96ba34acd779d0e14f3bc1c48428b18a189e1a5ec56",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0136.npy",
+      "state_sha256": "48c11de67f431704e0a6466dee5b4778df137b7275ec0224ca1fa4ac2fb6f385",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0137.npy",
+      "state_sha256": "82b6356a471e7b96d8c983c3a5124b4ad2956dd9840adeabf5eb58872f78f819",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0138.npy",
+      "state_sha256": "2266aba11939786d88f12d41614212ef951900bb5d66b60c5e6932f059c06311",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0139.npy",
+      "state_sha256": "27d355208d60d4dd27d2cc0a54409e01a6e232ca27169f50e7041e70f9fdf21e",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0140.npy",
+      "state_sha256": "2895c04dd4777e9eea9516efc14e7f8a126d542ab2679ae452b7c95bb758f8bb",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0141.npy",
+      "state_sha256": "dbb2cb2fbd91ca6485ffc1ce26d8c62b76e5add07371bd91bba7a7722aa51d83",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0142.npy",
+      "state_sha256": "94ada8bae3cb0ea54376191d56a8a1d3aea9c32547d81697ae37ba1e21f1ae72",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0143.npy",
+      "state_sha256": "641e4a4d8d4ca148f22c76c9d99c37a5e77ddda80a9e9e2770c287fe34cfd61b",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0144.npy",
+      "state_sha256": "94e519ca5e4263e459dc78487b61fe5acacaead09b2f92441fa071f40b72e6dc",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0145.npy",
+      "state_sha256": "ffbee55de3ea07c42f813f930db62329910a9d35919c41fbe4cfb27b4b0b2569",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0146.npy",
+      "state_sha256": "f2f8955b96708b60edb140116f2b7656522ef104668a4098a4b9ff97b19a8e26",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0147.npy",
+      "state_sha256": "f3d55d696561ef30ecdb4421eda87cbe0cf23b53d18008c059af5d9127a30cb7",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0148.npy",
+      "state_sha256": "c6f1efbb9eb5889cf6c2db0544eb0dc49208294c797a470ffb5b086440c68d9f",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0149.npy",
+      "state_sha256": "f8a09a0753a81e2e366894ac24f4e71128fe042d7e533f422ff32c7d2d44b66d",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0150.npy",
+      "state_sha256": "f7dec5f22e27be18b7e8c9186fd061a082f496d9e445dd2acf66c6ff306b041d",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0151.npy",
+      "state_sha256": "01e7957add212704e29652c214b28f05c28f77f3da6b97011c3e416e98c8ff3d",
+      "original_state_path": "fastrsi_multivla_rescue_20261016_v1/generated/states/dev31.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0152.npy",
+      "state_sha256": "6fa758aa518a0e4395fb76d55e891b1f07a962c5feb462a8a49e46c531293462",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0153.npy",
+      "state_sha256": "6861503153f6c336713a158ee3bafcf4930bc1a35ffaa0b99341e4c660df3930",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0154.npy",
+      "state_sha256": "16b7c757d6295ffa147f4c016edc899007c5924d51f71e14fa7fc403f1704ee9",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0155.npy",
+      "state_sha256": "f3cffad87b049115e6490993559c8cb67c4db615bc9d8a7482702ed39b38e129",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0156.npy",
+      "state_sha256": "2306d5473d651dbe2839bb165a28fa5312fc4ce9f2b38beada0e235311e4f67f",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0157.npy",
+      "state_sha256": "04dfc6be0d601455b47bf888479c80684238f4b973f106c5372cbff602f2b5e9",
+      "original_state_path": "fastrsi_object_frame_confirm6_20261017_v1/generated/states/frameconfirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0158.npy",
+      "state_sha256": "c1096078216f79f900e6c21f6d40845da9048924b217630646598921248d9b01",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0159.npy",
+      "state_sha256": "f5709fd56eeb31483c0b2c31b799b682d39f3dba25f1c481b2e264c948750630",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0160.npy",
+      "state_sha256": "562c6f60ac12f2aaf6a83a19a923e798c05f6d59bce071dd19da85104ca8c799",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0161.npy",
+      "state_sha256": "01b52f34f46f5e786f42d2d12aae99d31452c83fc3badfe366a2af7d8a234840",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0162.npy",
+      "state_sha256": "4543dc6d2a3a064a10677a1c8b9f948a748c3d79772301737f79afb7fc098068",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0163.npy",
+      "state_sha256": "bf636615de498ae2eefa98c1641446563a29200928b414950e8ad3777231033c",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0164.npy",
+      "state_sha256": "d6276768a4d15b4f4bb9694e408fc3c7d8d87f2bf7e5f9614b4dc40c8bc797cc",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0165.npy",
+      "state_sha256": "755fae963d9dae1096853a6695e6ae13982353fd212ab036cb3969d3f570ea21",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0166.npy",
+      "state_sha256": "93472d37853659caaa511fa6d4623d5e4683c144a4b4bc0946409eebc56ff929",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0167.npy",
+      "state_sha256": "7ab73d5ee5558bc15e3e5537b9854231c219b1e02cf9daaa0754f1db9a009e54",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0168.npy",
+      "state_sha256": "67679a0a7dac0d17012f7d2f55810c7853e57ee2aa4c66bc211c3fcc464f5fc7",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0169.npy",
+      "state_sha256": "96f84d123bf598eba2d9a7b6538036928a03ffa4ce8aefe5968358109d8d4f8e",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0170.npy",
+      "state_sha256": "427dd308036aa07fdd38a77c9e6122ca049bb3fd61687969bba9df5bac57a892",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0171.npy",
+      "state_sha256": "17e628da387ca771f8708df080bed90c15b1f4ce9d529e5c5adcf05dfb8d92d6",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0172.npy",
+      "state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0173.npy",
+      "state_sha256": "0ef3bf83ffdf86fe1966d96ba34acd779d0e14f3bc1c48428b18a189e1a5ec56",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0174.npy",
+      "state_sha256": "48c11de67f431704e0a6466dee5b4778df137b7275ec0224ca1fa4ac2fb6f385",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0175.npy",
+      "state_sha256": "82b6356a471e7b96d8c983c3a5124b4ad2956dd9840adeabf5eb58872f78f819",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0176.npy",
+      "state_sha256": "2266aba11939786d88f12d41614212ef951900bb5d66b60c5e6932f059c06311",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0177.npy",
+      "state_sha256": "27d355208d60d4dd27d2cc0a54409e01a6e232ca27169f50e7041e70f9fdf21e",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0178.npy",
+      "state_sha256": "2895c04dd4777e9eea9516efc14e7f8a126d542ab2679ae452b7c95bb758f8bb",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0179.npy",
+      "state_sha256": "dbb2cb2fbd91ca6485ffc1ce26d8c62b76e5add07371bd91bba7a7722aa51d83",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0180.npy",
+      "state_sha256": "94ada8bae3cb0ea54376191d56a8a1d3aea9c32547d81697ae37ba1e21f1ae72",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0181.npy",
+      "state_sha256": "641e4a4d8d4ca148f22c76c9d99c37a5e77ddda80a9e9e2770c287fe34cfd61b",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0182.npy",
+      "state_sha256": "94e519ca5e4263e459dc78487b61fe5acacaead09b2f92441fa071f40b72e6dc",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0183.npy",
+      "state_sha256": "ffbee55de3ea07c42f813f930db62329910a9d35919c41fbe4cfb27b4b0b2569",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0184.npy",
+      "state_sha256": "f2f8955b96708b60edb140116f2b7656522ef104668a4098a4b9ff97b19a8e26",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0185.npy",
+      "state_sha256": "f3d55d696561ef30ecdb4421eda87cbe0cf23b53d18008c059af5d9127a30cb7",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0186.npy",
+      "state_sha256": "c6f1efbb9eb5889cf6c2db0544eb0dc49208294c797a470ffb5b086440c68d9f",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0187.npy",
+      "state_sha256": "f8a09a0753a81e2e366894ac24f4e71128fe042d7e533f422ff32c7d2d44b66d",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0188.npy",
+      "state_sha256": "f7dec5f22e27be18b7e8c9186fd061a082f496d9e445dd2acf66c6ff306b041d",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0189.npy",
+      "state_sha256": "01e7957add212704e29652c214b28f05c28f77f3da6b97011c3e416e98c8ff3d",
+      "original_state_path": "fastrsi_pi05_fourth_candidate4_20261016_v1/generated/states/dev31.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0190.npy",
+      "state_sha256": "5c92ea3f643bcc403ef31c952d81807328b3bf5030327862b263ef4e94b8ea97",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm00.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0191.npy",
+      "state_sha256": "79834e0bde3c4f194890f6abfc349a953d4b4a6e6c02a231e6585aa7576e88f0",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm01.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0192.npy",
+      "state_sha256": "559d8b549caecf3fac1416079e22bb26d5f569900bb370c57b82e46b3575951c",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm02.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0193.npy",
+      "state_sha256": "4c97df918d6a6cb74ff05bf67cce2e81174da7036938dcefe1bb262c7d067031",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm03.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0194.npy",
+      "state_sha256": "44e3e0df6ea0aed8c2e06d0f3ea1979f2a11a73c17f3befd1c7ad594626c715d",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm04.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0195.npy",
+      "state_sha256": "0ab4c654040d4f4f90ee255816198f2f9445af7287fdbeae47fb40c27828807c",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm05.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0196.npy",
+      "state_sha256": "55425ff6972951e288601d2d14eb6f1238262d337189166cb46aeb83195e3222",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm06.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0197.npy",
+      "state_sha256": "df07be07105a633cdaf5c7393c7067e3e95da5e1c6892c5394a08bfcf8855587",
+      "original_state_path": "fastrsi_rgb_grounding_rescue_20261017_v1/generated/states/subconfirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0198.npy",
+      "state_sha256": "897fb847a546f07ee379fe6576fda7272fe75af4034075a09ccc831e36aef153",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0199.npy",
+      "state_sha256": "03c530c96c6446ad74f36546fd0f2ef908d5493e450345ca3269869952903edc",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0200.npy",
+      "state_sha256": "9ca2fc086a7948a62784a2acde856094dc6eaba9a65e465feae086b073f9dd17",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0201.npy",
+      "state_sha256": "8e4fe3ac6ca2b8428e0468a884f32f761fffc94edb65371f8ccb1891bfe7ee28",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0202.npy",
+      "state_sha256": "631ccb00b519c70b1ae2a748050fa3adc15f77bc08859daf03286bab74c378ab",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0203.npy",
+      "state_sha256": "b9299615714d85f1e698513129442ce43425f199701ef0120280c9a4cb72c6c3",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill05.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0204.npy",
+      "state_sha256": "0b0879b1534990ffd8c849a0d442e59d40e2d54c0a58549b6280b176e3087712",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill06.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0205.npy",
+      "state_sha256": "fa9eab4930b041577427b7dad209ac40033796f51b07a49e7398a53c0a7c20e3",
+      "original_state_path": "fastrsi_rgb_initial_skill_confirm8_baseline_repair_20261017_v1/generated/states/initialskill07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0206.npy",
+      "state_sha256": "83f2e6af1befbdc7b7fc0cae765dd05653d66558289166306a55680cf867f50b",
+      "original_state_path": "fastrsi_rgb_recovery_confirm4_20261017_v1/generated/states/rgbconfirm00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0207.npy",
+      "state_sha256": "3a76d7f8f05adbf0aedae906c280cb094527b86ab7612515a3dcb18e315527a5",
+      "original_state_path": "fastrsi_rgb_recovery_confirm4_20261017_v1/generated/states/rgbconfirm01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0208.npy",
+      "state_sha256": "d6604b5d76cd9c7840bc2ad39f68259b66318ffdc1b5fdbf623aa3c9047f7a2b",
+      "original_state_path": "fastrsi_rgb_recovery_confirm4_20261017_v1/generated/states/rgbconfirm02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0209.npy",
+      "state_sha256": "e9d816110917c80217d66400c053b8f78c6c4d250546230f3624d9972c2dba75",
+      "original_state_path": "fastrsi_rgb_recovery_confirm4_20261017_v1/generated/states/rgbconfirm03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0210.npy",
+      "state_sha256": "6ac05199e39def6dc7b7ee6b7c22f448b5eb2c16922b0ed410519f6c54d204a5",
+      "original_state_path": "fastrsi_rgb_tracker_confirm4_20261017_v1/generated/states/trackconfirm00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0211.npy",
+      "state_sha256": "5286e6054e31e52a47f581b89112fa190e4aa756e66e1ff3897085c205a2f5b2",
+      "original_state_path": "fastrsi_rgb_tracker_confirm4_20261017_v1/generated/states/trackconfirm01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0212.npy",
+      "state_sha256": "726551d07eef3955341154eb6f59381fa68f22fbf07262f18d60067a8305f0dd",
+      "original_state_path": "fastrsi_rgb_tracker_confirm4_20261017_v1/generated/states/trackconfirm02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0213.npy",
+      "state_sha256": "67a35d7d56e35f50e1f01206f9cd2891592b66a7fd9ed3de863b260b43d0a930",
+      "original_state_path": "fastrsi_rgb_tracker_confirm4_20261017_v1/generated/states/trackconfirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0214.npy",
+      "state_sha256": "c1096078216f79f900e6c21f6d40845da9048924b217630646598921248d9b01",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0215.npy",
+      "state_sha256": "f5709fd56eeb31483c0b2c31b799b682d39f3dba25f1c481b2e264c948750630",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0216.npy",
+      "state_sha256": "562c6f60ac12f2aaf6a83a19a923e798c05f6d59bce071dd19da85104ca8c799",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0217.npy",
+      "state_sha256": "01b52f34f46f5e786f42d2d12aae99d31452c83fc3badfe366a2af7d8a234840",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0218.npy",
+      "state_sha256": "4543dc6d2a3a064a10677a1c8b9f948a748c3d79772301737f79afb7fc098068",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0219.npy",
+      "state_sha256": "bf636615de498ae2eefa98c1641446563a29200928b414950e8ad3777231033c",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0220.npy",
+      "state_sha256": "d6276768a4d15b4f4bb9694e408fc3c7d8d87f2bf7e5f9614b4dc40c8bc797cc",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0221.npy",
+      "state_sha256": "755fae963d9dae1096853a6695e6ae13982353fd212ab036cb3969d3f570ea21",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0222.npy",
+      "state_sha256": "93472d37853659caaa511fa6d4623d5e4683c144a4b4bc0946409eebc56ff929",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0223.npy",
+      "state_sha256": "7ab73d5ee5558bc15e3e5537b9854231c219b1e02cf9daaa0754f1db9a009e54",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0224.npy",
+      "state_sha256": "67679a0a7dac0d17012f7d2f55810c7853e57ee2aa4c66bc211c3fcc464f5fc7",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0225.npy",
+      "state_sha256": "96f84d123bf598eba2d9a7b6538036928a03ffa4ce8aefe5968358109d8d4f8e",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0226.npy",
+      "state_sha256": "427dd308036aa07fdd38a77c9e6122ca049bb3fd61687969bba9df5bac57a892",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0227.npy",
+      "state_sha256": "17e628da387ca771f8708df080bed90c15b1f4ce9d529e5c5adcf05dfb8d92d6",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0228.npy",
+      "state_sha256": "ead3bc620c4353091345058012323e69aa640aa7f6d7f90d5042482dca4f055c",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0229.npy",
+      "state_sha256": "0ef3bf83ffdf86fe1966d96ba34acd779d0e14f3bc1c48428b18a189e1a5ec56",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0230.npy",
+      "state_sha256": "48c11de67f431704e0a6466dee5b4778df137b7275ec0224ca1fa4ac2fb6f385",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0231.npy",
+      "state_sha256": "82b6356a471e7b96d8c983c3a5124b4ad2956dd9840adeabf5eb58872f78f819",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0232.npy",
+      "state_sha256": "2266aba11939786d88f12d41614212ef951900bb5d66b60c5e6932f059c06311",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0233.npy",
+      "state_sha256": "27d355208d60d4dd27d2cc0a54409e01a6e232ca27169f50e7041e70f9fdf21e",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0234.npy",
+      "state_sha256": "2895c04dd4777e9eea9516efc14e7f8a126d542ab2679ae452b7c95bb758f8bb",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0235.npy",
+      "state_sha256": "dbb2cb2fbd91ca6485ffc1ce26d8c62b76e5add07371bd91bba7a7722aa51d83",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0236.npy",
+      "state_sha256": "94ada8bae3cb0ea54376191d56a8a1d3aea9c32547d81697ae37ba1e21f1ae72",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0237.npy",
+      "state_sha256": "641e4a4d8d4ca148f22c76c9d99c37a5e77ddda80a9e9e2770c287fe34cfd61b",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0238.npy",
+      "state_sha256": "94e519ca5e4263e459dc78487b61fe5acacaead09b2f92441fa071f40b72e6dc",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0239.npy",
+      "state_sha256": "ffbee55de3ea07c42f813f930db62329910a9d35919c41fbe4cfb27b4b0b2569",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0240.npy",
+      "state_sha256": "f2f8955b96708b60edb140116f2b7656522ef104668a4098a4b9ff97b19a8e26",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0241.npy",
+      "state_sha256": "f3d55d696561ef30ecdb4421eda87cbe0cf23b53d18008c059af5d9127a30cb7",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0242.npy",
+      "state_sha256": "c6f1efbb9eb5889cf6c2db0544eb0dc49208294c797a470ffb5b086440c68d9f",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0243.npy",
+      "state_sha256": "f8a09a0753a81e2e366894ac24f4e71128fe042d7e533f422ff32c7d2d44b66d",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0244.npy",
+      "state_sha256": "f7dec5f22e27be18b7e8c9186fd061a082f496d9e445dd2acf66c6ff306b041d",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0245.npy",
+      "state_sha256": "01e7957add212704e29652c214b28f05c28f77f3da6b97011c3e416e98c8ff3d",
+      "original_state_path": "fastrsi_shared_pi05_rescue_20261016_v1/generated/states/dev31.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0246.npy",
+      "state_sha256": "5c92ea3f643bcc403ef31c952d81807328b3bf5030327862b263ef4e94b8ea97",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm00.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0247.npy",
+      "state_sha256": "79834e0bde3c4f194890f6abfc349a953d4b4a6e6c02a231e6585aa7576e88f0",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm01.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0248.npy",
+      "state_sha256": "559d8b549caecf3fac1416079e22bb26d5f569900bb370c57b82e46b3575951c",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm02.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0249.npy",
+      "state_sha256": "4c97df918d6a6cb74ff05bf67cce2e81174da7036938dcefe1bb262c7d067031",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm03.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0250.npy",
+      "state_sha256": "44e3e0df6ea0aed8c2e06d0f3ea1979f2a11a73c17f3befd1c7ad594626c715d",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm04.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0251.npy",
+      "state_sha256": "0ab4c654040d4f4f90ee255816198f2f9445af7287fdbeae47fb40c27828807c",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm05.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0252.npy",
+      "state_sha256": "55425ff6972951e288601d2d14eb6f1238262d337189166cb46aeb83195e3222",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm06.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0253.npy",
+      "state_sha256": "df07be07105a633cdaf5c7393c7067e3e95da5e1c6892c5394a08bfcf8855587",
+      "original_state_path": "fastrsi_subgoal_branch_session_recovery_20261017_v1/generated/states/subconfirm07.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0254.npy",
+      "state_sha256": "90d8f40c5053bbdf65f6c0d4942fa7b572cfdc811cbb10d4dd887e64cc2e7dbb",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0255.npy",
+      "state_sha256": "137ba9642a78a71a17f1929fea8cdc73f77f6873c272f6dd1c9a5a2641b0a9f0",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0256.npy",
+      "state_sha256": "357ad5c46060228b11db6bc4035128541001c7447a79cbe5107fc20056a808d0",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0257.npy",
+      "state_sha256": "7e32cafa9c562abe7d17b3ef67ef0f2a491f25e9ac65308bcc3370a82b065cbc",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0258.npy",
+      "state_sha256": "e781f660522458d1cfaa69c060f73cf390c6c47304b0aa46eeca84246cec6ab7",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0259.npy",
+      "state_sha256": "d36614c4f58e3a6c16155142f55aeb5b1787c6a8831daade9be10c34570f81b2",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0260.npy",
+      "state_sha256": "fa698f3d467b4ab26e427fd6116c9cd6b895c2a45f773f6581728a4b8c8fa76f",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0261.npy",
+      "state_sha256": "6b86f89f8013cf562db876cf414b1b33a23038fc411b7dbf86f43c0dd7775158",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0262.npy",
+      "state_sha256": "2726b2f3b42f32dbee2df2db8f5487399281296ab6b82d71d323c2d1a0011406",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0263.npy",
+      "state_sha256": "e09d8dd57ba3ce0defe654c2e78fc96a6f5a0f3ba2181b529b4ab09b9662d373",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0264.npy",
+      "state_sha256": "7626c98a3851c8d3f72bfe668a1f40a3e82c7b82754c46f1c3f874d83e6d0e62",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0265.npy",
+      "state_sha256": "f9435dce8377b09896805a2e555c3f4b65fddc350ee84078af75d98c1d971e32",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0266.npy",
+      "state_sha256": "cf4690c7f91eb7409ff171c4298445719b775069ec62ef60611748d7b2706146",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0267.npy",
+      "state_sha256": "b57f9cdf057bd3f6a3d372aeefb051c487c0a755b287a8e38304df2e2d979249",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0268.npy",
+      "state_sha256": "6ad40f67411bac509cbaffdbcb063f688455c9d09eb996ed1deb048cdee12555",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0269.npy",
+      "state_sha256": "97592b6a82410112a460ac035edf8361c0609a0d479464d6a2968e7a7e2650cc",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0270.npy",
+      "state_sha256": "9cdf62fbcf1889bdc388b02745666b8679f940cf078df76b6dac8f8c3c28b29e",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0271.npy",
+      "state_sha256": "3ce0397c608f535f78fc2d0728b0991efe7914a642cce021de7b689f20af89e1",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0272.npy",
+      "state_sha256": "9a76fb5d6b13470112cd6a799ab1403824cb198b5a5e34dcb4af06b578ab0507",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0273.npy",
+      "state_sha256": "f3a9c53413fefa9a06d816db2043babc539127d32021eeaeb01c1e9c58b3cc67",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0274.npy",
+      "state_sha256": "8c631acf6815390450150e996bd1c4102f888abd3f4ef0fc11d163bd33515fdb",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0275.npy",
+      "state_sha256": "cd9b7af8a985cdbaf0ae4ca35a7495c062418ab3e9528766c5aacbacbdff1fbf",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0276.npy",
+      "state_sha256": "39cb53b6f068e4a972397e48b6b00df0ba1dd08834880918ad90fea1a2dd3259",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0277.npy",
+      "state_sha256": "9532e41f60426cbe00ebe39bdb72c49c9eab5ab159613f782e1f7ce52dc4f919",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0278.npy",
+      "state_sha256": "29a171fde783302cc153c0626836e9141876865bb3ea46f4a90a9a722cc09d2e",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0279.npy",
+      "state_sha256": "4abcf4ecb666624fd30981f44965ef8714b965c01160764039ee351a04b59480",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0280.npy",
+      "state_sha256": "ecf8d1be60deee1342cde057b6f31826531dd42cb755b15ada1666e28afe1f10",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0281.npy",
+      "state_sha256": "b21fd47c7914b73558d92dc18638ea0aed46b311ae5bd15a4cab851d28bf989b",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0282.npy",
+      "state_sha256": "ac683acbd0edde8b349f5cacee5cff6ab70856a4430137c918ceb482dc9e7a60",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0283.npy",
+      "state_sha256": "d6c7030b2b66e58598b82bb67575ea0ba88ebfce41824f5b5b9e73c26d0bc0f1",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0284.npy",
+      "state_sha256": "4bd3d4b2589b17e9d3b55ff1abb820a8cf82adcee159c707ab16811cca8b2fd1",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0285.npy",
+      "state_sha256": "aebb2be550a033420b1cf152492e09e3c44b019fed3a574f76f1f861eea979f5",
+      "original_state_path": "fastrsi_switch_confirm32_20261016_v1/generated/states/confirm31.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0286.npy",
+      "state_sha256": "90d8f40c5053bbdf65f6c0d4942fa7b572cfdc811cbb10d4dd887e64cc2e7dbb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0287.npy",
+      "state_sha256": "137ba9642a78a71a17f1929fea8cdc73f77f6873c272f6dd1c9a5a2641b0a9f0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0288.npy",
+      "state_sha256": "357ad5c46060228b11db6bc4035128541001c7447a79cbe5107fc20056a808d0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0289.npy",
+      "state_sha256": "7e32cafa9c562abe7d17b3ef67ef0f2a491f25e9ac65308bcc3370a82b065cbc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0290.npy",
+      "state_sha256": "e781f660522458d1cfaa69c060f73cf390c6c47304b0aa46eeca84246cec6ab7",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0291.npy",
+      "state_sha256": "d36614c4f58e3a6c16155142f55aeb5b1787c6a8831daade9be10c34570f81b2",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0292.npy",
+      "state_sha256": "fa698f3d467b4ab26e427fd6116c9cd6b895c2a45f773f6581728a4b8c8fa76f",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0293.npy",
+      "state_sha256": "6b86f89f8013cf562db876cf414b1b33a23038fc411b7dbf86f43c0dd7775158",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0294.npy",
+      "state_sha256": "2726b2f3b42f32dbee2df2db8f5487399281296ab6b82d71d323c2d1a0011406",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0295.npy",
+      "state_sha256": "e09d8dd57ba3ce0defe654c2e78fc96a6f5a0f3ba2181b529b4ab09b9662d373",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0296.npy",
+      "state_sha256": "7626c98a3851c8d3f72bfe668a1f40a3e82c7b82754c46f1c3f874d83e6d0e62",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0297.npy",
+      "state_sha256": "f9435dce8377b09896805a2e555c3f4b65fddc350ee84078af75d98c1d971e32",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0298.npy",
+      "state_sha256": "cf4690c7f91eb7409ff171c4298445719b775069ec62ef60611748d7b2706146",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0299.npy",
+      "state_sha256": "b57f9cdf057bd3f6a3d372aeefb051c487c0a755b287a8e38304df2e2d979249",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0300.npy",
+      "state_sha256": "6ad40f67411bac509cbaffdbcb063f688455c9d09eb996ed1deb048cdee12555",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0301.npy",
+      "state_sha256": "97592b6a82410112a460ac035edf8361c0609a0d479464d6a2968e7a7e2650cc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0302.npy",
+      "state_sha256": "9cdf62fbcf1889bdc388b02745666b8679f940cf078df76b6dac8f8c3c28b29e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0303.npy",
+      "state_sha256": "3ce0397c608f535f78fc2d0728b0991efe7914a642cce021de7b689f20af89e1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0304.npy",
+      "state_sha256": "9a76fb5d6b13470112cd6a799ab1403824cb198b5a5e34dcb4af06b578ab0507",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0305.npy",
+      "state_sha256": "f3a9c53413fefa9a06d816db2043babc539127d32021eeaeb01c1e9c58b3cc67",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0306.npy",
+      "state_sha256": "8c631acf6815390450150e996bd1c4102f888abd3f4ef0fc11d163bd33515fdb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0307.npy",
+      "state_sha256": "cd9b7af8a985cdbaf0ae4ca35a7495c062418ab3e9528766c5aacbacbdff1fbf",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0308.npy",
+      "state_sha256": "39cb53b6f068e4a972397e48b6b00df0ba1dd08834880918ad90fea1a2dd3259",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0309.npy",
+      "state_sha256": "9532e41f60426cbe00ebe39bdb72c49c9eab5ab159613f782e1f7ce52dc4f919",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0310.npy",
+      "state_sha256": "29a171fde783302cc153c0626836e9141876865bb3ea46f4a90a9a722cc09d2e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0311.npy",
+      "state_sha256": "4abcf4ecb666624fd30981f44965ef8714b965c01160764039ee351a04b59480",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0312.npy",
+      "state_sha256": "ecf8d1be60deee1342cde057b6f31826531dd42cb755b15ada1666e28afe1f10",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0313.npy",
+      "state_sha256": "b21fd47c7914b73558d92dc18638ea0aed46b311ae5bd15a4cab851d28bf989b",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0314.npy",
+      "state_sha256": "ac683acbd0edde8b349f5cacee5cff6ab70856a4430137c918ceb482dc9e7a60",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0315.npy",
+      "state_sha256": "d6c7030b2b66e58598b82bb67575ea0ba88ebfce41824f5b5b9e73c26d0bc0f1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0316.npy",
+      "state_sha256": "4bd3d4b2589b17e9d3b55ff1abb820a8cf82adcee159c707ab16811cca8b2fd1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0317.npy",
+      "state_sha256": "aebb2be550a033420b1cf152492e09e3c44b019fed3a574f76f1f861eea979f5",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_openvla_20261016_v1/generated/states/confirm31.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0318.npy",
+      "state_sha256": "90d8f40c5053bbdf65f6c0d4942fa7b572cfdc811cbb10d4dd887e64cc2e7dbb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0319.npy",
+      "state_sha256": "137ba9642a78a71a17f1929fea8cdc73f77f6873c272f6dd1c9a5a2641b0a9f0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0320.npy",
+      "state_sha256": "357ad5c46060228b11db6bc4035128541001c7447a79cbe5107fc20056a808d0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0321.npy",
+      "state_sha256": "7e32cafa9c562abe7d17b3ef67ef0f2a491f25e9ac65308bcc3370a82b065cbc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0322.npy",
+      "state_sha256": "e781f660522458d1cfaa69c060f73cf390c6c47304b0aa46eeca84246cec6ab7",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0323.npy",
+      "state_sha256": "d36614c4f58e3a6c16155142f55aeb5b1787c6a8831daade9be10c34570f81b2",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0324.npy",
+      "state_sha256": "fa698f3d467b4ab26e427fd6116c9cd6b895c2a45f773f6581728a4b8c8fa76f",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0325.npy",
+      "state_sha256": "6b86f89f8013cf562db876cf414b1b33a23038fc411b7dbf86f43c0dd7775158",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0326.npy",
+      "state_sha256": "2726b2f3b42f32dbee2df2db8f5487399281296ab6b82d71d323c2d1a0011406",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0327.npy",
+      "state_sha256": "e09d8dd57ba3ce0defe654c2e78fc96a6f5a0f3ba2181b529b4ab09b9662d373",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0328.npy",
+      "state_sha256": "7626c98a3851c8d3f72bfe668a1f40a3e82c7b82754c46f1c3f874d83e6d0e62",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0329.npy",
+      "state_sha256": "f9435dce8377b09896805a2e555c3f4b65fddc350ee84078af75d98c1d971e32",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0330.npy",
+      "state_sha256": "cf4690c7f91eb7409ff171c4298445719b775069ec62ef60611748d7b2706146",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0331.npy",
+      "state_sha256": "b57f9cdf057bd3f6a3d372aeefb051c487c0a755b287a8e38304df2e2d979249",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0332.npy",
+      "state_sha256": "6ad40f67411bac509cbaffdbcb063f688455c9d09eb996ed1deb048cdee12555",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0333.npy",
+      "state_sha256": "97592b6a82410112a460ac035edf8361c0609a0d479464d6a2968e7a7e2650cc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0334.npy",
+      "state_sha256": "9cdf62fbcf1889bdc388b02745666b8679f940cf078df76b6dac8f8c3c28b29e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0335.npy",
+      "state_sha256": "3ce0397c608f535f78fc2d0728b0991efe7914a642cce021de7b689f20af89e1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0336.npy",
+      "state_sha256": "9a76fb5d6b13470112cd6a799ab1403824cb198b5a5e34dcb4af06b578ab0507",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0337.npy",
+      "state_sha256": "f3a9c53413fefa9a06d816db2043babc539127d32021eeaeb01c1e9c58b3cc67",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0338.npy",
+      "state_sha256": "8c631acf6815390450150e996bd1c4102f888abd3f4ef0fc11d163bd33515fdb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0339.npy",
+      "state_sha256": "cd9b7af8a985cdbaf0ae4ca35a7495c062418ab3e9528766c5aacbacbdff1fbf",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0340.npy",
+      "state_sha256": "39cb53b6f068e4a972397e48b6b00df0ba1dd08834880918ad90fea1a2dd3259",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0341.npy",
+      "state_sha256": "9532e41f60426cbe00ebe39bdb72c49c9eab5ab159613f782e1f7ce52dc4f919",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0342.npy",
+      "state_sha256": "29a171fde783302cc153c0626836e9141876865bb3ea46f4a90a9a722cc09d2e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0343.npy",
+      "state_sha256": "4abcf4ecb666624fd30981f44965ef8714b965c01160764039ee351a04b59480",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0344.npy",
+      "state_sha256": "ecf8d1be60deee1342cde057b6f31826531dd42cb755b15ada1666e28afe1f10",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0345.npy",
+      "state_sha256": "b21fd47c7914b73558d92dc18638ea0aed46b311ae5bd15a4cab851d28bf989b",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0346.npy",
+      "state_sha256": "ac683acbd0edde8b349f5cacee5cff6ab70856a4430137c918ceb482dc9e7a60",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0347.npy",
+      "state_sha256": "d6c7030b2b66e58598b82bb67575ea0ba88ebfce41824f5b5b9e73c26d0bc0f1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0348.npy",
+      "state_sha256": "4bd3d4b2589b17e9d3b55ff1abb820a8cf82adcee159c707ab16811cca8b2fd1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0349.npy",
+      "state_sha256": "aebb2be550a033420b1cf152492e09e3c44b019fed3a574f76f1f861eea979f5",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi05_20261016_v1/generated/states/confirm31.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0350.npy",
+      "state_sha256": "90d8f40c5053bbdf65f6c0d4942fa7b572cfdc811cbb10d4dd887e64cc2e7dbb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0351.npy",
+      "state_sha256": "137ba9642a78a71a17f1929fea8cdc73f77f6873c272f6dd1c9a5a2641b0a9f0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0352.npy",
+      "state_sha256": "357ad5c46060228b11db6bc4035128541001c7447a79cbe5107fc20056a808d0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0353.npy",
+      "state_sha256": "7e32cafa9c562abe7d17b3ef67ef0f2a491f25e9ac65308bcc3370a82b065cbc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0354.npy",
+      "state_sha256": "e781f660522458d1cfaa69c060f73cf390c6c47304b0aa46eeca84246cec6ab7",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0355.npy",
+      "state_sha256": "d36614c4f58e3a6c16155142f55aeb5b1787c6a8831daade9be10c34570f81b2",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0356.npy",
+      "state_sha256": "fa698f3d467b4ab26e427fd6116c9cd6b895c2a45f773f6581728a4b8c8fa76f",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0357.npy",
+      "state_sha256": "6b86f89f8013cf562db876cf414b1b33a23038fc411b7dbf86f43c0dd7775158",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0358.npy",
+      "state_sha256": "2726b2f3b42f32dbee2df2db8f5487399281296ab6b82d71d323c2d1a0011406",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0359.npy",
+      "state_sha256": "e09d8dd57ba3ce0defe654c2e78fc96a6f5a0f3ba2181b529b4ab09b9662d373",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0360.npy",
+      "state_sha256": "7626c98a3851c8d3f72bfe668a1f40a3e82c7b82754c46f1c3f874d83e6d0e62",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0361.npy",
+      "state_sha256": "f9435dce8377b09896805a2e555c3f4b65fddc350ee84078af75d98c1d971e32",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0362.npy",
+      "state_sha256": "cf4690c7f91eb7409ff171c4298445719b775069ec62ef60611748d7b2706146",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0363.npy",
+      "state_sha256": "b57f9cdf057bd3f6a3d372aeefb051c487c0a755b287a8e38304df2e2d979249",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0364.npy",
+      "state_sha256": "6ad40f67411bac509cbaffdbcb063f688455c9d09eb996ed1deb048cdee12555",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0365.npy",
+      "state_sha256": "97592b6a82410112a460ac035edf8361c0609a0d479464d6a2968e7a7e2650cc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0366.npy",
+      "state_sha256": "9cdf62fbcf1889bdc388b02745666b8679f940cf078df76b6dac8f8c3c28b29e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0367.npy",
+      "state_sha256": "3ce0397c608f535f78fc2d0728b0991efe7914a642cce021de7b689f20af89e1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0368.npy",
+      "state_sha256": "9a76fb5d6b13470112cd6a799ab1403824cb198b5a5e34dcb4af06b578ab0507",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0369.npy",
+      "state_sha256": "f3a9c53413fefa9a06d816db2043babc539127d32021eeaeb01c1e9c58b3cc67",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0370.npy",
+      "state_sha256": "8c631acf6815390450150e996bd1c4102f888abd3f4ef0fc11d163bd33515fdb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0371.npy",
+      "state_sha256": "cd9b7af8a985cdbaf0ae4ca35a7495c062418ab3e9528766c5aacbacbdff1fbf",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0372.npy",
+      "state_sha256": "39cb53b6f068e4a972397e48b6b00df0ba1dd08834880918ad90fea1a2dd3259",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0373.npy",
+      "state_sha256": "9532e41f60426cbe00ebe39bdb72c49c9eab5ab159613f782e1f7ce52dc4f919",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0374.npy",
+      "state_sha256": "29a171fde783302cc153c0626836e9141876865bb3ea46f4a90a9a722cc09d2e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0375.npy",
+      "state_sha256": "4abcf4ecb666624fd30981f44965ef8714b965c01160764039ee351a04b59480",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0376.npy",
+      "state_sha256": "ecf8d1be60deee1342cde057b6f31826531dd42cb755b15ada1666e28afe1f10",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0377.npy",
+      "state_sha256": "b21fd47c7914b73558d92dc18638ea0aed46b311ae5bd15a4cab851d28bf989b",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0378.npy",
+      "state_sha256": "ac683acbd0edde8b349f5cacee5cff6ab70856a4430137c918ceb482dc9e7a60",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0379.npy",
+      "state_sha256": "d6c7030b2b66e58598b82bb67575ea0ba88ebfce41824f5b5b9e73c26d0bc0f1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0380.npy",
+      "state_sha256": "4bd3d4b2589b17e9d3b55ff1abb820a8cf82adcee159c707ab16811cca8b2fd1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0381.npy",
+      "state_sha256": "aebb2be550a033420b1cf152492e09e3c44b019fed3a574f76f1f861eea979f5",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_pi0_20261016_v1/generated/states/confirm31.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "bbe576acd7d1caa5fc49c940b9078ce7eec6aa7f0e4423d4f862a7276f47edad",
+      "path": "coverage_states/0382.npy",
+      "state_sha256": "90d8f40c5053bbdf65f6c0d4942fa7b572cfdc811cbb10d4dd887e64cc2e7dbb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm00.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "d2d1f28ac727dc4223e23432ffc56847044efd178b7042c9d74b9208002f05f9",
+      "path": "coverage_states/0383.npy",
+      "state_sha256": "137ba9642a78a71a17f1929fea8cdc73f77f6873c272f6dd1c9a5a2641b0a9f0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm01.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "d48b60ebde545e9de0bae54a72633532833d9c5feea88687c0e020c27ee70269",
+      "path": "coverage_states/0384.npy",
+      "state_sha256": "357ad5c46060228b11db6bc4035128541001c7447a79cbe5107fc20056a808d0",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm02.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "position",
+      "task_id": 9,
+      "asset_sha256": "58a27038f68d677d68f71b5a9033abc7a70a2ae9a3e204a4a1ee32efbcc2179d",
+      "path": "coverage_states/0385.npy",
+      "state_sha256": "7e32cafa9c562abe7d17b3ef67ef0f2a491f25e9ac65308bcc3370a82b065cbc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm03.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "287f6f890d7fc6194b9170cdc3ca5e753c92b0fdf41e94de9e01e545e15ab540",
+      "path": "coverage_states/0386.npy",
+      "state_sha256": "e781f660522458d1cfaa69c060f73cf390c6c47304b0aa46eeca84246cec6ab7",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm04.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "8eb761563bb1ec99f5dd53d9b05d4ed6174a5958aff98a7eed66f8f7bd0eec2e",
+      "path": "coverage_states/0387.npy",
+      "state_sha256": "d36614c4f58e3a6c16155142f55aeb5b1787c6a8831daade9be10c34570f81b2",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm05.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "f0a644da642db17802d9481d47bb958f58a44295c0075543462ab5ae2205a638",
+      "path": "coverage_states/0388.npy",
+      "state_sha256": "fa698f3d467b4ab26e427fd6116c9cd6b895c2a45f773f6581728a4b8c8fa76f",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm06.npy"
+    },
+    {
+      "suite": "libero_spatial",
+      "variant": "environment",
+      "task_id": 9,
+      "asset_sha256": "6fd6ba217dac7554417f996b4dc43c8ec6ab6f91c13137e8339e13787572ddc3",
+      "path": "coverage_states/0389.npy",
+      "state_sha256": "6b86f89f8013cf562db876cf414b1b33a23038fc411b7dbf86f43c0dd7775158",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "asset_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b",
+      "path": "coverage_states/0390.npy",
+      "state_sha256": "2726b2f3b42f32dbee2df2db8f5487399281296ab6b82d71d323c2d1a0011406",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm08.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "asset_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255",
+      "path": "coverage_states/0391.npy",
+      "state_sha256": "e09d8dd57ba3ce0defe654c2e78fc96a6f5a0f3ba2181b529b4ab09b9662d373",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm09.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0392.npy",
+      "state_sha256": "7626c98a3851c8d3f72bfe668a1f40a3e82c7b82754c46f1c3f874d83e6d0e62",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm10.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77",
+      "path": "coverage_states/0393.npy",
+      "state_sha256": "f9435dce8377b09896805a2e555c3f4b65fddc350ee84078af75d98c1d971e32",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm11.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "asset_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca",
+      "path": "coverage_states/0394.npy",
+      "state_sha256": "cf4690c7f91eb7409ff171c4298445719b775069ec62ef60611748d7b2706146",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm12.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "asset_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe",
+      "path": "coverage_states/0395.npy",
+      "state_sha256": "b57f9cdf057bd3f6a3d372aeefb051c487c0a755b287a8e38304df2e2d979249",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm13.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0396.npy",
+      "state_sha256": "6ad40f67411bac509cbaffdbcb063f688455c9d09eb996ed1deb048cdee12555",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm14.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e",
+      "path": "coverage_states/0397.npy",
+      "state_sha256": "97592b6a82410112a460ac035edf8361c0609a0d479464d6a2968e7a7e2650cc",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm15.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "53ab183c49350548625456d23574023165616a38bc06baf03403112eb47118fd",
+      "path": "coverage_states/0398.npy",
+      "state_sha256": "9cdf62fbcf1889bdc388b02745666b8679f940cf078df76b6dac8f8c3c28b29e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm16.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "64c1cfbd554f241b3881731df9def88e24ae1d9f42896584b7d1b0b3d036dee8",
+      "path": "coverage_states/0399.npy",
+      "state_sha256": "3ce0397c608f535f78fc2d0728b0991efe7914a642cce021de7b689f20af89e1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm17.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 8,
+      "asset_sha256": "a601bf1724195336d9eef6b7b4629cbe25b79adaa6112a91547100065c8e2b46",
+      "path": "coverage_states/0400.npy",
+      "state_sha256": "9a76fb5d6b13470112cd6a799ab1403824cb198b5a5e34dcb4af06b578ab0507",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm18.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "c89d9a1795775125a8233382317acec699eef865097717b7d0f360ff33842a79",
+      "path": "coverage_states/0401.npy",
+      "state_sha256": "f3a9c53413fefa9a06d816db2043babc539127d32021eeaeb01c1e9c58b3cc67",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm19.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "a9d4a9455e85dc80b96a063bbe368249f4dcf562bc7e565fff2a69d014870c3e",
+      "path": "coverage_states/0402.npy",
+      "state_sha256": "8c631acf6815390450150e996bd1c4102f888abd3f4ef0fc11d163bd33515fdb",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm20.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "0fa1daa5a29e7d4e4881d6f658bde35645b23f2f87869e48a7a024800dd3c807",
+      "path": "coverage_states/0403.npy",
+      "state_sha256": "cd9b7af8a985cdbaf0ae4ca35a7495c062418ab3e9528766c5aacbacbdff1fbf",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm21.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 8,
+      "asset_sha256": "fa773436ccfae3c2988c0b1e27cbe4e0472de8432c09c15cd34206298988d214",
+      "path": "coverage_states/0404.npy",
+      "state_sha256": "39cb53b6f068e4a972397e48b6b00df0ba1dd08834880918ad90fea1a2dd3259",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm22.npy"
+    },
+    {
+      "suite": "libero_goal",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "79cabe123613ef78fdb0969c9306d51638d4ace8b5a0b5915c426d756dffa689",
+      "path": "coverage_states/0405.npy",
+      "state_sha256": "9532e41f60426cbe00ebe39bdb72c49c9eab5ab159613f782e1f7ce52dc4f919",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm23.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 2,
+      "asset_sha256": "1104896ca46963b0b3b97caf785f84d70635b72cca0efdfe724167dbc9f19926",
+      "path": "coverage_states/0406.npy",
+      "state_sha256": "29a171fde783302cc153c0626836e9141876865bb3ea46f4a90a9a722cc09d2e",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm24.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "7a34660733f6e7e2db3e84c78b7fe4d1d0b1003b19ccf38da265ccb3170dd796",
+      "path": "coverage_states/0407.npy",
+      "state_sha256": "4abcf4ecb666624fd30981f44965ef8714b965c01160764039ee351a04b59480",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm25.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 7,
+      "asset_sha256": "c8fb4eca23783f88bbd26caf85ca317948309bbc634085e1b268bb51edfad9ce",
+      "path": "coverage_states/0408.npy",
+      "state_sha256": "ecf8d1be60deee1342cde057b6f31826531dd42cb755b15ada1666e28afe1f10",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm26.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "position",
+      "task_id": 4,
+      "asset_sha256": "6ae90f039d908fe67ffdb81acd0a029a54ab9c1b9392c7ef86274bf506f44d97",
+      "path": "coverage_states/0409.npy",
+      "state_sha256": "b21fd47c7914b73558d92dc18638ea0aed46b311ae5bd15a4cab851d28bf989b",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm27.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 2,
+      "asset_sha256": "f4837922375df6b39e7759c2f368249225dd021a4aee8b2595a0302f99b69a3d",
+      "path": "coverage_states/0410.npy",
+      "state_sha256": "ac683acbd0edde8b349f5cacee5cff6ab70856a4430137c918ceb482dc9e7a60",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm28.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "dbc9464b424cdc9b771b92d0b8a8c185b1b539f6a4133b323dc858bcf8f6a9c2",
+      "path": "coverage_states/0411.npy",
+      "state_sha256": "d6c7030b2b66e58598b82bb67575ea0ba88ebfce41824f5b5b9e73c26d0bc0f1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm29.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 7,
+      "asset_sha256": "e27ab37f512fe42e35771d6130f531e6a9656929e7b4c60b348b81360cf5675d",
+      "path": "coverage_states/0412.npy",
+      "state_sha256": "4bd3d4b2589b17e9d3b55ff1abb820a8cf82adcee159c707ab16811cca8b2fd1",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm30.npy"
+    },
+    {
+      "suite": "libero_10",
+      "variant": "environment",
+      "task_id": 4,
+      "asset_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "path": "coverage_states/0413.npy",
+      "state_sha256": "aebb2be550a033420b1cf152492e09e3c44b019fed3a574f76f1f861eea979f5",
+      "original_state_path": "fastrsi_switch_confirm32_rescue_xvla_20261016_v1/generated/states/confirm31.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "fb1a2a7457cb6b885366915d470c1837830eb0b2422634483bb34380e33acf95",
+      "path": "coverage_states/0414.npy",
+      "state_sha256": "e1e98a9c748d9a26352b6b5d2a8ce200b9e7414d87efdac43f9f061a275ed781",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel00.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 0,
+      "asset_sha256": "fb1a2a7457cb6b885366915d470c1837830eb0b2422634483bb34380e33acf95",
+      "path": "coverage_states/0415.npy",
+      "state_sha256": "04d351ba57b19053454b5a4dc19d765ff5bf130e74101a0df403ec73b833bdc5",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel01.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "49736fb8f3011f3c4941c5816057dd687c12dda8bc694723b1581159ed7e07e2",
+      "path": "coverage_states/0416.npy",
+      "state_sha256": "5596558028bdf9ed276bb18289cb72c221357e984cfd94c8af55f648c3489591",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel02.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 0,
+      "asset_sha256": "49736fb8f3011f3c4941c5816057dd687c12dda8bc694723b1581159ed7e07e2",
+      "path": "coverage_states/0417.npy",
+      "state_sha256": "68969c16469db0540b83a2ed464e1cba3ae2b1e27889f88158e6978e322087de",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel03.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+      "path": "coverage_states/0418.npy",
+      "state_sha256": "d27775012d847c2678ba0eecbbfad2fb1ddd00375596fd16403db09516621ed0",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel04.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 1,
+      "asset_sha256": "59984ec9fb4b381a614f50f271cacecca73b08d3969ddfff71202063de5aacfd",
+      "path": "coverage_states/0419.npy",
+      "state_sha256": "8379485f909795941fa91bef0b8d0f6af7aa91e4505baa9d1a044be588f95731",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel05.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "71ef707b8713141d7d8fda1661a949ecb743bd249dc213d626b8f614c9772bbd",
+      "path": "coverage_states/0420.npy",
+      "state_sha256": "9d31ec84cf28510fd344d82489d9e8d87671fd1e4ea3f588c26138277b33bb3e",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel06.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 1,
+      "asset_sha256": "71ef707b8713141d7d8fda1661a949ecb743bd249dc213d626b8f614c9772bbd",
+      "path": "coverage_states/0421.npy",
+      "state_sha256": "3be6a10bec4d092dd7e8f1e189db14b076362364e538f8e73a33af91b1001937",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel07.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0422.npy",
+      "state_sha256": "2cab7085c5e76337babe17ea5b5bbf7394e33e8dd2fa4d164920b15334a05dc2",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel16.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 6,
+      "asset_sha256": "3fa926a878d441bcc061a2f7578e4938e40ddcdd08b4336fd326271fc8bfffe4",
+      "path": "coverage_states/0423.npy",
+      "state_sha256": "a7d97cddc10aaada1aaa94cd583c019db938e0880eab8a21bc77f9a13c73df5a",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel17.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0424.npy",
+      "state_sha256": "ed2e2a076c928def6c6755ec7b40c7c63cf4af44b9586dab83a35453e1b7fed7",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel18.npy"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 6,
+      "asset_sha256": "253390618a551f55f484562f3c834f3238e794c3f6aa6273b4a8ff7bb6e2d407",
+      "path": "coverage_states/0425.npy",
+      "state_sha256": "c265649b3f0df46fa9fd4e4579a65aee5a3c774454c9b3ccbea3ff7a6df3b748",
+      "original_state_path": "fastrsi_visual_multibackend_confirm_20261017_v2/generated/states/crossmodel19.npy"
+    }
+  ]
+}

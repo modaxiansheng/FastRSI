@@ -1,0 +1,35 @@
+{
+  "time": 1792771442.1204462,
+  "root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261024_success_v2",
+  "source_changes": {
+    "pi05": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/pi05_R",
+      "worker_sha256": "2d27e02c4e434dd4dd968a61b6bf817ce4d4468529d2617fa8fa87b89e02985c",
+      "manifest_sha256": "f61c41e4a5007d6cfeaeb5f4bcffff6f2957ab814cbe192c9b94f7392aefe13a"
+    },
+    "xvla": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/xvla_R",
+      "worker_sha256": "4a8e5905561305fdd36bb3661347ff3b6b725320bc91751172f09d1737379739",
+      "manifest_sha256": "bd9fe212dd18314cd6b282e9b5e3de7d577b88af9de4ce3708e40cbb3c46d8ef"
+    },
+    "pi0": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/pi0_R",
+      "worker_sha256": "53cb2f70298faec9cff8464c61ea7f385a29260dc554f32a52e232fba41b5f1e",
+      "manifest_sha256": "3818208f2771d349ed7ad23d4f7308a954790643e22750ce08d7fbc42adf8620"
+    },
+    "openvla": {
+      "parent": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/source_frozen/openvla_R",
+      "worker_sha256": "0bab2cdb093eb562304dc4359458c11d869a8635e48ad575eaafd25509a94d36",
+      "manifest_sha256": "a4e30c20c625a6d4760e7df72465bd3a9b9391e50952d3a3c48a30477cd57122"
+    }
+  },
+  "runtime_sha256": {
+    "sitecustomize.py": "5f448f7a10467a970b2be0279250b6276d0bdabae7c2c308730b95319f47840d",
+    "session_io_retry_v3.py": "f2357ff6f6e0dc438be7a74d47f37287cc5a761c91785538a44fe1a43f3b6451",
+    "liberopro_vla_server.py": "9c8bb51675db5f6fcf504e1ee834dc9bafc4c3c6ae7995ce467b7bcda82e3b5a",
+    "session_io_retry_v2.py": "d87a5af008af095bf7380bfbc90ff8167f77d08c7a6c2f72eb52e4db6dee5280",
+    "liberopro_binding.py": "c7862add723f600660f5528af875ea5cc95655f984aa2e3ac8735f694158b851",
+    "liberopro_case_worker.py": "e2a9a92a0c9037a5039054aeced53adecf0fbae0a6a901c05db78d0f88cfbd1f",
+    "liberopro_pure_vla.py": "3800ea63278c57240e2864360012e3f7730667a4bf1cd39b0b4bc8ecb22ed6ed"
+  }
+}

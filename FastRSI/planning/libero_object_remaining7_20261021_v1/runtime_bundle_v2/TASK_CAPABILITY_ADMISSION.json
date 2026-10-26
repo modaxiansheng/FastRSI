@@ -1,0 +1,117 @@
+{
+  "schema": "fastrsi_object7_independent_capability_admission_v1",
+  "old_all_six_gate_unchanged": true,
+  "task0_confirmation_audit": {
+    "path": "support_proofs/FINAL_MATCHED_OUTCOME_AUDIT.json",
+    "sha256": "240741ae74459eab86e55d8e7c6bff55fa59d8eae0794f677fc337436b454dce"
+  },
+  "tasks": {
+    "0": {
+      "task_id": 0,
+      "skill": "alphabet_transfer_v1",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_SCREEN_ACCEPTANCE.json",
+          "sha256": "4dcfa582be87fcff1b3a953c5fe0658513659ca708c5cd5548c5f95b683dd9f9",
+          "json_pointer": "/physical_success",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "1": {
+      "task_id": 1,
+      "skill": "newtask_02",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+          "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+          "json_pointer": "/rows/2/capability_pass",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "2": {
+      "task_id": 2,
+      "skill": null,
+      "capability_pass": false,
+      "status": "SKIPPED_UNSUPPORTED",
+      "physical_attempts_in_new_arm": 0,
+      "proofs": [],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "4": {
+      "task_id": 4,
+      "skill": "newtask_07_prefix_v1",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+          "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+          "json_pointer": "/rows/5/capability_pass",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "6": {
+      "task_id": 6,
+      "skill": "dev14",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+          "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+          "json_pointer": "/butter_original_reuse/physical_success",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "7": {
+      "task_id": 7,
+      "skill": "milk_transfer_v1",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+          "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+          "json_pointer": "/rows/4/capability_pass",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    },
+    "9": {
+      "task_id": 9,
+      "skill": "newtask_13",
+      "capability_pass": true,
+      "status": "FROZEN_EXISTING_SOURCE_CAPABILITY_AVAILABLE",
+      "physical_attempts_in_new_arm": "ONE_ONLY_AFTER_FAILED_BASELINE",
+      "proofs": [
+        {
+          "path": "support_proofs/SOURCE_CAPABILITY_READONLY_AUDIT_1792268180934500587.json",
+          "sha256": "d4335008b86de73405876eaee7f2e270fde0aea04d76e3817f9e6150f1fb76cf",
+          "json_pointer": "/rows/1/capability_pass",
+          "expected": true
+        }
+      ],
+      "new_task_generalization_not_proved_by_source_gate": true
+    }
+  },
+  "source_success_not_new_rescue": true,
+  "full_evaluation": "PAUSED"
+}

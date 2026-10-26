@@ -1,0 +1,16 @@
+{
+  "time": 1792260594.594788,
+  "reason": "Used for target-specific candidate source/registration screening; not confirmation",
+  "excluded_identity_aliases": [
+    "newtask_00",
+    "pi05-newtask_00",
+    "alphabet_transfer_source_newtask_00"
+  ],
+  "physical_state_sha256": "aacad1f0b0696cedeefbda70816a73736db67695760dbc7ce7906bd4ff398447",
+  "initial_state_sha256": "36ed951e63ce1512545de514f0187ec27829046ac9aae1e4b362a97bbd600b2f",
+  "asset_sha256": "fb1a2a7457cb6b885366915d470c1837830eb0b2422634483bb34380e33acf95",
+  "source_row_sha256": "e7c6daac502a3bc32fb2b1be724c66b716bc53145d27c97c1d9ce6d286195ae5",
+  "exclusion_scope": "All backends and all future confirmation rosters of this candidate; exclusion by physical identity, not execution ID",
+  "future_generation_requirement": "Include this physical/init hash in dedup exclusion registry before prospectively freezing any confirmation roster",
+  "candidate_parameter_tuning": false
+}

@@ -1,0 +1,33 @@
+{
+  "time": 1792771853.739668,
+  "old_root": "/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1",
+  "old_count": 17,
+  "old_success": 17,
+  "old_known_qwen_tokens": 62282,
+  "old_owner": {
+    "status": "STOPPED_FOR_DIAGNOSIS",
+    "pid": 506980,
+    "started": 1792770489.5200408,
+    "boot": "a9998682-7741-4ea7-bac1-51b6f2280f66",
+    "host": "j01r2n07",
+    "physical_gpus": [
+      2,
+      3
+    ],
+    "node": "107",
+    "group": {
+      "model": "pi05",
+      "arm": "R",
+      "suite": "libero_spatial",
+      "variant": "original"
+    },
+    "group_index": 0,
+    "allocation_guard": "5c53fb4d98a69741ba00d847c4a9af6d7a100e275923e576f5afdfd975d6eb70",
+    "updated": 1792770494.4762876,
+    "error": "Traceback (most recent call last):\n  File \"/mnt/data/task/yuchen/FastPhyagentos/FastRSI/planning/libero_three_suites_20261023_v1/owner.py\", line 203, in main\n    assert process.returncode == 0, 'Group failed; diagnose before any technical retry'\nAssertionError: Group failed; diagnose before any technical retry\n",
+    "finished": 1792771375.9783163,
+    "elapsed_seconds": 890.6573994159698
+  },
+  "interpretation": "Intentional HALT drain completed before new dispatch. Generic old controller reports stopped-for-diagnosis/group-failed for HALT. This is controller termination, not 17 episode failures. No active paid case killed; old results excluded from v2 denominator, retained in total campaign costs.",
+  "new_startup_failure": "First v2 startup asset symlink unavailable inside Docker; zero physical cases. Exact assets materialized, original diagnostics and elapsed time retained in control; current bounded attempt02 in control02."
+}

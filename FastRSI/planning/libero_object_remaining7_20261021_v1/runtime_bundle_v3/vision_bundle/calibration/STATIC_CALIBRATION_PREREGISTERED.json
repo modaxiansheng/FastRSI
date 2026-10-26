@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 3,
+      "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_bbq_sauce_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "7e652c93a6d8613cd35add8dc4353567bbf8527147cbc93e5e9c5506326d6f1b"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 5,
+      "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "964dcb3a554611cc0c85478c878529d0da5bd2a85045b9c0ec54fa05f7320255"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "position",
+      "task_id": 8,
+      "bddl_rel": "bddl_files/libero_object_swap/pick_up_the_chocolate_pudding_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "d6061f0f035eb88cb1f2223f3ff52abc64c15ba96ad256d15da60e783f696b77"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 3,
+      "bddl_rel": "bddl_files/libero_object_env/pick_up_the_bbq_sauce_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "94bc9a83481bdfc1924bbf16e0fd15b911eb52d704961cf547cfad35e1c4b5ca"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 5,
+      "bddl_rel": "bddl_files/libero_object_env/pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "25cdd3f02723aee70f7079e25ec0ffac155631f2db48c853f9ac85a5fb45babe"
+    },
+    {
+      "suite": "libero_object",
+      "variant": "environment",
+      "task_id": 8,
+      "bddl_rel": "bddl_files/libero_object_env/pick_up_the_chocolate_pudding_and_place_it_in_the_basket.bddl",
+      "bddl_sha256": "89f9a0093b4b045c78ca7762fa78636dbc57335c2e7cec4cf6fa10ec3ad4fd8e"
+    }
+  ],
+  "max_scene_constructors": 6,
+  "normal_physical_attempts": 0,
+  "explicit_env_steps": 0,
+  "initial_state_files_read": 0,
+  "neural_calls": 0,
+  "scope": "Static task/robot/camera geometry only. Constructor random placement is not used as pose input or scored trial."
+}

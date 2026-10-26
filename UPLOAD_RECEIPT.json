@@ -1,0 +1,175 @@
+{
+  "status": "UPLOADED_AND_VERIFIED",
+  "verified_unix": 1793026648.604927,
+  "github": {
+    "url": "https://github.com/pumpkin601/FastRSI",
+    "private": true,
+    "source_commit": "0708f9c68be5a373424b49643af5f530563ea5ac"
+  },
+  "huggingface": {
+    "url": "https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts",
+    "private": true,
+    "payload_commit": "83b4c7b9fc2736be39915667c905a025633b386b"
+  },
+  "uploaded_files_verified": 17,
+  "uploaded_bytes": 1734562616,
+  "packages": [
+    {
+      "file": "original-libero-completed-evidence-20261026.tar.gz",
+      "sha256": "d40aa7694d73c0ddb227408f943f3b9afcfba24122d58b31f4aaed82e1392133",
+      "bytes": 660600091,
+      "member_count": 204371,
+      "logical_bytes": 544569661360,
+      "verified": true
+    },
+    {
+      "file": "reports-and-evidence-20261026.tar.gz",
+      "sha256": "46166ba85e5a3755a5396445dfb579b1476ff0bad81bd5384af0829c32e6d58e",
+      "bytes": 939252491,
+      "member_count": 124626,
+      "logical_bytes": 6279854597,
+      "verified": true
+    },
+    {
+      "file": "successful-evaluation-source-20261026.tar.gz",
+      "sha256": "19708d9fb23cffa8b6d5f518abaf7c31ff74fd0729ba7d402955090579022093",
+      "bytes": 2437901,
+      "member_count": 3992,
+      "logical_bytes": 26788667,
+      "verified": true
+    },
+    {
+      "file": "bounded-recovery-success-sources-20261026.tar.gz",
+      "sha256": "5934c09a89fbf30c583056d681818dc0a6ae0439bd996b1f95d4e00b7e61c17f",
+      "bytes": 1800610,
+      "member_count": 887,
+      "logical_bytes": 22609116,
+      "verified": true
+    }
+  ],
+  "original_libero_closed_cases": 5968,
+  "readback_check": "README downloaded at exact payload commit and bytes matched",
+  "checks": [
+    {
+      "path": "ARCHIVE_SCOPE.json",
+      "bytes": 1534,
+      "sha256": "5439d2bddf52c77b15c649113e297431c64967fc46400e14a69b5991b58cfd3b",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "BOUNDED_RECOVERY_SOURCE_SCOPE.json",
+      "bytes": 4825,
+      "sha256": "5eec5a21b328871db16097b11dc978f169fea40b623dd5db3c2a0db753bea63a",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "ORIGINAL_LIBERO_SNAPSHOT.json",
+      "bytes": 1633,
+      "sha256": "a8c2f1429ad72aff97f61a7b22e5b704d71f3231f9ce93e90fdf1929a298f944",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 2817,
+      "sha256": "2cb1554ab832ec011aa64e9a48c284c8601cbce7d10efd87c9f037ec43e1bf52",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "REMOTE_EXPORT.json",
+      "bytes": 1525966,
+      "sha256": "c2512a9ee5e6211972e2d88b2d371fb4b4dd6665b79baec7bdad5191ab47e178",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "SANITIZATION.json",
+      "bytes": 251,
+      "sha256": "aaf4e93e72a6b139c3d18cf0a3ef755f673fc241a75d238b25f6bb55c3351fe7",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 1069236,
+      "sha256": "ce11ff8968f7505f1010ba8938a9aa60b9078af86a7a10f107e0ccdc6ea19ba2",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "UPLOAD_MANIFEST.json",
+      "bytes": 5574,
+      "sha256": "3556ccb14e0faaaaeed0d6fc4f826803b8d662694b381fa976dceedfb515c4cd",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    },
+    {
+      "path": "bounded-recovery-success-sources-20261026.tar.gz",
+      "bytes": 1800610,
+      "sha256": "5934c09a89fbf30c583056d681818dc0a6ae0439bd996b1f95d4e00b7e61c17f",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "bounded-recovery-success-sources-20261026.tar.gz.manifest.json",
+      "bytes": 271731,
+      "sha256": "f9b318e9176f0d7496f24a35829f86673f5a8e579a7d7b6b459d50c7cc4d4b41",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "original-libero-completed-evidence-20261026.tar.gz",
+      "bytes": 660600091,
+      "sha256": "d40aa7694d73c0ddb227408f943f3b9afcfba24122d58b31f4aaed82e1392133",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "original-libero-completed-evidence-20261026.tar.gz.manifest.json",
+      "bytes": 80954948,
+      "sha256": "52f758fe7246decd761f9b2ce19fac97d3bf466c0140e518271ad33f51a0cd8d",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "reports-and-evidence-20261026.tar.gz",
+      "bytes": 939252491,
+      "sha256": "46166ba85e5a3755a5396445dfb579b1476ff0bad81bd5384af0829c32e6d58e",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "reports-and-evidence-20261026.tar.gz.manifest.json",
+      "bytes": 45429292,
+      "sha256": "6e890452e86bfdb947d076fab1569006f09bc822ee652aa75ab788c5f4317bac",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "successful-evaluation-source-20261026.tar.gz",
+      "bytes": 2437901,
+      "sha256": "19708d9fb23cffa8b6d5f518abaf7c31ff74fd0729ba7d402955090579022093",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "successful-evaluation-source-20261026.tar.gz.manifest.json",
+      "bytes": 1202463,
+      "sha256": "41780891508960cd1a400ff907b9fe998ee573dbb9c20a0cffefc94cfd4dd3b2",
+      "method": "Hub LFS SHA256 and size",
+      "verified": true
+    },
+    {
+      "path": "verify_download.py",
+      "bytes": 1253,
+      "sha256": "066b7048788446aea4492ff51632ba768c0a323a606daeae9cfa059accb60da5",
+      "method": "Hub Git blob SHA1 and size, with local SHA256 recorded",
+      "verified": true
+    }
+  ],
+  "scope_file": "ARCHIVE_SCOPE.json",
+  "local_originals_deleted": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED",
+  "repo": "pumpkin601/FastRSI-artifacts",
+  "private": true,
+  "data_commit": "580560d47e2b3d1ff289af604d072af69420224b",
+  "files": [
+    {
+      "path": "final-runtime-dependencies-20261026.tar.gz",
+      "bytes": 872854236,
+      "sha256": "795d27fb34d687060e0f0daf335da523fa228ce9211fe85e3397fbcd8cc8c536",
+      "git_blob_sha1": "1e1740f948ce344b199d406aedc8f990c978bc40"
+    },
+    {
+      "path": "final-runtime-dependencies-20261026.tar.gz.manifest.json",
+      "bytes": 9457945,
+      "sha256": "6611f034542df7fd63dc78fce5c4b1d7fb40ecfa387bde04c4e9d7d9e6ae1686",
+      "git_blob_sha1": "74939e3e0cfe2c920f7b822873a85366e64cc97e"
+    },
+    {
+      "path": "DEPENDENCY_EXPORT_SCOPE.json",
+      "bytes": 5820,
+      "sha256": "3e27e967fb51e0c016c54d4bc86967b7c0580187a91a85361bf637f9b31b01b6",
+      "git_blob_sha1": "b6d8e10cb6a2509011a63eafffa48aec5e3d3913"
+    },
+    {
+      "path": "DEPENDENCY_SANITIZATION.json",
+      "bytes": 8879,
+      "sha256": "5911c58b727b453fd76f2d395db5ca2692e1f7dc608648f0bcc6e91ee6601559",
+      "git_blob_sha1": "989594a908c085d72c79d045dc13dae8af4067d9"
+    },
+    {
+      "path": "RUNTIME_IMAGE_IDENTITIES.jsonl",
+      "bytes": 692,
+      "sha256": "a6279f903bf5dcb71802a8ae18ae3d77e242e64ed9b0b1e1f21583cce09f265e",
+      "git_blob_sha1": "48e4e5966f42b5ce7ec25bd6861a9f3b8bfc832a"
+    }
+  ],
+  "scope": "Final frozen runtime dependencies, simulator assets and Megapose weights. Venv metadata only; no container/host driver images.",
+  "verified_at": "2026-10-27T00:05:39+0800"
+}

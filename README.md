@@ -1,45 +1,112 @@
----
-pretty_name: FastRSI selected experiment archive
----
+<p align="center">
+  <img src="docs/readme-banner.svg" alt="FastRSI — Fast Recursive Self-Improvement for Embodied Agents" width="100%">
+</p>
 
-# FastRSI 源码与复现归档
+<h1 align="center">FastRSI</h1>
+<h3 align="center">Fast Recursive Self-Improvement for Embodied Agents</h3>
 
-- 原始代码：[pumpkin601/FastRSI](https://github.com/pumpkin601/FastRSI)
-- 模型权重：[FastRSI-final-weights](https://huggingface.co/pumpkin601/FastRSI-final-weights)
+<p align="center">
+  Ziying Song<sup>1,†</sup> · Yuchen Liu<sup>2,†</sup> · Zhuoran Xu<sup>3,†</sup> · Lin Liu<sup>4,†</sup> · Lei Yang<sup>1,*</sup><br>
+  <sup>1</sup>Nanyang Technological University · <sup>2</sup>North University of China<br>
+  <sup>3</sup>PsiBot · <sup>4</sup>Dalian University of Technology<br>
+  <sup>†</sup>Equal contribution · <sup>*</sup>Corresponding author
+</p>
 
-本仓库保存代码副本；模型权重保留在上述 Hugging Face 仓库。以下为原始归档说明。
+<p align="center">
+  <a href="https://modaxiansheng.github.io/FastRSI/"><img src="https://img.shields.io/badge/Project-Page-2367c8?style=flat-square" alt="Project Page"></a>
+  <a href="https://github.com/modaxiansheng/FastRSI"><img src="https://img.shields.io/badge/GitHub-Code-24292f?style=flat-square&logo=github" alt="Code"></a>
+  <a href="https://huggingface.co/pumpkin601/FastRSI-final-weights"><img src="https://img.shields.io/badge/Hugging_Face-Weights-e6b800?style=flat-square" alt="Model Weights"></a>
+  <a href="https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts"><img src="https://img.shields.io/badge/Hugging_Face-Artifacts-e6b800?style=flat-square" alt="Artifacts"></a>
+  <a href="reproduction/START_HERE.md"><img src="https://img.shields.io/badge/Guide-Restore_%26_Resume-27805c?style=flat-square" alt="Restore and Resume Guide"></a>
+</p>
 
-归档日期：2026-10-26（北京时间）。这是筛选后的源码与成果备份，不是整个工作目录的镜像。
+<p align="center">
+  <a href="#overview">Overview</a> · <a href="#method">Method</a> · <a href="#released-evaluation-snapshot">Results</a> · <a href="#quick-start">Quick Start</a> · <a href="#repository-layout">Documentation</a>
+</p>
 
-大文件、逐例结果和校验清单保存在私有数据仓库：
-https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts
+## Overview
 
-## 换设备复现
+**Reuse valid decisions. Deliberate when needed. Learn from execution.**
 
-从 [恢复与续跑记录](reproduction/START_HERE.md) 开始。记录标签为 `backup-record-20261027-v1`，包含固定提交、文件校验、原路径映射、环境元数据与案例进度索引。请使用该记录里的统一校验工具，避免历史 README 更新导致旧脚本误报。
+FastRSI studies how accumulated experience can make long-horizon embodied decisions more efficient. Its framework connects reusable plan fragments, validity-aware reasoning, and feedback-driven updates, so an agent can retain useful progress while revising decisions whose conditions no longer hold.
 
-## 内容
+This repository provides frozen evaluation code, selected dependency source, configuration and provenance records, and a versioned guide to the associated weights and experiment artifacts. The released evaluation snapshot below documents a recovery-enabled system with fixed experience; it does not evaluate the complete learned FastRSI loop.
 
-- `FastRSI/third_party`：已有本地核心依赖源码。
-- `FastRSI/planning/libero_three_suites_20261024_success_v2`：成功评测使用的冻结源码、配置、资源覆盖层和场景资产。以其中的 `SOURCE_BINDINGS.json`、`RESOURCE05_BINDINGS.json`、`RESOURCE07_BINDINGS.json` 为版本依据。
-- `BOUNDED_RECOVERY_SOURCE_SCOPE.json`：另外保留有正向结果的有限恢复实验所用冻结代码和最终凭据；保留开发集、预算及适用范围限制，不当作通用增益。
-- `ORIGINAL_LIBERO_SNAPSHOT.json`：本次归档时已经闭合的逐例结果统计；不足500例的组仍为不完整快照。
-- Hugging Face 中的报告包：最终报告、比较基线、原始统计和必要成本证据。
+## Method
 
-## 筛选规则
+<p align="center">
+  <img src="docs/framework.png" alt="FastRSI framework: Decision Validity Memory, Memory-Guided Sparse Deliberation, and Closed-Loop Experience Distillation" width="100%">
+</p>
 
-不保存废弃开发候选目录、探索阶段的整套源码快照、无用失败试验媒体、重复中间压缩包、环境缓存。冻结成功版本内部被引用的依赖模块随版本保留，不按文件名删除。正式评测的失败条目及成本证据保留，用于核对完整分母。成功画面和详细Agent轨迹按模型/套件/任务选取代表性样例。
+*Conceptual framework from the FastRSI manuscript. The illustrated execution outcomes explain the intended workflow; they do not establish measured transfer performance.*
 
-原始工作目录与服务器实验记录没有被删除或修改。上传副本中的凭据会被移除；清单同时记录原始与上传字节的哈希。
+| Component | Role |
+| --- | --- |
+| **Decision Validity Memory (DVM)** | Represents reusable plan fragments with preconditions, stage dependencies, and invalidation conditions, preserving valid decisions and localizing repairs. |
+| **Memory-Guided Sparse Deliberation (MSD)** | Combines current observations, memory validity, and a fast reliability predictor to choose reuse, evidence acquisition, or high-level reasoning. |
+| **Closed-Loop Experience Distillation (CED)** | Converts execution-validated solutions into memory revisions and supervision for the predictor that governs future reuse. |
 
-## 解释边界
+## Released evaluation snapshot
 
-原版 LIBERO 与 LIBERO-Pro 分开；纯 VLA、PhyAgentOS P、FastRSI R 分开。未知结果不能算作失败。不同重试预算、不同版本的最高结果不能作为统一公平排名。`success_v2` 为有界恢复配置，不宣称跨回合学习。旧报告中的快照日期保留，不覆盖成今天的结果。
+**Original LIBERO · `success_v2` · recovery-enabled native R · 2026-10-26**
 
-## 恢复
+The table is generated from [ORIGINAL_LIBERO_SNAPSHOT.json](ORIGINAL_LIBERO_SNAPSHOT.json). Each cell reports physical success among completed cases, with the exact denominator. The archive contains **5,968 of 6,000 planned cases**, across four VLA backends and three suites.
 
-完整下载、校验、保留硬链接解压与续跑步骤见 [START_HERE.md](reproduction/START_HERE.md)。这份记录固定数据版本，不会因未来 main 更新而混用文件。
+| VLA backend | LIBERO-Spatial | LIBERO-Object | LIBERO-Goal |
+| --- | ---: | ---: | ---: |
+| OpenVLA | 86.6% (433/500) | 87.8% (439/500) | 76.7% (359/468) **partial** |
+| π₀ | 100.0% (500/500) | 100.0% (500/500) | 100.0% (500/500) |
+| π₀.₅ | 100.0% (500/500) | 100.0% (500/500) | 100.0% (500/500) |
+| X-VLA | 98.4% (492/500) | 98.4% (492/500) | 99.8% (499/500) |
 
-## 最终模型与依赖增补
+OpenVLA Goal contains **468 of 500** planned cases. Its 32 missing cases are incomplete and are not counted as failures. Their identities are recorded in [PENDING_CASE_INDEX.jsonl](reproduction/PENDING_CASE_INDEX.jsonl).
 
-已补充六组最终模型（约79.71 GB）、冻结运行依赖、场景及视觉定位权重。详见 `RESTORE_FINAL_BACKUP.md`、`FINAL_WEIGHT_MANIFEST.json` 和 `FINAL_RUNTIME_RECEIPT.json`。原 `UPLOAD_RECEIPT.json` 与 `UPLOAD_MANIFEST.json` 记录首次源码/结果备份；增补包使用独立凭据。系统驱动和容器镜像仅记录身份，不包含完整镜像。
+This snapshot uses bounded recovery and **no cross-episode learning**. The frozen plan permits up to five native replans and six physical attempts. It is separate from the manuscript's LIBERO-10 system comparison and does not establish a shared-budget comparison with other systems. See the [restore guide](reproduction/START_HERE.md#7-选择正确实验入口与续跑位置) and [frozen run plan](FastRSI/planning/libero_three_suites_20261024_success_v2/RUN_PLAN.json) for configuration and reporting scope.
+
+## Quick start
+
+### 1. Get the versioned recovery record
+
+```bash
+git clone https://github.com/modaxiansheng/FastRSI.git
+cd FastRSI
+git checkout backup-record-20261027-v1
+```
+
+Continue with **[Restore and Resume](reproduction/START_HERE.md)**. It specifies pinned code and data revisions, SHA-256 verification, path mapping, extraction that preserves hard links, and the completed/pending case indexes. The historical guide retains the upstream repository URLs; this repository preserves the recovery tag and source history.
+
+### 2. Restore the resources your experiment needs
+
+Code and documentation can be inspected without downloading model weights. For execution, follow the guide to obtain the matching resources and verify their pinned revisions:
+
+| Resource | Contents |
+| --- | --- |
+| [Final weights](https://huggingface.co/pumpkin601/FastRSI-final-weights) | Six archived model groups, approximately **79.71 GB** in total: π₀, π₀.₅, X-VLA, OpenVLA LIBERO-10, OpenVLA Object, and Qwen3-VL. |
+| [Experiment artifacts](https://huggingface.co/datasets/pumpkin601/FastRSI-artifacts) | Reports, completed-case records, frozen evaluation source, selected recovery studies, and runtime resources. |
+| [Weight manifest](FINAL_WEIGHT_MANIFEST.json) | File identities, sizes, checksums, and model-set exclusions. |
+| [Final backup guide](RESTORE_FINAL_BACKUP.md) | Model, dependency, and environment restoration details. |
+
+Downloads are optional for browsing the project; reproducing a selected experiment requires its matching dependencies. Restricted Hugging Face resources require an account with access. OpenVLA Goal and Spatial weights are excluded from the selected model backup and must be recovered from their recorded sources before reproducing those groups.
+
+### 3. Validate the execution environment
+
+The archived runtime used **Linux amd64, HCU/DTK, and custom environments**. Follow the [environment restoration guidance](reproduction/START_HERE.md#6-环境恢复边界) to rebuild compatible dependencies, map paths, and validate one fixed case before launching a run. macOS can download and inspect the archive; running the archived Linux binaries requires a compatible Linux environment. A fresh-machine experiment rerun is not part of the archive's completed verification.
+
+## Repository layout
+
+| Path | Contents |
+| --- | --- |
+| [`FastRSI/planning/`](FastRSI/planning/) | Frozen evaluation and selected bounded-recovery configurations, source bundles, and receipts. |
+| [`FastRSI/third_party/`](FastRSI/third_party/) | Selected dependency source retained with the archived versions. |
+| [`reproduction/`](reproduction/) | Pinned recovery record, verification tool, path and environment metadata, and case indexes. |
+| [`docs/`](docs/) | Project page and manuscript-derived visual assets. |
+| [`ORIGINAL_LIBERO_SNAPSHOT.json`](ORIGINAL_LIBERO_SNAPSHOT.json) | Machine-readable counts for the released evaluation snapshot. |
+| [`ARCHIVE_SCOPE.json`](ARCHIVE_SCOPE.json) | Included materials, exclusions, and restoration boundaries. |
+
+The previous archive description is preserved verbatim in [ARCHIVE_README.md](ARCHIVE_README.md), including its original snapshot dates and backup notes.
+
+## Provenance and acknowledgments
+
+This independent repository preserves the source and recovery history from [pumpkin601/FastRSI](https://github.com/pumpkin601/FastRSI). We retain the upstream weights and artifact links, version manifests, and experiment records. Project figures come from the FastRSI manuscript.
+
+FastRSI builds on the work of the LIBERO, PhyAgentOS, OpenVLA, OpenPI, X-VLA, and Qwen communities. Third-party source, models, and assets remain subject to their original licenses and access terms.

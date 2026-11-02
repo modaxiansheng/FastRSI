@@ -15,7 +15,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="video.css">
   <script src="site.js" defer></script>
+  <script src="video.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#overview">Skip to content</a>
@@ -24,6 +26,7 @@
       <a class="wordmark" href="#top" aria-label="FastRSI home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M23.5 8.5A10.6 10.6 0 1 0 26 19"/><path d="M24 3v7h-7"/><path d="m12 12 8 4-8 4z"/></svg><span>Fast<span class="accent">RSI</span></span></a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
       <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#demonstrations">Videos</a>
         <a href="#overview">Overview</a>
         <a href="#method">Method</a>
         <a href="#evaluations">Evaluations</a>
@@ -38,6 +41,7 @@
       <canvas id="hero-particles" aria-hidden="true"></canvas>
       <div class="hero-glow" aria-hidden="true"></div>
       <div class="hero-content shell">
+        <div class="hero-copy">
         <div class="eyebrow hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> EMBODIED INTELLIGENCE <span class="eyebrow-divider" aria-hidden="true">/</span> FastRSI</div>
         <h1 id="hero-title">Make every<br><span class="gradient-text">interaction count.</span></h1>
         <p class="hero-title-full">Fast Recursive Self-Improvement<br class="mobile-break"> for Embodied Agents</p>
@@ -45,21 +49,31 @@
         <div class="hero-actions">
           <a class="button button-primary" href="https://github.com/modaxiansheng/FastRSI" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4 2 12l6 8M16 4l6 8-6 8M14 2l-4 20"/></svg>Code <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="https://huggingface.co/pumpkin601/FastRSI-final-weights" target="_blank" rel="noopener noreferrer">Model weights <span aria-hidden="true">↗</span></a>
-          <a class="button button-text" href="#method">Explore the system <span aria-hidden="true">↓</span></a>
+          <a class="button button-text" href="#demonstrations">Watch the recordings <span aria-hidden="true">↓</span></a>
         </div>
         <div class="authors">
           <p>Ziying Song <span>·</span> Yuchen Liu <span>·</span> Zhuoran Xu <span>·</span> Lin Liu <span>·</span> Lei Yang</p>
           <p class="affiliations">Nanyang Technological University <span>·</span> North University of China<br>PsiBot <span>·</span> Dalian University of Technology</p>
         </div>
+        </div>
+        <div id="hero-reel" class="hero-reel" aria-label="LIBERO development recordings"></div>
       </div>
-      <a class="hero-scroll" href="#overview"><span class="scroll-line" aria-hidden="true"></span>FROM DECISION TO EXPERIENCE <span aria-hidden="true">↓</span></a>
-      <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span>Pause motion</span></button>
+      <a class="hero-scroll" href="#demonstrations"><span class="scroll-line" aria-hidden="true"></span>SEE THE AGENT IN MOTION <span aria-hidden="true">↓</span></a>
+      <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false"><span class="motion-icon" aria-hidden="true">Ⅱ</span><span>Pause background</span></button>
     </section>
 
     <div class="shell">
+      <section class="section video-section" id="demonstrations" aria-labelledby="video-title">
+        <div class="section-heading">
+          <p class="section-index"><span>01</span> RECORDED IN ACTION</p>
+          <div><h2 id="video-title">Watch the interaction.<br>Inspect the outcome.</h2><p class="section-intro">Explore real recordings from the project’s development runs. Choose a task, play it in full, and inspect the context behind each clip.</p></div>
+        </div>
+        <div id="video-experience" data-manifest="videos.json"><p class="video-loading" role="status">Loading recorded demonstrations…</p></div>
+      </section>
+
       <section class="section" id="overview" aria-labelledby="overview-title">
         <div class="section-heading">
-          <p class="section-index"><span>01</span> THE IDEA</p>
+          <p class="section-index"><span>02</span> THE IDEA</p>
           <div><h2 id="overview-title">An interaction is more<br>than an action.</h2><p class="section-intro">It is a decision to validate, an opportunity to deliberate, and an experience to learn from. FastRSI connects these moments in a recursive framework for embodied agents.</p></div>
         </div>
         <figure class="paper-figure">
@@ -75,7 +89,7 @@
 
       <section class="section" id="method" aria-labelledby="method-title">
         <div class="section-heading">
-          <p class="section-index"><span>02</span> THE SYSTEM</p>
+          <p class="section-index"><span>03</span> THE SYSTEM</p>
           <div><h2 id="method-title">Three modules.<br>One recursive idea.</h2><p class="section-intro">Explore the research design, from reusable decisions to feedback from execution.</p></div>
         </div>
         <div class="method-explorer">
@@ -95,26 +109,6 @@
           <figcaption><span>RESEARCH FRAMEWORK</span><span>Conceptual research framework; illustrated outcomes are not measured transfer results.</span></figcaption>
         </figure>
         <p class="scope-note"><span class="scope-marker" aria-hidden="true">i</span><span>These modules describe the research design. The released evaluation uses a fixed, recovery-enabled configuration and does not demonstrate the complete learned loop.</span></p>
-      </section>
-
-      <section class="section" id="in-action" aria-labelledby="action-title">
-        <div class="section-heading">
-          <p class="section-index"><span>03</span> IN CONTEXT</p>
-          <div><h2 id="action-title">A task unfolds<br>one interaction at a time.</h2><p class="section-intro">An illustrative LIBERO task sequence from the project figures. Select a moment to inspect it.</p></div>
-        </div>
-        <div class="sequence-explorer">
-          <div class="sequence-stage" id="sequence-stage-panel" role="tabpanel" aria-labelledby="sequence-tab-1">
-            <div class="sequence-caption"><span class="live-label"><span aria-hidden="true"></span> ILLUSTRATIVE TASK SEQUENCE</span><span id="sequence-count">01 / 04</span></div>
-            <button class="sequence-image-button" type="button" id="sequence-expand" data-lightbox="step-1.png" data-caption="Step 1: Closed drawer. Illustrative task sequence from project figures." aria-label="Expand selected task sequence image"><img id="sequence-image" src="step-1.png" alt="Illustrative LIBERO scene with the drawer closed." width="800" height="600" loading="lazy"><span class="sequence-enlarge" aria-hidden="true">↗</span></button>
-            <div class="sequence-stage-bottom"><h3 id="sequence-title">Closed drawer</h3><span>FROM PROJECT FIGURES</span></div>
-          </div>
-          <div class="sequence-controls" role="tablist" aria-label="Illustrative task sequence">
-            <button class="sequence-step active" id="sequence-tab-1" type="button" role="tab" aria-selected="true" aria-controls="sequence-stage-panel" data-step="1" data-title="Closed drawer" data-alt="Illustrative LIBERO scene with the drawer closed."><span class="step-index">01</span><img src="step-1.png" alt="" width="120" height="90" loading="lazy"><span>Closed drawer</span><span class="step-arrow" aria-hidden="true">↗</span></button>
-            <button class="sequence-step" id="sequence-tab-2" type="button" role="tab" aria-selected="false" aria-controls="sequence-stage-panel" tabindex="-1" data-step="2" data-title="Open drawer" data-alt="Illustrative LIBERO scene with the robot opening the drawer."><span class="step-index">02</span><img src="step-2.png" alt="" width="120" height="90" loading="lazy"><span>Open drawer</span><span class="step-arrow" aria-hidden="true">↗</span></button>
-            <button class="sequence-step" id="sequence-tab-3" type="button" role="tab" aria-selected="false" aria-controls="sequence-stage-panel" tabindex="-1" data-step="3" data-title="Lift bowl" data-alt="Illustrative LIBERO scene with the robot lifting the bowl."><span class="step-index">03</span><img src="step-3.png" alt="" width="120" height="90" loading="lazy"><span>Lift bowl</span><span class="step-arrow" aria-hidden="true">↗</span></button>
-            <button class="sequence-step" id="sequence-tab-4" type="button" role="tab" aria-selected="false" aria-controls="sequence-stage-panel" tabindex="-1" data-step="4" data-title="Place bowl" data-alt="Illustrative LIBERO scene with the robot placing the bowl."><span class="step-index">04</span><img src="step-4.png" alt="" width="120" height="90" loading="lazy"><span>Place bowl</span><span class="step-arrow" aria-hidden="true">↗</span></button>
-          </div>
-        </div>
       </section>
 
       <section class="section" id="evaluations" aria-labelledby="evaluations-title">

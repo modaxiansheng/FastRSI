@@ -57,23 +57,6 @@
     });
   });
 
-  const sequenceStage = document.querySelector(".sequence-stage");
-  sequenceStage.id = "sequence-stage-panel";
-  sequenceStage.setAttribute("role", "tabpanel");
-  sequenceStage.setAttribute("aria-labelledby", "sequence-tab-1");
-  const sequenceImage = document.getElementById("sequence-image");
-  const sequenceExpand = document.getElementById("sequence-expand");
-  bindTabs(".sequence-step", tab => {
-    const { step, title, alt } = tab.dataset;
-    sequenceImage.src = `step-${step}.png`;
-    sequenceImage.alt = alt;
-    sequenceExpand.dataset.lightbox = `step-${step}.png`;
-    sequenceExpand.dataset.caption = `Step ${step}: ${title}. Illustrative task sequence from project figures.`;
-    document.getElementById("sequence-title").textContent = title;
-    document.getElementById("sequence-count").textContent = `0${step} / 04`;
-    sequenceStage.setAttribute("aria-labelledby", tab.id);
-  });
-
   const dialog = document.getElementById("figure-dialog");
   const dialogImage = document.getElementById("dialog-image");
   const dialogCaption = document.getElementById("dialog-caption");
@@ -233,7 +216,7 @@
   let motionPaused = motionQuery.matches;
   function syncMotionButton() {
     motionButton.setAttribute("aria-pressed", String(motionPaused));
-    motionButton.querySelector("span:last-child").textContent = motionPaused ? "Resume motion" : "Pause motion";
+    motionButton.querySelector("span:last-child").textContent = motionPaused ? "Resume background" : "Pause background";
     motionButton.querySelector(".motion-icon").textContent = motionPaused ? "▷" : "Ⅱ";
   }
   syncMotionButton();

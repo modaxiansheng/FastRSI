@@ -2,7 +2,12 @@
 pretty_name: FastRSI selected experiment archive
 ---
 
-# FastRSI 私有成果归档
+# FastRSI 源码与复现归档
+
+- 原始代码：[pumpkin601/FastRSI](https://github.com/pumpkin601/FastRSI)
+- 模型权重：[FastRSI-final-weights](https://huggingface.co/pumpkin601/FastRSI-final-weights)
+
+本仓库保存代码副本；模型权重保留在上述 Hugging Face 仓库。以下为原始归档说明。
 
 归档日期：2026-10-26（北京时间）。这是筛选后的源码与成果备份，不是整个工作目录的镜像。
 

@@ -1,0 +1,103 @@
+{
+  "captured": "2026-10-26",
+  "scope": "original LIBERO, success_v2 recovery-enabled native R; no cross-episode learning",
+  "source": "https://github.com/modaxiansheng/FastRSI/blob/main/ORIGINAL_LIBERO_SNAPSHOT.json",
+  "groups": [
+    {
+      "backend": "OpenVLA",
+      "key": "openvla",
+      "suite": "goal",
+      "completed": 468,
+      "expected": 500,
+      "successes": 359
+    },
+    {
+      "backend": "OpenVLA",
+      "key": "openvla",
+      "suite": "object",
+      "completed": 500,
+      "expected": 500,
+      "successes": 439
+    },
+    {
+      "backend": "OpenVLA",
+      "key": "openvla",
+      "suite": "spatial",
+      "completed": 500,
+      "expected": 500,
+      "successes": 433
+    },
+    {
+      "backend": "π₀.₅",
+      "key": "pi05",
+      "suite": "goal",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "π₀.₅",
+      "key": "pi05",
+      "suite": "object",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "π₀.₅",
+      "key": "pi05",
+      "suite": "spatial",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "π₀",
+      "key": "pi0",
+      "suite": "goal",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "π₀",
+      "key": "pi0",
+      "suite": "object",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "π₀",
+      "key": "pi0",
+      "suite": "spatial",
+      "completed": 500,
+      "expected": 500,
+      "successes": 500
+    },
+    {
+      "backend": "X-VLA",
+      "key": "xvla",
+      "suite": "goal",
+      "completed": 500,
+      "expected": 500,
+      "successes": 499
+    },
+    {
+      "backend": "X-VLA",
+      "key": "xvla",
+      "suite": "object",
+      "completed": 500,
+      "expected": 500,
+      "successes": 492
+    },
+    {
+      "backend": "X-VLA",
+      "key": "xvla",
+      "suite": "spatial",
+      "completed": 500,
+      "expected": 500,
+      "successes": 492
+    }
+  ]
+}
